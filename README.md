@@ -1,34 +1,46 @@
-# 📄 AWS Certified Cloud Practitioner (CLF-C02)
+# 📘 Wiki AWS per la certificazione Cloud Practitioner (CLF-C02)
 
-L'AWS Certified Cloud Practitioner è una certificazione **di livello base** che fornisce una comprensione generale del cloud AWS, senza richiedere esperienze tecniche pregresse.
+Benvenuto/a in questa wiki dedicata alla preparazione per l'esame **[AWS Certified Cloud Practitioner (CLF-C02)](00-Intro/AWS-Certified-Cloud-Practitioner-(CLF-C02).md)**.  
+Questa raccolta di appunti è strutturata per coprire i principali servizi, concetti e strumenti di **Amazon Web Services (AWS)**, con riferimento diretto agli argomenti presenti nel syllabus ufficiale.
 
-È pensata per studenti, manager, professionisti di business o chiunque desideri acquisire familiarità con i concetti fondamentali del cloud computing e dei servizi AWS.
-
----
-
-## 📘 Guida ufficiale
-
-Puoi consultare la guida ufficiale con l'elenco completo degli argomenti richiesti qui:  
-👉 [Guida con elenco argomenti (PDF)](https://d1.awsstatic.com/it_IT/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+Puoi iniziare la lettura generale da questa introduzione ai servizi AWS:  
+👉 **[Cos'è AWS?](00-Intro/AWS.md)**
 
 ---
 
-## 📚 Risorse aggiuntive
+## 📂 Struttura della wiki
 
-### In ordine di consiglio:
-
-- 🎓 [Corso PluralSight](https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c02) – Corso completo e ben strutturato
-- 📝 [Simulazione domande esame (Whizlabs)](https://www.whizlabs.com/learn/course/aws-certified-cloud-practitioner/219)
-- 💬 [Domande aggiuntive con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
-
-### Altre fonti:
-
-- 🌐 [Risorse ufficiali Amazon](https://aws.amazon.com/it/certification/certified-cloud-practitioner/)
-- 📖 [Documentazione AWS](https://docs.aws.amazon.com/it_it/)
+La wiki è organizzata in cartelle tematiche che riflettono i principali ambiti del Cloud AWS, ed è navigabile tramite i collegamenti.
 
 ---
 
-## 🚀 Inizia da qui
+## 🧭 Obiettivo
 
-Per iniziare la lettura dei concetti fondamentali in questa wiki su AWS, comincia da:  
-👉 **[Cos'è AWS?](AWS.md)**
+Lo scopo di questa wiki è offrire una panoramica completa e navigabile dei principali servizi AWS in vista dell'esame **Cloud Practitioner (CLF-C02)**.  
+Non è pensata come documentazione ufficiale, ma come **materiale di supporto e ripasso**.
+
+---
+
+## ⚠️ Disclaimer
+
+> Questi contenuti sono **appunti personali di studio**.  
+> Potrebbero contenere **inesattezze**, **incompletezze** o non essere completamente aggiornati con le ultime novità AWS.  
+> Non sostituiscono la [documentazione ufficiale AWS](https://docs.aws.amazon.com/) né i materiali di formazione ufficiali.
+
+---
+
+## 📌 Contribuire
+
+Se noti un errore o vuoi suggerire miglioramenti, puoi aprire una **pull request** o segnalare un **issue** nel repository.
+
+---
+
+## ✅ Requisiti consigliati
+
+- Conoscenza base di cloud computing
+- Familiarità con i concetti IT generali (rete, storage, sicurezza)
+- Obsidian (facoltativo, per una migliore esperienza di lettura locale)
+
+---
+
+🎓 Buono studio e in bocca al lupo per la certificazione AWS!
