@@ -1,0 +1,9 @@
+# Ignora la configurazione locale di Obsidian
+.obsidian/
+
+# Ignora i file di sistema/macOS
+.DS_Store
+
+# Ignora i backup di Obsidian o file temporanei
+*.tmp
+*.bak
