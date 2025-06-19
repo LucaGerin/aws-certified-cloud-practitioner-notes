@@ -7,7 +7,7 @@
 
 ![Ec2](ec2.png)
 
-Ci sono diverse tipologie di [storage da utilizzare insieme a EC2](EC2-Storage).
+Ci sono diverse tipologie di [storage da utilizzare insieme a EC2](EC2-Storage.md).
 
 Ogni istanza EC2 è associata a una o più **Elastic Network Interface (ENI)**, ovvero schede di rete virtuali che permettono la comunicazione all'interno della [VPC](Amazon-VPC.md).
 Un ENI contiene indirizzi IP (privati e opzionali pubblici), security group e una MAC address. 

@@ -32,7 +32,7 @@ Facilitare la **modernizzazione dei database** riducendo i costi di licenza e mi
 2. Connetti al database target ([Amazon-Aurora](Amazon-Aurora.md), [Amazon-RDS](Amazon-RDS.md), [Amazon-Redshift](Amazon-Redshift.md))
 3. Esegui un’**analisi di compatibilità**
 4. Converti lo schema e **esporta il DDL**
-5. Migra i dati con [AWS-Database-Migration-Service](AWS-Database-Migration-Service.md)
+5. Migra i dati con [AWS-Database-Migration-Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Database-Migration-Service.md)
 
 ---
 
@@ -47,7 +47,7 @@ Facilitare la **modernizzazione dei database** riducendo i costi di licenza e mi
 
 ## 📦 Integrazione con AWS DMS
 
-AWS SCT può esportare i file per l’uso diretto in [AWS-Database-Migration-Service](AWS-Database-Migration-Service.md), che si occupa del trasferimento effettivo dei dati in modo affidabile e con downtime minimo.
+AWS SCT può esportare i file per l’uso diretto in [AWS-Database-Migration-Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Database-Migration-Service.md), che si occupa del trasferimento effettivo dei dati in modo affidabile e con downtime minimo.
 
 ---
 
@@ -64,7 +64,7 @@ AWS SCT può esportare i file per l’uso diretto in [AWS-Database-Migration-Ser
 - Inizia con un'**analisi di compatibilità**
 - Identifica oggetti non convertibili automaticamente
 - Convalida gli schemi convertiti prima del deploy
-- Usa SCT in combinazione con [AWS-Database-Migration-Service](AWS-Database-Migration-Service.md) per flussi completi
+- Usa SCT in combinazione con [AWS-Database-Migration-Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Database-Migration-Service.md) per flussi completi
 
 ---
 

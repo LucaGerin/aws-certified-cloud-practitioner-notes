@@ -3,7 +3,7 @@
 
 **AWS Database Migration Service (DMS)** è un servizio gestito da [AWS](AWS.md) che consente di migrare facilmente database verso e all'interno di AWS. Supporta **migrazioni continue o una tantum** di dati tra database eterogenei (es. Oracle → PostgreSQL) o omogenei (es. MySQL → [Amazon-RDS](Amazon-RDS.md) for MySQL).
 
-![DMS](DMS.png)
+![DMS](06-Cloud-Adoption-Framework-and-Migration-Strategies/img/DMS.png)
 
 ---
 

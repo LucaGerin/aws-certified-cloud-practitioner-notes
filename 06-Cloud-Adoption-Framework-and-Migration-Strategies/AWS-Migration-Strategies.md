@@ -92,7 +92,7 @@ Comprendere e applicare correttamente le strategie di migrazione [AWS](AWS.md) p
 ### 🚚 Esecuzione della Migrazione
 
 - **[AWS Application Migration Service](AWS-Application-Migration-Service.md)** (MGN): per la migrazione automatizzata di server fisici e virtuali.
-- **[AWS Database Migration Service](06.%20Cloud%20Adoption%20Framework%20and%20Migration%20Strategies/AWS-Database-Migration-Service.md)** (DMS): per la migrazione di database, anche eterogenea.
+- **[AWS Database Migration Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Database-Migration-Service.md)** (DMS): per la migrazione di database, anche eterogenea.
 - **[AWS Schema Conversion Tool](AWS-Schema-Conversion-Tool.md)** (SCT): converte gli schemi di database tra motori differenti.
 
 ### 📦 Trasferimento Dati

@@ -77,7 +77,7 @@ Strumenti e servizi per **data scientist e sviluppatori [Machine-Learning](Machi
 | ------------------------------------------------ | ------------------------------------------------ |
 | **[Amazon Kinesis](Amazon-Kinesis.md)**          | Ingestione e analisi di dati in streaming        |
 | **[Amazon MSK](Amazon-MSK.md)**                  | Kafka gestito su AWS                             |
-| **[AWS Database Migration Service](AWS-Database-Migration-Service.md)** | Migrazione dati in tempo reale tra DB            |
+| **[AWS Database Migration Service](04-Database-services/AWS-Database-Migration-Service.md)** | Migrazione dati in tempo reale tra DB            |
 | **Amazon DataZone**                              | Catalogo e condivisione dati a livello aziendale |
 
 ---
