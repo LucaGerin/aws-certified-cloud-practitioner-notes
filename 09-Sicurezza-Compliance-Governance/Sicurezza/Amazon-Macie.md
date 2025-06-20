@@ -7,7 +7,7 @@
 
 Macie esegue la **scansione continua dei bucket S3**, classifica i dati e segnala potenziali problemi di sicurezza o conformità, come file pubblicamente accessibili o contenenti dati sensibili non cifrati.
 
-![macie](macie.png)
+![macie](img/macie.png)
 
 ---
 

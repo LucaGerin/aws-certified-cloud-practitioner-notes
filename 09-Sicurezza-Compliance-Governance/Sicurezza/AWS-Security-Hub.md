@@ -14,7 +14,7 @@ Security Hub valuta automaticamente la conformità alle best practice di sicurez
 Il servizio può raccogliere e aggregare dati di sicurezza da più account AWS e consente l'analisi dei pattern di sicurezza. 
 Grazie a questa centralizzazione, Security Hub aiuta a identificare le aree di sicurezza con **priorità più alta** nell’ambiente AWS, facilitando il rilevamento e la risoluzione tempestiva di eventuali problematiche critiche.
 
-![Security Hub](security-hub.png)
+![Security Hub](img/security-hub.png)
 
 ---
 

@@ -51,7 +51,7 @@ Ogni shard può gestire **fino a 1 MB/s in scrittura** e **2 MB/s in lettura**, 
 Ogni record inviato a Kinesis viene associato a una **partition key**, che determina in quale shard verrà immagazzinato. Questo meccanismo garantisce **l’ordinamento interno** dei dati all’interno dello stesso shard e permette un **bilanciamento del carico** efficiente tra produttori e consumatori.  
 Gli shard possono essere **aumentati o ridotti manualmente** (resharding) o gestiti automaticamente in base al carico, e ogni consumatore può leggere i dati sequenzialmente o in parallelo in base alla strategia di elaborazione adottata (es. fan-out, enhanced fan-out).
 
-![kinesis shards](kinesis-streams.png)
+![kinesis shards](img/kinesis-streams.png)
 
 ---
 
@@ -65,7 +65,7 @@ Si possono specificare trasformazioni personalizzate da effettuare sui dati con 
 Firehose supporta anche **conversione in formato Parquet o ORC**, **compressione** e l'integrazione con **Lambda** per trasformazioni in-flight.  
 È un servizio completamente **serverless**: scala automaticamente con il volume di dati e si paga solo per ciò che si trasferisce.
 
-![kinesis firehose](kinesis-firehouse.png)
+![kinesis firehose](img/kinesis-firehouse.png)
 
 Firehose può essere usato per real-time analytics, data lake feeding, Log Data management, IoT Data Integration.
 

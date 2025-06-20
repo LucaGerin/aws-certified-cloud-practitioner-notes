@@ -3,7 +3,7 @@
 
 **Amazon Cognito** è un servizio gestito che fornisce autenticazione, autorizzazione e gestione utenti per applicazioni web e mobile. Permette agli sviluppatori di aggiungere facilmente funzionalità di sign-up, login e controllo accessi.
 
-![Cognito](cognito.png)
+![Cognito](img/cognito.png)
 
 ## Cos'è e come funziona
 

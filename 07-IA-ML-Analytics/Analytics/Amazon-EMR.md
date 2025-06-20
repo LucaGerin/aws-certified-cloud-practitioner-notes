@@ -31,7 +31,7 @@ Amazon EMR semplifica il deployment, la configurazione e la gestione di cluster 
 - **Separazione dello storage** (su S3) dallo compute
 - **Flessibilità d'esecuzione**: puoi usare EMR su EC2, EKS o serverless
 
-![Amazon EMR](Amazon-EMR.png)
+![Amazon EMR](img/Amazon-EMR.png)
 
 ---
 
