@@ -63,10 +63,10 @@ Amazon Rekognition ha prezzi separati per **immagini** e **video**:
 
 | Servizio                                | Finalità principale                     | Differenze rispetto a Rekognition                            |
 |-----------------------------------------|------------------------------------------|--------------------------------------------------------------|
-| [Amazon Textract](07-IA-ML-Analytics/AI e ML/Amazon-Textract.md)   | Estrazione testo da documenti            | Focalizzato su PDF e formati documentali strutturati         |
-| [Amazon Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md) | Analisi del linguaggio naturale          | Elabora testo, non immagini o video                          |
-| [Amazon Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md) | Audio → testo                            | Riconosce parlato, non visivo                                |
-| [Amazon Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)         | Testo → voce                             | Nessuna funzionalità visiva                                  |
+| [Amazon Textract](/07-IA-ML-Analytics/AI-e-ML/Amazon-Textract.md)   | Estrazione testo da documenti            | Focalizzato su PDF e formati documentali strutturati         |
+| [Amazon Comprehend](/07-IA-ML-Analytics/AI-e-ML/Amazon-Comprehend.md) | Analisi del linguaggio naturale          | Elabora testo, non immagini o video                          |
+| [Amazon Transcribe](/07-IA-ML-Analytics/AI-e-ML/Amazon-Transcribe.md) | Audio → testo                            | Riconosce parlato, non visivo                                |
+| [Amazon Polly](/07-IA-ML-Analytics/AI-e-ML/Amazon-Polly.md)         | Testo → voce                             | Nessuna funzionalità visiva                                  |
 
 ---
 

@@ -17,7 +17,7 @@ AWS IoT consente ai dispositivi di connettersi al cloud, raccogliere dati, elabo
     
 - **Regole automatizzate:** AWS IoT Rules Engine per elaborare e inoltrare i dati in tempo reale.
     
-- **Machine Learning integrato:** facile integrazione con [Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md) e altri servizi ML.
+- **Machine Learning integrato:** facile integrazione con [Amazon SageMaker](/07-IA-ML-Analytics/AI-e-ML/Amazon-SageMaker.md) e altri servizi ML.
     
 - **Monitoraggio e logging:** integrazione con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md).
     

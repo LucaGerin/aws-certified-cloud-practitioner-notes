@@ -81,17 +81,17 @@ I servizi utili a questi propositi sono:
 
 ---
 Un account in AWS è un insieme di risorse a cui degli utenti possono accedere. Gli account sono utilizzati, secondo best practice, dalle aziende per differenziare i gruppi di risorse che solo alcuni utenti devono vedere.
-Per gestire più account in modo centralizzato, si può utilizzare [AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)
+Per gestire più account in modo centralizzato, si può utilizzare [AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)
 
 ---
 
 ## 📋 Servizi per la Compliance
 
-- **[AWS Artifact](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Artifact.md)**: accesso a report di conformità, certificazioni e documentazione legale, per uso interno e per provare esternamente la compliance
+- **[AWS Artifact](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Artifact.md)**: accesso a report di conformità, certificazioni e documentazione legale, per uso interno e per provare esternamente la compliance
 - **[AWS Audit Manager](/08-Auditing-Monitoring-Logging/AWS-Audit-Manager.md)**: raccolta automatica delle evidenze per audit (SOC 2, GDPR, ISO)
 - **[AWS Config](/08-Auditing-Monitoring-Logging/AWS-Config.md)**: valutazione continua della conformità delle risorse alle regole definite e continua registrazione dei cambiamenti alle configurazioni delle risorse.
-- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md) + [SCPs](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**: applicazione di policy di sicurezza a livello multi-account
-- **[AWS Control Tower](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Control-Tower.md)**: creazione di landing zone sicure e conformi
+- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md) + [SCPs](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**: applicazione di policy di sicurezza a livello multi-account
+- **[AWS Control Tower](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Control-Tower.md)**: creazione di landing zone sicure e conformi
 - **[AWS Well-Architected Tool](/08-Auditing-Monitoring-Logging/AWS-Well-Architected-Tool.md)**: valutazione di workload rispetto alle best practice (incluse sicurezza e governance)
 
 **NB:** AWS si assicura che gli standard di compliance (ne supporta più di 140) siano soddisfatti solo nella sua parte dello [Shared Responsibility Model][Shared-Responsibility-Model.md]

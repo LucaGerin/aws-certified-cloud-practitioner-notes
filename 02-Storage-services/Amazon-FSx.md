@@ -36,7 +36,7 @@ FSx è progettato per lo storage attivo di file, quindi meno adatto per mantener
 
 **Casi d’uso:**
 
-- [Machine learning](07-IA-ML-Analytics/AI e ML/Machine-Learning.md)
+- [Machine learning](/07-IA-ML-Analytics/AI-e-ML/Machine-Learning.md)
 - Genomica e modellazione scientifica
 - Rendering video, simulazioni e analisi complesse
 

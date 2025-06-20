@@ -3,7 +3,7 @@
 
 ## 📘 Cos'è e come funziona
 
-**IAM Access Analyzer** è uno strumento integrato in **AWS Identity and Access Management (IAM)** che ti consente di **identificare e monitorare gli accessi non intenzionali alle tue risorse AWS**. Analizza le policy di accesso (IAM, risorse, bucket S3, KMS, SQS, ecc.) per determinare **quali entità esterne** (es. utenti di altri account AWS, servizi, organizzazioni) **possono accedere alle tue risorse**.
+**IAM Access Analyzer** è uno strumento integrato in **[AWS Identity and Access Management (IAM)](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** che ti consente di **identificare e monitorare gli accessi non intenzionali alle tue risorse AWS**. Analizza le policy di accesso (IAM, risorse, bucket S3, KMS, SQS, ecc.) per determinare **quali entità esterne** (es. utenti di altri account AWS, servizi, organizzazioni) **possono accedere alle tue risorse**.
 Analizza la storia degli accessi alle risorse per proporre delle policies IAM che siano in più aderenti possibile al [Principio del Least Privilege](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md).
 
 Il servizio utilizza tecniche di **analisi formale** per fornire risultati affidabili e dettagliati, indicando chi può accedere a cosa e da dove.

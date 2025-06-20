@@ -5,7 +5,7 @@
 
 [Amazon Web Services](/00-Intro/AWS.md) (AWS) adotta un modello di **prezzi basato sul consumo**, in cui paghi solo per quello che usi, senza costi anticipati o obblighi di lungo termine (in quasi tutti i servizi).
 
-La **fatturazione** è centralizzata e personalizzabile, e può coprire ambienti multi-account tramite **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)**.
+La **fatturazione** è centralizzata e personalizzabile, e può coprire ambienti multi-account tramite **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)**.
 AWS offre inoltre strumenti per **monitorare, ottimizzare e prevedere i costi**, oltre a diversi **piani di supporto tecnico** pensati per sviluppatori, aziende e clienti enterprise.
 
 ---
@@ -279,7 +279,7 @@ Oltre ai piani di supporto standard, AWS offre diverse **forme di supporto speci
 
 ## 🔄 Integrazione con altri servizi
 
-- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)**: permette **fatturazione consolidata**, gestione di account e budget centralizzati
+- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)**: permette **fatturazione consolidata**, gestione di account e budget centralizzati
 - **[CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) + Budgets**: per ricevere avvisi su anomalie nei costi
 - **Cost Allocation Tags**: categorizzare le spese per team, progetto, ambiente
 

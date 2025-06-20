@@ -46,7 +46,7 @@
 - File system completamente gestiti per casi d’uso specifici
 
   - **FSx for Windows File Server** – Compatibile con SMB e Active Directory
-  - **FSx for Lustre** – Prestazioni elevate per [HPC](07-IA-ML-Analytics/AI e ML/Machine-Learning.md), ML, genomica, rendering
+  - **FSx for Lustre** – Prestazioni elevate per [HPC](/07-IA-ML-Analytics/AI-e-ML/Machine-Learning.md), ML, genomica, rendering
   - **FSx for NetApp ONTAP** – Snapshot, deduplica, compressione avanzata
   - **FSx for OpenZFS** – Affidabile e ottimizzato per ambienti Unix/Linux
 

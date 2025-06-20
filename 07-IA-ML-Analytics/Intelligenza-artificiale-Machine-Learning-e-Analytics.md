@@ -18,27 +18,27 @@ Questi servizi offrono **modelli pre-addestrati** accessibili tramite API, senza
 
 | Servizio                                        | Funzione principale                                    |
 | ----------------------------------------------- | ------------------------------------------------------ |
-| **[Amazon Rekognition](07-IA-ML-Analytics/AI e ML/Amazon-Rekognition.md)** | Analisi di immagini e video (face detection, OCR)      |
-| **[Amazon Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)**   | Analisi del linguaggio naturale (sentiment, entità)    |
-| **[Amazon Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)**   | Conversione voce-testo (trascrizione automatica)       |
-| **[Amazon Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)**             | Sintesi vocale (testo → audio realistico)              |
-| **[Amazon Translate](07-IA-ML-Analytics/AI e ML/Amazon-Translate.md)**     | Traduzione automatica multilingua                      |
-| **[Amazon Lex](07-IA-ML-Analytics/AI e ML/Amazon-Lex.md)**                 | Costruzione di chatbot con NLP + ASR (come Alexa)      |
-| **[Amazon Textract](07-IA-ML-Analytics/AI e ML/Amazon-Textract.md)**       | Estrazione di testo e tabelle da documenti scansionati |
+| **[Amazon Rekognition](/07-IA-ML-Analytics/AI-e-ML/Amazon-Rekognition.md)** | Analisi di immagini e video (face detection, OCR)      |
+| **[Amazon Comprehend](/07-IA-ML-Analytics/AI-e-ML/Amazon-Comprehend.md)**   | Analisi del linguaggio naturale (sentiment, entità)    |
+| **[Amazon Transcribe](/07-IA-ML-Analytics/AI-e-ML/Amazon-Transcribe.md)**   | Conversione voce-testo (trascrizione automatica)       |
+| **[Amazon Polly](/07-IA-ML-Analytics/AI-e-ML/Amazon-Polly.md)**             | Sintesi vocale (testo → audio realistico)              |
+| **[Amazon Translate](/07-IA-ML-Analytics/AI-e-ML/Amazon-Translate.md)**     | Traduzione automatica multilingua                      |
+| **[Amazon Lex](/07-IA-ML-Analytics/AI-e-ML/Amazon-Lex.md)**                 | Costruzione di chatbot con NLP + ASR (come Alexa)      |
+| **[Amazon Textract](/07-IA-ML-Analytics/AI-e-ML/Amazon-Textract.md)**       | Estrazione di testo e tabelle da documenti scansionati |
 | **Amazon Personalize**                          | Raccomandazioni personalizzate in tempo reale          |
 | **Amazon Forecast**                             | Previsioni di serie temporali (es. domanda, vendite)   |
 | **Amazon Bedrock**                              | Accesso a modelli generativi (LLM) tramite API         |
-| **[Amazon Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)**           | Motore di ricerca intelligente basato su AI            |
+| **[Amazon Kendra](/07-IA-ML-Analytics/AI-e-ML/Amazon-Kendra.md)**           | Motore di ricerca intelligente basato su AI            |
 
 ---
 
 ## 🤖 Machine Learning (ML) - Costruzione e Addestramento Modelli
 
-Strumenti e servizi per **data scientist e sviluppatori [Machine-Learning](07-IA-ML-Analytics/AI e ML/Machine-Learning.md) (ML)**:
+Strumenti e servizi per **data scientist e sviluppatori [Machine-Learning](/07-IA-ML-Analytics/AI-e-ML/Machine-Learning.md) (ML)**:
 
 | Servizio                                    | Descrizione                                                    |
 | ------------------------------------------- | -------------------------------------------------------------- |
-| **[Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md)** | Piattaforma completa per build, train, deploy di modelli       |
+| **[Amazon SageMaker](/07-IA-ML-Analytics/AI-e-ML/Amazon-SageMaker.md)** | Piattaforma completa per build, train, deploy di modelli       |
 | - Studio                                    | IDE visuale per ML                                             |
 | - Autopilot                                 | ML automatico (AutoML)                                         |
 | - Ground Truth                              | Etichettatura dati assistita                                   |

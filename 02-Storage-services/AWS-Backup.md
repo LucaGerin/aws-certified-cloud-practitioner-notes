@@ -28,7 +28,7 @@ AWS Backup fornisce un approccio centralizzato per configurare, eseguire e monit
 - **Automazione con backup plans:** Schedulazione automatica, regole di conservazione e tagging
 - **Backup incrementali:** Riduzione dello spazio occupato e dei costi
 - **Restore granulare:** Ripristino rapido e preciso
-- **Monitoraggio e auditing:** Integrazione con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)
+- **Monitoraggio e auditing:** Integrazione con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)
 - **Compatibilità multi-account e cross-region** per elevata disponibilità
 - **Compliance:** Facilita l’adesione a normative come GDPR, HIPAA, ISO
 

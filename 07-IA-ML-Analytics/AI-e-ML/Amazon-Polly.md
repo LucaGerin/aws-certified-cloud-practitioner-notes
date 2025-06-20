@@ -61,11 +61,11 @@ Il pricing di Amazon Polly dipende da:
 
 | Servizio               | Finalità principale                     | Differenze rispetto a Polly                              |
 |------------------------|------------------------------------------|----------------------------------------------------------|
-| **[Amazon-Lex](07-IA-ML-Analytics/AI e ML/Amazon-Lex.md)**         | Chatbot e NLP                            | Usa Polly per generare voce, ma gestisce i dialoghi      |
-| **[Amazon-Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)**  | Speech-to-text (trascrizione vocale)    | Fa il contrario di Polly                                 |
-| **[Amazon-Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)**      | Ricerca semantica su documenti           | Nessuna voce, si focalizza sulla ricerca testuale        |
+| **[Amazon-Lex](/07-IA-ML-Analytics/AI-e-ML/Amazon-Lex.md)**         | Chatbot e NLP                            | Usa Polly per generare voce, ma gestisce i dialoghi      |
+| **[Amazon-Transcribe](/07-IA-ML-Analytics/AI-e-ML/Amazon-Transcribe.md)**  | Speech-to-text (trascrizione vocale)    | Fa il contrario di Polly                                 |
+| **[Amazon-Kendra](/07-IA-ML-Analytics/AI-e-ML/Amazon-Kendra.md)**      | Ricerca semantica su documenti           | Nessuna voce, si focalizza sulla ricerca testuale        |
 | **[Amazon-Connect](/Others/Amazon-Connect.md)**     | Call center cloud                        | Si integra con Polly per messaggi vocali personalizzati  |
-| **[Amazon-Bedrock](/Amazon-Bedrock.md)**     | Generazione testi e chatbot LLM          | Polly si integra per output vocale, non per generazione  |
+| **Amazon-Bedrock**     | Generazione testi e chatbot LLM          | Polly si integra per output vocale, non per generazione  |
 
 ---
 

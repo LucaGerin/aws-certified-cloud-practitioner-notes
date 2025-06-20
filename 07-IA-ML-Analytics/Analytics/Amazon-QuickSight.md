@@ -62,7 +62,7 @@ QuickSight adotta un modello **pay-per-session** (per utenti Reader) e **mensile
 |--------------------------------|--------------------------------------------|------------------------------------------------------|
 | **[Amazon Athena](/07-IA-ML-Analytics/Analytics/Amazon-Athena.md)**   | Query SQL serverless                       | Query engine, non visualizzazione                     |
 | **[Amazon Redshift](/07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)** | Data warehouse OLAP                        | Fonte dati, non BI tool                               |
-| **AWS Glue + [SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md)**  | Preprocessing + ML avanzato              | Pipeline e modelli, non dashboard interattive        |
+| **AWS Glue + [SageMaker](/07-IA-ML-Analytics/AI-e-ML/Amazon-SageMaker.md)**  | Preprocessing + ML avanzato              | Pipeline e modelli, non dashboard interattive        |
 | **Amazon OpenSearch Dashboards** | Visualizzazione log e ricerca              | Ottimizzato per log, non per BI generalista           |
 
 ---

@@ -21,11 +21,13 @@ IAM è un servizio gratuito, integrato nativamente in ogni account AWS.
 
 - 👤 **Gestione utenti e gruppi**: crea identità per persone o sistemi con accesso controllato.
 - 🧾 **Policy granulari**: definisci cosa può essere fatto, su quali risorse e in quali condizioni.
-- 🔁 **Ruoli IAM**: consentono accesso **temporaneo** ad **applicazioni, servizi o utenti esterni**.
-- 📄 **IAM Policy Simulator**: verifica l’effetto delle policy prima di applicarle.
+- 🔁 Permette di definire
+	- **Gruppi**: consentono di raggruppare gli utenti e assegnare loro dei permessi tutti assieme.
+	- **Ruoli IAM**: consentono accesso **temporaneo** ad **applicazioni, servizi o utenti esterni**.
+- 📄 **[IAM Policy Simulator](/09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Policy-Simulator.md)**: verifica l’effetto delle policy prima di applicarle.
 - 📜 **Supporto al principio del least privilege**: solo i permessi minimi e necessari.
 - 🔐 **Multi-Factor Authentication (MFA)**: aggiunge un ulteriore livello di sicurezza.
-- 🧠 **Access Analyzer**: individua risorse accessibili pubblicamente o da altri account.
+- 🧠 **[Access Analyzer](/09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Access-Analyzer.md)**: individua risorse accessibili pubblicamente o da altri account.
 
 ---
 

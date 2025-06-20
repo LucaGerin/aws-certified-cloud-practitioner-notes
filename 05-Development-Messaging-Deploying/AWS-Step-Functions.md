@@ -12,7 +12,7 @@
 - **Orchestrazione visiva** di servizi AWS e microservizi: permettono di visualizzare e orchestrare una applicazione serverless.
 - **Supporto per flussi di lavoro sequenziali, paralleli, condizionali**
 - **Gestione automatica di retry, timeout, catch**: permettono di attivare e seguire automaticamente ogni step.
-- **Compatibile con [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon ECS](/01-Compute-options/Amazon-ECS.md), [Amazon SQS](/05-Development-Messaging-Deploying/Amazon-SQS.md), [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md), [Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md), [AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md)**, ecc.
+- **Compatibile con [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon ECS](/01-Compute-options/Amazon-ECS.md), [Amazon SQS](/05-Development-Messaging-Deploying/Amazon-SQS.md), [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md), [Amazon SageMaker](/07-IA-ML-Analytics/AI-e-ML/Amazon-SageMaker.md), [AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md)**, ecc.
 - **Monitoraggio integrato** con console visuale, [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e CloudTrail
 - **Supporta Standard e Express Workflows**
 - **Logging**: Tracciano ogni step e ogni suo stato
@@ -68,7 +68,7 @@
 - Automatizzazione di pipeline **ETL/ELT**
 - Coordinamento tra Amazon API Gateway, [Amazon SQS](/05-Development-Messaging-Deploying/Amazon-SQS.md), [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md)
 - Gestione processi **di approvazione** o **processi umani**
-- **Training ML** e orchestrazione con [Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md) o [AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md)
+- **Training ML** e orchestrazione con [Amazon SageMaker](/07-IA-ML-Analytics/AI-e-ML/Amazon-SageMaker.md) o [AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md)
 
 ![Step function example](img/step-functions.png)
 

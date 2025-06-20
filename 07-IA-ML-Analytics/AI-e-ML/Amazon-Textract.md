@@ -34,6 +34,6 @@
 
 | Servizio                             | Differenze rispetto a Textract              |
 | ------------------------------------ | ------------------------------------------- |
-| [Rekognition](07-IA-ML-Analytics/AI e ML/Amazon-Rekognition.md) | Riconosce immagini e oggetti, non testo     |
-| [Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)   | Analizza testo esistente, non estrae da PDF |
-| [Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)   | Elabora audio, non documenti visivi         |
+| [Rekognition](/07-IA-ML-Analytics/AI-e-ML/Amazon-Rekognition.md) | Riconosce immagini e oggetti, non testo     |
+| [Comprehend](/07-IA-ML-Analytics/AI-e-ML/Amazon-Comprehend.md)   | Analizza testo esistente, non estrae da PDF |
+| [Transcribe](/07-IA-ML-Analytics/AI-e-ML/Amazon-Transcribe.md)   | Elabora audio, non documenti visivi         |

@@ -3,7 +3,7 @@
 
 ## 📘 Cos'è e come funziona
 
-L’**AWS IAM Policy Simulator** è uno strumento offerto da AWS che consente di **testare e convalidare le policy IAM** (Identity and Access Management) **prima di applicarle**. Permette agli amministratori di simulare le richieste di accesso a risorse AWS da parte di utenti, gruppi o ruoli, per capire se una determinata azione sarà **permessa o negata** sulla base delle policy esistenti.
+L’**AWS IAM Policy Simulator** è uno strumento offerto da AWS che consente di **testare e convalidare le policy [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** (Identity and Access Management) **prima di applicarle**. Permette agli amministratori di simulare le richieste di accesso a risorse AWS da parte di utenti, gruppi o ruoli, per capire se una determinata azione sarà **permessa o negata** sulla base delle policy esistenti.
 
 Il simulatore prende in input l'identità, l'azione e la risorsa, e restituisce il risultato della valutazione in base alle policy attualmente associate.
 

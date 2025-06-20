@@ -52,7 +52,7 @@ Per facilitare la gestione dei costi, Amazon EFS include una funzionalità chiam
 - **Ambienti di sviluppo condivisi:** Es. build system, ambienti [CI/CD](/05-Development-Messaging-Deploying/CI-e-CD.md)
 - **Web server e CMS distribuiti:** Hosting condiviso, contenuti statici o dinamici
 - **Elaborazione dati e analytics:** Accesso simultaneo per strumenti di analisi
-- **Workload di [machine learning](07-IA-ML-Analytics/AI e ML/Machine-Learning.md):** dataset condivisi tra nodi
+- **Workload di [machine learning](/07-IA-ML-Analytics/AI-e-ML/Machine-Learning.md):** dataset condivisi tra nodi
 - **Backup e archiviazione condivisa** tra istanze
 - **File system per container:** Utilizzabile con [Amazon ECS](/01-Compute-options/Amazon-ECS.md) e [Amazon EKS](/01-Compute-options/Amazon-EKS.md)
 

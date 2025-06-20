@@ -3,7 +3,7 @@
 
 ## 🧠 Cos’è e come funziona
 
-**Amazon SageMaker** è la piattaforma AWS completamente gestita per **costruire, addestrare e distribuire modelli di [Machine Learning](07-IA-ML-Analytics/AI e ML/Machine-Learning.md) (ML)** su larga scala. 
+**Amazon SageMaker** è la piattaforma AWS completamente gestita per **costruire, addestrare e distribuire modelli di [Machine Learning](/07-IA-ML-Analytics/AI-e-ML/Machine-Learning.md) (ML)** su larga scala. 
 SageMaker fornisce un ambiente integrato che supporta l'intero ciclo di vita del ML: 
 - preparazione dei dati
 - selezione degli algoritmi (ce ne sono molti inclusi)
@@ -78,8 +78,8 @@ Amazon SageMaker adotta un **modello pay-per-use**, con tariffe diverse per:
 |-----------------------------------------|------------------------------------------|------------------------------------------------------------|
 | [AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md) + [Amazon Athena](/07-IA-ML-Analytics/Analytics/Amazon-Athena.md) | Preparazione e interrogazione dati       | Nessun addestramento modelli                              |
 | Amazon Forecast   | Previsione temporale                     | ML preconfigurato, limitato a forecasting                  |
-| [Amazon Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md) | NLP-as-a-service                         | API specifiche, no addestramento personalizzato            |
-| [Amazon Rekognition](07-IA-ML-Analytics/AI e ML/Amazon-Rekognition.md) | Visione artificiale as-a-service         | API pronte, senza gestione modello                         |
+| [Amazon Comprehend](/07-IA-ML-Analytics/AI-e-ML/Amazon-Comprehend.md) | NLP-as-a-service                         | API specifiche, no addestramento personalizzato            |
+| [Amazon Rekognition](/07-IA-ML-Analytics/AI-e-ML/Amazon-Rekognition.md) | Visione artificiale as-a-service         | API pronte, senza gestione modello                         |
 | **SageMaker JumpStart**                 | Modelli pre-addestrati                   | È una parte di SageMaker, utile per iniziare               |
 | **[Amazon EC2](/01-Compute-options/Amazon-EC2.md)** + Jupyter custom         | Ambiente personalizzato per ML           | Nessuna gestione, nessuna scalabilità o MLOps integrati    |
 

@@ -31,6 +31,6 @@
 
 | Servizio            | Differenze rispetto a Transcribe                |
 |---------------------|--------------------------------------------------|
-| [Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)   | Fa il contrario: converte testo in voce         |
-| [Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)   | Analizza testo, ma non lo genera da audio       |
-| [Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)     | Indicizzazione testi, non elaborazione audio    |
+| [Polly](/07-IA-ML-Analytics/AI-e-ML/Amazon-Polly.md)   | Fa il contrario: converte testo in voce         |
+| [Comprehend](/07-IA-ML-Analytics/AI-e-ML/Amazon-Comprehend.md)   | Analizza testo, ma non lo genera da audio       |
+| [Kendra](/07-IA-ML-Analytics/AI-e-ML/Amazon-Kendra.md)     | Indicizzazione testi, non elaborazione audio    |

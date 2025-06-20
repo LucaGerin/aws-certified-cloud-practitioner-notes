@@ -6,7 +6,7 @@
 **Amazon Lex** è il servizio AWS di **costruzione di chatbot (interfacce conversazionali) e assistenti vocali intelligenti** usando il Natural Language Models, basato sulla stessa tecnologia usata da **Amazon Alexa**.  
 Lex consente di creare facilmente interfacce conversazionali in linguaggio naturale per applicazioni web, mobile, IVR (sistemi telefonici), e dispositivi IoT.
 
-Lex combina **Automatic Speech Recognition (ASR)** per trasformare l’audio in testo e **Natural Language Understanding (NLU)** per comprendere l’intento dell’utente. Il tutto è accessibile tramite interfaccia visuale o API e integrabile con altri servizi AWS come Lambda, [Amazon-Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md), [Amazon-Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md), CloudWatch, Cognito, ecc.
+Lex combina **Automatic Speech Recognition (ASR)** per trasformare l’audio in testo e **Natural Language Understanding (NLU)** per comprendere l’intento dell’utente. Il tutto è accessibile tramite interfaccia visuale o API e integrabile con altri servizi AWS come Lambda, [Amazon-Kendra](/07-IA-ML-Analytics/AI-e-ML/Amazon-Kendra.md), [Amazon-Polly](/07-IA-ML-Analytics/AI-e-ML/Amazon-Polly.md), CloudWatch, Cognito, ecc.
 
 ---
 
@@ -59,10 +59,10 @@ Amazon Lex è **pay-per-use**, con due tipi principali di chiamate:
 
 | Servizio               | Finalità principale                            | Differenze rispetto a Lex                                     |
 |------------------------|-------------------------------------------------|---------------------------------------------------------------|
-| **[Amazon-Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)**      | Motore di ricerca semantico                    | Non gestisce dialoghi, ma cerca risposte da documenti         |
-| **[Amazon-Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)**       | Sintesi vocale (text-to-speech)                | Si usa insieme a Lex per creare bot vocali                    |
-| **[Amazon-Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)**  | Trascrizione vocale in testo                   | Solo speech-to-text, non interpreta intenzioni                |
-| **[Amazon-Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)**  | NLP per analisi di sentiment, entità, ecc.     | Elabora testi, non supporta dialoghi                          |
+| **[Amazon-Kendra](/07-IA-ML-Analytics/AI-e-ML/Amazon-Kendra.md)**      | Motore di ricerca semantico                    | Non gestisce dialoghi, ma cerca risposte da documenti         |
+| **[Amazon-Polly](/07-IA-ML-Analytics/AI-e-ML/Amazon-Polly.md)**       | Sintesi vocale (text-to-speech)                | Si usa insieme a Lex per creare bot vocali                    |
+| **[Amazon-Transcribe](/07-IA-ML-Analytics/AI-e-ML/Amazon-Transcribe.md)**  | Trascrizione vocale in testo                   | Solo speech-to-text, non interpreta intenzioni                |
+| **[Amazon-Comprehend](/07-IA-ML-Analytics/AI-e-ML/Amazon-Comprehend.md)**  | NLP per analisi di sentiment, entità, ecc.     | Elabora testi, non supporta dialoghi                          |
 | **[AWS-Lambda](/01-Compute-options/AWS-Lambda.md)**         | Funzioni serverless                            | Si usa per logica custom nei bot Lex                          |
 
 ---
