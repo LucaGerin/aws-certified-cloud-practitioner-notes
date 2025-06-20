@@ -26,6 +26,7 @@ Non è pensata come documentazione ufficiale, ma come **materiale di supporto e 
 > Questi contenuti sono **appunti personali di studio**.  
 > Potrebbero contenere **inesattezze**, **incompletezze** o non essere completamente aggiornati con le ultime novità AWS.  
 > Non sostituiscono la [documentazione ufficiale AWS](https://docs.aws.amazon.com/) né i materiali di formazione ufficiali.
+> Le immagini sono prese da google immagini o svariati siti, non appartengono a me
 
 ---
 
