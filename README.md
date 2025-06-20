@@ -4,7 +4,7 @@ Benvenuto/a in questa wiki dedicata alla preparazione per l'esame **[AWS Certifi
 Questa raccolta di appunti è strutturata per coprire i principali servizi, concetti e strumenti di **Amazon Web Services (AWS)**, con riferimento diretto agli argomenti presenti nel syllabus ufficiale.
 
 Puoi iniziare la lettura generale da questa introduzione ai servizi AWS:  
-👉 **[Cos'è AWS?](00-Intro/AWS.md)**
+👉 **[Cos'è AWS?](/00-Intro/AWS.md)**
 
 ---
 
