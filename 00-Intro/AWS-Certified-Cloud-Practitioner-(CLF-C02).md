@@ -13,21 +13,6 @@ Puoi consultare la guida ufficiale con l'elenco completo degli argomenti richies
 
 ---
 
-## 📚 Risorse aggiuntive
-
-### In ordine di consiglio:
-
-- 🎓 [Corso PluralSight](https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c02) – Corso completo e ben strutturato
-- 📝 [Simulazione domande esame (Whizlabs)](https://www.whizlabs.com/learn/course/aws-certified-cloud-practitioner/219)
-- 💬 [Domande aggiuntive con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
-
-### Altre fonti:
-
-- 🌐 [Risorse ufficiali Amazon](https://aws.amazon.com/it/certification/certified-cloud-practitioner/)
-- 📖 [Documentazione AWS](https://docs.aws.amazon.com/it_it/)
-
----
-
 ## 🚀 Inizia da qui
 
 Per iniziare la lettura dei concetti fondamentali in questa wiki su AWS, comincia da:  
