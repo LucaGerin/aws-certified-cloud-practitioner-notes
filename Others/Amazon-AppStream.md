@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)
+--> [AWS](/00-Intro/AWS.md)
 # 📺 Amazon AppStream 2.0
 
 ## 📘 Cos'è e come funziona

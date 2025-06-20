@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 🎙️ Amazon Transcribe
 
 ## 📘 Cos’è e come funziona

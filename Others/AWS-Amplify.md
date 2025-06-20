@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)
+--> [AWS](/00-Intro/AWS.md)
 # ⚡ AWS Amplify
 
 **AWS Amplify** è una piattaforma completa per lo sviluppo di applicazioni web e mobile che consente di creare, configurare e implementare backend serverless, oltre a fornire strumenti per l'integrazione diretta nel frontend.
@@ -11,7 +11,7 @@ AWS Amplify fornisce una CLI, una libreria JavaScript e una console web per aiut
 - Connettere app web/mobile (React, Angular, Vue, iOS, Android, Flutter) direttamente ai servizi AWS.
 - Automatizzare la CI/CD e il deploy continuo delle app frontend.
 
-Amplify si integra con servizi come [AWS AppSync](Others/Amazon-AppSync.md), [Amazon Cognito](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md), [Amazon S3](02-Storage-services/Amazon-S3.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md) e [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md).
+Amplify si integra con servizi come [AWS AppSync](/Others/Amazon-AppSync.md), [Amazon Cognito](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md), [Amazon S3](/02-Storage-services/Amazon-S3.md), [AWS Lambda](/01-Compute-options/AWS-Lambda.md) e [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md).
 
 ## Caratteristiche principali e vantaggi
 
@@ -77,9 +77,9 @@ Supporta l'accesso granulare per utenti autenticati e guest, multi-tenancy e reg
 |Servizio|Focus principale|Quando usarlo|
 |---|---|---|
 |AWS Amplify|Full-stack app web/mobile|Per frontend con backend integrato e deploy rapido|
-|[AWS AppSync](Others/Amazon-AppSync.md)|API GraphQL|Per aggregazione dati e real-time API|
-|[Amazon API Gateway](Others/Amazon-API-Gateway.md)|API REST o WebSocket|Per microservizi o API REST gestite separatamente|
+|[AWS AppSync](/Others/Amazon-AppSync.md)|API GraphQL|Per aggregazione dati e real-time API|
+|[Amazon API Gateway](/Others/Amazon-API-Gateway.md)|API REST o WebSocket|Per microservizi o API REST gestite separatamente|
 
 ## Conclusioni
 
-AWS Amplify semplifica lo sviluppo e il deploy di applicazioni moderne, integrando strumenti frontend e backend in un'unica piattaforma. Ideale per startup, team agili e app mobile-first, sfrutta la potenza della [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md) con un approccio rapido, modulare e sicuro.
+AWS Amplify semplifica lo sviluppo e il deploy di applicazioni moderne, integrando strumenti frontend e backend in un'unica piattaforma. Ideale per startup, team agili e app mobile-first, sfrutta la potenza della [rete globale AWS](/03-CDN-e-Networking/Rete-globale-AWS.md) con un approccio rapido, modulare e sicuro.

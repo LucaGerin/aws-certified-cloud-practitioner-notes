@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](/05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # Amazon Simple Email Service (SES)
 
 **Amazon SES (Simple Email Service)** è un servizio cloud gestito per **invio e ricezione di email**. È progettato per aiutare aziende e sviluppatori a inviare **email di marketing, notifiche e transazionali** in modo scalabile, sicuro e con alti tassi di consegna.
@@ -14,7 +14,7 @@
 - Invio di email in **bulk**
 - **Ricezione di email** con filtraggio e instradamento personalizzabile
 - **Supporto SMTP e API** per l’integrazione flessibile
-- **Monitoraggio** con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) (open rate, bounce, complaint)
+- **Monitoraggio** con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) (open rate, bounce, complaint)
 - **Gestione della reputazione** e feedback loop
 - **Autenticazione**: SPF, DKIM, DMARC
 - **Supporta allegati, HTML e testo normale**
@@ -30,7 +30,7 @@
 1. **Verifica del dominio o email** (per dimostrare la proprietà)
 2. **Invio di email** tramite API, SMTP o SDK
 3. **Monitoraggio dei risultati**: consegna, errori, bounce, ecc.
-4. *(Opzionale)*: **ricezione di email** con instradamento verso [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon S3](02-Storage-services/Amazon-S3.md), [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md)
+4. *(Opzionale)*: **ricezione di email** con instradamento verso [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon S3](/02-Storage-services/Amazon-S3.md), [Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md)
 
 ![ses](ses-monitor.png)
 ---
@@ -48,7 +48,7 @@ aws ses send-email \
 
 ### 🔐 2. SMTP
 
-- Richiede credenziali SMTP generate tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
+- Richiede credenziali SMTP generate tramite [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
 - Compatibile con qualsiasi client SMTP (Outlook, Postfix, ecc.)
 
 ---
@@ -65,8 +65,8 @@ aws ses send-email \
 
 ## 📈 Monitoraggio e feedback
 
-- **Bounce e complaint notifications** via [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md)
-- **Statistiche** di invio con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
+- **Bounce e complaint notifications** via [Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md)
+- **Statistiche** di invio con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
 - **Feedback loop** automatico per proteggere la reputazione IP
 
 ---
@@ -79,7 +79,7 @@ aws ses send-email \
 
 - **Produzione**:
   - Nessun limite sui destinatari (salvo limiti account)
-  - Richiede richiesta esplicita ad [AWS](00-Intro/AWS.md)
+  - Richiede richiesta esplicita ad [AWS](/00-Intro/AWS.md)
 
 ---
 
@@ -88,7 +88,7 @@ aws ses send-email \
 - Email transazionali (conferme ordini, reset password)
 - Notifiche di sistema (alert, log, messaggi app)
 - Email di marketing (newsletter, promozioni)
-- Sistemi automatizzati (via [AWS Lambda](01-Compute-options/AWS-Lambda.md), cron, [Amazon API Gateway](Others/Amazon-API-Gateway.md))
+- Sistemi automatizzati (via [AWS Lambda](/01-Compute-options/AWS-Lambda.md), cron, [Amazon API Gateway](/Others/Amazon-API-Gateway.md))
 
 ---
 
@@ -96,7 +96,7 @@ aws ses send-email \
 
 - Verifica sempre i domini e imposta SPF/DKIM/DMARC correttamente
 - Gestisci le **complaint** per evitare blacklist
-- Usa tag [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) per tracciare campagne e gruppi
+- Usa tag [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) per tracciare campagne e gruppi
 - Richiedi l'accesso alla **produzione** prima del go-live
 - Usa template HTML con fallback in plain text
 

@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 🗣️ Amazon Lex
 
 ## 🤖 Cos’è e come funziona
@@ -14,7 +14,7 @@ Lex combina **Automatic Speech Recognition (ASR)** per trasformare l’audio in 
 
 - 🧠 **Comprensione linguistica avanzata**: rilevamento automatico di intenzioni (intents) e entità (slots) a partire da testo o parlato, usando Natural Language Understanding (NLU).
 - 🔁 **Dialoghi multi-turno**: gestione di conversazioni complesse su più passaggi
-- 🔄 **Integrazione con [AWS-Lambda](01-Compute-options/AWS-Lambda.md)** per eseguire logica personalizzata in base alla conversazione
+- 🔄 **Integrazione con [AWS-Lambda](/01-Compute-options/AWS-Lambda.md)** per eseguire logica personalizzata in base alla conversazione
 - 🎙️ **Supporto input vocale e testuale** (ASR + NLU)
 - 🌐 **Interfaccia grafica per la creazione di bot** e integrazione web/mobile
 - 🔐 **Autenticazione con Amazon Cognito** per controllare l’accesso utente
@@ -63,7 +63,7 @@ Amazon Lex è **pay-per-use**, con due tipi principali di chiamate:
 | **[Amazon-Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)**       | Sintesi vocale (text-to-speech)                | Si usa insieme a Lex per creare bot vocali                    |
 | **[Amazon-Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)**  | Trascrizione vocale in testo                   | Solo speech-to-text, non interpreta intenzioni                |
 | **[Amazon-Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)**  | NLP per analisi di sentiment, entità, ecc.     | Elabora testi, non supporta dialoghi                          |
-| **[AWS-Lambda](01-Compute-options/AWS-Lambda.md)**         | Funzioni serverless                            | Si usa per logica custom nei bot Lex                          |
+| **[AWS-Lambda](/01-Compute-options/AWS-Lambda.md)**         | Funzioni serverless                            | Si usa per logica custom nei bot Lex                          |
 
 ---
 

@@ -1,9 +1,9 @@
---> [AWS](00-Intro/AWS.md)
+--> [AWS](/00-Intro/AWS.md)
 # 🔐 Sicurezza, Compliance e Governance in AWS
 
 ## 📘 Introduzione
 
-Nel cloud [AWS](00-Intro/AWS.md), la sicurezza, la conformità e la governance sono responsabilità condivise tra AWS e il cliente (Vedi [Shared Responsibility Model](00-Intro/Shared-Responsibility-Model.md)). 
+Nel cloud [AWS](/00-Intro/AWS.md), la sicurezza, la conformità e la governance sono responsabilità condivise tra AWS e il cliente (Vedi [Shared Responsibility Model](/00-Intro/Shared-Responsibility-Model.md)). 
 AWS fornisce un'infrastruttura cloud **sicura per impostazione predefinita**, mentre il cliente è responsabile della **configurazione sicura e conforme** delle proprie risorse.
 
 Il modello si basa su tre pilastri fondamentali:
@@ -42,35 +42,35 @@ In AWS, questo si traduce nella scrittura di **policy IAM granulari**, nell’ut
 
 ### 👤 Identity & Access Management (IAM)
 
-- **[AWS IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)**: gestione di utenti, ruoli, policy di accesso
-- **[AWS SCP](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**: definizione di limiti ai permessi IAM a livello di account
-- **[IAM Access Analyzer](09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Access-Analyzer.md)**: identifica accessi non intenzionali alle risorse
-- **[IAM Policy Simulator](09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Policy-Simulator.md)**: testa le nuove policies IAM prima di concederle.
-- **[AWS Cognito](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md)**: gestione identità utente per app web/mobile
-- **AWS SSO ([IAM Identity Center](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM-Identity-Center.md))**: gestione centralizzata identità e accessi
-- **[AWS Systems Manager Session Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Session-Manager.md)**: gestione delle sessioni di accesso alle risorse
+- **[AWS IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)**: gestione di utenti, ruoli, policy di accesso
+- **[AWS SCP](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**: definizione di limiti ai permessi IAM a livello di account
+- **[IAM Access Analyzer](/09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Access-Analyzer.md)**: identifica accessi non intenzionali alle risorse
+- **[IAM Policy Simulator](/09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Policy-Simulator.md)**: testa le nuove policies IAM prima di concederle.
+- **[AWS Cognito](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md)**: gestione identità utente per app web/mobile
+- **AWS SSO ([IAM Identity Center](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM-Identity-Center.md))**: gestione centralizzata identità e accessi
+- **[AWS Systems Manager Session Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Session-Manager.md)**: gestione delle sessioni di accesso alle risorse
 
 ### 🔐 Protezione dei dati
 
 La protezione dei dati si basa sulla crittografia dei dati salvati nelle risorse e l'utilizzo di protocolli sicuri come HTTPS (Che usa TLS - Transport Layer Security) per i dati in transito.
 I servizi utili a questi propositi sono:
-- **[AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) (Key Management Service)**: gestione delle chiavi di cifratura
-- **[AWS Systems Manager Parameter Store](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Parameter-Store.md)**: conserva parametri come username e password e gestisce l'accesso delle risorse a questi parametri.
-- **[AWS Secrets Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md)**: gestione sicura e avanzata di credenziali e segreti
-- **[AWS Certificate Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Certificate-Manager.md)**: gestione di certificati SSL/TLS (Recupero, deploy, rinnovo)
-- **[Amazon Macie](09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Macie.md)**: rileva e protegge dati sensibili (es. PII) su S3
+- **[AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) (Key Management Service)**: gestione delle chiavi di cifratura
+- **[AWS Systems Manager Parameter Store](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Parameter-Store.md)**: conserva parametri come username e password e gestisce l'accesso delle risorse a questi parametri.
+- **[AWS Secrets Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md)**: gestione sicura e avanzata di credenziali e segreti
+- **[AWS Certificate Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Certificate-Manager.md)**: gestione di certificati SSL/TLS (Recupero, deploy, rinnovo)
+- **[Amazon Macie](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Macie.md)**: rileva e protegge dati sensibili (es. PII) su S3
 
 ### Protezione delle reti
-- **[AWS Network Firewall](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Network-Firewall.md)**: Permette di definire regole complesse sul traffico rete da e verso una [VPC](03-CDN-e-Networking/Amazon-VPC.md).
-- **[AWS WAF](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md)**: firewall per proteggere applicazioni web
-- **[AWS Shield](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md)**: protezione da attacchi DDoS
-- **[AWS Firewall Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Firewall-Manager.md)**: per gestire in modo centralizzato da un unico servizio la sicurezza del network
+- **[AWS Network Firewall](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Network-Firewall.md)**: Permette di definire regole complesse sul traffico rete da e verso una [VPC](/03-CDN-e-Networking/Amazon-VPC.md).
+- **[AWS WAF](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md)**: firewall per proteggere applicazioni web
+- **[AWS Shield](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md)**: protezione da attacchi DDoS
+- **[AWS Firewall Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Firewall-Manager.md)**: per gestire in modo centralizzato da un unico servizio la sicurezza del network
 ### 🧠 Rilevamento minacce e risposta
 
-- **[AWS Security Hub](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Security-Hub.md)**: aggregazione e punteggio degli eventi di sicurezza
-- **[Amazon GuardDuty](09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-GuardDuty.md)**: rilevamento minacce e comportamenti anomali
-- **[Amazon Inspector](09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Inspector.md)**: scansione vulnerabilità EC2, Lambda, ECR
-- **[Amazon Detective](09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Detective.md)**: investiga gli eventi di sicurezza isolando gli eventi utili e cercando le cause
+- **[AWS Security Hub](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Security-Hub.md)**: aggregazione e punteggio degli eventi di sicurezza
+- **[Amazon GuardDuty](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-GuardDuty.md)**: rilevamento minacce e comportamenti anomali
+- **[Amazon Inspector](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Inspector.md)**: scansione vulnerabilità EC2, Lambda, ECR
+- **[Amazon Detective](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Detective.md)**: investiga gli eventi di sicurezza isolando gli eventi utili e cercando le cause
 
 ![Comparison of some security services](security-comparison.png)
 
@@ -88,27 +88,27 @@ Per gestire più account in modo centralizzato, si può utilizzare [AWS Organiza
 ## 📋 Servizi per la Compliance
 
 - **[AWS Artifact](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Artifact.md)**: accesso a report di conformità, certificazioni e documentazione legale, per uso interno e per provare esternamente la compliance
-- **[AWS Audit Manager](08-Auditing-Monitoring-Logging/AWS-Audit-Manager.md)**: raccolta automatica delle evidenze per audit (SOC 2, GDPR, ISO)
-- **[AWS Config](08-Auditing-Monitoring-Logging/AWS-Config.md)**: valutazione continua della conformità delle risorse alle regole definite e continua registrazione dei cambiamenti alle configurazioni delle risorse.
-- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md) + [SCPs](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**: applicazione di policy di sicurezza a livello multi-account
+- **[AWS Audit Manager](/08-Auditing-Monitoring-Logging/AWS-Audit-Manager.md)**: raccolta automatica delle evidenze per audit (SOC 2, GDPR, ISO)
+- **[AWS Config](/08-Auditing-Monitoring-Logging/AWS-Config.md)**: valutazione continua della conformità delle risorse alle regole definite e continua registrazione dei cambiamenti alle configurazioni delle risorse.
+- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md) + [SCPs](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**: applicazione di policy di sicurezza a livello multi-account
 - **[AWS Control Tower](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Control-Tower.md)**: creazione di landing zone sicure e conformi
-- **[AWS Well-Architected Tool](08-Auditing-Monitoring-Logging/AWS-Well-Architected-Tool.md)**: valutazione di workload rispetto alle best practice (incluse sicurezza e governance)
+- **[AWS Well-Architected Tool](/08-Auditing-Monitoring-Logging/AWS-Well-Architected-Tool.md)**: valutazione di workload rispetto alle best practice (incluse sicurezza e governance)
 
 **NB:** AWS si assicura che gli standard di compliance (ne supporta più di 140) siano soddisfatti solo nella sua parte dello [Shared Responsibility Model][Shared-Responsibility-Model.md]
 
-**NB:** Non tutti i servizi AWS soddisfano tutti gli standard (e.g., per lo standard FIPS 40-2 level 3, [KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) non va bene e deve essere sostituito da [AWS CloudHSM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-CloudHSM.md))
+**NB:** Non tutti i servizi AWS soddisfano tutti gli standard (e.g., per lo standard FIPS 40-2 level 3, [KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) non va bene e deve essere sostituito da [AWS CloudHSM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-CloudHSM.md))
 
 ---
 
 ## 📊 Servizi di Governance
 
 
-- **[AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**: tracciamento di tutte le chiamate API e attività su AWS
-- **[AWS Config](08-Auditing-Monitoring-Logging/AWS-Config.md)**: storico delle configurazioni delle risorse (già citato in compliance)
+- **[AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**: tracciamento di tutte le chiamate API e attività su AWS
+- **[AWS Config](/08-Auditing-Monitoring-Logging/AWS-Config.md)**: storico delle configurazioni delle risorse (già citato in compliance)
 - **AWS Service Catalog**: controllo su quali risorse possono essere create dagli utenti
-- **[AWS Budgets](10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md) e [Cost Explorer](10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)**: controllo dei costi per evitare sprechi non autorizzati
-- **[AWS License Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-License-Manager.md)**: gestione e tracciamento delle licenze software
-- **[AWS Resource Access Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-RAM.md) (RAM)**: condivisione sicura di risorse tra account
+- **[AWS Budgets](/10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md) e [Cost Explorer](/10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)**: controllo dei costi per evitare sprechi non autorizzati
+- **[AWS License Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-License-Manager.md)**: gestione e tracciamento delle licenze software
+- **[AWS Resource Access Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-RAM.md) (RAM)**: condivisione sicura di risorse tra account
 
 ---
 

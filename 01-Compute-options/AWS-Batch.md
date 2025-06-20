@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 ## AWS Batch
 
 **AWS Batch** è un servizio completamente gestito che consente di eseguire **lavori batch** su scala nel cloud AWS. 
@@ -48,9 +48,9 @@ Quando si utilizzano **Spot Instances** in AWS Batch per ridurre i costi, è imp
 
 |Servizio AWS|Differenze principali|
 |---|---|
-|[AWS Lambda](01-Compute-options/AWS-Lambda.md)|Per job brevi ed eventi real-time. Timeout massimo di 15 minuti.|
-|[Amazon ECS](01-Compute-options/Amazon-ECS.md) / [EKS](01-Compute-options/Amazon-EKS.md)|Richiedono gestione più manuale di cluster container.|
-|[Step Functions](05-Development-Messaging-Deploying/AWS-Step-Functions.md)|Orchestrazione di workflow. Può gestire job Batch ma non li esegue.|
+|[AWS Lambda](/01-Compute-options/AWS-Lambda.md)|Per job brevi ed eventi real-time. Timeout massimo di 15 minuti.|
+|[Amazon ECS](/01-Compute-options/Amazon-ECS.md) / [EKS](/01-Compute-options/Amazon-EKS.md)|Richiedono gestione più manuale di cluster container.|
+|[Step Functions](/05-Development-Messaging-Deploying/AWS-Step-Functions.md)|Orchestrazione di workflow. Può gestire job Batch ma non li esegue.|
 
 ---
 

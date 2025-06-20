@@ -49,7 +49,7 @@ Tuttavia:
 |----------|------------|
 | **IAM standard** | IAM gestisce utenti e ruoli all’interno di un singolo account; IAM Identity Center fornisce SSO e gestione utenti centralizzata su più account. |
 | **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)** | Organizations organizza e collega più account AWS; IAM Identity Center gestisce chi accede e con quali permessi. |
-| **[Cognito](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md)** | Cognito gestisce identità per applicazioni web/mobile (B2C); IAM Identity Center è per l’accesso a risorse aziendali (B2E). |
+| **[Cognito](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md)** | Cognito gestisce identità per applicazioni web/mobile (B2C); IAM Identity Center è per l’accesso a risorse aziendali (B2E). |
 | **AWS Directory Service** | È una directory gestita (AD o Simple AD); IAM Identity Center può integrarsi con essa per autenticazione e provisioning. |
 
 ---

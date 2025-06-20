@@ -1,10 +1,10 @@
---> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 # 🧱 Amazon ECS (Elastic Container Service)
 
 ![ecs](ecs.png)
 ## 📘 Cos'è e come funziona
 
-**Amazon ECS** è un servizio completamente gestito che consente di **eseguire e orchestrare container Docker** su scala nel cloud AWS. Supporta due modalità operative: su istanze **[Amazon EC2](01-Compute-options/Amazon-EC2.md)**, gestite dall’utente, oppure in modalità **serverless tramite [AWS Fargate](01-Compute-options/AWS-Fargate.md)**, dove è AWS a gestire le risorse sottostanti. ECS semplifica il deployment, la gestione e il monitoraggio dei container, offrendo una profonda integrazione con l’ecosistema AWS.
+**Amazon ECS** è un servizio completamente gestito che consente di **eseguire e orchestrare container Docker** su scala nel cloud AWS. Supporta due modalità operative: su istanze **[Amazon EC2](/01-Compute-options/Amazon-EC2.md)**, gestite dall’utente, oppure in modalità **serverless tramite [AWS Fargate](/01-Compute-options/AWS-Fargate.md)**, dove è AWS a gestire le risorse sottostanti. ECS semplifica il deployment, la gestione e il monitoraggio dei container, offrendo una profonda integrazione con l’ecosistema AWS.
 
 ![Ecs funz](ecs-functioning.png)
 
@@ -45,7 +45,7 @@
 
 Il costo di ECS dipende dalla modalità di esecuzione:
 
-- **ECS on EC2**: non ha costi aggiuntivi per il servizio ECS stesso, si pagano solo le **istanze EC2** e le risorse utilizzate ([EBS](02-Storage-services/Amazon-EBS.md), bandwidth, ecc.)
+- **ECS on EC2**: non ha costi aggiuntivi per il servizio ECS stesso, si pagano solo le **istanze EC2** e le risorse utilizzate ([EBS](/02-Storage-services/Amazon-EBS.md), bandwidth, ecc.)
 - **ECS on Fargate**: si paga solo per **vCPU e RAM allocati per ogni task**, con fatturazione al secondo
 - **Servizi integrati**: altri costi possono derivare da ALB/NLB, CloudWatch, log storage, ecc.
 
@@ -63,7 +63,7 @@ Il costo di ECS dipende dalla modalità di esecuzione:
 
 ## 🔁 Confronti e link utili
 
-👉 Qui confronto tra [EC2vsECSvsEKS](01-Compute-options/EC2vsECSvsEKS.md)
+👉 Qui confronto tra [EC2vsECSvsEKS](/01-Compute-options/EC2vsECSvsEKS.md)
 
 ---
 

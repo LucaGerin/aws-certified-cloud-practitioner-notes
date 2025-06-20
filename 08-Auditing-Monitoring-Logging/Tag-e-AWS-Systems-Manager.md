@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](/08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
 # 🧩 Gestire molte risorse in AWS: Tag e AWS Systems Manager
 
 ## 📘 Introduzione
@@ -14,7 +14,7 @@ In ambienti AWS complessi con decine, centinaia o migliaia di risorse distribuit
 
 ### 🔖 Cos'è un tag?
 
-Un **tag** è una coppia chiave-valore (`Key=Value`) che puoi assegnare a quasi tutte le risorse AWS: istanze EC2, bucket S3, volumi [EBS](02-Storage-services/Amazon-EBS.md), funzioni Lambda, ruoli [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), ecc.
+Un **tag** è una coppia chiave-valore (`Key=Value`) che puoi assegnare a quasi tutte le risorse AWS: istanze EC2, bucket S3, volumi [EBS](/02-Storage-services/Amazon-EBS.md), funzioni Lambda, ruoli [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), ecc.
 
 Esempi:
 - `Environment=Production`
@@ -26,7 +26,7 @@ Le tag aiutano a ordinare e visualizzare in modo ordinato le risorse AWS.
 ### 🎯 Perché usare i tag
 
 - 💰 **Ottimizzazione dei costi**: analizzare i costi per progetto, team, ambiente.
-- 🔐 **Controllo accessi**: [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) consente policy basate su tag.
+- 🔐 **Controllo accessi**: [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) consente policy basate su tag.
 - 📊 **Raggruppamento logico**: semplifica il filtraggio e la visualizzazione in console.
 - 🛠️ **Automazione**: tag possono essere usati come trigger in script, Lambda, Systems Manager.
 - 📄 **Compliance e audit**: garantiscono che tutte le risorse siano identificate e tracciabili.
@@ -66,13 +66,13 @@ System Manager permette di tracciare i gruppi di risorse e eseguire azioni autom
 - 📈 **Monitoraggio e tracciabilità delle operazioni**
 
 Systems Manager ha diversi componenti, tra cui:
-- [AWS Systems Manager Parameter Store](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Parameter-Store.md)
-- [AWS Systems Manager Session Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Session-Manager.md)
+- [AWS Systems Manager Parameter Store](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Parameter-Store.md)
+- [AWS Systems Manager Session Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Systems-Manager-Session-Manager.md)
 
 ---
 
 ## 📌 Conclusioni
 
-Gestire molte risorse [AWS](00-Intro/AWS.md) richiede strumenti intelligenti e ben configurati. L’uso dei **tag** permette di **organizzare e controllare** le risorse in modo flessibile, mentre **AWS Systems Manager** offre una piattaforma completa per **monitorare, automatizzare e mantenere** l’intero ecosistema operativo.
+Gestire molte risorse [AWS](/00-Intro/AWS.md) richiede strumenti intelligenti e ben configurati. L’uso dei **tag** permette di **organizzare e controllare** le risorse in modo flessibile, mentre **AWS Systems Manager** offre una piattaforma completa per **monitorare, automatizzare e mantenere** l’intero ecosistema operativo.
 
 > “Più cresci, più è importante gestire in modo smart: tagging e Systems Manager sono la chiave per dominare la complessità.”

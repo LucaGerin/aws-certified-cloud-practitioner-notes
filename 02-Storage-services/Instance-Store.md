@@ -1,7 +1,7 @@
---> [AWS](00-Intro/AWS.md)  -  [Storage Services](02-Storage-services/AWS-Storage-Services.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Storage Services](/02-Storage-services/AWS-Storage-Services.md)
 # EC2 Instance Store
 
-L'**Instance Store** di [Amazon EC2](01-Compute-options/Amazon-EC2.md) fornisce uno **storage temporaneo** basato su dischi fisici locali collegati al server host. È pensato per dati **transitori e ad alta velocità**, ma **non è persistente**: i dati vengono persi quando l'istanza viene arrestata o terminata.
+L'**Instance Store** di [Amazon EC2](/01-Compute-options/Amazon-EC2.md) fornisce uno **storage temporaneo** basato su dischi fisici locali collegati al server host. È pensato per dati **transitori e ad alta velocità**, ma **non è persistente**: i dati vengono persi quando l'istanza viene arrestata o terminata.
 
 ---
 
@@ -48,21 +48,21 @@ L'**Instance Store** di [Amazon EC2](01-Compute-options/Amazon-EC2.md) fornisce 
 ## 🔐 Sicurezza
 
 - **I dati non persistono**: attenzione a non archiviare informazioni critiche senza backup.
-- Accessi e permessi vanno comunque gestiti tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md).
-- Nessun supporto nativo alla crittografia come [Amazon EBS](02-Storage-services/Amazon-EBS.md), ma è possibile usare filesystem cifrati.
+- Accessi e permessi vanno comunque gestiti tramite [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md).
+- Nessun supporto nativo alla crittografia come [Amazon EBS](/02-Storage-services/Amazon-EBS.md), ma è possibile usare filesystem cifrati.
 
 ---
 
 ## 🔄 Confronto con servizi simili in AWS
 
-| Caratteristica                  | Instance Store                    | [Amazon EBS](02-Storage-services/Amazon-EBS.md)                         |
+| Caratteristica                  | Instance Store                    | [Amazon EBS](/02-Storage-services/Amazon-EBS.md)                         |
 |----------------------------------|------------------------------------|-----------------------------------------------------|
 | **Persistenza**                | ❌ No                               | ✅ Sì                                                |
 | **Performance I/O**           | 🔼 Estremamente elevata             | 🔼 Elevata (dipende dal tipo di volume)             |
 | **Montabile su più istanze**  | ❌ No                               | ❌ No                                                |
 | **Disponibilità**             | Solo su istanze specifiche         | Su qualsiasi istanza EC2                           |
-| **Snapshot/backup**           | ❌ Manuale                          | ✅ Manuale o Integrato con [AWS Backup](02-Storage-services/AWS-Backup.md)        |
-| **Crittografia integrata**    | ❌ No                               | ✅ Sì (tramite [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md))               |
+| **Snapshot/backup**           | ❌ Manuale                          | ✅ Manuale o Integrato con [AWS Backup](/02-Storage-services/AWS-Backup.md)        |
+| **Crittografia integrata**    | ❌ No                               | ✅ Sì (tramite [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md))               |
 
 ---
 

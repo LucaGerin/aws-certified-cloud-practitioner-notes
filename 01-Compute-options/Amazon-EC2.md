@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 # 🖥️ Amazon EC2 (Elastic Compute Cloud)
 
 ## 📘 Cos'è e come funziona
@@ -7,9 +7,9 @@
 
 ![Ec2](ec2.png)
 
-Ci sono diverse tipologie di [storage da utilizzare insieme a EC2](02-Storage-services/EC2-Storage.md).
+Ci sono diverse tipologie di [storage da utilizzare insieme a EC2](/02-Storage-services/EC2-Storage.md).
 
-Ogni istanza EC2 è associata a una o più **Elastic Network Interface (ENI)**, ovvero schede di rete virtuali che permettono la comunicazione all'interno della [VPC](03-CDN-e-Networking/Amazon-VPC.md).
+Ogni istanza EC2 è associata a una o più **Elastic Network Interface (ENI)**, ovvero schede di rete virtuali che permettono la comunicazione all'interno della [VPC](/03-CDN-e-Networking/Amazon-VPC.md).
 Un ENI contiene indirizzi IP (privati e opzionali pubblici), security group e una MAC address. 
 Gli ENI possono essere usati per configurazioni avanzate di rete, come assegnare IP multipli, implementare failover o separare traffico applicativo su più interfacce.
 A ogni istanza EC2 è assegnata una ENI primaria alla creazione, che non può essere modificata o mossa, mentre altre ENI secondarie possono essere staccate da un'istanza e essere attaccate a un'altra nella stessa subnet.
@@ -24,9 +24,9 @@ Un'**Amazon Machine Image (AMI)** contiene tutte le informazioni necessarie per 
 - 📈 **Scalabilità**: possibilità di aumentare o ridurre rapidamente il numero di istanze in base al carico di lavoro
 - 🔧 **Ampia gamma di istanze**: ottimizzate per calcolo, memoria, GPU, storage, burst e carichi misti
 - 🔄 **Auto Scaling**: ridimensionamento automatico delle risorse in base alla domanda
-- ⚖️ **Elastic Load Balancing ([ELB](03-CDN-e-Networking/Amazon-ELB.md))**: distribuisce automaticamente il traffico in entrata tra istanze EC2
+- ⚖️ **Elastic Load Balancing ([ELB](/03-CDN-e-Networking/Amazon-ELB.md))**: distribuisce automaticamente il traffico in entrata tra istanze EC2
 - 📦 **AMI (Amazon Machine Images)**: immagini preconfigurate per lanciare rapidamente istanze con configurazioni note
-- 🔐 **Sicurezza**: uso integrato di [VPC](03-CDN-e-Networking/Amazon-VPC.md), gruppi di sicurezza, ruoli [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e chiavi SSH per la protezione dell’accesso e del traffico
+- 🔐 **Sicurezza**: uso integrato di [VPC](/03-CDN-e-Networking/Amazon-VPC.md), gruppi di sicurezza, ruoli [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e chiavi SSH per la protezione dell’accesso e del traffico
 
 ![Autoscaling](EC2-autoscaling.png)
 
@@ -116,7 +116,7 @@ Amazon EC2 fornisce diversi strumenti per garantire sicurezza e isolamento:
 
 Per confrontare EC2 con altri servizi di container e orchestrazione AWS, vedi:
 
-👉 [EC2vsECSvsEKS](01-Compute-options/EC2vsECSvsEKS.md)
+👉 [EC2vsECSvsEKS](/01-Compute-options/EC2vsECSvsEKS.md)
 
 ---
 

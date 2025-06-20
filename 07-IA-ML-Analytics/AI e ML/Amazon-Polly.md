@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 🗣️ Amazon Polly
 
 ## 🔊 Cos’è e come funziona
@@ -23,7 +23,7 @@ Può essere utilizzato per generare audio dinamico da applicazioni web, mobili o
 
 - ✅ Facile da integrare via API REST o SDK
 - 🚀 Bassa latenza nella generazione audio
-- 🔐 Sicurezza nativa AWS (IAM, CloudTrail, [VPC](03-CDN-e-Networking/Amazon-VPC.md))
+- 🔐 Sicurezza nativa AWS (IAM, CloudTrail, [VPC](/03-CDN-e-Networking/Amazon-VPC.md))
 - 🌍 Ampio supporto linguistico per prodotti globali
 - 💬 Output vocale personalizzabile per brand identity
 
@@ -64,8 +64,8 @@ Il pricing di Amazon Polly dipende da:
 | **[Amazon-Lex](07-IA-ML-Analytics/AI e ML/Amazon-Lex.md)**         | Chatbot e NLP                            | Usa Polly per generare voce, ma gestisce i dialoghi      |
 | **[Amazon-Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)**  | Speech-to-text (trascrizione vocale)    | Fa il contrario di Polly                                 |
 | **[Amazon-Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)**      | Ricerca semantica su documenti           | Nessuna voce, si focalizza sulla ricerca testuale        |
-| **[Amazon-Connect](Others/Amazon-Connect.md)**     | Call center cloud                        | Si integra con Polly per messaggi vocali personalizzati  |
-| **[Amazon-Bedrock](Amazon-Bedrock.md)**     | Generazione testi e chatbot LLM          | Polly si integra per output vocale, non per generazione  |
+| **[Amazon-Connect](/Others/Amazon-Connect.md)**     | Call center cloud                        | Si integra con Polly per messaggi vocali personalizzati  |
+| **[Amazon-Bedrock](/Amazon-Bedrock.md)**     | Generazione testi e chatbot LLM          | Polly si integra per output vocale, non per generazione  |
 
 ---
 

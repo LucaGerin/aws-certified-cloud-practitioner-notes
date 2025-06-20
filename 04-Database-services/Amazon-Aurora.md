@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Database Services](04-Database-services/AWS-Databases.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Database Services](/04-Database-services/AWS-Databases.md)
 
 # 🌟 Amazon Aurora
 
@@ -6,9 +6,9 @@
 
 ## 📘 Cos'è e come funziona
 
-**Amazon Aurora** è un database relazionale compatibile con **MySQL** e **PostgreSQL**, progettato da [AWS](00-Intro/AWS.md) per offrire **prestazioni superiori**, **alta disponibilità** e scalabilità automatica, mantenendo la semplicità d'uso dei motori open-source. 
+**Amazon Aurora** è un database relazionale compatibile con **MySQL** e **PostgreSQL**, progettato da [AWS](/00-Intro/AWS.md) per offrire **prestazioni superiori**, **alta disponibilità** e scalabilità automatica, mantenendo la semplicità d'uso dei motori open-source. 
 
-È un servizio **completamente gestito**, che rientra nella famiglia [Amazon-RDS](04-Database-services/Amazon-RDS.md), ma con architettura, **prestazioni** e **availability** significativamente migliorate, adatto specificatamente a applicazioni di larga scala e critiche (come l'e-commerce)
+È un servizio **completamente gestito**, che rientra nella famiglia [Amazon-RDS](/04-Database-services/Amazon-RDS.md), ma con architettura, **prestazioni** e **availability** significativamente migliorate, adatto specificatamente a applicazioni di larga scala e critiche (come l'e-commerce)
 
 Aurora è costruito su uno **storage distribuito e auto-riparante**, con replica automatica su più (3 di default) Availability Zone (Multi-AZ) e supporto per il failover in pochi secondi.
 
@@ -22,7 +22,7 @@ Aurora è costruito su uno **storage distribuito e auto-riparante**, con replica
 - 🛡️ **Alta disponibilità**: supporto automatico Multi-AZ, backup continui e failover automatico
 - 📖 **Replica Aurora**: letture scalabili con fino a 15 repliche ad alte prestazioni
 - 🧠 **Machine Learning integrato**: integrazione con Amazon SageMaker e Comprehend
-- 🔐 **Sicurezza**: crittografia con [AWS-KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [AWS-IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [Amazon-VPC](03-CDN-e-Networking/Amazon-VPC.md), auditing e TLS
+- 🔐 **Sicurezza**: crittografia con [AWS-KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [AWS-IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [Amazon-VPC](/03-CDN-e-Networking/Amazon-VPC.md), auditing e TLS
 
 ---
 
@@ -53,9 +53,9 @@ Aurora si basa su un modello **pay-as-you-go** per:
 | Servizio               | Gestito | Compatibilità      | Prestazioni | Auto-scaling | Use case principale                  |
 |------------------------|---------|---------------------|-------------|--------------|--------------------------------------|
 | **Amazon Aurora**      | ✅      | MySQL, PostgreSQL   | 🔥 Alta     | ✅            | App scalabili e critiche             |
-| [Amazon-RDS](04-Database-services/Amazon-RDS.md)        | ✅      | MySQL, PostgreSQL, Oracle, SQL Server, MariaDB | 🔹 Standard | ❌ (parziale) | App tradizionali e migrazioni        |
-| [Amazon-DynamoDB](04-Database-services/Amazon-DynamoDB.md)    | ✅      | NoSQL               | ⚡ Estreme   | ✅            | App serverless, real-time, IoT       |
-| [Amazon-Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)    | ✅      | SQL (analitico)     | 🔸 Ottime    | ✅            | DWH, BI, big data                    |
+| [Amazon-RDS](/04-Database-services/Amazon-RDS.md)        | ✅      | MySQL, PostgreSQL, Oracle, SQL Server, MariaDB | 🔹 Standard | ❌ (parziale) | App tradizionali e migrazioni        |
+| [Amazon-DynamoDB](/04-Database-services/Amazon-DynamoDB.md)    | ✅      | NoSQL               | ⚡ Estreme   | ✅            | App serverless, real-time, IoT       |
+| [Amazon-Redshift](/07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)    | ✅      | SQL (analitico)     | 🔸 Ottime    | ✅            | DWH, BI, big data                    |
 
 **Aurora** è ideale quando servono le funzionalità relazionali SQL **con prestazioni elevate, replica rapida e alta disponibilità**, senza i limiti delle soluzioni open-source standard.
 
@@ -63,6 +63,6 @@ Aurora si basa su un modello **pay-as-you-go** per:
 
 ## 📌 Conclusione
 
-**Amazon Aurora** unisce il meglio del mondo open-source con l’affidabilità e la scalabilità dell’infrastruttura [AWS](00-Intro/AWS.md). È una scelta perfetta per applicazioni **mission-critical** che richiedono **alte prestazioni, resilienza e scalabilità automatica**, con la semplicità d’uso di MySQL o PostgreSQL.
+**Amazon Aurora** unisce il meglio del mondo open-source con l’affidabilità e la scalabilità dell’infrastruttura [AWS](/00-Intro/AWS.md). È una scelta perfetta per applicazioni **mission-critical** che richiedono **alte prestazioni, resilienza e scalabilità automatica**, con la semplicità d’uso di MySQL o PostgreSQL.
 
 > “Aurora è come MySQL, ma progettato per il cloud: più veloce, più sicuro, più affidabile.”

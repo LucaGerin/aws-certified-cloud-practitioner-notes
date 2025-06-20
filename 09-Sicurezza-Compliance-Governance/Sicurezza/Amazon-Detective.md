@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Sicurezza](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🕵️‍♂️ Amazon Detective
 
 ## 📘 Cos'è e come funziona
@@ -48,7 +48,7 @@ Con Amazon Detective, è possibile **esplorare graficamente la cronologia degli 
 
 Amazon Detective ha un **modello di pricing basato sul volume dei dati elaborati**:
 
-- Costo per GB di dati ingeriti e analizzati (da CloudTrail, [[VPC](03-CDN-e-Networking/Amazon-VPC.md)](Amazon-VPC.md) Flow Logs, GuardDuty)
+- Costo per GB di dati ingeriti e analizzati (da CloudTrail, [[VPC](/03-CDN-e-Networking/Amazon-VPC.md)](Amazon-VPC.md) Flow Logs, GuardDuty)
 - Nessun costo iniziale o minimo mensile
 
 ---

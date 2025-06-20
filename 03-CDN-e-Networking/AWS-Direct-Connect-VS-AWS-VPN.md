@@ -1,9 +1,9 @@
---> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
+--> [AWS](/00-Intro/AWS.md)  -  [CDN e Networking](/03-CDN-e-Networking/Rete-globale-AWS.md)
 # Confronto tra AWS Direct Connect e AWS VPN
 
 ## Introduzione
 
-AWS offre due soluzioni principali per connettere la propria rete on-premise con il cloud: **[Amazon Direct-Connect](03-CDN-e-Networking/AWS-Direct-Connect.md)** e **[Amazon VPN](03-CDN-e-Networking/AWS-VPN.md)**. La scelta tra le due dipende da fattori come larghezza di banda, latenza, costi, e casi d'uso specifici.
+AWS offre due soluzioni principali per connettere la propria rete on-premise con il cloud: **[Amazon Direct-Connect](/03-CDN-e-Networking/AWS-Direct-Connect.md)** e **[Amazon VPN](/03-CDN-e-Networking/AWS-VPN.md)**. La scelta tra le due dipende da fattori come larghezza di banda, latenza, costi, e casi d'uso specifici.
 
 Questo documento confronta le due opzioni in modo chiaro attraverso una tabella comparativa.
 

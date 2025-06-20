@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Data Analytics](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # Amazon Redshift e Redshift Serverless
 
 **Amazon Redshift** è il servizio di **data warehouse in cloud** offerto da AWS, progettato per l’**analisi di grandi volumi di dati** tramite SQL ad alte prestazioni. Redshift permette di eseguire query complesse su petabyte di dati in modo rapido, affidabile e integrato con l’ecosistema AWS.
@@ -16,7 +16,7 @@ Amazon Redshift è un database columnar ottimizzato per carichi analitici (OLAP)
 - Gestione dei dati automatizzata: backup, replica, scaling avengono in automatico e senza downtime.
 - Progettato per OLAP, analytics e reporting.
 - Caricamento dati da S3, DynamoDB, RDS, Kinesis, ecc.
-- Integrazione con BI tools ([QuickSight](07-IA-ML-Analytics/Analytics/Amazon-QuickSight.md), Tableau, Power BI)
+- Integrazione con BI tools ([QuickSight](/07-IA-ML-Analytics/Analytics/Amazon-QuickSight.md), Tableau, Power BI)
 - Compressione automatica e parallelismo massiccio (MPP)
 - **Data lake integration** con Redshift Spectrum (query dirette su dati in S3)
 
@@ -53,7 +53,7 @@ Amazon Redshift è un database columnar ottimizzato per carichi analitici (OLAP)
 - **Workload Management (WLM)** per bilanciare risorse
 - **Federated Query** per interrogare altri database (RDS, Aurora)
 - **Machine Learning integrato**: creazione di modelli ML direttamente da SQL
-- **Sicurezza avanzata**: [VPC](03-CDN-e-Networking/Amazon-VPC.md), KMS, [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), Redshift Spectrum + Lake Formation
+- **Sicurezza avanzata**: [VPC](/03-CDN-e-Networking/Amazon-VPC.md), KMS, [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), Redshift Spectrum + Lake Formation
 
 ---
 
@@ -69,8 +69,8 @@ Amazon Redshift è un database columnar ottimizzato per carichi analitici (OLAP)
 
 ## 🔐 Sicurezza e compliance
 
-- Supporto per **[VPC](03-CDN-e-Networking/Amazon-VPC.md), [KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), SSO**
-- **Audit logging** con [CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
+- Supporto per **[VPC](/03-CDN-e-Networking/Amazon-VPC.md), [KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), SSO**
+- **Audit logging** con [CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
 - **Crittografia a riposo e in transito**
 - Compatibile con GDPR, HIPAA, PCI-DSS
 

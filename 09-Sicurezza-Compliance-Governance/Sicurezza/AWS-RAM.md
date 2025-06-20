@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Sicurezza](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 
 # 🔗 AWS Resource Access Manager (RAM)
 
@@ -31,9 +31,9 @@ RAM supporta la condivisione di diverse risorse, tra cui:
 ## Sicurezza
 
 AWS RAM si integra con:
-- **[IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) (Identity and Access Management)** per autorizzare le azioni legate alla condivisione.
+- **[IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) (Identity and Access Management)** per autorizzare le azioni legate alla condivisione.
 - **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)** per limitare la condivisione a specifici account o unità organizzative (OU).
-- **Audit e logging tramite [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**, che permette di tracciare tutte le operazioni effettuate tramite RAM.
+- **Audit e logging tramite [AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**, che permette di tracciare tutte le operazioni effettuate tramite RAM.
 
 Le risorse condivise non implicano una perdita di controllo: i proprietari delle risorse restano responsabili e possono revocare la condivisione in qualsiasi momento.
 

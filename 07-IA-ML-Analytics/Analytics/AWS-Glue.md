@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Data Analytics](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # AWS Glue
 
 **AWS Glue** è un servizio serverless di **data preparation** e **integration** completamente gestito, progettato per **preparare, arricchire, trasformare e spostare dati tra sistemi eterogenei**. È pensato per automatizzare i processi ETL (Extract, Transform, Load) e semplificare la creazione di **data lake, data warehouse e pipeline analitiche**.
@@ -17,7 +17,7 @@ Lo scopo di AWS Glue è quello di preparare i dati per le Analytics e il Machine
 - **Job automatici** in Python o Scala (Spark-based)  
 - **Glue Studio**: interfaccia visiva per creare e monitorare job ETL  
 - **Crawler automatici**: riconoscono schema e tipi dati nelle fonti dati, classificandoli e creando metadata in un data catalog.  
-- **Crea un Glue Data Catalog**: metadati centralizzati per i dati su [S3](02-Storage-services/Amazon-S3.md), [RDS](04-Database-services/Amazon-RDS.md), [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), ecc.  
+- **Crea un Glue Data Catalog**: metadati centralizzati per i dati su [S3](/02-Storage-services/Amazon-S3.md), [RDS](/04-Database-services/Amazon-RDS.md), [Redshift](/07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), ecc.  
 - **Supporto per partizioni e formati**: Parquet, JSON, CSV, ORC, Avro  
 - **Trigger e orchestrazione** di job ETL  
 - **Glue DataBrew**: interfaccia no-code per la preparazione dati  
@@ -33,7 +33,7 @@ Lo scopo di AWS Glue è quello di preparare i dati per le Analytics e il Machine
 - Legge i dati nativamente da S3, DynamoDB, Redshift, RDS, Kinesis e li scrive in RDS, Athena, S3, Redshift.  
 - Riduzione del **tempo di sviluppo ETL** grazie a strumenti visuali e auto-generazione codice  
 - Possibilità di **integrare Python personalizzato (PySpark)**  
-- **Data Catalog riutilizzabile** da altri servizi ([Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md), [EMR](07-IA-ML-Analytics/Analytics/Amazon-EMR.md), Redshift Spectrum)  
+- **Data Catalog riutilizzabile** da altri servizi ([Athena](/07-IA-ML-Analytics/Analytics/Amazon-Athena.md), [EMR](/07-IA-ML-Analytics/Analytics/Amazon-EMR.md), Redshift Spectrum)  
 - Esegue opzionalmente anche pulizia dei dati e rimozione di duplicati  
 
 ![AWS-glue](AWS-glue.png)
@@ -66,8 +66,8 @@ Lo scopo di AWS Glue è quello di preparare i dati per le Analytics e il Machine
 |----------------------|-----------------------------------------------|--------------------------------------------------|
 | **AWS Glue**         | ETL serverless su larga scala                 | Spark gestito, orientato a data lake             |
 | **Data Pipeline**    | ETL semplice tra fonti RDS, S3                | Meno potente, non Spark                          |
-| **[Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md)**           | Query ad hoc su dati già pronti               | Non trasforma, solo interrogazione               |
-| **[EMR (Spark)](07-IA-ML-Analytics/Analytics/Amazon-EMR.md)**      | Analisi Big Data custom con Spark             | Più flessibile, ma da gestire manualmente        |
+| **[Athena](/07-IA-ML-Analytics/Analytics/Amazon-Athena.md)**           | Query ad hoc su dati già pronti               | Non trasforma, solo interrogazione               |
+| **[EMR (Spark)](/07-IA-ML-Analytics/Analytics/Amazon-EMR.md)**      | Analisi Big Data custom con Spark             | Più flessibile, ma da gestire manualmente        |
 | **DataBrew**         | Preparazione dati no-code                     | Più adatto a utenti business                     |
 
 ---
@@ -83,10 +83,10 @@ Lo scopo di AWS Glue è quello di preparare i dati per le Analytics e il Machine
 
 ## 🔐 Sicurezza
 
-- **[IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** per accesso a risorse e dati  
+- **[IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** per accesso a risorse e dati  
 - **Lake Formation** per controllo avanzato dei permessi  
-- **[KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)** per crittografia dei dati a riposo e in transito  
-- **[CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)** per audit delle attività  
+- **[KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)** per crittografia dei dati a riposo e in transito  
+- **[CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)** per audit delle attività  
 
 ---
 

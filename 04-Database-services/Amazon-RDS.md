@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Database Services](04-Database-services/AWS-Databases.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Database Services](/04-Database-services/AWS-Databases.md)
 # 🗄️ Amazon RDS (Relational Database Service)
 
 **Amazon RDS** è un servizio di **database relazionale completamente gestito** che semplifica la configurazione, l'esecuzione e la scalabilità di database SQL nel cloud.  
@@ -33,9 +33,9 @@ Gli utenti possono selezionare il motore desiderato, specificare le dimensioni d
 - 💾 **Backup automatici**: snapshot giornalieri, backup point-in-time e retention configurabile  
 - ♻️ **Alta disponibilità (Multi-AZ)**: replica sincrona e failover automatico tra zone di disponibilità  
 - 🔐 **Sicurezza integrata**:
-  - [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per il controllo degli accessi
-  - Integrazione con [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md) per l’isolamento di rete
-  - **Crittografia at-rest** con [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) e in-transit con SSL  
+  - [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per il controllo degli accessi
+  - Integrazione con [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md) per l’isolamento di rete
+  - **Crittografia at-rest** con [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) e in-transit con SSL  
 - 📈 **Scalabilità verticale**: modifiche dell'istanza anche a caldo  
 - 📊 **Monitoraggio continuo** con Amazon CloudWatch
 
@@ -81,12 +81,12 @@ Aurora ha un modello di pricing separato. Il backup automatico fino a 100% dello
 
 ## 🔒 Sicurezza
 
-- ✅ **Crittografia dei dati at-rest** tramite [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) (obbligatoria in fase di creazione)
+- ✅ **Crittografia dei dati at-rest** tramite [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) (obbligatoria in fase di creazione)
 - ✅ **Replica cifrata** per abilitare la cifratura su istanze esistenti
 - ✅ **Sicurezza di rete** tramite:
   - Security Groups
-  - [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per accesso via API
-  - [VPC](03-CDN-e-Networking/Amazon-VPC.md) per isolamento e routing
+  - [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per accesso via API
+  - [VPC](/03-CDN-e-Networking/Amazon-VPC.md) per isolamento e routing
 - ✅ **Audit logging** e tracciamento con AWS CloudTrail
 
 ---

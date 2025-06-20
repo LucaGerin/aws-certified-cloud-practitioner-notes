@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
+--> [AWS](/00-Intro/AWS.md)  -  [CDN e Networking](/03-CDN-e-Networking/Rete-globale-AWS.md)
 # Amazon VPC (Virtual Private Cloud)
 
 **Amazon VPC** è un servizio che consente di lanciare risorse AWS (come EC2, RDS, Lambda) all'interno di una **rete virtuale isolata**, configurabile in modo simile a una rete tradizionale on-premises.
@@ -121,9 +121,9 @@ All'interno di una VPC, il traffico tra istanze può essere **cifrato utilizzand
 
 ### 🧩 Altri strumenti di sicurezza integrabili
 
-- **[AWS Network Firewall](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Network-Firewall.md)**: firewall gestito a livello di VPC per filtrare traffico stateless e stateful, con regole avanzate su IP, dominio, applicazioni, ecc.
-- **[AWS WAF](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md)**: protezione a livello applicativo (Layer 7), utile per filtrare richieste HTTP verso ALB, API Gateway e CloudFront.
-- **[AWS Shield](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md)**: protezione contro attacchi DDoS.
+- **[AWS Network Firewall](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Network-Firewall.md)**: firewall gestito a livello di VPC per filtrare traffico stateless e stateful, con regole avanzate su IP, dominio, applicazioni, ecc.
+- **[AWS WAF](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md)**: protezione a livello applicativo (Layer 7), utile per filtrare richieste HTTP verso ALB, API Gateway e CloudFront.
+- **[AWS Shield](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md)**: protezione contro attacchi DDoS.
 - **AWS Route 53 Resolver DNS Firewall**: controllo sul traffico DNS in uscita per bloccare domini sospetti.
 - **PrivateLink / Endpoint Gateway**: per accedere ai servizi AWS o privati **senza uscire su Internet**, mantenendo il traffico nella rete AWS.
 
@@ -134,7 +134,7 @@ All'interno di una VPC, il traffico tra istanze può essere **cifrato utilizzand
 | Servizio                 | Descrizione                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
 | **Amazon VPC**           | Rete virtuale isolata e personalizzabile nel cloud.                         |
-| **[AWS Transit Gateway](03-CDN-e-Networking/AWS-Transit-Gateway.md)**  | Hub centralizzato per la connessione di più VPC e ambienti on-prem.         |
+| **[AWS Transit Gateway](/03-CDN-e-Networking/AWS-Transit-Gateway.md)**  | Hub centralizzato per la connessione di più VPC e ambienti on-prem.         |
 | **AWS VPC Lattice**      | Connettività e gestione del traffico tra servizi su VPC e account multipli. |
 | **AWS PrivateLink**      | Connessione privata ai servizi senza passare da Internet.                   |
 
@@ -154,7 +154,7 @@ La scelta del metodo dipende da fattori come la scalabilità, la sicurezza, la c
 ### 🔌 Elastic Network Interface (ENI)
 
 Un'**Elastic Network Interface (ENI)** è un componente virtuale di rete che rappresenta una **scheda di rete virtuale** all'interno di una Amazon VPC. 
-Ogni ENI può essere associata a un'istanza [EC2](01-Compute-options/Amazon-EC2.md) e include attributi come **indirizzo IP privato, IP pubblico (opzionale), MAC address, security group** e sottorete. 
+Ogni ENI può essere associata a un'istanza [EC2](/01-Compute-options/Amazon-EC2.md) e include attributi come **indirizzo IP privato, IP pubblico (opzionale), MAC address, security group** e sottorete. 
 
 Puoi collegare più ENI a un'istanza EC2 (in base al tipo), associando più IP, permettendo scenari avanzati come **failover, gestione multilivello del traffico o network appliances, migliorare la redundancy**. 
 Le ENI possono anche essere spostate tra istanze (tranne la ENI primaria di un'istanza), facilitando **alta disponibilità** e **ripristino rapido** in caso di guasti.

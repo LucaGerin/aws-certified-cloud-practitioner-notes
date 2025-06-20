@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 
 # AWS Outposts
 
@@ -24,7 +24,7 @@ Outposts si connette a una AWS Region per gestire provisioning, aggiornamenti, e
 
 - **Hardware AWS gestito:** Fornito, installato, monitorato e aggiornato da AWS
 - **Esperienza unificata:** Le applicazioni usano le stesse API e strumenti AWS, sia on-prem che nel cloud
-- **Supporto per servizi familiari:** [EC2](01-Compute-options/Amazon-EC2.md), [EBS](02-Storage-services/Amazon-EBS.md), ECS, EKS, RDS, EMR, S3 on Outposts
+- **Supporto per servizi familiari:** [EC2](/01-Compute-options/Amazon-EC2.md), [EBS](/02-Storage-services/Amazon-EBS.md), ECS, EKS, RDS, EMR, S3 on Outposts
 - **Connettività ibrida:** Comunicazione sicura e veloce tra ambienti locali e AWS Region
 - **Compliance e sovranità:** Ideale per aziende con requisiti normativi o di localizzazione dei dati
 - **Monitoring e gestione centralizzati:** Integrazione con CloudWatch, Config, Systems Manager

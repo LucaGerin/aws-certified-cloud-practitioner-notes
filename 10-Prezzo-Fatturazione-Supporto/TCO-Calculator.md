@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Prezzo, Fatturazione, Supporto](10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Prezzo, Fatturazione, Supporto](/10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
 # 📊 AWS TCO Calculator
 
 ## 📘 Cos'è e come funziona
@@ -49,7 +49,7 @@ Lo strumento permette di **modellare costi hardware, software, storage, personal
 | 💿 Software e licenze       | OS, database, backup, antivirus |
 | 🛠️ Manutenzione             | Riparazioni hardware, aggiornamenti software |
 | 🔌 Costi indiretti           | Energia, spazio fisico, raffreddamento |
-| ☁️ Costi equivalenti in AWS | EC2, [EBS](02-Storage-services/Amazon-EBS.md), S3, RDS, supporto, servizi gestiti |
+| ☁️ Costi equivalenti in AWS | EC2, [EBS](/02-Storage-services/Amazon-EBS.md), S3, RDS, supporto, servizi gestiti |
 
 ---
 

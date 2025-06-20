@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Storage Services](02-Storage-services/AWS-Storage-Services.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Storage Services](/02-Storage-services/AWS-Storage-Services.md)
 
 # Amazon FSx
 
@@ -31,7 +31,7 @@ FSx è progettato per lo storage attivo di file, quindi meno adatto per mantener
 ### 2. **Amazon FSx for Lustre**
 
 - File system ad alte prestazioni per workload **HPC (High Performance Computing)**
-- **Integrazione con [Amazon S3](02-Storage-services/Amazon-S3.md):** i dati possono essere caricati direttamente da bucket S3
+- **Integrazione con [Amazon S3](/02-Storage-services/Amazon-S3.md):** i dati possono essere caricati direttamente da bucket S3
 - Progettato per throughput e parallelismo estremi
 
 **Casi d’uso:**
@@ -73,9 +73,9 @@ FSx è progettato per lo storage attivo di file, quindi meno adatto per mantener
 
 - **Completamente gestito:** provisioning, patching, backup e aggiornamenti automatizzati
 - **Prestazioni elevate:** IOPS e throughput scalabili in base al file system scelto
-- **Integrazione con AWS:** accessibile da istanze [Amazon EC2](01-Compute-options/Amazon-EC2.md), container [Amazon ECS](01-Compute-options/Amazon-ECS.md), [Amazon EKS](01-Compute-options/Amazon-EKS.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md)
+- **Integrazione con AWS:** accessibile da istanze [Amazon EC2](/01-Compute-options/Amazon-EC2.md), container [Amazon ECS](/01-Compute-options/Amazon-ECS.md), [Amazon EKS](/01-Compute-options/Amazon-EKS.md), [AWS Lambda](/01-Compute-options/AWS-Lambda.md)
 - **Supporto per ambienti ibridi:** adatto a workload on-prem e cloud
-- **Sicurezza e isolamento:** integrazione con [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md), [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), crittografia nativa e autenticazione Active Directory
+- **Sicurezza e isolamento:** integrazione con [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md), [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), crittografia nativa e autenticazione Active Directory
 
 ---
 
@@ -96,10 +96,10 @@ Ogni file system ha un modello di pricing specifico. Il costo può includere:
 
 ## 🔐 Sicurezza
 
-- **Crittografia dei dati a riposo e in transito** con [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
-- **Accesso controllato tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** e Active Directory (dove supportato)
-- **Isolamento di rete con [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)** e supporto per Multi-AZ
-- **Logging e monitoraggio:** integrazione con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
+- **Crittografia dei dati a riposo e in transito** con [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
+- **Accesso controllato tramite [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** e Active Directory (dove supportato)
+- **Isolamento di rete con [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md)** e supporto per Multi-AZ
+- **Logging e monitoraggio:** integrazione con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
 
 ---
 
@@ -108,9 +108,9 @@ Ogni file system ha un modello di pricing specifico. Il costo può includere:
 | Servizio                | Tipo                        | Quando usarlo                                               |
 |-------------------------|-----------------------------|-------------------------------------------------------------|
 | **Amazon FSx**          | File system specializzato (FSx per windows è accessibile con SMB)  | Per workload compatibili con Windows, Lustre, NetApp, ZFS   |
-| **[Amazon EFS](02-Storage-services/Amazon-EFS.md)**       | File system condiviso accessibile con NFS      | Per accesso simultaneo da molte istanze Linux               |
-| **[Amazon EBS](02-Storage-services/Amazon-EBS.md)**       | Storage a blocchi              | Per volumi collegati a singole istanze EC2                  |
-| **[Amazon S3](02-Storage-services/Amazon-S3.md)**         | Object storage                 | Per storage di oggetti scalabile e accesso tramite API      |
+| **[Amazon EFS](/02-Storage-services/Amazon-EFS.md)**       | File system condiviso accessibile con NFS      | Per accesso simultaneo da molte istanze Linux               |
+| **[Amazon EBS](/02-Storage-services/Amazon-EBS.md)**       | Storage a blocchi              | Per volumi collegati a singole istanze EC2                  |
+| **[Amazon S3](/02-Storage-services/Amazon-S3.md)**         | Object storage                 | Per storage di oggetti scalabile e accesso tramite API      |
 
 ---
 
@@ -120,7 +120,7 @@ Ogni file system ha un modello di pricing specifico. Il costo può includere:
 - Utilizzare **backup automatici** per proteggere i dati critici
 - Applicare **policy IAM e ACL** per controllo accessi granulare
 - Configurare **replica Multi-AZ** dove supportato per alta disponibilità
-- Monitorare utilizzo e prestazioni tramite [CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
+- Monitorare utilizzo e prestazioni tramite [CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
 
 ---
 

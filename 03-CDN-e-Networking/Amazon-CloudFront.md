@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
+--> [AWS](/00-Intro/AWS.md)  -  [CDN e Networking](/03-CDN-e-Networking/Rete-globale-AWS.md)
 # Amazon CloudFront
 
 ![cloudfront logo](cloudfront-logo.png)
@@ -9,9 +9,9 @@ Funziona salvando i file **in cache** in più data centers, chiamati **Edge Loca
 ## 🔍 Cos'è e come funziona
 
 CloudFront distribuisce i contenuti da **edge location** geograficamente vicine all'utente finale, migliorando così le prestazioni e riducendo la latenza.  
-Supporta oggetti statici (come file in [Amazon S3](02-Storage-services/Amazon-S3.md)) e contenuti dinamici, integrandosi con altri servizi AWS come [Amazon EC2](01-Compute-options/Amazon-EC2.md), [Elastic Load Balancing](03-CDN-e-Networking/Amazon-ELB.md), [Amazon Route 53](03-CDN-e-Networking/Amazon-Route-53.md) e [AWS Lambda](01-Compute-options/AWS-Lambda.md) tramite **Lambda@Edge**.
+Supporta oggetti statici (come file in [Amazon S3](/02-Storage-services/Amazon-S3.md)) e contenuti dinamici, integrandosi con altri servizi AWS come [Amazon EC2](/01-Compute-options/Amazon-EC2.md), [Elastic Load Balancing](/03-CDN-e-Networking/Amazon-ELB.md), [Amazon Route 53](/03-CDN-e-Networking/Amazon-Route-53.md) e [AWS Lambda](/01-Compute-options/AWS-Lambda.md) tramite **Lambda@Edge**.
 
-La rete è progettata per resilienza, throughput elevato e routing intelligente, sfruttando la [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md).
+La rete è progettata per resilienza, throughput elevato e routing intelligente, sfruttando la [rete globale AWS](/03-CDN-e-Networking/Rete-globale-AWS.md).
 
 ![cloudfront](cloudfront.jpg)
 
@@ -59,11 +59,11 @@ Il modello di pricing si basa su:
 ## 🔐 Sicurezza
 
 - **TLS** con supporto fino a 1.3.
-- **Certificati SSL/TLS** gestiti via [AWS Certificate Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Certificate-Manager.md).
+- **Certificati SSL/TLS** gestiti via [AWS Certificate Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Certificate-Manager.md).
 - **Controllo accessi avanzato** (signed URL/cookie, geo-blocking).
-- **Protezione automatica da attacchi** DDoS con [AWS Shield](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md).
-- **Integrazione diretta con [AWS WAF](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md)** per difesa contro SQLi, XSS, ecc.
-- Logging tramite CloudWatch e access log su [Amazon S3](02-Storage-services/Amazon-S3.md).
+- **Protezione automatica da attacchi** DDoS con [AWS Shield](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md).
+- **Integrazione diretta con [AWS WAF](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md)** per difesa contro SQLi, XSS, ecc.
+- Logging tramite CloudWatch e access log su [Amazon S3](/02-Storage-services/Amazon-S3.md).
 
 ---
 
@@ -71,15 +71,15 @@ Il modello di pricing si basa su:
 
 | Servizio                                      | Scopo principale                             | Differenze con CloudFront                                       |
 |-----------------------------------------------|-----------------------------------------------|------------------------------------------------------------------|
-| [Amazon S3](02-Storage-services/Amazon-S3.md)                     | Object storage                                | CloudFront distribuisce i contenuti di S3 con caching e CDN      |
-| [AWS Global Accelerator](03-CDN-e-Networking/AWS-Global-Accelerator.md) | Ottimizzazione del routing IP                 | Migliora il routing TCP/UDP ma non fa caching o distribuzione   |
-| [Amazon Route 53](03-CDN-e-Networking/Amazon-Route-53.md)         | DNS ad alte prestazioni                       | Si occupa della risoluzione DNS, non della distribuzione contenuti |
+| [Amazon S3](/02-Storage-services/Amazon-S3.md)                     | Object storage                                | CloudFront distribuisce i contenuti di S3 con caching e CDN      |
+| [AWS Global Accelerator](/03-CDN-e-Networking/AWS-Global-Accelerator.md) | Ottimizzazione del routing IP                 | Migliora il routing TCP/UDP ma non fa caching o distribuzione   |
+| [Amazon Route 53](/03-CDN-e-Networking/Amazon-Route-53.md)         | DNS ad alte prestazioni                       | Si occupa della risoluzione DNS, non della distribuzione contenuti |
 
 ---
 
 ## 🌐 Integrazione con la rete globale AWS
 
-CloudFront si appoggia all'infrastruttura di [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md). per:
+CloudFront si appoggia all'infrastruttura di [rete globale AWS](/03-CDN-e-Networking/Rete-globale-AWS.md). per:
 
 - Raggiungere utenti in bassa latenza ovunque nel mondo.
 - Usare edge location come punti di ingresso locali.

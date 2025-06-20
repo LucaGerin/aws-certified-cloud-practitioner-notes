@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Storage Services](02-Storage-services/AWS-Storage-Services.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Storage Services](/02-Storage-services/AWS-Storage-Services.md)
 # Amazon S3 (Simple Storage Service)
 
 ![s3](s3.png)
@@ -17,10 +17,10 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 - **Scalabilità automatica:** Lo storage cresce automaticamente con il volume dei dati, senza limiti o provisioning
 - **Prestazioni elevate:** Progettato per throughput elevato e bassa latenza
 - **Sicurezza avanzata:**
-  - Controllo accessi tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), bucket policy e ACL
+  - Controllo accessi tramite [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), bucket policy e ACL
   - Crittografia a riposo (SSE-S3, SSE-KMS) e in transito (TLS)
 - **Versioning:** Mantiene versioni multiple di uno stesso oggetto per prevenire perdite accidentali
-- **Lifecycle policies:** Permette di automatizzare la transizione tra classi di storage o l’eliminazione degli oggetti con [S3 Lifecycle](10-Prezzo-Fatturazione-Supporto/S3-Lifecycle.md) e/o [S3 Intelligent-Tiering](10-Prezzo-Fatturazione-Supporto/S3-Intelligent-Tiering.md)
+- **Lifecycle policies:** Permette di automatizzare la transizione tra classi di storage o l’eliminazione degli oggetti con [S3 Lifecycle](/10-Prezzo-Fatturazione-Supporto/S3-Lifecycle.md) e/o [S3 Intelligent-Tiering](/10-Prezzo-Fatturazione-Supporto/S3-Intelligent-Tiering.md)
 
 ---
 
@@ -30,7 +30,7 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 |----------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | **S3 Express One Zone**       | Archiviazione ad **altissima performance**, **bassa latenza** e costi contenuti, in una sola AZ | Analisi near real-time, data lake, applicazioni AI/ML |
 | **S3 Standard**                | Per dati ad accesso frequente, alta disponibilità e throughput                               | Dati applicativi, hosting statico                      |
-| **[S3 Intelligent-Tiering](10-Prezzo-Fatturazione-Supporto/S3-Intelligent-Tiering.md)** | Ottimizza i costi analizzando i pattern di accesso                                        | Dati con accesso imprevedibile                         |
+| **[S3 Intelligent-Tiering](/10-Prezzo-Fatturazione-Supporto/S3-Intelligent-Tiering.md)** | Ottimizza i costi analizzando i pattern di accesso                                        | Dati con accesso imprevedibile                         |
 | **S3 Standard-IA**             | Per dati acceduti raramente ma che devono essere recuperati rapidamente                     | Backup operativi, archiviazione di breve termine       |
 | **S3 One Zone-IA**            | Come Standard-IA ma replicato in una sola AZ                                                 | Backup secondari, dati facilmente rigenerabili         |
 | **S3 Glacier Instant Retrieval** | Per archiviazione con accesso in millisecondi                                              | Archiviazione attiva a basso costo                     |
@@ -44,7 +44,7 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 ## 🚀 Casi d’uso
 
 - Backup e archiviazione dati aziendali
-- Hosting di siti statici (integrazione con [Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md))
+- Hosting di siti statici (integrazione con [Amazon CloudFront](/03-CDN-e-Networking/Amazon-CloudFront.md))
 - Data lake per analisi e big data
 - Distribuzione di contenuti multimediali (immagini, video, PDF, ecc.)
 - Archiviazione log, dati applicativi e analytics
@@ -54,11 +54,11 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 
 ## 🔗 Integrazioni
 
-- **[Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md):** Distribuzione globale tramite Content Delivery Network
-- **[Amazon Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md):** Query SQL serverless direttamente sui dati in S3
-- **[AWS Glue](07-IA-ML-Analytics/Analytics/AWS-Glue.md):** ETL automatizzato e catalogazione dei dati
-- **[AWS Lambda](01-Compute-options/AWS-Lambda.md):** Esecuzione di codice in risposta a eventi S3 (es. upload)
-- **[AWS Backup](02-Storage-services/AWS-Backup.md):** Gestione centralizzata del backup anche su S3 Glacier
+- **[Amazon CloudFront](/03-CDN-e-Networking/Amazon-CloudFront.md):** Distribuzione globale tramite Content Delivery Network
+- **[Amazon Athena](/07-IA-ML-Analytics/Analytics/Amazon-Athena.md):** Query SQL serverless direttamente sui dati in S3
+- **[AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md):** ETL automatizzato e catalogazione dei dati
+- **[AWS Lambda](/01-Compute-options/AWS-Lambda.md):** Esecuzione di codice in risposta a eventi S3 (es. upload)
+- **[AWS Backup](/02-Storage-services/AWS-Backup.md):** Gestione centralizzata del backup anche su S3 Glacier
 
 ---
 
@@ -77,7 +77,7 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 - **Bucket policy** e **ACL** per configurazioni personalizzate
 - **Crittografia automatica dei dati a riposo** (SSE-S3, SSE-KMS)
 - **Crittografia in transito** con SSL/TLS sia server-side che client-side
-- **Logging, monitoraggio e auditing:** integrazione con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
+- **Logging, monitoraggio e auditing:** integrazione con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
 
 ---
 
@@ -86,17 +86,17 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 | Tipo di storage             | Quando usarlo                                                      |
 |----------------------------|---------------------------------------------------------------------|
 | **Amazon S3**              | Object storage per dati non strutturati o condivisi via API        |
-| **[Amazon EBS](02-Storage-services/Amazon-EBS.md)**         | Storage a blocchi per singole istanze EC2                        |
-| **[Amazon EFS](02-Storage-services/Amazon-EFS.md)**         | File system NFS per accesso simultaneo da più istanze EC2       |
-| **[Instance Store](02-Storage-services/Instance-Store.md)** | Storage temporaneo e locale legato alla durata dell’istanza     |
+| **[Amazon EBS](/02-Storage-services/Amazon-EBS.md)**         | Storage a blocchi per singole istanze EC2                        |
+| **[Amazon EFS](/02-Storage-services/Amazon-EFS.md)**         | File system NFS per accesso simultaneo da più istanze EC2       |
+| **[Instance Store](/02-Storage-services/Instance-Store.md)** | Storage temporaneo e locale legato alla durata dell’istanza     |
 
-➡️ Vedi anche: [EC2-storage-vs-S3-storage](02-Storage-services/EC2-storage-vs-S3-storage.md)
+➡️ Vedi anche: [EC2-storage-vs-S3-storage](/02-Storage-services/EC2-storage-vs-S3-storage.md)
 
 ---
 ### S3 Transfer Acceleration
 
 S3 Transfer Acceleration è una funzionalità di Amazon S3 che consente di aumentare significativamente la velocità di upload e download di file, in particolare per utenti geograficamente lontani dal bucket. 
-Utilizza la [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md) e il servizio [Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md) per instradare i dati attraverso edge location distribuite globalmente, riducendo la latenza. 
+Utilizza la [rete globale AWS](/03-CDN-e-Networking/Rete-globale-AWS.md) e il servizio [Amazon CloudFront](/03-CDN-e-Networking/Amazon-CloudFront.md) per instradare i dati attraverso edge location distribuite globalmente, riducendo la latenza. 
 È ideale per applicazioni con utenti internazionali o per il trasferimento di file di grandi dimensioni.
 Transfer Acceleration porta benefici al trasferimento di dati verso e da S3 in termini di velocità, facilità, e sicurezza.
 

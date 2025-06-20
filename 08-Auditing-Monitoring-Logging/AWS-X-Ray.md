@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](/08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
 # AWS X-Ray
 
 **AWS X-Ray** è un servizio di **tracing distribuito** che consente di analizzare e visualizzare il comportamento delle applicazioni distribuite, aiutando gli sviluppatori a identificare colli di bottiglia, errori e problemi di performance.
@@ -76,7 +76,7 @@ def handler(event, context):
 
 ## 🔐 Sicurezza
 
-- [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) roles per concedere accesso a X-Ray (es. `AWSXRayDaemonWriteAccess`)
+- [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) roles per concedere accesso a X-Ray (es. `AWSXRayDaemonWriteAccess`)
 - Crittografia in transito e a riposo
 - Supporto per redazione di dati sensibili
 

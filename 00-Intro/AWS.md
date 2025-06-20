@@ -2,15 +2,15 @@
 
 ## Che cos'è AWS?
 
-Amazon Web Services (AWS) è una piattaforma di [Cloud](00-Intro/Cloud.md) computing fornita da Amazon. Offre un'ampia gamma di servizi on-demand tramite internet, come elaborazione, storage, database, machine learning, e strumenti di sviluppo.
+Amazon Web Services (AWS) è una piattaforma di [Cloud](/00-Intro/Cloud.md) computing fornita da Amazon. Offre un'ampia gamma di servizi on-demand tramite internet, come elaborazione, storage, database, machine learning, e strumenti di sviluppo.
 
 ![Logo AWS](aws.png)
 
 AWS è una delle piattaforme più diffuse per costruire, distribuire e gestire applicazioni moderne in cloud.
 
-AWS adotta il suo [Shared Responsibility Model](00-Intro/Shared-Responsibility-Model.md) per definire le responsabilità in temi di sicurezza e governance dell'utente e del cloud.
+AWS adotta il suo [Shared Responsibility Model](/00-Intro/Shared-Responsibility-Model.md) per definire le responsabilità in temi di sicurezza e governance dell'utente e del cloud.
 
-La progettazione utilizzando servizi AWS segue il [Well Architected Framework](00-Intro/Well-Architected-Framework.md).
+La progettazione utilizzando servizi AWS segue il [Well Architected Framework](/00-Intro/Well-Architected-Framework.md).
 
 ---
 ## ☁️ I sei vantaggi del Cloud Computing
@@ -71,7 +71,7 @@ AWS identifica sei vantaggi fondamentali dell’utilizzo del **cloud computing**
 Amazon Web Services (AWS) è strutturato in una gerarchia geografica per garantire **scalabilità, affidabilità e bassa latenza**. 
 Alla base ci sono le **regioni**, ognuna rappresentante un'area geografica distinta (es. `eu-west-1` per l'Irlanda). 
 Ogni regione contiene almeno **tre o più Availability Zones (AZs)**, che sono **data center fisicamente separati** ma interconnessi a bassa latenza. 
-Le **Local Zones** estendono le regioni principali per avvicinare risorse di calcolo e storage a grandi aree urbane, mentre le **[Wavelength](03-CDN-e-Networking/AWS-Wavelength.md) Zones** portano i servizi AWS ancora più vicino agli utenti finali attraverso le reti 5G degli operatori. 
+Le **Local Zones** estendono le regioni principali per avvicinare risorse di calcolo e storage a grandi aree urbane, mentre le **[Wavelength](/03-CDN-e-Networking/AWS-Wavelength.md) Zones** portano i servizi AWS ancora più vicino agli utenti finali attraverso le reti 5G degli operatori. 
 Infine, le **Edge Locations** sono distribuite in tutto il mondo e usate principalmente da servizi come Amazon CloudFront (CDN) per fornire **contenuti in cache** con la minima latenza possibile.
 
 ![Availability Zones](availabilityzones.png)
@@ -87,8 +87,8 @@ I fattori da tenere in considerazione quando si sceglie una Regione includono:
 AWS offre diversi livelli di **availability** (disponibilità) per adattarsi a vari scenari di tolleranza ai guasti. 
 Il concetto di availability in AWS si basa sulla **ridondanza geografica e la distribuzione intelligente** delle risorse.
 Le **Availability Zones (AZs)** sono il livello chiave per costruire architetture ad alta disponibilità: distribuendo istanze o servizi su più AZ, un'applicazione può continuare a funzionare anche in caso di guasto in una zona specifica. 
-I servizi che richiedono la **massima disponibilità**, come [Amazon RDS](04-Database-services/Amazon-RDS.md) o [Elastic Load Balancing](03-CDN-e-Networking/Amazon-ELB.md), supportano la replica o il failover tra AZ. 
-Alcuni servizi, come [S3](02-Storage-services/Amazon-S3.md) o [DynamoDB](04-Database-services/Amazon-DynamoDB.md), sono **region-wide by design**, quindi replicano automaticamente i dati su più AZ all'interno della stessa regione. 
+I servizi che richiedono la **massima disponibilità**, come [Amazon RDS](/04-Database-services/Amazon-RDS.md) o [Elastic Load Balancing](/03-CDN-e-Networking/Amazon-ELB.md), supportano la replica o il failover tra AZ. 
+Alcuni servizi, come [S3](/02-Storage-services/Amazon-S3.md) o [DynamoDB](/04-Database-services/Amazon-DynamoDB.md), sono **region-wide by design**, quindi replicano automaticamente i dati su più AZ all'interno della stessa regione. 
 Le **Local Zones** possono essere usate per bassa latenza ma non offrono lo stesso livello di resilienza delle AZ, mentre le **Edge Locations** servono contenuti statici e non ospitano infrastruttura di calcolo resiliente. 
 
 
@@ -96,44 +96,44 @@ Le **Local Zones** possono essere usate per bassa latenza ma non offrono lo stes
 ## 🚀 Servizi su AWS
 
 ### 🧠 Fondamentali
-- 📦 [AWS Compute Options](01-Compute-options/AWS-Compute-Options.md)
-- 💾 [AWS Storage Services](02-Storage-services/AWS-Storage-Services.md)
-- 🌐 [Rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md)
-- 🛡️ [AmazonVPC](03-CDN-e-Networking/Amazon-VPC.md)
-- 🗄️ [AWS Databases](04-Database-services/AWS-Databases.md)
+- 📦 [AWS Compute Options](/01-Compute-options/AWS-Compute-Options.md)
+- 💾 [AWS Storage Services](/02-Storage-services/AWS-Storage-Services.md)
+- 🌐 [Rete globale AWS](/03-CDN-e-Networking/Rete-globale-AWS.md)
+- 🛡️ [AmazonVPC](/03-CDN-e-Networking/Amazon-VPC.md)
+- 🗄️ [AWS Databases](/04-Database-services/AWS-Databases.md)
 
 ### 🧰 Sviluppo e Deployment
-- 🛠️ [Development, Messaging, and Deployment Technology and Services](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
+- 🛠️ [Development, Messaging, and Deployment Technology and Services](/05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 
 ### 🚚 Migrazione e Adozione Cloud
-- 📘 [Cloud Adoption Framework](06-Cloud-Adoption-Framework-and-Migration-Strategies/Cloud-Adoption-Framework.md)  
-- 🔁 [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
+- 📘 [Cloud Adoption Framework](/06-Cloud-Adoption-Framework-and-Migration-Strategies/Cloud-Adoption-Framework.md)  
+- 🔁 [Migration Strategies](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 
 ### 📊 Analisi e Intelligenza Artificiale
-- 🤖 [Intelligenza Artificiale, Machine Learning e Analytics su AWS](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+- 🤖 [Intelligenza Artificiale, Machine Learning e Analytics su AWS](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 
 ### 🔍 Monitoraggio e Sicurezza
-- 📈 [Auditing, Monitoring e Logging](08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
-- 🔐 [Sicurezza, Compliance e Governance](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
+- 📈 [Auditing, Monitoring e Logging](/08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
+- 🔐 [Sicurezza, Compliance e Governance](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 
 ### 💰 Costi e Supporto
-- 💳 [Prezzo, Fatturazione e Supporto in AWS](10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
+- 💳 [Prezzo, Fatturazione e Supporto in AWS](/10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
 
 ---
 
 ## 🧩 Altri servizi o argomenti
 
-- 💻 [AWS CloudShell](Others/AWS-CloudShell.md)
-- ☎️ [Amazon Connect](Others/Amazon-Connect.md)
-- 🖥️ [Amazon Workspaces](Others/Amazon-Workspaces.md)
-- 📺 [Amazon AppStream](Others/Amazon-AppStream.md)
-- 🔄 [Amazon AppSync](Others/Amazon-AppSync.md)
-- 🚀 [Amazon Amplify](Others/AWS-Amplify.md)
-- 📡 [Servizi della famiglia IoT](Others/AWS-IoT-Family.md)
+- 💻 [AWS CloudShell](/Others/AWS-CloudShell.md)
+- ☎️ [Amazon Connect](/Others/Amazon-Connect.md)
+- 🖥️ [Amazon Workspaces](/Others/Amazon-Workspaces.md)
+- 📺 [Amazon AppStream](/Others/Amazon-AppStream.md)
+- 🔄 [Amazon AppSync](/Others/Amazon-AppSync.md)
+- 🚀 [Amazon Amplify](/Others/AWS-Amplify.md)
+- 📡 [Servizi della famiglia IoT](/Others/AWS-IoT-Family.md)
 - 📱 [Device Farm](AWS-Device-Farm)
-- 🌉 [API Gateway](Others/Amazon-API-Gateway.md)
-- 🧙 [Launch Wizard](Others/AWS-Launch-Wizard.md)
-- 🌟 [LightSail](Others/AWS-LightSail.md)
+- 🌉 [API Gateway](/Others/Amazon-API-Gateway.md)
+- 🧙 [Launch Wizard](/Others/AWS-Launch-Wizard.md)
+- 🌟 [LightSail](/Others/AWS-LightSail.md)
 
 
 ## Certificazioni

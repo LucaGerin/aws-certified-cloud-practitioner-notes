@@ -1,5 +1,5 @@
---> [AWS](00-Intro/AWS.md)
---> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
+--> [AWS](/00-Intro/AWS.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Sicurezza](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # AWS Shared Responsibility Model
 
 ## Cos'è il Modello di Responsabilità Condivisa?
@@ -44,15 +44,15 @@ Le aree nel modello la cui responsbilità è del cliente sono:
 - Protezione del traffico sulla rete
 
 **NB:** Utilizzare servizi gestiti è un modo per affidare alcune delle responsabilità in materia di sicurezza al cloud AWS.
-e.g., Se ho un DB su [EC2](01-Compute-options/Amazon-EC2.md) sono io responsabile delle patch del sistema operativo, mentre se utilizzo un servzio gestito come [RDS](04-Database-services/Amazon-RDS.md) allora la responsabilità è di AWS.
+e.g., Se ho un DB su [EC2](/01-Compute-options/Amazon-EC2.md) sono io responsabile delle patch del sistema operativo, mentre se utilizzo un servzio gestito come [RDS](/04-Database-services/Amazon-RDS.md) allora la responsabilità è di AWS.
 
 ---
 
 ![Shared Responsibiity Model di AWS](Shared_Responsibility_Model.jpg)
 ## Esempio
 
-- **[Amazon S3](02-Storage-services/Amazon-S3.md)**: AWS protegge l'infrastruttura di S3, ma il cliente è responsabile di impostare correttamente i permessi bucket.
-- **[Amazon EC2](01-Compute-options/Amazon-EC2.md)**: AWS gestisce l'hardware e il hypervisor, ma il cliente gestisce il sistema operativo, i pacchetti, e le configurazioni di rete.
+- **[Amazon S3](/02-Storage-services/Amazon-S3.md)**: AWS protegge l'infrastruttura di S3, ma il cliente è responsabile di impostare correttamente i permessi bucket.
+- **[Amazon EC2](/01-Compute-options/Amazon-EC2.md)**: AWS gestisce l'hardware e il hypervisor, ma il cliente gestisce il sistema operativo, i pacchetti, e le configurazioni di rete.
 
 ---
 
@@ -72,7 +72,7 @@ Il modello di responsabilità condivisa aiuta a definire i confini tra ciò che 
 ## Modello di Responsabilità per Servizio
 
 AWS offre servizi che vanno da soluzioni completamente gestite a servizi che lasciano al cliente un maggiore controllo. 
-Il **livello di responsabilità** varia a seconda del [tipo di servizio cloud](00-Intro/Tipi-di-servizi-cloud.md) utilizzato: IaaS, PaaS o SaaS.
+Il **livello di responsabilità** varia a seconda del [tipo di servizio cloud](/00-Intro/Tipi-di-servizi-cloud.md) utilizzato: IaaS, PaaS o SaaS.
 
 ### IaaS (Infrastructure as a Service)
 - **AWS gestisce**: rete, storage, virtualizzazione e server fisici.

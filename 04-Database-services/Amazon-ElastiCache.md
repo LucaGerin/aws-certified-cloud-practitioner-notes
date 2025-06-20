@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Database Services](04-Database-services/AWS-Databases.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Database Services](/04-Database-services/AWS-Databases.md)
 # ⚡ Amazon ElastiCache
 
 ![Elasticache](elasticache.png)
@@ -6,14 +6,14 @@
 **Amazon ElastiCache** è un servizio completamente gestito che consente il deployment, l'esecuzione e la scalabilità di **archivi di dati in memoria** nel cloud AWS, compatibili con **Redis** o **Memcached**. 
 È progettato per migliorare la **velocità e le prestazioni** delle applicazioni web e data-intensive riducendo il carico sui database principali, fornendo una cache in memoria ad alta velocità e bassa latenza.
 
-NB: Se si cerca un servizio che sia sempre completamente gestito per lo storage in-memoy, ma che abbia **alta availability** e sia **orientato alla durability** dei dati, per la creazione di un applicazione, [Amazon MemoryDB for Redis](04-Database-services/Amazon-MemoryDB-for-Redis.md) è preferibile a ElastiCache.
+NB: Se si cerca un servizio che sia sempre completamente gestito per lo storage in-memoy, ma che abbia **alta availability** e sia **orientato alla durability** dei dati, per la creazione di un applicazione, [Amazon MemoryDB for Redis](/04-Database-services/Amazon-MemoryDB-for-Redis.md) è preferibile a ElastiCache.
 
 ---
 
 ## ⚙️ Cos'è e come funziona
 
 Amazon ElastiCache permette di utilizzare Redis o Memcached in modalità fully-managed, eliminando la necessità di gestire manualmente provisioning, patching, monitoraggio o failover.  
-Opera all’interno di un [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md) per garantire isolamento di rete, e può essere distribuito su più **Availability Zone** per alta disponibilità.
+Opera all’interno di un [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md) per garantire isolamento di rete, e può essere distribuito su più **Availability Zone** per alta disponibilità.
 
 Sono supportate due modalità di funzionamento:
 
@@ -30,7 +30,7 @@ Sono supportate due modalità di funzionamento:
 - 🧠 **Dati in memoria**: latenza sotto il millisecondo, ottimo per real-time.
 - 📦 **Riduzione del carico sul database**: caching dei risultati più richiesti.
 - 🛡️ **Sicurezza integrata**:
-  - Integrazione con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
+  - Integrazione con [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
   - Crittografia **in transito** e **a riposo**
   - Supporto per ACL (Redis)
 - ♻️ **Alta disponibilità**: failover automatico, replica multi-AZ (Redis)
@@ -80,7 +80,7 @@ Amazon ElastiCache implementa una serie di misure per garantire la protezione de
 
 - 🔐 **Crittografia a riposo** e **in transito** (Redis)
 - 🔒 **Access control list (ACL)** per Redis
-- 🌐 **Isolamento di rete** tramite [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)
+- 🌐 **Isolamento di rete** tramite [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md)
 - 📜 **IAM** per controllo degli accessi e gestione delle policy
 - 📊 **Monitoraggio con CloudWatch**
 
@@ -91,9 +91,9 @@ Amazon ElastiCache implementa una serie di misure per garantire la protezione de
 | Servizio           | Tipo                          | Persistenza | Performance   | Use case principali                          |
 |--------------------|-------------------------------|-------------|---------------|----------------------------------------------|
 | ElastiCache        | In-memory (Redis/Memcached)   | ❌/✅        | 🔥 Altissima   | Caching, sessioni, real-time                 |
-| [Amazon RDS](04-Database-services/Amazon-RDS.md)         | Relazionale (SQL)             | ✅           | ⚡ Alta        | DB web/app, transazioni                      |
-| [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md)    | NoSQL key-value               | ✅           | ⚡ Alta        | IoT, mobile, low-latency access              |
-| [MemoryDB for Redis](04-Database-services/Amazon-MemoryDB-for-Redis.md) | In-memory (Redis con durabilità) | ✅        | 🔥 Altissima   | Applicazioni distribuite, microservizi       |
+| [Amazon RDS](/04-Database-services/Amazon-RDS.md)         | Relazionale (SQL)             | ✅           | ⚡ Alta        | DB web/app, transazioni                      |
+| [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md)    | NoSQL key-value               | ✅           | ⚡ Alta        | IoT, mobile, low-latency access              |
+| [MemoryDB for Redis](/04-Database-services/Amazon-MemoryDB-for-Redis.md) | In-memory (Redis con durabilità) | ✅        | 🔥 Altissima   | Applicazioni distribuite, microservizi       |
 
 ---
 

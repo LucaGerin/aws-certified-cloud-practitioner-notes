@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Migration Strategies](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # ❄️ AWS Snow Family
 
 ## 📘 Cos'è e come funziona
@@ -49,9 +49,9 @@ I dispositivi vengono ordinati da AWS, spediti al cliente, caricati con i dati, 
 
 | Servizio            | Metodo di trasferimento | Capacità         | Edge computing | Caso d’uso ideale                      |
 |---------------------|-------------------------|------------------|----------------|----------------------------------------|
-| **[AWS Snowcone](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowcone.md)**    | Fisico                  | Fino a 8 TB      | ✅              | Remoto, portatile, piccole sedi        |
-| **[AWS Snowball Edge](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md)**    | Fisico                  | 50–80 TB         | ✅              | Migrazioni e backup a media scala      |
-| **[AWS Snowmobile](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md)**  | Fisico (container)      | Fino a 100 PB    | ❌              | Data center intero, migrazioni massive |
+| **[AWS Snowcone](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowcone.md)**    | Fisico                  | Fino a 8 TB      | ✅              | Remoto, portatile, piccole sedi        |
+| **[AWS Snowball Edge](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md)**    | Fisico                  | 50–80 TB         | ✅              | Migrazioni e backup a media scala      |
+| **[AWS Snowmobile](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md)**  | Fisico (container)      | Fino a 100 PB    | ❌              | Data center intero, migrazioni massive |
 | **AWS DataSync**    | Rete                    | Illimitata       | ❌              | Dati in movimento via rete (online)    |
 
 ---

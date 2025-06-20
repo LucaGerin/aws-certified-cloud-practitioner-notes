@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](/07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 👁️ Amazon Rekognition
 
 ## 📘 Cos’è e come funziona
@@ -15,11 +15,11 @@ Il servizio è progettato per offrire funzionalità avanzate di riconoscimento v
 
 - 🧠 **Rilevamento di oggetti e scene** (es. auto, edifici, animali, ecc.)
 - 🧍 **Riconoscimento facciale**: individuazione, confronto, analisi delle emozioni, età stimata, presenza di occhiali, ecc.
-- 🎥 **Analisi video in tempo reale o batch** tramite [Amazon Kinesis Video Streams](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md)
+- 🎥 **Analisi video in tempo reale o batch** tramite [Amazon Kinesis Video Streams](/07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md)
 - 🧾 **Riconoscimento di testo** nelle immagini (OCR base)
 - 🔞 **Rilevamento contenuti inappropriati** (nudità, violenza, ecc.)
 - 🧬 **Creazione di collezioni facciali** per applicazioni di verifica identità
-- 🔐 **Sicurezza integrata** con [AWS IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)
+- 🔐 **Sicurezza integrata** con [AWS IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md)
 
 **Vantaggi principali:**
 

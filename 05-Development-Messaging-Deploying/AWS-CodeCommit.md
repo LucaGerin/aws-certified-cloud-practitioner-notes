@@ -1,9 +1,9 @@
---> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](/05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # AWS CodeCommit
 
 AWS CodeCommit è un servizio di controllo versione completamente gestito che consente di ospitare repository Git privati in modo sicuro e scalabile all'interno di AWS. 
 
-È progettato per integrarsi perfettamente con altri strumenti DevOps come [AWS CodeBuild](05-Development-Messaging-Deploying/AWS-CodeBuild.md), [AWS CodeDeploy](05-Development-Messaging-Deploying/AWS-CodeDeploy.md) e [AWS CodePipeline](05-Development-Messaging-Deploying/AWS-CodePipeline.md).
+È progettato per integrarsi perfettamente con altri strumenti DevOps come [AWS CodeBuild](/05-Development-Messaging-Deploying/AWS-CodeBuild.md), [AWS CodeDeploy](/05-Development-Messaging-Deploying/AWS-CodeDeploy.md) e [AWS CodePipeline](/05-Development-Messaging-Deploying/AWS-CodePipeline.md).
 
 ![codecommit](codecommit.png)
 
@@ -12,10 +12,10 @@ AWS CodeCommit è un servizio di controllo versione completamente gestito che co
 ## 🧩 Caratteristiche principali
 
 - **Completamente gestito**: non serve gestire server Git.
-- **Sicuro**: integrazione con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per controllo accessi granulare.
+- **Sicuro**: integrazione con [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per controllo accessi granulare.
 - **Scalabile**: supporta repository di qualsiasi dimensione.
 - **Alta disponibilità**: ridondanza automatica su più zone di disponibilità.
-- **Integrazione nativa** con [AWS CodePipeline](05-Development-Messaging-Deploying/AWS-CodePipeline.md), [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md), ecc.
+- **Integrazione nativa** con [AWS CodePipeline](/05-Development-Messaging-Deploying/AWS-CodePipeline.md), [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md), [AWS Lambda](/01-Compute-options/AWS-Lambda.md), ecc.
 
 ---
 
@@ -25,7 +25,7 @@ AWS CodeCommit è un servizio di controllo versione completamente gestito che co
 2. **Clona** il repository sul tuo computer locale.
 3. **Esegui modifiche** e fai commit nel repository.
 4. **Push** delle modifiche.
-5. **Trigger automatici** tramite webhook, [AWS Lambda](01-Compute-options/AWS-Lambda.md) o pipeline CI/CD.
+5. **Trigger automatici** tramite webhook, [AWS Lambda](/01-Compute-options/AWS-Lambda.md) o pipeline CI/CD.
 
 ---
 
@@ -55,7 +55,7 @@ Puoi configurare i **trigger** su eventi come:
 - Pull request create/chiuse
 - Merge completati
 
-I trigger possono attivare [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md), [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md), ecc.
+I trigger possono attivare [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md), [Amazon SQS](/05-Development-Messaging-Deploying/Amazon-SQS.md), ecc.
 
 ---
 
@@ -63,7 +63,7 @@ I trigger possono attivare [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amaz
 
 - Usa branch per feature e pull request per collaborare in sicurezza.
 - Automatizza i test con trigger su push.
-- Proteggi i branch principali con policy [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md).
+- Proteggi i branch principali con policy [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md).
 - Tieni sotto controllo i permessi e ruoli.
 
 ---

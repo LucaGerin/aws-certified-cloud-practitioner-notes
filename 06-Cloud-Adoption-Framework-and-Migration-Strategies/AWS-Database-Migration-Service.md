@@ -1,7 +1,7 @@
---> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Migration Strategies](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # AWS Database Migration Service (AWS DMS)
 
-**AWS Database Migration Service (DMS)** è un servizio gestito da [AWS](00-Intro/AWS.md) che consente di migrare facilmente database verso e all'interno di AWS. Supporta **migrazioni continue o una tantum** di dati tra database eterogenei (es. Oracle → PostgreSQL) o omogenei (es. MySQL → [Amazon-RDS](04-Database-services/Amazon-RDS.md) for MySQL).
+**AWS Database Migration Service (DMS)** è un servizio gestito da [AWS](/00-Intro/AWS.md) che consente di migrare facilmente database verso e all'interno di AWS. Supporta **migrazioni continue o una tantum** di dati tra database eterogenei (es. Oracle → PostgreSQL) o omogenei (es. MySQL → [Amazon-RDS](/04-Database-services/Amazon-RDS.md) for MySQL).
 
 ![DMS](06-Cloud-Adoption-Framework-and-Migration-Strategies/img/DMS.png)
 
@@ -9,25 +9,25 @@
 
 ## 🧩 Caratteristiche principali
 
-- **Supporto per database eterogenei**: es. SQL Server → [Amazon-Aurora](04-Database-services/Amazon-Aurora.md), Oracle → PostgreSQL
+- **Supporto per database eterogenei**: es. SQL Server → [Amazon-Aurora](/04-Database-services/Amazon-Aurora.md), Oracle → PostgreSQL
 - **Migrazioni omogenee e eterogenee** (es. MySQL → Aurora o Oracle → PostgreSQL)
 - **Replica dei dati in tempo reale**
 - **Replica continua (CDC)**: usa la tecnica **Change Data Capture** per replicare modifiche in tempo reale
 - **Alta disponibilità**: opzione Multi-AZ per fault tolerance
 - **Nessun downtime**: progettato per minimizzare l'impatto su database sorgente
-- **Gestione semplificata**: completamente gestito da [AWS](00-Intro/AWS.md), senza necessità di installare software lato sorgente o destinazione
+- **Gestione semplificata**: completamente gestito da [AWS](/00-Intro/AWS.md), senza necessità di installare software lato sorgente o destinazione
 
 ---
 
 ## 🔄 Tipi di migrazione supportati
 
 1. **Migrazione omogenea**  
-   Esempio: [Amazon-RDS](04-Database-services/Amazon-RDS.md) for MySQL → [Amazon-Aurora](04-Database-services/Amazon-Aurora.md) MySQL  
+   Esempio: [Amazon-RDS](/04-Database-services/Amazon-RDS.md) for MySQL → [Amazon-Aurora](/04-Database-services/Amazon-Aurora.md) MySQL  
    → struttura e motore del database sono simili
 
 2. **Migrazione eterogenea**  
-   Esempio: Oracle → [Amazon-Aurora](04-Database-services/Amazon-Aurora.md) PostgreSQL  
-   → richiede [AWS-Schema-Conversion-Tool](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md) per convertire schema e codice
+   Esempio: Oracle → [Amazon-Aurora](/04-Database-services/Amazon-Aurora.md) PostgreSQL  
+   → richiede [AWS-Schema-Conversion-Tool](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md) per convertire schema e codice
 
 3. **Replica continua**  
    Mantiene database sincronizzati in tempo reale per operazioni di failover o analytics
@@ -36,9 +36,9 @@
 
 ## 🧩 Casi d’uso comuni
 
-- Spostamento da database legacy verso database cloud-native (es. [Amazon-Aurora](04-Database-services/Amazon-Aurora.md) o [Amazon-DynamoDB](04-Database-services/Amazon-DynamoDB.md))
+- Spostamento da database legacy verso database cloud-native (es. [Amazon-Aurora](/04-Database-services/Amazon-Aurora.md) o [Amazon-DynamoDB](/04-Database-services/Amazon-DynamoDB.md))
 - Consolidamento di più database in uno solo
-- Migrazione da ambienti on-premise a [Amazon-RDS](04-Database-services/Amazon-RDS.md)
+- Migrazione da ambienti on-premise a [Amazon-RDS](/04-Database-services/Amazon-RDS.md)
 - Replica continua per disaster recovery o ambienti ibridi
 
 ---
@@ -48,14 +48,14 @@
 - Nessun bisogno di interrompere l’operatività durante la migrazione
 - **Servizio completamente gestito**
 - Costi contenuti: si paga solo per il tempo di esecuzione
-- Facile da configurare tramite la console [AWS](00-Intro/AWS.md) o CLI
+- Facile da configurare tramite la console [AWS](/00-Intro/AWS.md) o CLI
 
 ---
 
 ## 🧪 Integrazione con altri strumenti
 
-- **[AWS-Schema-Conversion-Tool](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)**: per convertire gli schemi nei casi di migrazione eterogenea
-- **[AWS-Migration-Hub](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Hub.md)**: per monitorare l'avanzamento della migrazione
+- **[AWS-Schema-Conversion-Tool](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)**: per convertire gli schemi nei casi di migrazione eterogenea
+- **[AWS-Migration-Hub](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Hub.md)**: per monitorare l'avanzamento della migrazione
 
 ---
 

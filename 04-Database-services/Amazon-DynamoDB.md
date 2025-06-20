@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Database Services](04-Database-services/AWS-Databases.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Database Services](/04-Database-services/AWS-Databases.md)
 # ⚡ Amazon DynamoDB
 
 **Amazon DynamoDB** è un **database NoSQL completamente gestito e serverless**, progettato per supportare **applicazioni ad alte prestazioni** con **scalabilità automatica** e **latenza ultra-bassa**.  
@@ -21,7 +21,7 @@ Offre due modalità di utilizzo:
 - **On-demand**: addebito basato su richieste effettive
 - **Provisioned**: capacità assegnata manualmente, con supporto per auto-scaling
 
-È integrato con l’intero ecosistema AWS ([Lambda](01-Compute-options/AWS-Lambda.md), [API Gateway](Others/Amazon-API-Gateway.md), [EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md), [AppSync](Others/Amazon-AppSync.md)) e può essere esteso con stream, TTL, backup e query complesse via **DynamoDB PartiQL**.
+È integrato con l’intero ecosistema AWS ([Lambda](/01-Compute-options/AWS-Lambda.md), [API Gateway](/Others/Amazon-API-Gateway.md), [EventBridge](/05-Development-Messaging-Deploying/Amazon-EventBridge.md), [AppSync](/Others/Amazon-AppSync.md)) e può essere esteso con stream, TTL, backup e query complesse via **DynamoDB PartiQL**.
 
 ---
 
@@ -32,8 +32,8 @@ Offre due modalità di utilizzo:
 - ☁️ **Completamente gestito**: niente patching, replica o provisioning da gestire
 - 📈 **Scalabilità automatica**: cresce e si adatta in base al traffico
 - 🔁 **Backup integrato**: backup on-demand e continuo (PITR) tra diverse regioni
-- 🔐 **Sicurezza nativa**: [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), crittografia (KMS), [VPC](03-CDN-e-Networking/Amazon-VPC.md)
-- 📡 **Stream e integrazioni**: DynamoDB Streams, [Amazon EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md)
+- 🔐 **Sicurezza nativa**: [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), crittografia (KMS), [VPC](/03-CDN-e-Networking/Amazon-VPC.md)
+- 📡 **Stream e integrazioni**: DynamoDB Streams, [Amazon EventBridge](/05-Development-Messaging-Deploying/Amazon-EventBridge.md), [AWS Lambda](/01-Compute-options/AWS-Lambda.md)
 - 🧠 **Query SQL-like**: supporto a PartiQL per operazioni compatibili SQL
 
 ---
@@ -62,7 +62,7 @@ DAX è particolarmente utile per **applicazioni ad alta frequenza di lettura**, 
 - 🕹️ Giochi online e IoT (alta concorrenza, accessi frequenti)
 - 📊 Logging e tracciamento real-time
 - 🧠 Session store e gestione shopping cart
-- 🔄 Backend per applicazioni serverless basate su [AWS Lambda](01-Compute-options/AWS-Lambda.md)
+- 🔄 Backend per applicazioni serverless basate su [AWS Lambda](/01-Compute-options/AWS-Lambda.md)
 
 ---
 
@@ -82,10 +82,10 @@ Il costo dipende da:
 
 ## 🔒 Sicurezza
 
-- 🔐 **Crittografia at-rest**: abilitata di default con **[AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)**
-- 🧑‍💼 **[IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) fine-grained access control**: autorizzazioni a livello di tabella, item, attributo
-- 🌐 **Isolamento tramite [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)** con **VPC endpoints**
-- 📋 **CloudTrail**: monitoraggio di tutte le operazioni eseguite sul database tramite [Amazon CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
+- 🔐 **Crittografia at-rest**: abilitata di default con **[AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)**
+- 🧑‍💼 **[IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) fine-grained access control**: autorizzazioni a livello di tabella, item, attributo
+- 🌐 **Isolamento tramite [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md)** con **VPC endpoints**
+- 📋 **CloudTrail**: monitoraggio di tutte le operazioni eseguite sul database tramite [Amazon CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
 - 📄 **Compliance**: certificazioni PCI DSS, HIPAA, ISO 27001, SOC 1/2/3
 
 ---
@@ -95,10 +95,10 @@ Il costo dipende da:
 | Servizio                        | Tipo di database         | Latenza  | Modello dati       | Quando usarlo                              |
 | ------------------------------- | ------------------------ | -------- | ------------------ | ------------------------------------------ |
 | **DynamoDB**                    | NoSQL key-value          | 🟢 Bassa | Flessibile (JSON)  | App real-time, scalabilità massiva, IoT    |
-| **[Amazon RDS](04-Database-services/Amazon-RDS.md)** | SQL relazionale          | 🟡 Media | Relazionale (SQL)  | App legacy, integrazioni esistenti SQL     |
-| **[Amazon Aurora](04-Database-services/Amazon-Aurora.md)**               | SQL relazionale avanzato | 🟡 Media | Relazionale (SQL)  | App moderne SQL ad alta disponibilità      |
-| **[Amazon ElastiCache](04-Database-services/Amazon-ElastiCache.md)**          | In-memory                | 🟢 Ultra | Key-value semplice | Cache, contatori, Pub/Sub                  |
-| **[Amazon MemoryDB](04-Database-services/Amazon-MemoryDB-for-Redis.md)**             | In-memory durabile       | 🟢 Ultra | Redis compatibile  | Database primari in-memory con persistenza |
+| **[Amazon RDS](/04-Database-services/Amazon-RDS.md)** | SQL relazionale          | 🟡 Media | Relazionale (SQL)  | App legacy, integrazioni esistenti SQL     |
+| **[Amazon Aurora](/04-Database-services/Amazon-Aurora.md)**               | SQL relazionale avanzato | 🟡 Media | Relazionale (SQL)  | App moderne SQL ad alta disponibilità      |
+| **[Amazon ElastiCache](/04-Database-services/Amazon-ElastiCache.md)**          | In-memory                | 🟢 Ultra | Key-value semplice | Cache, contatori, Pub/Sub                  |
+| **[Amazon MemoryDB](/04-Database-services/Amazon-MemoryDB-for-Redis.md)**             | In-memory durabile       | 🟢 Ultra | Redis compatibile  | Database primari in-memory con persistenza |
 
 ---
 

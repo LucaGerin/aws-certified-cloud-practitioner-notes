@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](/08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
 # Amazon CloudWatch
 
 **Amazon CloudWatch** è un servizio di monitoraggio completamente gestito che fornisce **visibilità operativa in tempo reale** su risorse AWS, applicazioni e infrastrutture. 
@@ -97,7 +97,7 @@ Per raccogliere metriche personalizzate e log da EC2 o server on-premise, serve 
 
 Amazon CloudWatch Logs è un componente di CloudWatch dedicato alla raccolta, monitoraggio e analisi dei log generati da risorse AWS e applicazioni personalizzate. 
 
-Consente di acquisire log da istanze EC2 (tramite l’agent CloudWatch), [AWS Lambda](01-Compute-options/AWS-Lambda.md), Amazon API Gateway, container in esecuzione su [Amazon ECS](01-Compute-options/Amazon-ECS.md) o [AWS Fargate](01-Compute-options/AWS-Fargate.md), e molte altre sorgenti. 
+Consente di acquisire log da istanze EC2 (tramite l’agent CloudWatch), [AWS Lambda](/01-Compute-options/AWS-Lambda.md), Amazon API Gateway, container in esecuzione su [Amazon ECS](/01-Compute-options/Amazon-ECS.md) o [AWS Fargate](/01-Compute-options/AWS-Fargate.md), e molte altre sorgenti. 
 I log possono essere cercati, filtrati, archiviati a lungo termine e utilizzati per generare metriche personalizzate. 
 
 CloudWatch Logs permette inoltre di impostare trigger per attivare azioni automatiche basate su pattern specifici nei log, facilitando il rilevamento di errori, anomalie o eventi rilevanti in tempo reale.

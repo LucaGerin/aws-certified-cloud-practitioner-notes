@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Sicurezza](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🔐 AWS CloudHSM
 
 ## 📘 Cos'è e come funziona
@@ -57,7 +57,7 @@ Il prezzo è basato su:
 
 ## 🔄 Confronto con AWS KMS
 
-| Caratteristica        | AWS CloudHSM                        | [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)                               |
+| Caratteristica        | AWS CloudHSM                        | [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)                               |
 |------------------------|--------------------------------------|----------------------------------------|
 | Controllo chiavi       | Cliente ha **pieno controllo**       | AWS gestisce le chiavi                 |
 | Certificazione         | FIPS 140-2 Level 3                   | FIPS 140-2 Level 2                     |

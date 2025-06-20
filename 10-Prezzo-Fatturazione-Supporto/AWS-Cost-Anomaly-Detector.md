@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Prezzo, Fatturazione, Supporto](10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Prezzo, Fatturazione, Supporto](/10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
 # 📊 AWS Cost Anomaly Detector
 
 ## Cos'è e come funziona
@@ -6,7 +6,7 @@
 **AWS Cost Anomaly Detector** è un servizio gestito che consente di **identificare automaticamente variazioni anomale nei costi e nell'utilizzo dei servizi AWS**, aiutando a individuare rapidamente spese impreviste o fuori controllo.
 
 Il servizio utilizza **modelli di machine learning** personalizzati in base allo storico di spesa dell'account o dell'organizzazione. 
-Dopo aver configurato un “monitor” e una “subscription”, AWS analizza continuamente i dati e invia **notifiche automatiche via email o [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md)** quando rileva anomalie significative.
+Dopo aver configurato un “monitor” e una “subscription”, AWS analizza continuamente i dati e invia **notifiche automatiche via email o [Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md)** quando rileva anomalie significative.
 
 ## Caratteristiche principali e vantaggi
 
@@ -33,9 +33,9 @@ Dopo aver configurato un “monitor” e una “subscription”, AWS analizza co
 
 | Servizio                      | Funzione principale                                      | Differenza principale                                          |
 |------------------------------|----------------------------------------------------------|----------------------------------------------------------------|
-| [AWS Budgets](10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md)               | Impostare budget con soglie personalizzate               | Richiede soglie fisse definite manualmente                    |
-| [Cost Explorer](10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)       | Analisi grafica e reportistica sui costi                 | Non invia notifiche automatiche in caso di anomalie           |
-| [Billing Conductor](10-Prezzo-Fatturazione-Supporto/Billing-Conductor.md)   | Gestione avanzata della fatturazione per gruppi          | Focalizzato sulla riassegnazione dei costi, non sulle anomalie |
+| [AWS Budgets](/10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md)               | Impostare budget con soglie personalizzate               | Richiede soglie fisse definite manualmente                    |
+| [Cost Explorer](/10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)       | Analisi grafica e reportistica sui costi                 | Non invia notifiche automatiche in caso di anomalie           |
+| [Billing Conductor](/10-Prezzo-Fatturazione-Supporto/Billing-Conductor.md)   | Gestione avanzata della fatturazione per gruppi          | Focalizzato sulla riassegnazione dei costi, non sulle anomalie |
 
 **Cost Anomaly Detector** si distingue per la **capacità predittiva e autonoma** nel rilevare problemi, senza bisogno di configurare soglie o logiche statiche.
 

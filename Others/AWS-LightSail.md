@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)
+--> [AWS](/00-Intro/AWS.md)
 
 # 🌟 AWS Lightsail
 
@@ -35,5 +35,5 @@ In sintesi, AWS Lightsail è la scelta ideale per chi desidera un'esperienza clo
 
 AWS Lightsail offre un'esperienza semplificata grazie a wizard intuitivi che guidano l'utente nella creazione di server virtuali, database gestiti, container, e load balancer. 
 Questi wizard permettono di avviare rapidamente un ambiente preconfigurato scegliendo sistema operativo, stack applicativo (es. WordPress, LAMP) e risorse desiderate. 
-Quando un progetto cresce, Lightsail consente l'**upgrade a EC2** tramite un'apposita funzione di esportazione, che converte un'istanza Lightsail in un'AMI e la rende disponibile in [Amazon EC2](01-Compute-options/Amazon-EC2.md) per una gestione più avanzata e scalabile.
+Quando un progetto cresce, Lightsail consente l'**upgrade a EC2** tramite un'apposita funzione di esportazione, che converte un'istanza Lightsail in un'AMI e la rende disponibile in [Amazon EC2](/01-Compute-options/Amazon-EC2.md) per una gestione più avanzata e scalabile.
 

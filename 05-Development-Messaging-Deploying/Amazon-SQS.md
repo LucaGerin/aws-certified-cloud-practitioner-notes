@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](/05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # Amazon Simple Queue Service (SQS)
 
 **Amazon SQS** è un servizio di messaggistica completamente gestito che consente di **decouplare** (disaccoppiare) i componenti delle applicazioni distribuendo messaggi in modo asincrono tramite code.
@@ -27,7 +27,7 @@ SQS è **pull-based** e non push-based.
 - Per integrazione tra microservizi.
 - Per elaborazioni asincrone e retry automatici.
 
-SQS può essere utilizzato per [disaccoppiare i componenti di un'applicazione](05-Development-Messaging-Deploying/Decoupling-dei-componenti-applicativi.md). Disaccoppiare significa eliminare le dipendenze tra i componenti, in modo che i diversi elementi dell'applicazione possano operare in modo indipendente. Scambiando messaggi tramite SQS, i componenti non dipendono l’uno dall’altro e non si aspettano una risposta immediata. Rimuovere le dipendenze tra i componenti dell'applicazione consente a diverse parti dell'applicazione di guastarsi senza compromettere l'intera applicazione.
+SQS può essere utilizzato per [disaccoppiare i componenti di un'applicazione](/05-Development-Messaging-Deploying/Decoupling-dei-componenti-applicativi.md). Disaccoppiare significa eliminare le dipendenze tra i componenti, in modo che i diversi elementi dell'applicazione possano operare in modo indipendente. Scambiando messaggi tramite SQS, i componenti non dipendono l’uno dall’altro e non si aspettano una risposta immediata. Rimuovere le dipendenze tra i componenti dell'applicazione consente a diverse parti dell'applicazione di guastarsi senza compromettere l'intera applicazione.
 
 ---
 
@@ -135,8 +135,8 @@ aws sqs delete-message \
 
 ## 🔐 Sicurezza
 
-- Controllo accessi con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) Policies
-- Crittografia **at-rest** con [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
+- Controllo accessi con [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) Policies
+- Crittografia **at-rest** con [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
 - **Accesso cross-account** tramite policy specifiche
 - Supporto per **VPC endpoint**
 
@@ -153,7 +153,7 @@ aws sqs delete-message \
 
 ## 🔄 SQS + SNS (Fan-out)
 
-È possibile combinare **[Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md) + SQS** per inviare lo stesso messaggio a più code SQS (fan-out pattern):
+È possibile combinare **[Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md) + SQS** per inviare lo stesso messaggio a più code SQS (fan-out pattern):
 
 ```plaintext
 Publisher ─▶ SNS ─▶ SQS (Consumer A)
@@ -169,7 +169,7 @@ Publisher ─▶ SNS ─▶ SQS (Consumer A)
 | Tipo             | Queue (pull)                 | Pub/Sub (push)              | Event bus (router)            |
 | Order            | FIFO opzionale               | No                          | No                             |
 | Persistence      | Sì                           | No                          | No (ma integrabile con SQS)   |
-| Target supportati| Uno per consumer             | Fan-out multiplo            | [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md), [AWS Step Functions](05-Development-Messaging-Deploying/AWS-Step-Functions.md), ecc.    |
+| Target supportati| Uno per consumer             | Fan-out multiplo            | [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon SQS](/05-Development-Messaging-Deploying/Amazon-SQS.md), [AWS Step Functions](/05-Development-Messaging-Deploying/AWS-Step-Functions.md), ecc.    |
 
 ---
 
@@ -178,7 +178,7 @@ Publisher ─▶ SNS ─▶ SQS (Consumer A)
 - Usa FIFO per ordine garantito.
 - Configura DLQ per gestire errori.
 - Ottimizza il Visibility Timeout in base ai tempi di elaborazione.
-- Monitora la coda con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) (numero messaggi, tempi, errori).
+- Monitora la coda con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) (numero messaggi, tempi, errori).
 - Usa più consumer per migliorare la scalabilità orizzontale.
 
 ---

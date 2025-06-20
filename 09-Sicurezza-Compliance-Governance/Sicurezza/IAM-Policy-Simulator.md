@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Sicurezza](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🧪 AWS IAM Policy Simulator
 
 ## 📘 Cos'è e come funziona
@@ -11,7 +11,7 @@ Il simulatore prende in input l'identità, l'azione e la risorsa, e restituisce 
 
 ## ✨ Caratteristiche principali e vantaggi
 
-- 🔍 **Simulazione di azioni [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), S3, EC2, Lambda, RDS, e molti altri servizi**
+- 🔍 **Simulazione di azioni [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), S3, EC2, Lambda, RDS, e molti altri servizi**
 - 📄 **Verifica dell’efficacia delle policy IAM e delle policy basate sulle risorse**
 - ❌ **Identificazione di conflitti tra policy** (es. una "Deny" che prevale su un "Allow")
 - 🧑‍💻 **Supporto a condizioni e variabili policy** (es. `aws:username`, `aws:sourceIp`)

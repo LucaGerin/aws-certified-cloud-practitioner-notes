@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)
+--> [AWS](/00-Intro/AWS.md)
 # 🧱 AWS Well-Architected Framework
 
 Il **Well-Architected Framework** di AWS fornisce linee guida per progettare carichi di lavoro cloud sicuri, resilienti, ad alte prestazioni, efficienti nei costi e sostenibili. Si basa su sei pilastri fondamentali, ognuno dei quali include principi di progettazione e best practice per supportare l’evoluzione continua e il miglioramento delle architetture cloud.

@@ -1,4 +1,4 @@
---> [AWS](00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
+--> [AWS](/00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](/08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
 # 🩺 AWS Health Dashboard
 
 ## 📘 Cos’è e come funziona
@@ -48,7 +48,7 @@ AWS Health Dashboard si integra facilmente con:
 ## 🔐 Accesso e sicurezza
 
 - L’accesso al **dashboard pubblico** è libero
-- Il **dashboard specifico per account** richiede accesso autenticato con permessi [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) appropriati.
+- Il **dashboard specifico per account** richiede accesso autenticato con permessi [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) appropriati.
 - I dati visibili sono **privati e personalizzati** per il tuo account AWS.
 
 ---
