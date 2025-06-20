@@ -1,7 +1,7 @@
---> [AWS](AWS.md)  -  [Migration Strategies](AWS-Migration-Strategies.md)
+--> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # AWS Schema Conversion Tool (AWS SCT)
 
-**AWS Schema Conversion Tool (SCT)** è un'applicazione desktop gratuita che consente di **convertire lo schema e i codici di database come procedure e funzioni** da motori commerciali (come Oracle, SQL Server) verso database open-source e cloud-native come [Amazon-Aurora](Amazon-Aurora.md), PostgreSQL, MySQL, [Amazon-Redshift](Amazon-Redshift.md), ecc.
+**AWS Schema Conversion Tool (SCT)** è un'applicazione desktop gratuita che consente di **convertire lo schema e i codici di database come procedure e funzioni** da motori commerciali (come Oracle, SQL Server) verso database open-source e cloud-native come [Amazon-Aurora](04-Database-services/Amazon-Aurora.md), PostgreSQL, MySQL, [Amazon-Redshift](Amazon-Redshift.md), ecc.
 
 ![sct usage](sct-usage.png)
 
@@ -17,7 +17,7 @@ Facilitare la **modernizzazione dei database** riducendo i costi di licenza e mi
 
 - **Conversione dello schema**: tabelle, indici, view, stored procedure
 - Supporto per:
-  - Oracle → [Amazon-Aurora](Amazon-Aurora.md) PostgreSQL / MySQL
+  - Oracle → [Amazon-Aurora](04-Database-services/Amazon-Aurora.md) PostgreSQL / MySQL
   - SQL Server → PostgreSQL / MySQL
   - Oracle → [Amazon-Redshift](Amazon-Redshift.md) (per data warehouse)
 - Analizza la **complessità della conversione**
@@ -29,7 +29,7 @@ Facilitare la **modernizzazione dei database** riducendo i costi di licenza e mi
 ## 🔄 Flusso di lavoro
 
 1. Connetti al database sorgente (on-premises o cloud)
-2. Connetti al database target ([Amazon-Aurora](Amazon-Aurora.md), [Amazon-RDS](Amazon-RDS.md), [Amazon-Redshift](Amazon-Redshift.md))
+2. Connetti al database target ([Amazon-Aurora](04-Database-services/Amazon-Aurora.md), [Amazon-RDS](04-Database-services/Amazon-RDS.md), [Amazon-Redshift](Amazon-Redshift.md))
 3. Esegui un’**analisi di compatibilità**
 4. Converti lo schema e **esporta il DDL**
 5. Migra i dati con [AWS-Database-Migration-Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Database-Migration-Service.md)

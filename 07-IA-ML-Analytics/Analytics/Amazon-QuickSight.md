@@ -1,11 +1,11 @@
---> [AWS](AWS.md)  -  [Data Analytics](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # Amazon QuickSight
 
 ## 📊 Cos’è e come funziona
 
 **Amazon QuickSight** è il servizio SaaS di **Business Intelligence (BI) cloud-native di AWS**, progettato per consentire la **visualizzazione interattiva dei dati** presi dalle data sources su AWS o on-premise, la creazione di **dashboard dinamiche** e l’**analisi avanzata con intelligenza artificiale**. QuickSight permette a utenti tecnici e business di esplorare, analizzare e condividere insight dai dati senza dover gestire infrastrutture.
 
-QuickSight si connette a molteplici fonti dati (es. [S3](Amazon-S3.md), [Redshift](Amazon-Redshift-e-Redshift-Serverless.md), [Athena](Amazon-Athena.md), [RDS](Amazon-RDS.md), MySQL, Salesforce) e consente la creazione di dashboard aggiornate automaticamente, accessibili via browser o embedded in applicazioni.
+QuickSight si connette a molteplici fonti dati (es. [S3](02-Storage-services/Amazon-S3.md), [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), [Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md), [RDS](04-Database-services/Amazon-RDS.md), MySQL, Salesforce) e consente la creazione di dashboard aggiornate automaticamente, accessibili via browser o embedded in applicazioni.
 
 ---
 
@@ -14,7 +14,7 @@ QuickSight si connette a molteplici fonti dati (es. [S3](Amazon-S3.md), [Redshif
 - ⚡ **Performance elevate** grazie a SPICE (motore in-memory)
 - 📈 **Dashboard interattive e responsive**, accessibili via web e mobile
 - 🤖 **Analisi potenziate da ML** (forecasting, anomaly detection, natural language query)
-- 🔌 **Connettività nativa** con servizi AWS: [Athena](Amazon-Athena.md), [Redshift](Amazon-Redshift-e-Redshift-Serverless.md), [S3](Amazon-S3.md), [RDS](Amazon-RDS.md), etc.
+- 🔌 **Connettività nativa** con servizi AWS: [Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md), [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), [S3](02-Storage-services/Amazon-S3.md), [RDS](04-Database-services/Amazon-RDS.md), etc.
 - 🔐 **Controllo accessi a livello di riga e colonna**
 - 📦 **Embedded BI**: integrazione diretta in portali, app, CRM
 - 📤 **Esportazione in PDF, CSV, Excel**
@@ -60,9 +60,9 @@ QuickSight adotta un modello **pay-per-session** (per utenti Reader) e **mensile
 
 | Servizio                        | Finalità principale                         | Differenze rispetto a QuickSight                     |
 |--------------------------------|--------------------------------------------|------------------------------------------------------|
-| **[Amazon Athena](Amazon-Athena.md)**   | Query SQL serverless                       | Query engine, non visualizzazione                     |
-| **[Amazon Redshift](Amazon-Redshift-e-Redshift-Serverless.md)** | Data warehouse OLAP                        | Fonte dati, non BI tool                               |
-| **AWS Glue + [SageMaker](Amazon-SageMaker.md)**  | Preprocessing + ML avanzato              | Pipeline e modelli, non dashboard interattive        |
+| **[Amazon Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md)**   | Query SQL serverless                       | Query engine, non visualizzazione                     |
+| **[Amazon Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)** | Data warehouse OLAP                        | Fonte dati, non BI tool                               |
+| **AWS Glue + [SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md)**  | Preprocessing + ML avanzato              | Pipeline e modelli, non dashboard interattive        |
 | **Amazon OpenSearch Dashboards** | Visualizzazione log e ricerca              | Ottimizzato per log, non per BI generalista           |
 
 ---

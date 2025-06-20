@@ -1,11 +1,11 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # 💰 Prezzo, Fatturazione e Supporto in AWS
 
 ## 📘 Introduzione
 
-[Amazon Web Services](AWS.md) (AWS) adotta un modello di **prezzi basato sul consumo**, in cui paghi solo per quello che usi, senza costi anticipati o obblighi di lungo termine (in quasi tutti i servizi).
+[Amazon Web Services](00-Intro/AWS.md) (AWS) adotta un modello di **prezzi basato sul consumo**, in cui paghi solo per quello che usi, senza costi anticipati o obblighi di lungo termine (in quasi tutti i servizi).
 
-La **fatturazione** è centralizzata e personalizzabile, e può coprire ambienti multi-account tramite **[AWS Organizations](AWS-Organizations.md)**.
+La **fatturazione** è centralizzata e personalizzabile, e può coprire ambienti multi-account tramite **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)**.
 AWS offre inoltre strumenti per **monitorare, ottimizzare e prevedere i costi**, oltre a diversi **piani di supporto tecnico** pensati per sviluppatori, aziende e clienti enterprise.
 
 ---
@@ -44,13 +44,13 @@ AWS offre inoltre strumenti per **monitorare, ottimizzare e prevedere i costi**,
 Il **Total Cost of Ownership (TCO)** rappresenta il **costo complessivo** associato alla gestione e al mantenimento di un’infrastruttura IT, considerando **non solo i costi diretti**, ma anche quelli **indiretti** e **operativi**. 
 
 In AWS, il TCO include:
-- 💰 **Costi diretti**: risorse computazionali ([EC2](Amazon-EC2.md), [Lambda](AWS-Lambda.md)), storage ([S3](Amazon-S3.md), [EBS](Amazon-EBS.md)), database ([RDS](Amazon-RDS.md), [DynamoDB](Amazon-DynamoDB.md)), networking ([VPC](Amazon-VPC.md), Data Transfer).
+- 💰 **Costi diretti**: risorse computazionali ([EC2](01-Compute-options/Amazon-EC2.md), [Lambda](01-Compute-options/AWS-Lambda.md)), storage ([S3](02-Storage-services/Amazon-S3.md), [EBS](02-Storage-services/Amazon-EBS.md)), database ([RDS](04-Database-services/Amazon-RDS.md), [DynamoDB](04-Database-services/Amazon-DynamoDB.md)), networking ([VPC](03-CDN-e-Networking/Amazon-VPC.md), Data Transfer).
 - 🔧 **Costi operativi**: gestione dei server, patching, aggiornamenti, bilanciamento del carico, backup (Aspetti che, a seconda del servizio, potrebbero essere gestiti da AWS).
 - 👥 **Costi di personale**: tempo e risorse umane necessarie per mantenere e monitorare l’infrastruttura.
-- 🔐 **Costi di sicurezza e conformità**: strumenti per auditing, logging, controllo degli accessi ([CloudTrail](Amazon-CloudTrail.md), [Config](AWS-Config.md), [IAM](AWS-IAM.md)).
+- 🔐 **Costi di sicurezza e conformità**: strumenti per auditing, logging, controllo degli accessi ([CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md), [Config](08-Auditing-Monitoring-Logging/AWS-Config.md), [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)).
 - ⚙️ **Costi di manutenzione e aggiornamento hardware**: eliminati o ridotti nel cloud grazie al modello managed di AWS.
 
-AWS offre uno strumento chiamato **[TCO Calculator](TCO-Calculator.md)** per confrontare i costi dell'infrastruttura on-premises con quelli di un'architettura equivalente su AWS, aiutando le aziende a prendere decisioni informate in ottica di ottimizzazione economica e strategica.
+AWS offre uno strumento chiamato **[TCO Calculator](10-Prezzo-Fatturazione-Supporto/TCO-Calculator.md)** per confrontare i costi dell'infrastruttura on-premises con quelli di un'architettura equivalente su AWS, aiutando le aziende a prendere decisioni informate in ottica di ottimizzazione economica e strategica.
 
 ###  I sei vantaggi del cloud e il costo AWS
 
@@ -71,10 +71,10 @@ Ogni vantaggio del cloud computing ha un impatto diretto sul **Total Cost of Own
 Ottimizzare i costi del compute su AWS significa utilizzare in modo intelligente le risorse per **evitare sprechi** e **massimizzare il valore per ogni dollaro speso**. 
 Ecco le strategie principali:
 
-- 🧠 **Right-sizing delle istanze EC2**: analizzare l'utilizzo effettivo di CPU, memoria e rete per scegliere la **giusta dimensione dell’istanza**, evitando overprovisioning. Lo strumento **[AWS Compute Optimizer](AWS-Compute-Optimizer.md)** fornisce raccomandazioni automatiche basate sull’utilizzo reale.
+- 🧠 **Right-sizing delle istanze EC2**: analizzare l'utilizzo effettivo di CPU, memoria e rete per scegliere la **giusta dimensione dell’istanza**, evitando overprovisioning. Lo strumento **[AWS Compute Optimizer](10-Prezzo-Fatturazione-Supporto/AWS-Compute-Optimizer.md)** fornisce raccomandazioni automatiche basate sull’utilizzo reale.
 
-- 🛡️ Utilizzo di **Dedicated Instances**: sono istanze [EC2](Amazon-EC2.md) che **girano su hardware fisico dedicato a un solo cliente**, anziché essere condiviso con altri account (NB: per avere controllo anche sull'hardware specifico da utilizzare, ci sono i **Dedicated Hosts**). 
-  Sono utili per **requisiti di conformità, licenze specifiche o isolamento fisico**, ma non offrono vantaggi diretti in termini di costi rispetto alle istanze condivise. Tuttavia, permettono comunque il *right-sizing*, quindi **è possibile combinarle con altre strategie** come Auto Scaling o l’uso di [AWS Compute Optimizer](AWS-Compute-Optimizer.md), pur mantenendo l’isolamento richiesto.
+- 🛡️ Utilizzo di **Dedicated Instances**: sono istanze [EC2](01-Compute-options/Amazon-EC2.md) che **girano su hardware fisico dedicato a un solo cliente**, anziché essere condiviso con altri account (NB: per avere controllo anche sull'hardware specifico da utilizzare, ci sono i **Dedicated Hosts**). 
+  Sono utili per **requisiti di conformità, licenze specifiche o isolamento fisico**, ma non offrono vantaggi diretti in termini di costi rispetto alle istanze condivise. Tuttavia, permettono comunque il *right-sizing*, quindi **è possibile combinarle con altre strategie** come Auto Scaling o l’uso di [AWS Compute Optimizer](10-Prezzo-Fatturazione-Supporto/AWS-Compute-Optimizer.md), pur mantenendo l’isolamento richiesto.
 
 - 🔁 Utilizzo di **On-Demand Instances con Auto Scaling**: le istanze On-Demand, eseguite su hardware condiviso, si pagano solo per il tempo di utilizzo senza impegni a lungo termine. Con **Auto Scaling**, è possibile **aumentare o ridurre automaticamente** il numero di istanze EC2 in base alla domanda effettiva, **ottimizzando le prestazioni e riducendo i costi** nei periodi di bassa attività. Ideale per workload con carico variabile e imprevedibile.
 
@@ -85,9 +85,9 @@ Ecco le strategie principali:
 
 - 🎯 Utilizzo di **Spot Instances**: permettono di utilizzare la **capacità inutilizzata di AWS a un prezzo fino al 90% inferiore** rispetto alle istanze on-demand, in quanto il prezzo dipende dal tipo di istanza e varia in base alla domanda del momento per quell'istanza spot. Ideali per workload flessibili e non critici. Vanno bene però solo per workload che possono rimanere spenti, perché le spot instances potrebbero non essere sempre disponibili.
 
-- ⚡ Utilizzo di **[AWS Lambda](AWS-Lambda.md)**: elimina del tutto la gestione server, eseguendo codice solo quando serve, e addebitando **solo il tempo di esecuzione effettivo**. Perfetto per workload variabili o eventi sporadici.
+- ⚡ Utilizzo di **[AWS Lambda](01-Compute-options/AWS-Lambda.md)**: elimina del tutto la gestione server, eseguendo codice solo quando serve, e addebitando **solo il tempo di esecuzione effettivo**. Perfetto per workload variabili o eventi sporadici.
 
-- 📦 Utilizzo di **[AWS Fargate](AWS-Fargate.md)**: consente di eseguire container senza dover gestire server o cluster. Paghi solo per il tempo di esecuzione dei container, con scalabilità automatica. Ottimo per applicazioni containerizzate a consumo variabile.
+- 📦 Utilizzo di **[AWS Fargate](01-Compute-options/AWS-Fargate.md)**: consente di eseguire container senza dover gestire server o cluster. Paghi solo per il tempo di esecuzione dei container, con scalabilità automatica. Ottimo per applicazioni containerizzate a consumo variabile.
 
 - Un **Savings Plan** in AWS è un'opzione di pricing che ti consente di **risparmiare fino al 72%** rispetto ai costi on-demand, **impegnandoti a usare una certa quantità di calcolo (es. $/ora) per 1 o 3 anni**. Funziona in modo flessibile su più servizi (EC2, Fargate, Lambda) e regioni, **riducendo automaticamente i costi** per l'utilizzo coperto dall'impegno.
 
@@ -96,7 +96,7 @@ Ecco le strategie principali:
 ---
 ## 💾 Costi del Data Storage in AWS (con focus su S3)
 
-In AWS, **[Amazon S3](Amazon-S3.md)** è il servizio di storage oggetti più utilizzato, con un modello di costo **basato sul volume dei dati memorizzati, la classe di storage scelta, le richieste effettuate e il traffico in uscita**. 
+In AWS, **[Amazon S3](02-Storage-services/Amazon-S3.md)** è il servizio di storage oggetti più utilizzato, con un modello di costo **basato sul volume dei dati memorizzati, la classe di storage scelta, le richieste effettuate e il traffico in uscita**. 
 
 Le **classi di storage S3** sono pensate per bilanciare **costi e frequenza di accesso** ai dati:
 
@@ -118,9 +118,9 @@ Le **classi di storage S3** sono pensate per bilanciare **costi e frequenza di a
 
 📌 Ricorda: per ottimizzare la scelta della classe giusta nel tempo, puoi usare:
 
-- **[S3 Lifecycle](S3-Lifecycle.md)** → per programmare di spostare automaticamente i dati tra classi in base alla loro età.
-- **[S3 Intelligent-Tiering](S3-Intelligent-Tiering.md)** → una storage class di S3 flessibile, per automatizzare il tiering dei dati senza dover gestire policy manuali.
-- **[S3 Storage Lens](S3-Storage-Lens.md)** → per analizzare l'utilizzo dello storage e trovare opportunità di ottimizzazione.
+- **[S3 Lifecycle](10-Prezzo-Fatturazione-Supporto/S3-Lifecycle.md)** → per programmare di spostare automaticamente i dati tra classi in base alla loro età.
+- **[S3 Intelligent-Tiering](10-Prezzo-Fatturazione-Supporto/S3-Intelligent-Tiering.md)** → una storage class di S3 flessibile, per automatizzare il tiering dei dati senza dover gestire policy manuali.
+- **[S3 Storage Lens](10-Prezzo-Fatturazione-Supporto/S3-Storage-Lens.md)** → per analizzare l'utilizzo dello storage e trovare opportunità di ottimizzazione.
 
 
 Per gestire in modo efficiente la transizione tra classi, è possibile configurare regole **S3 Lifecycle**, che spostano automaticamente i dati da una classe all’altra in base a età o utilizzo. 
@@ -162,13 +162,13 @@ Distribuire i dati tra più **Availability Zones o regioni** migliora la **resil
 ## Monitoraggio e predizione dei costi
  Il monitoraggio dei costi in AWS segue 4 passaggi:
  1. Stimare i costi potenziali.
-     Il tool indicato è [AWS Pricing Calculator](AWS-Pricing-Calculator.md)
+     Il tool indicato è [AWS Pricing Calculator](10-Prezzo-Fatturazione-Supporto/AWS-Pricing-Calculator.md)
  2. Predisporre meccanismi ("Safety nets") per evitare che i costi impennino senza il tuo controllo
-     Il tool indicato è [AWS Budgets](AWS-Budgets.md)
+     Il tool indicato è [AWS Budgets](10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md)
  3. Monitorare i costi mentre si utilizzano i servizi e fare previsioni su come saranno con l'uso previsto degli stessi servizi
-     Il tool indicato è [AWS Cost Explorer](AWS-Cost-Explorer.md)
+     Il tool indicato è [AWS Cost Explorer](10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)
  4. Analizzare i dati storici sui costi sostenuti
-     Il tool indicato è [AWS Cost and Usage Reports (CUR)](AWS-Cost-and-Usage-Reports.md)
+     Il tool indicato è [AWS Cost and Usage Reports (CUR)](10-Prezzo-Fatturazione-Supporto/AWS-Cost-and-Usage-Reports.md)
 
 #### 🏷️ Cost Allocation Tags
 
@@ -183,15 +183,15 @@ Per essere utilizzabili nei report, i tag devono essere **attivati manualmente n
 | Servizio                                                              | Descrizione                                                              |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | **AWS Billing Console**                                               | Pannello principale per consultare fatture, metodi di pagamento, soglie  |
-| **[AWS Cost Explorer](AWS-Cost-Explorer.md)**                         | Strumento **grafico** per analizzare, prevedere e ottimizzare i costi        |
-| **[AWS Budgets](AWS-Budgets.md)**                                     | Imposta budget mensili e ricevi avvisi via email o SNS                   |
-| **[AWS Pricing Calculator](AWS-Pricing-Calculator.md)**               | Simula i costi di un’architettura prima di implementarla                 |
-| **[AWS Cost and Usage Reports (CUR)](AWS-Cost-and-Usage-Reports.md)** | Report **CSV** dettagliato su tutte le spese e utilizzi AWS                  |
-| **[AWS Cost Anomaly Detector](AWS-Cost-Anomaly-Detector.md)**         | Rileva automaticamente **anomalie nei costi** e invia notifiche proattive |
+| **[AWS Cost Explorer](10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)**                         | Strumento **grafico** per analizzare, prevedere e ottimizzare i costi        |
+| **[AWS Budgets](10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md)**                                     | Imposta budget mensili e ricevi avvisi via email o SNS                   |
+| **[AWS Pricing Calculator](10-Prezzo-Fatturazione-Supporto/AWS-Pricing-Calculator.md)**               | Simula i costi di un’architettura prima di implementarla                 |
+| **[AWS Cost and Usage Reports (CUR)](10-Prezzo-Fatturazione-Supporto/AWS-Cost-and-Usage-Reports.md)** | Report **CSV** dettagliato su tutte le spese e utilizzi AWS                  |
+| **[AWS Cost Anomaly Detector](10-Prezzo-Fatturazione-Supporto/AWS-Cost-Anomaly-Detector.md)**         | Rileva automaticamente **anomalie nei costi** e invia notifiche proattive |
 | **Savings Plans**                                                     | Sconto su uso EC2, Fargate, Lambda in cambio di impegno minimo           |
 | **Reserved Instances**                                                | Sconti su EC2 e RDS per uso a lungo termine (1 o 3 anni)                 |
 | **AWS Marketplace Subscriptions**                                     | Elenco e gestione di servizi di terze parti acquistati tramite AWS       |
-| **[Billing Conductor](Billing-Conductor.md)**                         | Crea billing groups nell'organizzazione, distribuisci sconti nei gruppi. |
+| **[Billing Conductor](10-Prezzo-Fatturazione-Supporto/Billing-Conductor.md)**                         | Crea billing groups nell'organizzazione, distribuisci sconti nei gruppi. |
 
 Per quanto riguarda le **organizzazioni con più accounts**:
 Con **AWS Organizations**, puoi gestire più account AWS sotto una **struttura centralizzata** e sfruttare la funzionalità di **consolidated billing**, che consente di:
@@ -201,7 +201,7 @@ Con **AWS Organizations**, puoi gestire più account AWS sotto una **struttura c
 - 📁 Etichettare e assegnare i costi per team, progetto o reparto (via tag)
 Questo approccio permette di ottenere **chiarezza sui costi (cost clarity)** e **controllo centralizzato**, senza perdere l’autonomia operativa dei singoli account.
 
-Un altro tool utile alle organizzazioni che hanno accounts è **[Billing Conductor](Billing-Conductor.md)**
+Un altro tool utile alle organizzazioni che hanno accounts è **[Billing Conductor](10-Prezzo-Fatturazione-Supporto/Billing-Conductor.md)**
 
 ---
 
@@ -279,8 +279,8 @@ Oltre ai piani di supporto standard, AWS offre diverse **forme di supporto speci
 
 ## 🔄 Integrazione con altri servizi
 
-- **[AWS Organizations](AWS-Organizations.md)**: permette **fatturazione consolidata**, gestione di account e budget centralizzati
-- **[CloudWatch](Amazon-CloudWatch.md) + Budgets**: per ricevere avvisi su anomalie nei costi
+- **[AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)**: permette **fatturazione consolidata**, gestione di account e budget centralizzati
+- **[CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) + Budgets**: per ricevere avvisi su anomalie nei costi
 - **Cost Allocation Tags**: categorizzare le spese per team, progetto, ambiente
 
 ---

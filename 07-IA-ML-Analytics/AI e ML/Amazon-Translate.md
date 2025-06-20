@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Learning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 🌍 Amazon Translate
 
 ## 📘 Cos’è e come funziona
@@ -10,7 +10,7 @@
 - Traduzione **in tempo reale** o asincrona
 - Traduzione di grandi quantità di testo con una sola chiamata API
 - Supporta **personalizzazione** tramite Active Custom Translation
-- Integrazione con altri servizi AWS ([Amazon Comprehend](Amazon-Comprehend.md), [Amazon S3](Amazon-S3.md), Amazon API Gateway, ecc.)
+- Integrazione con altri servizi AWS ([Amazon Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md), [Amazon S3](02-Storage-services/Amazon-S3.md), Amazon API Gateway, ecc.)
 - **Alta qualità** grazie a reti neurali avanzate
 - Sicurezza e crittografia dei dati garantita
 
@@ -32,6 +32,6 @@
 
 | Servizio            | Differenze rispetto a Translate                 |
 |---------------------|--------------------------------------------------|
-| [Amazon Comprehend](Amazon-Comprehend.md)          | Analizza sentimenti e entità, non traduce       |
-| [Amazon Transcribe](Amazon-Transcribe.md)          | Converte **audio in testo**, non traduce        |
-| [Amazon Polly](Amazon-Polly.md)                     | Converte testo in audio, non tra lingue         |
+| [Amazon Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)          | Analizza sentimenti e entità, non traduce       |
+| [Amazon Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)          | Converte **audio in testo**, non traduce        |
+| [Amazon Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)                     | Converte testo in audio, non tra lingue         |

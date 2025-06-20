@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Database Services](AWS-Databases.md)
+--> [AWS](00-Intro/AWS.md)  -  [Database Services](04-Database-services/AWS-Databases.md)
 # 🧠 Amazon MemoryDB for Redis
 
 ![MemoryDB for Redis](mem-db-for-redis-logo.webp)
@@ -26,8 +26,8 @@ I dati vengono conservati anche in caso di guasto della zona di disponibilità, 
 - ⚡ **Prestazioni**: latenza sotto il millisecondo per operazioni real-time.
 - 🔐 **Sicurezza avanzata**:
   - Crittografia in transito e a riposo
-  - Accesso solo tramite [Amazon VPC](Amazon-VPC.md)
-  - Integrazione con [IAM](AWS-IAM.md)
+  - Accesso solo tramite [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)
+  - Integrazione con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
   - ACL Redis granulari
 - 📈 **Scalabilità orizzontale**: shard multipli configurabili per distribuire carico e dati.
 
@@ -70,11 +70,11 @@ I dati vengono conservati anche in caso di guasto della zona di disponibilità, 
 
 ## 🔒 Sicurezza
 
-- 🔐 **Accesso privato**: disponibile solo all’interno di [Amazon VPC](Amazon-VPC.md)
+- 🔐 **Accesso privato**: disponibile solo all’interno di [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)
 - 🔐 **Crittografia forzata** in transito e a riposo (con KMS)
-- 👥 **Controllo accessi** tramite [IAM](AWS-IAM.md)
+- 👥 **Controllo accessi** tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
 - 🧩 **Redis ACL** per definire permessi granulari per utenti/comandi
-- 📊 Integrazione con [Amazon CloudWatch](Amazon-CloudWatch.md) per logging e alerting
+- 📊 Integrazione con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) per logging e alerting
 
 ---
 

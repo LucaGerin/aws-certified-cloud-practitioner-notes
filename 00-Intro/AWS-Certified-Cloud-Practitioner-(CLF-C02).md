@@ -31,4 +31,4 @@ Puoi consultare la guida ufficiale con l'elenco completo degli argomenti richies
 ## 🚀 Inizia da qui
 
 Per iniziare la lettura dei concetti fondamentali in questa wiki su AWS, comincia da:  
-👉 **[Cos'è AWS?](AWS.md)**
+👉 **[Cos'è AWS?](00-Intro/AWS.md)**

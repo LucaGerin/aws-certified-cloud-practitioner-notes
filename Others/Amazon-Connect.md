@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # ☎️ Amazon Connect
 
 ## 📘 Cos'è e come funziona

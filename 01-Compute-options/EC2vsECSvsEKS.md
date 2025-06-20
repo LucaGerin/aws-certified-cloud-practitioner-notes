@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Compute Options](AWS-Compute-Options.md)
+--> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
 # Confronto tra Amazon EC2, ECS ed EKS
 
 Amazon EC2, ECS ed EKS sono tre servizi di calcolo forniti da AWS, ciascuno con caratteristiche e casi d'uso differenti. Di seguito un confronto diretto tra i tre, utile per capire quale scegliere in base al contesto.

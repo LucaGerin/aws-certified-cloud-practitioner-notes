@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [CDN e Networking](Rete-globale-AWS.md)
+--> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
 # Content Delivery Network (CDN)
 
 Una **Content Delivery Network (CDN)** è una rete di server distribuiti geograficamente che lavorano insieme per consegnare contenuti (file statici, video, immagini, pagine web, ecc.) agli utenti finali in modo rapido, affidabile e sicuro.
@@ -10,7 +10,7 @@ Una **Content Delivery Network (CDN)** è una rete di server distribuiti geograf
 - **Gestire picchi di traffico:** Distribuisce il carico su più server, scalabilità automatica senza creare disruptions.
 - **Aumentare l’affidabilità e la reliability:** Ridondanza geografica e failover automatico.
 - **Protezione:** Spesso include firewall, protezione DDoS e crittografia TLS.
-- **Global Reach:** più istanze EC2 possono accedere un [EFS](Amazon-EFS.md) simultaneamente.
+- **Global Reach:** più istanze EC2 possono accedere un [EFS](02-Storage-services/Amazon-EFS.md) simultaneamente.
 
 ## Come funziona una CDN
 
@@ -60,4 +60,4 @@ Una **Content Delivery Network (CDN)** è una rete di server distribuiti geograf
 - **Amazon CloudFront** (servizio CDN di AWS)
     
 
-➡️ Per chi utilizza l'infrastruttura AWS, il servizio CDN dedicato è **[Amazon CloudFront](Amazon-CloudFront.md)**, che vedremo in dettaglio nel documento dedicato.
+➡️ Per chi utilizza l'infrastruttura AWS, il servizio CDN dedicato è **[Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md)**, che vedremo in dettaglio nel documento dedicato.

@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Sicurezza](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🔐 Amazon Cognito
 
 **Amazon Cognito** è un servizio gestito che fornisce autenticazione, autorizzazione e gestione utenti per applicazioni web e mobile. Permette agli sviluppatori di aggiungere facilmente funzionalità di sign-up, login e controllo accessi.
@@ -23,7 +23,7 @@ Supporta autenticazione tramite:
 - Provider federati tramite SAML o OpenID Connect
     
 
-Può essere integrato con [AWS Amplify](AWS-Amplify.md), [API Gateway](Amazon-API-Gateway.md), [AWS AppSync](Amazon-AppSync.md) e altri servizi per garantire l’accesso sicuro e granulare alle risorse cloud.
+Può essere integrato con [AWS Amplify](Others/AWS-Amplify.md), [API Gateway](Others/Amazon-API-Gateway.md), [AWS AppSync](Others/Amazon-AppSync.md) e altri servizi per garantire l’accesso sicuro e granulare alle risorse cloud.
 
 ## Caratteristiche principali e vantaggi
 
@@ -35,7 +35,7 @@ Può essere integrato con [AWS Amplify](AWS-Amplify.md), [API Gateway](Amazon-AP
     
 - **Multi-factor authentication (MFA)**
     
-- **Trigger personalizzabili:** con [AWS Lambda](AWS-Lambda.md) per ogni fase del flusso utente
+- **Trigger personalizzabili:** con [AWS Lambda](01-Compute-options/AWS-Lambda.md) per ogni fase del flusso utente
     
 - **Integrazione con OAuth 2.0 e OpenID Connect**
     
@@ -74,7 +74,7 @@ Cognito supporta:
     
 - Policy di password personalizzabili
     
-- Audit tramite [AWS CloudTrail](Amazon-CloudTrail.md)
+- Audit tramite [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
     
 
 Con Identity Pools, fornisce **token temporanei firmati** che limitano l'accesso ai servizi AWS secondo ruoli IAM definiti.
@@ -84,8 +84,8 @@ Con Identity Pools, fornisce **token temporanei firmati** che limitano l'accesso
 |Servizio|Focus principale|Quando usarlo|
 |---|---|---|
 |Amazon Cognito|Login utenti e accesso AWS|Per autenticazione diretta e federata|
-|[AWS IAM](AWS-IAM.md)|Accesso tra risorse AWS|Per utenti tecnici, ruoli di sistema|
-|[Amazon API Gateway](Amazon-API-Gateway.md) + JWT|Autenticazione tramite token|Se si usa un provider esterno|
+|[AWS IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)|Accesso tra risorse AWS|Per utenti tecnici, ruoli di sistema|
+|[Amazon API Gateway](Others/Amazon-API-Gateway.md) + JWT|Autenticazione tramite token|Se si usa un provider esterno|
 
 ## Conclusioni
 

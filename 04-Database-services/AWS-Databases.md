@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # Panoramica dei Servizi Database di AWS
 
 AWS offre una vasta gamma di servizi di **database gestiti**, progettati per soddisfare esigenze differenti in termini di struttura dei dati, scalabilità, prestazioni e gestione.
@@ -12,15 +12,15 @@ AWS offre una vasta gamma di servizi di **database gestiti**, progettati per sod
 - Basati su tabelle, con supporto per SQL.
 - Utili per applicazioni transazionali strutturate.
 - Servizi principali: 
-	- [Amazon RDS](Amazon-RDS.md) (supporta MySQL, PostgreSQL, SQL Server, Oracle, MariaDB, Aurora).
-	- [Amazon Aurora](Amazon-Aurora.md) (compatibile con MySQL e PostgreSQL)
+	- [Amazon RDS](04-Database-services/Amazon-RDS.md) (supporta MySQL, PostgreSQL, SQL Server, Oracle, MariaDB, Aurora).
+	- [Amazon Aurora](04-Database-services/Amazon-Aurora.md) (compatibile con MySQL e PostgreSQL)
     
 ### 2. **Database NoSQL**
 
 - Progettati per flessibilità e scalabilità.
 - Non richiedono uno schema fisso.
 - Servizio principale: 
-	- [Amazon-DynamoDB](Amazon-DynamoDB.md).
+	- [Amazon-DynamoDB](04-Database-services/Amazon-DynamoDB.md).
 	- Amazon Keyspaces (compatibile con Apache Cassandra)
     
 
@@ -28,18 +28,18 @@ AWS offre una vasta gamma di servizi di **database gestiti**, progettati per sod
 
 - Ottimizzati per bassa latenza e alta velocità.
 - Servizi principali:
-	- **[Amazon ElastiCache](Amazon-ElastiCache.md)** (Redis, Memcached).
-	- **[Amazon MemoryDB for Redis](Amazon-MemoryDB-for-Redis.md)**
+	- **[Amazon ElastiCache](04-Database-services/Amazon-ElastiCache.md)** (Redis, Memcached).
+	- **[Amazon MemoryDB for Redis](04-Database-services/Amazon-MemoryDB-for-Redis.md)**
 
 ### 4. **Database grafici**
 
 - Progettati per gestire relazioni complesse tra dati.
-- Servizio: **[Amazon-Neptune](Amazon-Neptune.md)**.
+- Servizio: **[Amazon-Neptune](04-Database-services/Amazon-Neptune.md)**.
 
 ### 5. **Database per analisi**
 
 - Ottimizzati per query complesse su grandi volumi di dati.
-- Servizio principale: **[Amazon Redshift](Amazon-Redshift-e-Redshift-Serverless.md)** (Data Warehouse).
+- Servizio principale: **[Amazon Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)** (Data Warehouse).
 
 ### 6. **Database per ledger (immutabilità)**
 

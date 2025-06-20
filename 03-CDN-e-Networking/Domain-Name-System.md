@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [CDN e Networking](Rete-globale-AWS.md)
+--> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
 # Domain Name System (DNS)
 
 Il **DNS (Domain Name System)** è un sistema fondamentale di Internet che **traduce i nomi di dominio leggibili dagli esseri umani** (es. `www.example.com`) negli **indirizzi IP** comprensibili dai computer (es. `192.0.2.1`). In pratica, è come una **rubrica telefonica di Internet**.

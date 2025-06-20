@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Learning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 
 # 🧠 Amazon Comprehend
 
@@ -14,7 +14,7 @@ Comprehend analizza documenti, frasi o paragrafi scritti in linguaggio naturale 
 - **Relazioni tra entità**
 - **Classificazione dei documenti**
 
-Il tutto può essere integrato facilmente in applicazioni tramite **API REST**, SDK o servizi AWS come Lambda, S3, [Amazon Translate](Amazon-Translate.md), [Amazon Textract](Amazon-Textract.md), Kinesis e [Amazon SageMaker](Amazon-SageMaker.md).
+Il tutto può essere integrato facilmente in applicazioni tramite **API REST**, SDK o servizi AWS come Lambda, S3, [Amazon Translate](07-IA-ML-Analytics/AI e ML/Amazon-Translate.md), [Amazon Textract](07-IA-ML-Analytics/AI e ML/Amazon-Textract.md), Kinesis e [Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md).
 
 ---
 
@@ -46,7 +46,7 @@ Comprehend può essere usato per processare del testo, scorpire frasi chiave, ar
 - 🧑‍⚖️ **Analisi documenti legali o medici** (con entità personalizzate)
 - 🧾 **Classificazione automatica** di email o ticket di supporto
 - 🏢 **Rilevamento tendenze di mercato** da notizie e articoli
-- 🌐 **Traduzione + analisi sentiment** di contenuti multilingua (via [Amazon Translate](Amazon-Translate.md))
+- 🌐 **Traduzione + analisi sentiment** di contenuti multilingua (via [Amazon Translate](07-IA-ML-Analytics/AI e ML/Amazon-Translate.md))
 - 🧠 **Raggruppamento di dati non strutturati** per insight aziendali
 
 ---
@@ -71,11 +71,11 @@ Amazon Comprehend ha un modello **pay-per-use**, basato su caratteri analizzati:
 
 | Servizio               | Finalità principale                          | Differenze rispetto a Comprehend                             |
 |------------------------|-----------------------------------------------|--------------------------------------------------------------|
-| **[Amazon Translate](Amazon-Translate.md)**   | Traduzione testi multilingua                  | Comprehend può essere usato dopo la traduzione per analisi   |
-| **[Amazon Textract](Amazon-Textract.md)**    | Estrae testo da PDF e immagini                | Textract estrae testo, Comprehend lo interpreta              |
-| **[Amazon Kendra](Amazon-Kendra.md)**      | Motore di ricerca semantico                   | Comprehend analizza testi, Kendra li rende ricercabili       |
-| **[Amazon Lex](Amazon-Lex.md)**         | Chatbot e NLU interattiva                     | Lex interpreta intenti da utenti, Comprehend testi generici  |
-| **[Amazon SageMaker](Amazon-SageMaker.md)**   | Addestramento ML personalizzato               | Più flessibile ma più complesso e meno automatizzato         |
+| **[Amazon Translate](07-IA-ML-Analytics/AI e ML/Amazon-Translate.md)**   | Traduzione testi multilingua                  | Comprehend può essere usato dopo la traduzione per analisi   |
+| **[Amazon Textract](07-IA-ML-Analytics/AI e ML/Amazon-Textract.md)**    | Estrae testo da PDF e immagini                | Textract estrae testo, Comprehend lo interpreta              |
+| **[Amazon Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)**      | Motore di ricerca semantico                   | Comprehend analizza testi, Kendra li rende ricercabili       |
+| **[Amazon Lex](07-IA-ML-Analytics/AI e ML/Amazon-Lex.md)**         | Chatbot e NLU interattiva                     | Lex interpreta intenti da utenti, Comprehend testi generici  |
+| **[Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md)**   | Addestramento ML personalizzato               | Più flessibile ma più complesso e meno automatizzato         |
 
 ---
 
@@ -89,7 +89,7 @@ Amazon Comprehend ha un modello **pay-per-use**, basato su caratteri analizzati:
 
 ## 🆚 Amazon Comprehend e Amazon Textract
 
-**[Amazon Textract](Amazon-Textract.md)** e **Amazon Comprehend** sono due servizi AWS che operano su **tipi di dati diversi** e svolgono ruoli complementari nel trattamento delle informazioni testuali.
+**[Amazon Textract](07-IA-ML-Analytics/AI e ML/Amazon-Textract.md)** e **Amazon Comprehend** sono due servizi AWS che operano su **tipi di dati diversi** e svolgono ruoli complementari nel trattamento delle informazioni testuali.
 
 - **Amazon Textract** si occupa di **estrarre testo strutturato e non strutturato da documenti visivi** (come PDF, immagini scansionate, moduli, ricevute). È ideale quando il testo è "nascosto" in un'immagine o in un documento cartaceo digitalizzato e va trasformato in dati leggibili da sistemi informatici.
 

@@ -1,11 +1,11 @@
---> [AWS](app://obsidian.md/AWS.md) - [Compliance e Governance](Sicurezza-Compliance-Governance.md)
+--> [AWS](app://obsidian.md/AWS.md) - [Compliance e Governance](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🏢 AWS Organizations
 
 ## 📘 Cos'è e come funziona
 
 **AWS Organizations** è un servizio gratuito che consente di **gestire centralmente più account AWS**, automatizzando la governance, la sicurezza e la conformità attraverso un’unica struttura gerarchica.  
 
-Grazie a Organizations è possibile **creare e organizzare account** in **unità organizzative (OUs)**, applicare **policy centralizzate**, condividere risorse tra accounts e allo stesso tempo limitare l'accesso alle risorse divise tra accounts, e abilitare servizi cross-account come **consolidated billing**, **[SCPs](AWS-Service-Control-Policies.md)**, **Firewall Manager**, **[Security Hub](AWS-Security-Hub.md)**, e molti altri.
+Grazie a Organizations è possibile **creare e organizzare account** in **unità organizzative (OUs)**, applicare **policy centralizzate**, condividere risorse tra accounts e allo stesso tempo limitare l'accesso alle risorse divise tra accounts, e abilitare servizi cross-account come **consolidated billing**, **[SCPs](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**, **Firewall Manager**, **[Security Hub](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Security-Hub.md)**, e molti altri.
 
 ![Organization](organization.png)
 

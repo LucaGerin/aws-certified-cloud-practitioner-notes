@@ -1,6 +1,6 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # Tipi di servizi cloud
-Ci sono tre principali categorie di servizi [cloud](Cloud.md): IaaS, PaaS e SaaS.
+Ci sono tre principali categorie di servizi [cloud](00-Intro/Cloud.md): IaaS, PaaS e SaaS.
 
 ![iaas-paas-saas livelli](iaas-paas-saas.png)
 
@@ -62,6 +62,6 @@ SaaS fornisce applicazioni software complete accessibili via internet, gestite i
 
 La scelta tra IaaS, PaaS e SaaS dipende dalle esigenze specifiche dell'organizzazione in termini di controllo, flessibilità, e competenze tecniche disponibili.
 
-[AWS](AWS.md) mette a disposizione servizi di tutte queste categorie.
-A seconda del tipo di servizio e della categoria a cui appartiene, cambia la distribuzione di responsabilità nello [Shared Responsibility Model](Shared-Responsibility-Model.md).
+[AWS](00-Intro/AWS.md) mette a disposizione servizi di tutte queste categorie.
+A seconda del tipo di servizio e della categoria a cui appartiene, cambia la distribuzione di responsabilità nello [Shared Responsibility Model](00-Intro/Shared-Responsibility-Model.md).
 

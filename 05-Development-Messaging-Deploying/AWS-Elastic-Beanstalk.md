@@ -1,7 +1,7 @@
---> [AWS](AWS.md)  -  [Development, Messaging, and Deployment](Development-Messaging-and-Deployment.md)
+--> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # AWS Elastic Beanstalk
 
-**AWS Elastic Beanstalk** è un servizio PaaS ([Platform as a Service](Tipi-di-servizi-cloud.md)) che consente il **deployment automatico e la gestione di applicazioni** nel cloud AWS, senza dover configurare manualmente l’infrastruttura sottostante. È pensato per sviluppatori che vogliono concentrarsi sul codice, non sulla gestione di server, reti o load balancer.
+**AWS Elastic Beanstalk** è un servizio PaaS ([Platform as a Service](00-Intro/Tipi-di-servizi-cloud.md)) che consente il **deployment automatico e la gestione di applicazioni** nel cloud AWS, senza dover configurare manualmente l’infrastruttura sottostante. È pensato per sviluppatori che vogliono concentrarsi sul codice, non sulla gestione di server, reti o load balancer.
 
 ![Beanstalk](bean.png)
 
@@ -11,10 +11,10 @@
 
 - **Deployment semplificato** di applicazioni web, senza bisogno di configurare l'infrastruttura sottostante.
 - **Supporta diversi linguaggi**: Java, .NET, PHP, Python, Ruby, Go, Node.js, Docker
-- **Gestione automatica dell’infrastruttura**: [Amazon EC2](Amazon-EC2.md), [Elastic Load Balancing](Amazon-ELB.md), Auto Scaling, [Amazon RDS](Amazon-RDS.md), [Amazon S3](Amazon-S3.md)
+- **Gestione automatica dell’infrastruttura**: [Amazon EC2](01-Compute-options/Amazon-EC2.md), [Elastic Load Balancing](03-CDN-e-Networking/Amazon-ELB.md), Auto Scaling, [Amazon RDS](04-Database-services/Amazon-RDS.md), [Amazon S3](02-Storage-services/Amazon-S3.md)
 - **Ambienti preconfigurati** con stack comuni
 - **Aggiornamenti gestiti**, health check e rollback automatici
-- **Monitoraggio integrato** con [Amazon CloudWatch](Amazon-CloudWatch.md)
+- **Monitoraggio integrato** con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
 
 Permette di far arrivare la propria piattaforma sul mercato velocemente, dispiegandola rapidamente e in maniera facile su AWS.
 
@@ -71,7 +71,7 @@ eb open
 ## 📈 Monitoraggio e gestione
 
 - **Elastic Beanstalk Console**: dashboard visuale dell’ambiente
-- **[Amazon CloudWatch](Amazon-CloudWatch.md) Logs**: per debug e analisi performance
+- **[Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) Logs**: per debug e analisi performance
 - **Configurazione ambiente**: tramite `.ebextensions` o console
 - **Health checks**: automatici e configurabili
 - **Auto scaling**: automatico in base al carico
@@ -80,10 +80,10 @@ eb open
 
 ## 🔐 Sicurezza
 
-- Supporto per **[Amazon VPC](Amazon-VPC.md)**, [IAM](AWS-IAM.md), SSL, Security Group
-- Possibilità di usare [Amazon RDS](Amazon-RDS.md) e [Amazon S3](Amazon-S3.md) in ambienti isolati
+- Supporto per **[Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)**, [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), SSL, Security Group
+- Possibilità di usare [Amazon RDS](04-Database-services/Amazon-RDS.md) e [Amazon S3](02-Storage-services/Amazon-S3.md) in ambienti isolati
 - Crittografia dati a riposo e in transito
-- Possibilità di accedere all'istanza [Amazon EC2](Amazon-EC2.md) per il debug
+- Possibilità di accedere all'istanza [Amazon EC2](01-Compute-options/Amazon-EC2.md) per il debug
 
 ---
 
@@ -95,7 +95,7 @@ eb open
 - Applicazioni containerizzate (via Docker)
 
 ESEMPIO:
-Elastic Beanstalk può essere utilizzato per distribuire rapidamente e facilmente un'applicazione web Java, incluso il provisioning delle istanze [Amazon EC2](Amazon-EC2.md) necessarie per eseguire l'applicazione, la configurazione di un [Elastic Load Balancer](Amazon-ELB.md) e persino l'installazione di Apache Tomcat. Infatti, Elastic Beanstalk supporta applicazioni che utilizzano le seguenti tecnologie: Java, .NET, PHP, Node.js, Python, Ruby, Go, Apache Tomcat, Docker e altre ancora.
+Elastic Beanstalk può essere utilizzato per distribuire rapidamente e facilmente un'applicazione web Java, incluso il provisioning delle istanze [Amazon EC2](01-Compute-options/Amazon-EC2.md) necessarie per eseguire l'applicazione, la configurazione di un [Elastic Load Balancer](03-CDN-e-Networking/Amazon-ELB.md) e persino l'installazione di Apache Tomcat. Infatti, Elastic Beanstalk supporta applicazioni che utilizzano le seguenti tecnologie: Java, .NET, PHP, Node.js, Python, Ruby, Go, Apache Tomcat, Docker e altre ancora.
 
 ---
 ## 📊 Elastic Beanstalk vs CloudFormation
@@ -111,7 +111,7 @@ In sintesi, Elastic Beanstalk è ideale per chi cerca automazione e semplicità,
 
 - Versiona la tua configurazione con `.ebextensions`
 - Usa ambienti separati per dev/test/prod
-- Automatizza il deployment con [AWS CodePipeline](AWS-CodePipeline.md) o GitHub Actions
+- Automatizza il deployment con [AWS CodePipeline](05-Development-Messaging-Deploying/AWS-CodePipeline.md) o GitHub Actions
 - Monitora l’health dell’ambiente regolarmente
 - Effettua snapshot prima di aggiornamenti major
 

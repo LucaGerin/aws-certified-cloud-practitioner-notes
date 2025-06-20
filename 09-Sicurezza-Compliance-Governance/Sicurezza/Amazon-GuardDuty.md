@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Sicurezza](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🕵️ Amazon GuardDuty
 
 ![logo](guardduty-logo.jpeg)
@@ -16,7 +16,7 @@ GuardDuty analizza automaticamente i **log VPC Flow, AWS CloudTrail, Route 53 DN
 ## ✨ Caratteristiche principali e vantaggi
 
 - 🤖 **Rilevamento automatico delle minacce** basato su ML e pattern noti
-- 📊 Analisi continua di **CloudTrail, [VPC](Amazon-VPC.md) Flow Logs, DNS logs**
+- 📊 Analisi continua di **CloudTrail, [VPC](03-CDN-e-Networking/Amazon-VPC.md) Flow Logs, DNS logs**
 - 🛡️ Database aggiornato di **threat intelligence** (AWS + terze parti)
 - 🧠 Rilevamento di **attività anomale, esfiltrazione di dati, accessi non autorizzati**
 - 🔁 Nessun agente da installare, completamente **serverless**

@@ -1,7 +1,7 @@
---> [AWS](AWS.md)  -  [Development, Messaging, and Deployment](Development-Messaging-and-Deployment.md)
+--> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # AWS CodeBuild
 
-AWS CodeBuild è un servizio di integrazione continua **completamente gestito** che compila codice sorgente, esegue test e produce pacchetti software pronti per il deployment. È parte della suite di strumenti DevOps di AWS ed è pensato per funzionare in modo integrato con [AWS CodeCommit](AWS-CodeCommit.md), [AWS CodeDeploy](AWS-CodeDeploy.md), [AWS CodePipeline](AWS-CodePipeline.md) e altri servizi AWS.
+AWS CodeBuild è un servizio di integrazione continua **completamente gestito** che compila codice sorgente, esegue test e produce pacchetti software pronti per il deployment. È parte della suite di strumenti DevOps di AWS ed è pensato per funzionare in modo integrato con [AWS CodeCommit](05-Development-Messaging-Deploying/AWS-CodeCommit.md), [AWS CodeDeploy](05-Development-Messaging-Deploying/AWS-CodeDeploy.md), [AWS CodePipeline](05-Development-Messaging-Deploying/AWS-CodePipeline.md) e altri servizi AWS.
 
 ---
 
@@ -20,8 +20,8 @@ AWS CodeBuild è un servizio di integrazione continua **completamente gestito** 
 1. **Commit del codice** nel repository (es. CodeCommit, GitHub).
 2. **Trigger della build** tramite CodePipeline o webhook.
 3. **Esecuzione di CodeBuild** con file `buildspec.yml`.
-4. **Output**: artefatti di build (ZIP, JAR, Docker image, ecc.) caricati in [S3](Amazon-S3.md) o Elastic Container Registru (ECR).
-5. **Deploy automatico** tramite [CodeDeploy](AWS-CodeDeploy.md), [ECS](Amazon-ECS.md), ecc.
+4. **Output**: artefatti di build (ZIP, JAR, Docker image, ecc.) caricati in [S3](02-Storage-services/Amazon-S3.md) o Elastic Container Registru (ECR).
+5. **Deploy automatico** tramite [CodeDeploy](05-Development-Messaging-Deploying/AWS-CodeDeploy.md), [ECS](01-Compute-options/Amazon-ECS.md), ecc.
 
 ![CodeBuild](codebuild.png)
 
@@ -54,7 +54,7 @@ artifacts:
 Il ruolo di servizio di CodeBuild deve avere i permessi per accedere a:
 - S3 (per leggere/scrivere artefatti)
 - CodeCommit / GitHub (per scaricare il codice)
-- [Amazon CloudWatch](Amazon-CloudWatch.md) Logs (per scrivere log)
+- [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) Logs (per scrivere log)
 - Altri servizi usati durante la build (es. ECR, Parameter Store)
 
 ---
@@ -70,9 +70,9 @@ CodeCommit ──▶ CodePipeline ──▶ CodeBuild ──▶ Deploy
 ## ✅ Best Practices
 
 - Versiona il file `buildspec.yml` nel repository.
-- Usa parametri sicuri con [AWS Secrets Manager](AWS-Secrets-Manager.md).
+- Usa parametri sicuri con [AWS Secrets Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md).
 - Abilita la crittografia degli artefatti.
-- Monitora le build con [Amazon CloudWatch](Amazon-CloudWatch.md) Logs.
+- Monitora le build con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) Logs.
 
 ---
 

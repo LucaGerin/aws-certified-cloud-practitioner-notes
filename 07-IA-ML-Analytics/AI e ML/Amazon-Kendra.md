@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Learning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Learning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 🔍 Amazon Kendra
 
 ## 📘 Cos'è e come funziona
@@ -75,11 +75,11 @@ Amazon Kendra ha due modalità di pricing principali:
 
 | Servizio                                  | Finalità principale                          | Differenze rispetto a Kendra                                   |
 |-------------------------------------------|-----------------------------------------------|-----------------------------------------------------------------|
-| **[Amazon-Elasticsearch](Amazon-OpenSearch.md) / OpenSearch** | Ricerca full-text, log e metriche     | Più tecnico, ricerca keyword-based, meno semantica              |
-| **[Amazon-Lex](Amazon-Lex.md)**           | Costruzione di chatbot e voicebot             | Focalizzato su dialogo, ma non ricerca documentale              |
-| **[Amazon-Athena](Amazon-Athena.md)**     | Query SQL su dati in S3                       | Per analisi dati strutturati, non semantico/documentale         |
-| **[Amazon-QuickSight](Amazon-QuickSight.md)** | Business Intelligence e visualizzazione dati | Visualizzazione KPI, non progettato per ricerca documenti       |
-| **[Amazon-Comprehend](Amazon-Comprehend.md)** | Analisi linguistica e sentiment               | Utile per NLP, non per costruire motori di ricerca              |
+| **[Amazon-Elasticsearch](07-IA-ML-Analytics/Analytics/Amazon-OpenSearch.md) / OpenSearch** | Ricerca full-text, log e metriche     | Più tecnico, ricerca keyword-based, meno semantica              |
+| **[Amazon-Lex](07-IA-ML-Analytics/AI e ML/Amazon-Lex.md)**           | Costruzione di chatbot e voicebot             | Focalizzato su dialogo, ma non ricerca documentale              |
+| **[Amazon-Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md)**     | Query SQL su dati in S3                       | Per analisi dati strutturati, non semantico/documentale         |
+| **[Amazon-QuickSight](07-IA-ML-Analytics/Analytics/Amazon-QuickSight.md)** | Business Intelligence e visualizzazione dati | Visualizzazione KPI, non progettato per ricerca documenti       |
+| **[Amazon-Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)** | Analisi linguistica e sentiment               | Utile per NLP, non per costruire motori di ricerca              |
 
 ---
 

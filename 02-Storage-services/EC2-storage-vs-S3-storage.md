@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Storage Services](AWS-Storage-Services.md)
+--> [AWS](00-Intro/AWS.md)  -  [Storage Services](02-Storage-services/AWS-Storage-Services.md)
 # Differenza tra EC2 Storage e Amazon S3
 
 Capire la differenza tra lo **storage di EC2** e **Amazon S3** è fondamentale per progettare un'infrastruttura cloud efficiente. Di seguito un confronto chiaro e dettagliato.
@@ -7,7 +7,7 @@ Capire la differenza tra lo **storage di EC2** e **Amazon S3** è fondamentale p
 
 ## 📦 1. Tipologia di storage
 
-|Aspetto|EC2 ([EBS](Amazon-EBS.md) / Instance Store / EFS)|Amazon S3|
+|Aspetto|EC2 ([EBS](02-Storage-services/Amazon-EBS.md) / Instance Store / EFS)|Amazon S3|
 |---|---|---|
 |**Tipo di storage**|Blocco (EBS), File (EFS), Temporaneo (Instance Store)|Oggetti (Object Storage)|
 |**Accesso**|Montato su istanza EC2 (via file system)|Tramite API, SDK o URL|
@@ -55,4 +55,4 @@ Capire la differenza tra lo **storage di EC2** e **Amazon S3** è fondamentale p
 
 ---
 
-Amazon S3 e gli storage EC2 (EBS, [EFS](Amazon-EFS.md), Instance Store) rispondono a esigenze molto diverse. La scelta giusta dipende da: **tipo di dati, frequenza di accesso, performance richieste, costi e condivisione tra istanze**.
+Amazon S3 e gli storage EC2 (EBS, [EFS](02-Storage-services/Amazon-EFS.md), Instance Store) rispondono a esigenze molto diverse. La scelta giusta dipende da: **tipo di dati, frequenza di accesso, performance richieste, costi e condivisione tra istanze**.

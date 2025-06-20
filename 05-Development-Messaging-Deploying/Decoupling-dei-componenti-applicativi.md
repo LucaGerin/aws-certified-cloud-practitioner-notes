@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Development, Messaging, and Deployment](Development-Messaging-and-Deployment.md)
+--> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # Decoupling dei Componenti nelle Architetture Software
 
 Il **decoupling** (disaccoppiamento) è una pratica architetturale che consiste nel ridurre le dipendenze dirette tra i componenti di un'applicazione, facilitando così la scalabilità, la manutenibilità e la resilienza del sistema.
@@ -50,7 +50,7 @@ Esistono diversi modi per integrare i componenti di un sistema mantenendo un bas
 - I destinatari possono iscriversi per riceverle
 - Nessuna aspettativa di risposta
 
-🔧 [Amazon SNS](Amazon-SNS.md):
+🔧 [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md):
 - Notifiche push asincrone
 - Supporta fan-out su email, SMS, Lambda, SQS, HTTP
 
@@ -64,7 +64,7 @@ Producer ──▶ SNS Topic ──▶ [Email | Lambda | SQS]
 - I consumatori elaborano i messaggi in modo asincrono
 - Ottimo per bilanciare carico e gestire retry
 
-🔧 [Amazon SQS](Amazon-SQS.md):
+🔧 [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md):
 - Coda FIFO o Standard
 - Decoupling forte tra producer e consumer
 - Resilienza a errori temporanei
@@ -79,7 +79,7 @@ Producer ──▶ SQS ──▶ Consumer
 - Gli handler si attivano **in risposta** agli eventi specifici
 - I publisher non conoscono i subscriber → massimo disaccoppiamento
 
-🔧 [Amazon EventBridge](Amazon-EventBridge.md):
+🔧 [Amazon EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md):
 - Bus di eventi fully managed
 - Routing basato su regole
 - Integrazione nativa con AWS e SaaS
@@ -115,6 +115,6 @@ Producer ──▶ EventBridge ──▶ [Lambda | Step Functions | SQS | SNS]
 
 ## 📌 Conclusioni
 
-Il decoupling è una pratica essenziale nello sviluppo di architetture moderne, in particolare per microservizi e applicazioni cloud-native. Utilizzare servizi come [Amazon SQS](Amazon-SQS.md), [Amazon SNS](Amazon-SNS.md), ed [Amazon EventBridge](Amazon-EventBridge.md) permette di costruire sistemi flessibili, estendibili e resilienti, con una bassa dipendenza tra i componenti.
+Il decoupling è una pratica essenziale nello sviluppo di architetture moderne, in particolare per microservizi e applicazioni cloud-native. Utilizzare servizi come [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md), [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md), ed [Amazon EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md) permette di costruire sistemi flessibili, estendibili e resilienti, con una bassa dipendenza tra i componenti.
 
 > "Disaccoppiare non significa semplificare: significa rendere il sistema più adattabile al cambiamento."

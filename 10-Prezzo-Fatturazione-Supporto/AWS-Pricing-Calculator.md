@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Prezzo, Fatturazione, Supporto](Prezzo-Fatturazione-Supporto.md)
+--> [AWS](00-Intro/AWS.md)  -  [Prezzo, Fatturazione, Supporto](10-Prezzo-Fatturazione-Supporto/Prezzo-Fatturazione-Supporto.md)
 # 💰 AWS Pricing Calculator
 
 ## 📘 Cos'è e come funziona

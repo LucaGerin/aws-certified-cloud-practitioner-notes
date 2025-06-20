@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Data Analytics](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # Amazon OpenSearch Service
 
 ## 🔍 Cos’è e come funziona
@@ -17,7 +17,7 @@ Può essere utilizzato anche con Logstash e Kibana.
 - ⚙️ **Scalabilità automatica**: supporto per nodi dedicati, sharding, replica
 - 📊 **OpenSearch Dashboards** per visualizzazioni avanzate, alert, e drill-down interattivi
 - 🔍 **Full-text search potente** con analizzatori, tokenizer e query DSL
-- 🔐 **Sicurezza avanzata**: crittografia a riposo e in transito, controllo accessi fine-grained, integrazione con [IAM](AWS-IAM.md) e Cognito
+- 🔐 **Sicurezza avanzata**: crittografia a riposo e in transito, controllo accessi fine-grained, integrazione con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e Cognito
 - 📁 **Integrazione diretta** con **Kinesis Data Firehose**, **CloudWatch Logs**, **S3**, **Lambda**
 - 💡 **Supporto per log e metriche personalizzate**, monitoraggio performance, e anomaly detection
 
@@ -49,8 +49,8 @@ Può essere utilizzato anche con Logstash e Kibana.
 
 Il prezzo di Amazon OpenSearch dipende da:
 
-- **Tipo e numero di istanze [EC2](Amazon-EC2.md)** usate per il cluster
-- **Volume di storage [EBS](Amazon-EBS.md)** associato
+- **Tipo e numero di istanze [EC2](01-Compute-options/Amazon-EC2.md)** usate per il cluster
+- **Volume di storage [EBS](02-Storage-services/Amazon-EBS.md)** associato
 - **Backup automatici** e snapshot manuali
 - **Data transfer** (tra AZ o verso Internet)
 - Funzionalità opzionali: **UltraWarm** (archiviazione log a basso costo), **cold storage** per dati infrequenti
@@ -64,11 +64,11 @@ Il prezzo di Amazon OpenSearch dipende da:
 
 | Servizio                     | Finalità principale                          | Differenze rispetto a OpenSearch Service                    |
 |-----------------------------|---------------------------------------------|-------------------------------------------------------------|
-| **[Amazon CloudWatch](Amazon-CloudWatch.md) Logs** | Monitoraggio e raccolta log                  | Archiviazione log base, senza capacità avanzate di ricerca  |
-| **[Amazon Athena](Amazon-Athena.md)**                 | Query SQL su file log in S3                  | Query batch, non real-time                                  |
-| **[Amazon Redshift](Amazon-Redshift-e-Redshift-Serverless.md)**       | Data warehouse OLAP                          | Ottimizzato per analisi tabellari strutturate               |
-| **Amazon Kinesis + [AWS Lambda](AWS-Lambda.md)**     | Stream e processi su log in tempo reale       | Complementare: per pre-processing prima di OpenSearch       |
-| **[AWS Glue](AWS-Glue.md)**                          | ETL e trasformazioni                         | Si usa prima di caricare in OpenSearch per normalizzare dati|
+| **[Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) Logs** | Monitoraggio e raccolta log                  | Archiviazione log base, senza capacità avanzate di ricerca  |
+| **[Amazon Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md)**                 | Query SQL su file log in S3                  | Query batch, non real-time                                  |
+| **[Amazon Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)**       | Data warehouse OLAP                          | Ottimizzato per analisi tabellari strutturate               |
+| **Amazon Kinesis + [AWS Lambda](01-Compute-options/AWS-Lambda.md)**     | Stream e processi su log in tempo reale       | Complementare: per pre-processing prima di OpenSearch       |
+| **[AWS Glue](07-IA-ML-Analytics/Analytics/AWS-Glue.md)**                          | ETL e trasformazioni                         | Si usa prima di caricare in OpenSearch per normalizzare dati|
 
 ---
 ### 🧠 Applicazioni avanzate: ricerca semantica, raccomandazioni e anomaly detection

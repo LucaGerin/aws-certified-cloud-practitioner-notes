@@ -1,14 +1,14 @@
---> [AWS](AWS.md)  -  [Sicurezza](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🔐 AWS Secrets Manager
 
 ## 📘 Cos'è e come funziona
 
 **AWS Secrets Manager** è un servizio gestito che consente di **archiviare, gestire e ruotare automaticamente segreti** come password, chiavi API, credenziali per database e altri dati sensibili. Aiuta a **migliorare la sicurezza**, evitando di salvare segreti nel codice o nei file di configurazione.
 
-Secrets Manager consente di definire politiche di accesso, monitorare l’uso dei segreti, integrarli con database e servizi AWS, e abilitare la **rotazione automatica tramite [AWS Lambda](AWS-Lambda.md)**.
+Secrets Manager consente di definire politiche di accesso, monitorare l’uso dei segreti, integrarli con database e servizi AWS, e abilitare la **rotazione automatica tramite [AWS Lambda](01-Compute-options/AWS-Lambda.md)**.
 
 
-NB: **Ruotare una access key**, per esempio per un utente **[IAM](AWS-IAM.md)**, in AWS significa sostituire in modo sicuro una chiave di accesso esistente con una nuova. Visto che AWS consente a un utente di avere fino a 2 access keys attive contemporaneamente, quando viene creata una nuova chiave, poi bisogna eliminare quella che si desidera sostituire. Infatti, la chiave "vecchia" rimane valida finché non viene disattivata o eliminata manualmente. AWS **non disattiva automaticamente** la chiave vecchia quando se ne crea una nuova.
+NB: **Ruotare una access key**, per esempio per un utente **[IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)**, in AWS significa sostituire in modo sicuro una chiave di accesso esistente con una nuova. Visto che AWS consente a un utente di avere fino a 2 access keys attive contemporaneamente, quando viene creata una nuova chiave, poi bisogna eliminare quella che si desidera sostituire. Infatti, la chiave "vecchia" rimane valida finché non viene disattivata o eliminata manualmente. AWS **non disattiva automaticamente** la chiave vecchia quando se ne crea una nuova.
 
 
 ---

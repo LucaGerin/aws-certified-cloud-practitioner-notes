@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Data Analytics](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # AWS Data Exchange
 
 **AWS Data Exchange** è un servizio che permette di **trovare, abbonarsi, accedere e utilizzare dati di terze parti** direttamente tramite l’ecosistema AWS.  
@@ -31,7 +31,7 @@ Una sottoscrizione può durare da 1 a 36 mesi.
 
 - **Accesso a dati di terze parti** (es. dati finanziari, climatici, sanitari, marketing, geospaziali, ecc.)  
 - **Aggiornamento automatico** dei dati ricevuti  
-- **Integrazione nativa** con [Amazon S3](Amazon-S3.md) e [Amazon Redshift](Amazon-Redshift-e-Redshift-Serverless.md)  
+- **Integrazione nativa** con [Amazon S3](02-Storage-services/Amazon-S3.md) e [Amazon Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)  
 - **Supporto per dati statici, in aggiornamento periodico o in streaming**  
 - **Gestione semplificata della licenza** e della compliance  
 - **Catalogo pubblico o privato** (supporto anche per condivisioni B2B)  
@@ -42,7 +42,7 @@ Una sottoscrizione può durare da 1 a 36 mesi.
 
 - **Velocità d’accesso**: ottieni dati pronti all’uso in pochi minuti  
 - **Riduzione della complessità legale e tecnica**  
-- **Sicurezza e governance** nativa AWS ([IAM](AWS-IAM.md), S3, Redshift, logging)  
+- **Sicurezza e governance** nativa AWS ([IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), S3, Redshift, logging)  
 - **Accesso a dati di alta qualità** da provider affidabili  
 - **Facilmente integrabile** in pipeline di ML, analisi, BI e data lake  
 - **Aggiornamenti automatici** e notifiche di cambio versione  
@@ -79,19 +79,19 @@ Il modello di prezzo dipende **dal provider** e dal tipo di abbonamento. Le opzi
 | Servizio                  | Finalità principale                            | Differenze rispetto a Data Exchange                  |
 |---------------------------|--------------------------------------------------|------------------------------------------------------|
 | **AWS Marketplace**       | Software e soluzioni pronte                     | Offre applicazioni, non dati                         |
-| **[Amazon S3](Amazon-S3.md)**             | Storage oggetti                                 | Data Exchange lo usa per fornire dati ai consumer    |
+| **[Amazon S3](02-Storage-services/Amazon-S3.md)**             | Storage oggetti                                 | Data Exchange lo usa per fornire dati ai consumer    |
 | **AWS Lake Formation**    | Data lake sicuro e governato                    | Si usa per dati interni, non per condivisione B2B    |
-| **[AWS Glue](AWS-Glue.md) Data Catalog** | Catalogo di metadati per dati interni           | Si integra con Data Exchange, ma non pubblica dati   |
-| **[Amazon Athena](Amazon-Athena.md) / [Redshift](Amazon-Redshift-e-Redshift-Serverless.md)**     | Interrogazione e analisi dei dati               | Data Exchange fornisce i dati, questi li analizzano  |
+| **[AWS Glue](07-IA-ML-Analytics/Analytics/AWS-Glue.md) Data Catalog** | Catalogo di metadati per dati interni           | Si integra con Data Exchange, ma non pubblica dati   |
+| **[Amazon Athena](07-IA-ML-Analytics/Analytics/Amazon-Athena.md) / [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md)**     | Interrogazione e analisi dei dati               | Data Exchange fornisce i dati, questi li analizzano  |
 
 ---
 
 ## 🔐 Sicurezza e controllo accessi
 
-- Accesso controllato tramite **[IAM](AWS-IAM.md) roles e policies**  
+- Accesso controllato tramite **[IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) roles e policies**  
 - Possibilità di definire **dataset privati o pubblici**  
 - Crittografia con **SSE-S3 o SSE-KMS**  
-- Audit con **[CloudTrail](Amazon-CloudTrail.md)**  
+- Audit con **[CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**  
 
 ---
 

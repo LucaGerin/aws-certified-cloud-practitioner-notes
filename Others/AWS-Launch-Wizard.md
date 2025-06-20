@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # 🚀 AWS Launch Wizard
 
 ## Cos'è e come funziona
@@ -38,9 +38,9 @@ Durante il processo di deployment, Launch Wizard consente di:
 
 | Servizio                      | Differenza principale                                   |
 |------------------------------|----------------------------------------------------------|
-| [AWS CloudFormation](AWS-CloudFormation.md)         | Richiede la scrittura e manutenzione di template YAML/JSON |
-| [Elastic Beanstalk](AWS-Elastic-Beanstalk.md)           | Ottimizzato per app web, non per applicazioni enterprise complesse |
-| [AWS Application Migration Service](AWS-Application-Migration-Service.md) | Si concentra sulla migrazione lift-and-shift, non su nuovi deployment |
+| [AWS CloudFormation](05-Development-Messaging-Deploying/AWS-CloudFormation.md)         | Richiede la scrittura e manutenzione di template YAML/JSON |
+| [Elastic Beanstalk](05-Development-Messaging-Deploying/AWS-Elastic-Beanstalk.md)           | Ottimizzato per app web, non per applicazioni enterprise complesse |
+| [AWS Application Migration Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Application-Migration-Service.md) | Si concentra sulla migrazione lift-and-shift, non su nuovi deployment |
 
 Launch Wizard è ideale quando serve **un approccio guidato e interattivo** per distribuire ambienti enterprise su AWS, senza doversi preoccupare dei dettagli infrastrutturali.
 

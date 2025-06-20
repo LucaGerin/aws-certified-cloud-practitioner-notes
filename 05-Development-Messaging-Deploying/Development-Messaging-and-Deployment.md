@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # AWS Development, Messaging, and Deployment Services and Technologies
 
 ## Introduzione
@@ -13,14 +13,14 @@ Questi servizi aiutano gli sviluppatori a scrivere, testare, monitorare e gestir
 
 ### Principali servizi:
 
-- **[AWS Cloud9](AWS-Cloud9.md)**: IDE basato su browser per scrivere, eseguire e fare debug del codice.
-- **[AWS CodeCommit](AWS-CodeCommit.md)**: Servizio di controllo versione completamente gestito, compatibile con Git.
-- **[AWS CodeBuild](AWS-CodeBuild.md)**: Compila codice sorgente, esegue test e produce pacchetti pronti per il deployment.
-- **[AWS CodeDeploy](AWS-CodeDeploy.md)**: Automatizza il deployment di applicazioni su EC2, Lambda, o on-premise.
-- **[AWS CodePipeline](AWS-CodePipeline.md)**: Gestione del ciclo di rilascio con pipeline CI/CD completamente automatizzate.
+- **[AWS Cloud9](05-Development-Messaging-Deploying/AWS-Cloud9.md)**: IDE basato su browser per scrivere, eseguire e fare debug del codice.
+- **[AWS CodeCommit](05-Development-Messaging-Deploying/AWS-CodeCommit.md)**: Servizio di controllo versione completamente gestito, compatibile con Git.
+- **[AWS CodeBuild](05-Development-Messaging-Deploying/AWS-CodeBuild.md)**: Compila codice sorgente, esegue test e produce pacchetti pronti per il deployment.
+- **[AWS CodeDeploy](05-Development-Messaging-Deploying/AWS-CodeDeploy.md)**: Automatizza il deployment di applicazioni su EC2, Lambda, o on-premise.
+- **[AWS CodePipeline](05-Development-Messaging-Deploying/AWS-CodePipeline.md)**: Gestione del ciclo di rilascio con pipeline CI/CD completamente automatizzate.
 - **AWS X-Ray**: Tracciamento e debugging delle applicazioni distribuite per identificare colli di bottiglia e errori.
 - **AWS Fault Injection Simulator**: Strumento di chaos engineering per testare la resilienza delle applicazioni.
-- **[AWS CodeArtifact](AWS-CodeArtifact.md)**: Repository di pacchetti software completamente gestito.
+- **[AWS CodeArtifact](05-Development-Messaging-Deploying/AWS-CodeArtifact.md)**: Repository di pacchetti software completamente gestito.
 
 ---
 
@@ -30,12 +30,12 @@ Questi servizi forniscono canali affidabili, asincroni e scalabili per lo scambi
 
 ### Principali servizi:
 
-- **[Amazon SQS](Amazon-SQS.md)** (Simple Queue Service): Coda di messaggi completamente gestita per decoupling tra servizi.
-- **[Amazon SNS](Amazon-SNS.md)** (Simple Notification Service): Sistema di messaggistica publish/subscribe con notifiche push e email.
+- **[Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md)** (Simple Queue Service): Coda di messaggi completamente gestita per decoupling tra servizi.
+- **[Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md)** (Simple Notification Service): Sistema di messaggistica publish/subscribe con notifiche push e email.
 - **Amazon MQ**: Broker di messaggistica gestito compatibile con ActiveMQ e RabbitMQ.
-- **[Amazon EventBridge](Amazon-EventBridge.md)**: Bus di eventi per integrazione tra applicazioni SaaS, AWS e on-premise.
+- **[Amazon EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md)**: Bus di eventi per integrazione tra applicazioni SaaS, AWS e on-premise.
 - **AWS AppSync**: API GraphQL serverless con supporto per real-time data updates.
-- **[AWS Step Functions](AWS-Step-Functions.md)**: Coordinazione di servizi tramite workflow visivi e stati.
+- **[AWS Step Functions](05-Development-Messaging-Deploying/AWS-Step-Functions.md)**: Coordinazione di servizi tramite workflow visivi e stati.
 
 ---
 
@@ -45,12 +45,12 @@ Questi strumenti aiutano a gestire e orchestrare il deployment delle applicazion
 
 ### Principali servizi:
 
-- **[AWS Elastic Beanstalk](AWS-Elastic-Beanstalk.md)**: Piattaforma PaaS per il deployment automatico di applicazioni web.
-- **[AWS CloudFormation](AWS-CloudFormation.md)**: Infrastructure as Code per la creazione di stack cloud tramite modelli YAML/JSON.
-- **[AWS CodeDeploy](AWS-CodeDeploy.md)**: Automatizza l'aggiornamento di applicazioni in modo sicuro e controllato.
-- **[Amazon ECS](Amazon-ECS.md)** (Elastic Container Service): Orchestrazione di container Docker su scala.
-- **[Amazon EKS](Amazon-EKS.md)** (Elastic Kubernetes Service): Servizio gestito per eseguire cluster Kubernetes.
-- **[AWS Lambda](AWS-Lambda.md)**: Esecuzione di codice serverless in risposta a eventi senza provisioning di server.
+- **[AWS Elastic Beanstalk](05-Development-Messaging-Deploying/AWS-Elastic-Beanstalk.md)**: Piattaforma PaaS per il deployment automatico di applicazioni web.
+- **[AWS CloudFormation](05-Development-Messaging-Deploying/AWS-CloudFormation.md)**: Infrastructure as Code per la creazione di stack cloud tramite modelli YAML/JSON.
+- **[AWS CodeDeploy](05-Development-Messaging-Deploying/AWS-CodeDeploy.md)**: Automatizza l'aggiornamento di applicazioni in modo sicuro e controllato.
+- **[Amazon ECS](01-Compute-options/Amazon-ECS.md)** (Elastic Container Service): Orchestrazione di container Docker su scala.
+- **[Amazon EKS](01-Compute-options/Amazon-EKS.md)** (Elastic Kubernetes Service): Servizio gestito per eseguire cluster Kubernetes.
+- **[AWS Lambda](01-Compute-options/AWS-Lambda.md)**: Esecuzione di codice serverless in risposta a eventi senza provisioning di server.
 - **AWS Amplify**: Toolkit completo per sviluppo, hosting e CI/CD di applicazioni web e mobile.
 
 ---

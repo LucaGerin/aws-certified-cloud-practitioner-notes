@@ -1,9 +1,9 @@
---> [AWS](AWS.md)  -  [Sicurezza](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # AWS IAM (Identity and Access Management)
 
 ## 📘 Cos’è e come funziona
 
-**AWS IAM (Identity and Access Management)** è il servizio di AWS che consente di **gestire in modo sicuro utenti, ruoli, gruppi e permessi** per accedere alle risorse AWS. È uno dei componenti fondamentali per costruire ambienti cloud sicuri e governabili, lavorando in ambito [Sicurezza di AWS](Sicurezza-Compliance-Governance.md).
+**AWS IAM (Identity and Access Management)** è il servizio di AWS che consente di **gestire in modo sicuro utenti, ruoli, gruppi e permessi** per accedere alle risorse AWS. È uno dei componenti fondamentali per costruire ambienti cloud sicuri e governabili, lavorando in ambito [Sicurezza di AWS](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md).
 
 IAM permette di:
 - **Autenticare** identità (utenti, applicazioni, servizi)
@@ -32,7 +32,7 @@ IAM è un servizio gratuito, integrato nativamente in ogni account AWS.
 ## 🧾 Permessi granulari: significato e vantaggi
 
 Di default, gli utenti su AWS (a parte *root*) non hanno permessi su nessuna risorsa. 
-Dare **permessi granulari** significa concedere accessi **precisi e specifici** alle risorse AWS, limitando ogni utente o ruolo **solo alle azioni strettamente necessarie**, su **singole risorse** o in **contesti ben definiti** (es. solo lettura su un bucket S3, solo scrittura su una tabella DynamoDB, solo da una certa [VPC](Amazon-VPC.md) o regione).
+Dare **permessi granulari** significa concedere accessi **precisi e specifici** alle risorse AWS, limitando ogni utente o ruolo **solo alle azioni strettamente necessarie**, su **singole risorse** o in **contesti ben definiti** (es. solo lettura su un bucket S3, solo scrittura su una tabella DynamoDB, solo da una certa [VPC](03-CDN-e-Networking/Amazon-VPC.md) o regione).
 
 I vantaggi di usare permessi granulari includono:
 - 🔐 Migliore **sicurezza**: riduce la superficie d’attacco
@@ -42,7 +42,7 @@ I vantaggi di usare permessi granulari includono:
 
 Questa pratica è fondamentale in ambienti cloud complessi, dove un eccesso di permessi può facilmente causare **falle di sicurezza**, **violazioni di compliance** o **perdite di dati**.
 
-Esempio di permesso, in JSON, che permette qualunque azione su un bucket [S3](Amazon-S3.md) e sui file al suo interno:
+Esempio di permesso, in JSON, che permette qualunque azione su un bucket [S3](02-Storage-services/Amazon-S3.md) e sui file al suo interno:
 
 ```json
 {
@@ -111,5 +111,5 @@ Si paga solo per l’utilizzo dei servizi AWS protetti da IAM, non per la gestio
 
 **AWS IAM** è il cuore della **sicurezza e del controllo degli accessi** in AWS. Una gestione efficace di IAM è essenziale per costruire ambienti cloud **sicuri, flessibili e governabili**, proteggendo dati e risorse da accessi non autorizzati.
 
-Insieme a AWS IAM, è utile usare un tool come [IAM Access Analyzer](IAM-Access-Analyzer.md), che permette di identificare risorse con accesso esterno, validare le policies IAM, e generare policies IAM in base all'uso.
+Insieme a AWS IAM, è utile usare un tool come [IAM Access Analyzer](09-Sicurezza-Compliance-Governance/Sicurezza/IAM-Access-Analyzer.md), che permette di identificare risorse con accesso esterno, validare le policies IAM, e generare policies IAM in base all'uso.
 

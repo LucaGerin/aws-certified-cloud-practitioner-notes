@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 📄 Amazon Textract
 
 ## 📘 Cos’è e come funziona
@@ -34,6 +34,6 @@
 
 | Servizio                             | Differenze rispetto a Textract              |
 | ------------------------------------ | ------------------------------------------- |
-| [Rekognition](Amazon-Rekognition.md) | Riconosce immagini e oggetti, non testo     |
-| [Comprehend](Amazon-Comprehend.md)   | Analizza testo esistente, non estrae da PDF |
-| [Transcribe](Amazon-Transcribe.md)   | Elabora audio, non documenti visivi         |
+| [Rekognition](07-IA-ML-Analytics/AI e ML/Amazon-Rekognition.md) | Riconosce immagini e oggetti, non testo     |
+| [Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)   | Analizza testo esistente, non estrae da PDF |
+| [Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md)   | Elabora audio, non documenti visivi         |

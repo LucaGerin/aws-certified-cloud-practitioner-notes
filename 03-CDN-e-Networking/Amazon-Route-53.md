@@ -1,9 +1,9 @@
---> [AWS](AWS.md)  -  [CDN e Networking](Rete-globale-AWS.md)
+--> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
 # Amazon Route 53
 
 ![route53 logo](route53-logo.png)
 
-**Amazon Route 53** è il servizio [Domain Name System](Domain-Name-System.md) gestito di AWS. Il suo nome deriva dalla porta **53**, utilizzata dal protocollo DNS. Route 53 consente di **registrare domini, risolvere nomi DNS** e **instradare traffico in modo intelligente** su scala globale.
+**Amazon Route 53** è il servizio [Domain Name System](03-CDN-e-Networking/Domain-Name-System.md) gestito di AWS. Il suo nome deriva dalla porta **53**, utilizzata dal protocollo DNS. Route 53 consente di **registrare domini, risolvere nomi DNS** e **instradare traffico in modo intelligente** su scala globale.
 
 Utilizza strategie avanzate di routing, come:
 - **Simple routing**: instrada il traffico a un singolo endpoint senza logica condizionale. È la modalità predefinita.
@@ -35,7 +35,7 @@ Il servizio include:
 
 ### DNS ad alte prestazioni
 - Traduzione rapida e sicura dei nomi in indirizzi IP.
-- Bassa latenza grazie alla [rete globale AWS](Rete-globale-AWS.md).
+- Bassa latenza grazie alla [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md).
 
 ### Registrazione di domini
 - Acquisto e gestione di domini direttamente da AWS.
@@ -49,8 +49,8 @@ Il servizio include:
 - **Multi-value answer**: semplice load balancing DNS.
 
 ### Integrazione nativa
-- Con servizi come [Amazon EC2](Amazon-EC2.md), [Amazon S3](Amazon-S3.md), [Amazon CloudFront](Amazon-CloudFront.md), [Elastic Load Balancing](Amazon-ELB.md).
-- Compatibile con controlli di salute (health check) e [CloudWatch](Amazon-CloudWatch.md).
+- Con servizi come [Amazon EC2](01-Compute-options/Amazon-EC2.md), [Amazon S3](02-Storage-services/Amazon-S3.md), [Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md), [Elastic Load Balancing](03-CDN-e-Networking/Amazon-ELB.md).
+- Compatibile con controlli di salute (health check) e [CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md).
 
 ### Supporto Alias Record
 - Redirezione compatibile con root domain (non possibile con un classico CNAME).
@@ -65,7 +65,7 @@ Il servizio include:
 - Gestione DNS per siti web, API e servizi cloud-native.
 - Routing geografico per applicazioni multi-regione.
 - Failover automatico tra risorse in ambienti HA.
-- Hosting di DNS privati per [Amazon VPC](Amazon-VPC.md).
+- Hosting di DNS privati per [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md).
 - Routing dinamico tra ambienti dev, test e produzione.
 - Ottimizzazione delle performance con routing a bassa latenza.
 
@@ -87,8 +87,8 @@ Il costo di Route 53 si basa su:
 ## 🔐 Sicurezza
 
 - Supporta **DNSSEC** per la protezione dei record DNS.
-- Integrazione con [IAM](AWS-IAM.md) per la gestione degli accessi.
-- Log accessibili tramite [CloudWatch](Amazon-CloudWatch.md).
+- Integrazione con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per la gestione degli accessi.
+- Log accessibili tramite [CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md).
 - Gestione delle risorse tramite autorizzazioni granulari.
 
 ---
@@ -97,9 +97,9 @@ Il costo di Route 53 si basa su:
 
 | Servizio                             | Scopo                                           | Differenze con Route 53                                      |
 |--------------------------------------|--------------------------------------------------|---------------------------------------------------------------|
-| [Amazon CloudFront](Amazon-CloudFront.md) | Content Delivery Network (CDN)                   | Route 53 si occupa della risoluzione DNS, CloudFront distribuisce contenuti |
-| [AWS Global Accelerator](AWS-Global-Accelerator.md) | Ottimizzazione routing TCP/IP globale             | Global Accelerator lavora su livelli IP, Route 53 a livello DNS |
-| [AWS Direct Connect](AWS-Direct-Connect.md)       | Connessione fisica tra data center e AWS         | Route 53 è DNS, non gestisce connessioni fisiche |
+| [Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md) | Content Delivery Network (CDN)                   | Route 53 si occupa della risoluzione DNS, CloudFront distribuisce contenuti |
+| [AWS Global Accelerator](03-CDN-e-Networking/AWS-Global-Accelerator.md) | Ottimizzazione routing TCP/IP globale             | Global Accelerator lavora su livelli IP, Route 53 a livello DNS |
+| [AWS Direct Connect](03-CDN-e-Networking/AWS-Direct-Connect.md)       | Connessione fisica tra data center e AWS         | Route 53 è DNS, non gestisce connessioni fisiche |
 
 ---
 

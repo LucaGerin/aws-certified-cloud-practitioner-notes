@@ -1,9 +1,9 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # AWS Cloud Adoption Framework (CAF)
 
 ## 📌 Cos'è l'AWS Cloud Adoption Framework?
 
-L'AWS Cloud Adoption Framework (CAF) è uno strumento sviluppato da [Amazon Web Services](AWS.md) per aiutare le organizzazioni a progettare e implementare una strategia efficace per l'adozione del cloud. CAF fornisce **linee guida, best practice e modelli organizzativi** che facilitano la trasformazione digitale attraverso l’adozione del cloud.
+L'AWS Cloud Adoption Framework (CAF) è uno strumento sviluppato da [Amazon Web Services](00-Intro/AWS.md) per aiutare le organizzazioni a progettare e implementare una strategia efficace per l'adozione del cloud. CAF fornisce **linee guida, best practice e modelli organizzativi** che facilitano la trasformazione digitale attraverso l’adozione del cloud.
 
 ![cloud adoption](cloud-adoption.png)
 
@@ -71,4 +71,4 @@ I benefici per un business che segue il CAF includono:
 - Migliore sicurezza e compliance
 - Promuove l'innovazione
 
-Esistono diverse [Migation Strategies](AWS-Migration-Strategies.md) che è possibile seguire.
+Esistono diverse [Migation Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md) che è possibile seguire.

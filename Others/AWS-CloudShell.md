@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # AWS CloudShell
 
 **AWS CloudShell** è un ambiente shell basato su browser, preconfigurato e sicuro, disponibile direttamente dalla Console AWS. Consente di eseguire comandi della CLI AWS, gestire risorse, scrivere script, e accedere a strumenti di sviluppo senza dover configurare nulla in locale.
@@ -10,7 +10,7 @@
 - **Ambiente shell preconfigurato**: con AWS CLI, Python, Node.js, Docker, Git, e altri strumenti.
 - **Accesso istantaneo**: si avvia con un click dalla Console AWS.
 - **Archiviazione persistente**: 1 GB gratuito per utente (per regione).
-- **Sicurezza integrata**: usa le credenziali [IAM](AWS-IAM.md) dell'utente corrente.
+- **Sicurezza integrata**: usa le credenziali [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) dell'utente corrente.
 - **Supporto multi-regione**: CloudShell è disponibile in varie regioni AWS.
 
 ---
@@ -52,8 +52,8 @@ git clone https://git-codecommit.eu-west-1.amazonaws.com/v1/repos/NomeRepo
 
 ## 🔐 Sicurezza
 
-- Le azioni eseguite in CloudShell **rispettano le policy [IAM](AWS-IAM.md)** assegnate all’utente.
-- Nessuna chiave di accesso è necessaria: viene usato il **profilo [IAM](AWS-IAM.md) temporaneo** della sessione.
+- Le azioni eseguite in CloudShell **rispettano le policy [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)** assegnate all’utente.
+- Nessuna chiave di accesso è necessaria: viene usato il **profilo [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) temporaneo** della sessione.
 - L’ambiente è isolato per ogni utente e per ogni regione.
 
 ---

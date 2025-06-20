@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Data Analytics](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # Amazon MSK (Managed Streaming for Apache Kafka)
 
 ## 🔄 Cos'è e come funziona
@@ -9,18 +9,18 @@ MSK offre **Kafka open-source 100% compatibile**, ma con tutta l'affidabilità, 
 
 ![MSK example](MSK-example.png)
 
-Amazon Managed Streaming for Apache Kafka (MSK) è adatto soprattutto al processing di big data in batch, mentre per processare streaming di dati in real-time lo strumento indicato è [Amazon Kinesis Data Streams](Amazon-Kinesis.md).
+Amazon Managed Streaming for Apache Kafka (MSK) è adatto soprattutto al processing di big data in batch, mentre per processare streaming di dati in real-time lo strumento indicato è [Amazon Kinesis Data Streams](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md).
 
 ---
 
 ## ✨ Caratteristiche principali e vantaggi
 
 - ✅ **100% compatibile con Apache Kafka** (stesse API, CLI, protocolli)
-- 🔒 **Sicurezza gestita**: crittografia a riposo e in transito, [IAM](AWS-IAM.md), [VPC](Amazon-VPC.md), TLS, SASL/SCRAM
+- 🔒 **Sicurezza gestita**: crittografia a riposo e in transito, [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [VPC](03-CDN-e-Networking/Amazon-VPC.md), TLS, SASL/SCRAM
 - ⚙️ **Provisioning automatico** dei broker, storage, networking
 - 📈 **Monitoraggio nativo** con Amazon CloudWatch
 - 🔁 **Alta disponibilità e fault tolerance** su più zone di disponibilità (AZ)
-- 🔄 **Integrazione con Kafka Connect**, Kinesis Data Analytics, [AWS-Lambda](AWS-Lambda.md), [Glue](AWS-Glue.md), [Firehose](Amazon-Kinesis.md)
+- 🔄 **Integrazione con Kafka Connect**, Kinesis Data Analytics, [AWS-Lambda](01-Compute-options/AWS-Lambda.md), [Glue](07-IA-ML-Analytics/Analytics/AWS-Glue.md), [Firehose](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md)
 - 🛠️ Supporto per **Apache ZooKeeper** gestito
 - 📦 Possibilità di utilizzare **MSK Serverless**, senza cluster da gestire
 
@@ -63,10 +63,10 @@ Amazon MSK offre due modelli:
 
 | Servizio             | Finalità principale                              | Differenze rispetto a MSK                                   |
 |----------------------|---------------------------------------------------|--------------------------------------------------------------|
-| **[Amazon Kinesis](Amazon-Kinesis.md)**   | Streaming AWS-native, analisi eventi              | Più semplice da usare, meno flessibile, non Kafka compatibile|
-| **[Amazon EventBridge](Amazon-EventBridge.md)** | Event routing strutturato tra servizi AWS       | Per eventi aziendali strutturati, no buffer persistente      |
-| **[Amazon SQS](Amazon-SQS.md)/[Amazon SNS](Amazon-SNS.md)**   | Code di messaggi e notifiche push                 | Adatto per pattern asincroni più semplici                    |
-| **[Amazon EMR](Amazon-EMR.md) + Kafka** | Kafka su cluster EMR gestito manualmente        | Più controllo, ma anche più gestione                         |
+| **[Amazon Kinesis](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md)**   | Streaming AWS-native, analisi eventi              | Più semplice da usare, meno flessibile, non Kafka compatibile|
+| **[Amazon EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md)** | Event routing strutturato tra servizi AWS       | Per eventi aziendali strutturati, no buffer persistente      |
+| **[Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md)/[Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md)**   | Code di messaggi e notifiche push                 | Adatto per pattern asincroni più semplici                    |
+| **[Amazon EMR](07-IA-ML-Analytics/Analytics/Amazon-EMR.md) + Kafka** | Kafka su cluster EMR gestito manualmente        | Più controllo, ma anche più gestione                         |
 
 ---
 

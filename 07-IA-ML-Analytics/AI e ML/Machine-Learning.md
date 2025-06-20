@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # Introduzione al Machine Learning
 
 ## 🤖 Cos'è il Machine Learning?
@@ -103,4 +103,4 @@ Il Machine Learning non è solo una tecnologia, ma un **processo iterativo** che
 
 > “Il Machine Learning inizia con i dati, ma si realizza con un ciclo continuo di apprendimento e miglioramento.”
 
-Il principale tool fornito da amazon per il Ml è **[Amazon SageMaker](Amazon-SageMaker.md)**, ma ce ne sono anche [altri](Intelligenza-artificiale-Machine-Learning-e-Analytics.md).
+Il principale tool fornito da amazon per il Ml è **[Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md)**, ma ce ne sono anche [altri](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md).

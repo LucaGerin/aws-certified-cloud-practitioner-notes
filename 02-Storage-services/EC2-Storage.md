@@ -1,14 +1,14 @@
---> [AWS](AWS.md)  -  [Storage Services](AWS-Storage-Services.md)
+--> [AWS](00-Intro/AWS.md)  -  [Storage Services](02-Storage-services/AWS-Storage-Services.md)
 
 # Opzioni di Storage per Amazon EC2
 
-[Amazon EC2](Amazon-EC2.md) fornisce diverse opzioni di **archiviazione dati**, ciascuna con caratteristiche uniche in termini di **prestazioni**, **persistenza** e **casi d’uso**. Queste opzioni sono utilizzabili per ospitare sistemi operativi, database, dati applicativi, backup e molto altro.
+[Amazon EC2](01-Compute-options/Amazon-EC2.md) fornisce diverse opzioni di **archiviazione dati**, ciascuna con caratteristiche uniche in termini di **prestazioni**, **persistenza** e **casi d’uso**. Queste opzioni sono utilizzabili per ospitare sistemi operativi, database, dati applicativi, backup e molto altro.
 
 ---
 
 ## Tipi principali di storage per EC2
 
-### 1. [Amazon EBS](Amazon-EBS.md) (Elastic Block Store)
+### 1. [Amazon EBS](02-Storage-services/Amazon-EBS.md) (Elastic Block Store)
 
 - Archiviazione a blocchi **persistente**, ad alte prestazioni
 - Funziona come un disco rigido virtuale collegato a un'istanza EC2
@@ -23,7 +23,7 @@
 
 ---
 
-### 2. [Instance Store](Instance-Store.md) (storage effimero)
+### 2. [Instance Store](02-Storage-services/Instance-Store.md) (storage effimero)
 
 - Archiviazione **fisica locale** al server host EC2
 - Prestazioni molto elevate, ma **non persistente**
@@ -32,7 +32,7 @@
 
 ---
 
-### 3. [Amazon EFS](Amazon-EFS.md) (Elastic File System)
+### 3. [Amazon EFS](02-Storage-services/Amazon-EFS.md) (Elastic File System)
 
 - File system **condiviso** accessibile da più istanze EC2 anche in diverse AZ
 - **Ridimensionamento automatico** dello spazio in base al contenuto
@@ -41,12 +41,12 @@
 
 ---
 
-### 4. [Amazon FSx](Amazon-FSx.md)
+### 4. [Amazon FSx](02-Storage-services/Amazon-FSx.md)
 
 - File system completamente gestiti per casi d’uso specifici
 
   - **FSx for Windows File Server** – Compatibile con SMB e Active Directory
-  - **FSx for Lustre** – Prestazioni elevate per [HPC](Machine-Learning.md), ML, genomica, rendering
+  - **FSx for Lustre** – Prestazioni elevate per [HPC](07-IA-ML-Analytics/AI e ML/Machine-Learning.md), ML, genomica, rendering
   - **FSx for NetApp ONTAP** – Snapshot, deduplica, compressione avanzata
   - **FSx for OpenZFS** – Affidabile e ottimizzato per ambienti Unix/Linux
 
@@ -65,10 +65,10 @@
 
 ## 🧠 Considerazioni
 
-- [Amazon EBS](Amazon-EBS.md) è lo storage più versatile e comunemente utilizzato con EC2.
-- [Instance Store](Instance-Store.md) è utile per prestazioni I/O elevate su dati effimeri.
-- [Amazon EFS](Amazon-EFS.md) è ideale in contesti multi-istanza e distribuiti.
-- [Amazon FSx](Amazon-FSx.md) copre esigenze avanzate di compatibilità (Windows, ONTAP, Lustre).
+- [Amazon EBS](02-Storage-services/Amazon-EBS.md) è lo storage più versatile e comunemente utilizzato con EC2.
+- [Instance Store](02-Storage-services/Instance-Store.md) è utile per prestazioni I/O elevate su dati effimeri.
+- [Amazon EFS](02-Storage-services/Amazon-EFS.md) è ideale in contesti multi-istanza e distribuiti.
+- [Amazon FSx](02-Storage-services/Amazon-FSx.md) copre esigenze avanzate di compatibilità (Windows, ONTAP, Lustre).
 
 La scelta migliore dipende da fattori come:  
 ✅ Necessità di persistenza  
@@ -76,4 +76,4 @@ La scelta migliore dipende da fattori come:
 ✅ Accesso concorrente  
 ✅ Costo
 
-📎 Per un confronto con S3: [EC2 vs S3 Storage](EC2-storage-vs-S3-storage.md)
+📎 Per un confronto con S3: [EC2 vs S3 Storage](02-Storage-services/EC2-storage-vs-S3-storage.md)

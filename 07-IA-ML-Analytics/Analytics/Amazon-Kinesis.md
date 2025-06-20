@@ -1,8 +1,8 @@
---> [AWS](AWS.md)  -  [Data Analytics](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Data Analytics](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # Amazon Kinesis
 
-**Amazon Kinesis** è una suite di servizi [AWS](AWS.md) pensata per la **raccolta, elaborazione e analisi in tempo reale** di grandi volumi di dati in streaming, come log, clickstream, dati IoT, eventi applicativi e metriche.  
-Kinesis permette di costruire applicazioni che reagiscono ai dati **appena generati**, senza doverli prima salvare in un database o in [S3](Amazon-S3.md).
+**Amazon Kinesis** è una suite di servizi [AWS](00-Intro/AWS.md) pensata per la **raccolta, elaborazione e analisi in tempo reale** di grandi volumi di dati in streaming, come log, clickstream, dati IoT, eventi applicativi e metriche.  
+Kinesis permette di costruire applicazioni che reagiscono ai dati **appena generati**, senza doverli prima salvare in un database o in [S3](02-Storage-services/Amazon-S3.md).
 
 ---
 
@@ -13,7 +13,7 @@ Amazon Kinesis è suddiviso in più servizi specifici:
 | Componente                     | Descrizione                                               |
 | ------------------------------ | --------------------------------------------------------- |
 | **Kinesis Data Streams (KDS)** | Ingestione e bufferizzazione di dati in tempo reale       |
-| **Kinesis Data Firehose**      | Ingestione + delivery automatica verso [S3](Amazon-S3.md), [Redshift](Amazon-Redshift-e-Redshift-Serverless.md), ecc. |
+| **Kinesis Data Firehose**      | Ingestione + delivery automatica verso [S3](02-Storage-services/Amazon-S3.md), [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), ecc. |
 | **Kinesis Data Analytics**     | Query SQL in tempo reale sui dati in streaming            |
 | **Kinesis Video Streams**      | Streaming, archiviazione e analisi di video in AWS        |
 
@@ -25,7 +25,7 @@ Amazon Kinesis è suddiviso in più servizi specifici:
 - **Bassa latenza (<1 secondo)** per analisi e risposta immediata, in real time
 - **Scalabilità automatica** o configurabile (a seconda del servizio)
 - **Retention configurabile** (fino a 365 giorni per KDS)
-- **Integrazione diretta** con [AWS Lambda](AWS-Lambda.md), [S3](Amazon-S3.md), [Redshift](Amazon-Redshift-e-Redshift-Serverless.md), [OpenSearch](Amazon-OpenSearch.md), etc.
+- **Integrazione diretta** con [AWS Lambda](01-Compute-options/AWS-Lambda.md), [S3](02-Storage-services/Amazon-S3.md), [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), [OpenSearch](07-IA-ML-Analytics/Analytics/Amazon-OpenSearch.md), etc.
 - **Supporto per partition key** e ordinamento dei dati nei flussi
 - **Pay-per-use**: paghi solo per i dati elaborati o trasportati
 
@@ -57,10 +57,10 @@ Gli shard possono essere **aumentati o ridotti manualmente** (resharding) o gest
 
 ## 🔥 Amazon Kinesis Data Firehose
 
-**Kinesis Data Firehose** è il componente della famiglia Kinesis pensato per il **caricamento continuo e completamente gestito di dati in tempo reale** verso destinazioni come **Amazon S3, [Redshift](Amazon-Redshift-e-Redshift-Serverless.md), OpenSearch, e Splunk**.  
+**Kinesis Data Firehose** è il componente della famiglia Kinesis pensato per il **caricamento continuo e completamente gestito di dati in tempo reale** verso destinazioni come **Amazon S3, [Redshift](07-IA-ML-Analytics/Analytics/Amazon-Redshift-e-Redshift-Serverless.md), OpenSearch, e Splunk**.  
 A differenza di Kinesis Data Streams, non richiede gestione di shard o scrittura manuale del codice per il consumo: basta **configurare una destinazione** e Firehose si occupa della **bufferizzazione, trasformazione (opzionale) e consegna dei dati**.  
 I dati sono processati e consegnati alla destinazione in real-time (sotto i 60 secondi).  
-Si possono specificare trasformazioni personalizzate da effettuare sui dati con [Lambda](AWS-Lambda.md) prima del caricamento.  
+Si possono specificare trasformazioni personalizzate da effettuare sui dati con [Lambda](01-Compute-options/AWS-Lambda.md) prima del caricamento.  
 È ideale per **pipeline ETL semplificate**, data lake ingest e archiviazione log.  
 Firehose supporta anche **conversione in formato Parquet o ORC**, **compressione** e l'integrazione con **Lambda** per trasformazioni in-flight.  
 È un servizio completamente **serverless**: scala automaticamente con il volume di dati e si paga solo per ciò che si trasferisce.
@@ -107,12 +107,12 @@ Amazon Kinesis è particolarmente indicato quando:
 
 | Servizio               | Quando usarlo                                | Differenze principali                            |
 |------------------------|---------------------------------------------|-------------------------------------------------|
-| **[Amazon Kinesis](Amazon-Kinesis.md)**      | Streaming dati in real-time                   | Suite completa per stream ingest, process, store |
-| **[Amazon MSK](Amazon-MSK.md)**              | Quando usi Kafka o vuoi compatibilità Kafka, soprattutto adatto per big data processati in batch  | Gestione Kafka 100% compatibile                   |
-| **[Amazon SQS](Amazon-SQS.md)**              | Per code di messaggi asincroni                | Buffering con maggiore durata, meno real-time     |
-| **[Amazon EventBridge](Amazon-EventBridge.md)** | Per eventi strutturati tra servizi AWS        | Event routing, non adatto a volumi elevati        |
-| **[AWS Lambda](AWS-Lambda.md)**               | Per reagire a eventi                         | Ottimo in combinazione con Kinesis (trigger)      |
-| **[Amazon SNS](Amazon-SNS.md)**               | Per notifiche push multi-target              | Meno adatto a flussi continui o logging           |
+| **[Amazon Kinesis](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md)**      | Streaming dati in real-time                   | Suite completa per stream ingest, process, store |
+| **[Amazon MSK](07-IA-ML-Analytics/Analytics/Amazon-MSK.md)**              | Quando usi Kafka o vuoi compatibilità Kafka, soprattutto adatto per big data processati in batch  | Gestione Kafka 100% compatibile                   |
+| **[Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md)**              | Per code di messaggi asincroni                | Buffering con maggiore durata, meno real-time     |
+| **[Amazon EventBridge](05-Development-Messaging-Deploying/Amazon-EventBridge.md)** | Per eventi strutturati tra servizi AWS        | Event routing, non adatto a volumi elevati        |
+| **[AWS Lambda](01-Compute-options/AWS-Lambda.md)**               | Per reagire a eventi                         | Ottimo in combinazione con Kinesis (trigger)      |
+| **[Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md)**               | Per notifiche push multi-target              | Meno adatto a flussi continui o logging           |
 
 ---
 

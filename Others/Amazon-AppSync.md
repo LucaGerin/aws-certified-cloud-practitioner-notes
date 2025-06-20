@@ -1,7 +1,7 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # 🔄 AWS AppSync
 
-**AWS AppSync** è un servizio completamente gestito che semplifica lo sviluppo di API GraphQL scalabili, sicure e in tempo reale, integrandosi facilmente con servizi AWS come [Amazon DynamoDB](Amazon-DynamoDB.md), [AWS Lambda](AWS-Lambda.md) e [Amazon OpenSearch Service](Amazon-OpenSearch.md).
+**AWS AppSync** è un servizio completamente gestito che semplifica lo sviluppo di API GraphQL scalabili, sicure e in tempo reale, integrandosi facilmente con servizi AWS come [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md) e [Amazon OpenSearch Service](07-IA-ML-Analytics/Analytics/Amazon-OpenSearch.md).
 Permette agli sviluppatori di creare connessioni tra le loro applicazioni e serizi con GraphQL e pub/sub APIs sicure, serverless e ad alte prestazioni.
 
 ![AppSync functioning](appsync.png)
@@ -18,7 +18,7 @@ AWS AppSync consente di creare API GraphQL che aggregano dati da più origini, e
     
 - **Integrazione con AWS:** AppSync si integra facilmente con DynamoDB, Lambda, RDS (tramite Aurora Serverless), OpenSearch e S3.
     
-- **Controllo accessi avanzato:** supporta [AWS IAM](AWS-IAM.md), Amazon Cognito, OpenID Connect e API Key.
+- **Controllo accessi avanzato:** supporta [AWS IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), Amazon Cognito, OpenID Connect e API Key.
     
 - **Caching integrato:** per migliorare la latenza e ridurre il carico sulle fonti dati.
     
@@ -33,7 +33,7 @@ AWS AppSync consente di creare API GraphQL che aggregano dati da più origini, e
     
 - **App offline-first:** con sincronizzazione dati automatica alla riconnessione.
     
-- **Data lake explorer:** con query verso dati in [Amazon OpenSearch Service](Amazon-OpenSearch.md).
+- **Data lake explorer:** con query verso dati in [Amazon OpenSearch Service](07-IA-ML-Analytics/Analytics/Amazon-OpenSearch.md).
     
 
 ## Pricing
@@ -53,7 +53,7 @@ AWS AppSync ha un modello di **pay-as-you-go** basato su:
 
 AppSync supporta diversi meccanismi di autenticazione e autorizzazione:
 
-- [AWS IAM](AWS-IAM.md): per integrazione con ruoli e policy AWS.
+- [AWS IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md): per integrazione con ruoli e policy AWS.
     
 - Amazon Cognito: per utenti finali federati e gestiti.
     
@@ -74,4 +74,4 @@ Tutte le comunicazioni sono protette tramite HTTPS e le policy possono essere ap
 
 ## Conclusioni
 
-AWS AppSync è la scelta ideale per applicazioni moderne che richiedono aggiornamenti in tempo reale, aggregazione da più origini e supporto offline. La sua integrazione nativa con altri servizi della [rete globale AWS](Rete-globale-AWS.md) consente di creare API scalabili e resilienti con minimo sforzo operativo.
+AWS AppSync è la scelta ideale per applicazioni moderne che richiedono aggiornamenti in tempo reale, aggregazione da più origini e supporto offline. La sua integrazione nativa con altri servizi della [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md) consente di creare API scalabili e resilienti con minimo sforzo operativo.

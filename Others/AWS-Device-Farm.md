@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # 📱 AWS Device Farm
 
 **AWS Device Farm** è un servizio che consente di testare applicazioni mobili (Android, iOS) e web su una vasta gamma di dispositivi reali nel cloud, per identificare bug, problemi di compatibilità e migliorare la qualità prima del rilascio.
@@ -67,8 +67,8 @@ Il servizio offre una **prova gratuita** limitata per i nuovi account.
 |Servizio|Focus principale|Quando usarlo|
 |---|---|---|
 |AWS Device Farm|Test su dispositivi mobili reali|Per QA mobile automatizzato o manuale|
-|[AWS CodeBuild](AWS-CodeBuild.md)|Build e test su container|Per compilazione e test di app lato server|
-|[AWS Amplify](AWS-Amplify.md)|CI/CD e hosting frontend|Per app web o mobile con deploy automatico|
+|[AWS CodeBuild](05-Development-Messaging-Deploying/AWS-CodeBuild.md)|Build e test su container|Per compilazione e test di app lato server|
+|[AWS Amplify](Others/AWS-Amplify.md)|CI/CD e hosting frontend|Per app web o mobile con deploy automatico|
 
 ## Conclusioni
 

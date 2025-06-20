@@ -1,4 +1,4 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # 🌐 Amazon API Gateway
 
 **Amazon API Gateway** è un servizio completamente gestito che consente di creare, pubblicare, monitorare e proteggere API RESTful, WebSocket e HTTP su larga scala, facilitando l'integrazione tra client e backend in ambienti cloud-native.
@@ -7,7 +7,7 @@
 
 ## Cos'è e come funziona
 
-Amazon API Gateway funge da front-end per applicazioni serverless, microservizi o back-end tradizionali, permettendo ai client di comunicare con servizi come [AWS Lambda](AWS-Lambda.md), [Amazon EC2](Amazon-EC2.md), [Amazon Kinesis](Amazon-Kinesis.md), o backend esterni. Gestisce il routing delle richieste, l'autenticazione, la throttling, il caching e la trasformazione dei payload (ad esempio da JSON a XML).
+Amazon API Gateway funge da front-end per applicazioni serverless, microservizi o back-end tradizionali, permettendo ai client di comunicare con servizi come [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon EC2](01-Compute-options/Amazon-EC2.md), [Amazon Kinesis](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md), o backend esterni. Gestisce il routing delle richieste, l'autenticazione, la throttling, il caching e la trasformazione dei payload (ad esempio da JSON a XML).
 
 Supporta tre tipi di API:
 
@@ -26,7 +26,7 @@ Supporta tre tipi di API:
     
 - **Caching e accelerazione delle risposte**
     
-- **Monitoring e logging:** integrazione con [Amazon CloudWatch](Amazon-CloudWatch.md)
+- **Monitoring e logging:** integrazione con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
     
 - **Supporto per CORS e autorizzazioni complesse**
     
@@ -63,7 +63,7 @@ Il prezzo dipende dal tipo di API:
 
 Amazon API Gateway supporta diversi meccanismi di autenticazione:
 
-- **[Amazon Cognito](AWS-Cognito.md):** gestione utenti e federazione
+- **[Amazon Cognito](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Cognito.md):** gestione utenti e federazione
     
 - **IAM:** accesso controllato tramite ruoli/policy AWS
     
@@ -79,9 +79,9 @@ Supporta anche WAF per la protezione da attacchi comuni (SQL injection, XSS, etc
 |Servizio|Tipo di API|Quando usarlo|
 |---|---|---|
 |Amazon API Gateway|REST, HTTP, WebSocket|Per gateway API completo e sicuro|
-|[AWS AppSync](Amazon-AppSync.md)|GraphQL|Per aggregazione dati e API real-time|
-|[AWS Amplify API](AWS-Amplify.md)|REST/GraphQL|Per sviluppo rapido frontend con backend gestito|
+|[AWS AppSync](Others/Amazon-AppSync.md)|GraphQL|Per aggregazione dati e API real-time|
+|[AWS Amplify API](Others/AWS-Amplify.md)|REST/GraphQL|Per sviluppo rapido frontend con backend gestito|
 
 ## Conclusioni
 
-Amazon API Gateway è il punto di ingresso ideale per costruire API moderne, sicure e scalabili. Offre un'integrazione fluida con l'intero ecosistema AWS e permette di implementare architetture serverless o microservizi in modo efficiente, sfruttando la [rete globale AWS](Rete-globale-AWS.md).
+Amazon API Gateway è il punto di ingresso ideale per costruire API moderne, sicure e scalabili. Offre un'integrazione fluida con l'intero ecosistema AWS e permette di implementare architetture serverless o microservizi in modo efficiente, sfruttando la [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md).

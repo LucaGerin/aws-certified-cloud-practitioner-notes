@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 👁️ Amazon Rekognition
 
 ## 📘 Cos’è e come funziona
@@ -15,11 +15,11 @@ Il servizio è progettato per offrire funzionalità avanzate di riconoscimento v
 
 - 🧠 **Rilevamento di oggetti e scene** (es. auto, edifici, animali, ecc.)
 - 🧍 **Riconoscimento facciale**: individuazione, confronto, analisi delle emozioni, età stimata, presenza di occhiali, ecc.
-- 🎥 **Analisi video in tempo reale o batch** tramite [Amazon Kinesis Video Streams](Amazon-Kinesis.md)
+- 🎥 **Analisi video in tempo reale o batch** tramite [Amazon Kinesis Video Streams](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md)
 - 🧾 **Riconoscimento di testo** nelle immagini (OCR base)
 - 🔞 **Rilevamento contenuti inappropriati** (nudità, violenza, ecc.)
 - 🧬 **Creazione di collezioni facciali** per applicazioni di verifica identità
-- 🔐 **Sicurezza integrata** con [AWS IAM](AWS-IAM.md), [AWS KMS](AWS-KMS.md), [Amazon VPC](Amazon-VPC.md)
+- 🔐 **Sicurezza integrata** con [AWS IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md), [Amazon VPC](03-CDN-e-Networking/Amazon-VPC.md)
 
 **Vantaggi principali:**
 
@@ -63,10 +63,10 @@ Amazon Rekognition ha prezzi separati per **immagini** e **video**:
 
 | Servizio                                | Finalità principale                     | Differenze rispetto a Rekognition                            |
 |-----------------------------------------|------------------------------------------|--------------------------------------------------------------|
-| [Amazon Textract](Amazon-Textract.md)   | Estrazione testo da documenti            | Focalizzato su PDF e formati documentali strutturati         |
-| [Amazon Comprehend](Amazon-Comprehend.md) | Analisi del linguaggio naturale          | Elabora testo, non immagini o video                          |
-| [Amazon Transcribe](Amazon-Transcribe.md) | Audio → testo                            | Riconosce parlato, non visivo                                |
-| [Amazon Polly](Amazon-Polly.md)         | Testo → voce                             | Nessuna funzionalità visiva                                  |
+| [Amazon Textract](07-IA-ML-Analytics/AI e ML/Amazon-Textract.md)   | Estrazione testo da documenti            | Focalizzato su PDF e formati documentali strutturati         |
+| [Amazon Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md) | Analisi del linguaggio naturale          | Elabora testo, non immagini o video                          |
+| [Amazon Transcribe](07-IA-ML-Analytics/AI e ML/Amazon-Transcribe.md) | Audio → testo                            | Riconosce parlato, non visivo                                |
+| [Amazon Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)         | Testo → voce                             | Nessuna funzionalità visiva                                  |
 
 ---
 

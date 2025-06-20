@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Development, Messaging, and Deployment](Development-Messaging-and-Deployment.md)
+--> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # Infrastructure as Code (IaC)
 
 **Infrastructure as Code (IaC)** è una pratica DevOps che consiste nel **definire e gestire l’infrastruttura IT tramite file di configurazione**, invece che configurarla manualmente tramite console o CLI.
@@ -29,7 +29,7 @@
 
 | Strumento       | Linguaggio         | Provider      | Note                         |
 |-----------------|--------------------|---------------|------------------------------|
-| **[CloudFormation](AWS-CloudFormation.md)** | YAML / JSON        | Solo AWS      | 100% AWS-native              |
+| **[CloudFormation](05-Development-Messaging-Deploying/AWS-CloudFormation.md)** | YAML / JSON        | Solo AWS      | 100% AWS-native              |
 | **Terraform**       | HCL (HashiCorp)     | Multi-cloud   | Stato gestito esternamente   |
 | **Pulumi**          | TypeScript, Python  | Multi-cloud   | Uso di linguaggi di programmazione reali |
 | **CDK** (AWS)       | TypeScript, Python  | Solo AWS      | Abstraction su CloudFormation |
@@ -63,4 +63,4 @@ Infrastructure as Code è alla base delle architetture cloud moderne. Permette a
 
 > “Se l’infrastruttura è codice, allora la tua infrastruttura è testabile, revisionabile e versionabile.”
 
-Il servizio Amazon dedicato a IaC è [AWS CloudFormation](AWS-CloudFormation.md).
+Il servizio Amazon dedicato a IaC è [AWS CloudFormation](05-Development-Messaging-Deploying/AWS-CloudFormation.md).

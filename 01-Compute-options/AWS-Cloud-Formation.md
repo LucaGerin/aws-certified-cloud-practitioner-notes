@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Compute Options](AWS-Compute-Options.md)
+--> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
 # AWS CloudFormation
 ![cloudformation](CloudFormation.webp)
 

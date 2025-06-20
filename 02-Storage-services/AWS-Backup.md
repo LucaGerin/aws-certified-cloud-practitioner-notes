@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Storage Services](AWS-Storage-Services.md)
+--> [AWS](00-Intro/AWS.md)  -  [Storage Services](02-Storage-services/AWS-Storage-Services.md)
 
 # AWS Backup
 
@@ -15,7 +15,7 @@ AWS Backup fornisce un approccio centralizzato per configurare, eseguire e monit
 - Definire piani di backup (backup plans) per schedulare backup automatici
 - Applicare regole di conservazione, cifratura e versioning
 - Ripristinare dati in modo granulare e selettivo
-- Estendere la protezione dei dati anche a volumi locali tramite [AWS Storage Gateway](AWS-Storage-Gateway.md)
+- Estendere la protezione dei dati anche a volumi locali tramite [AWS Storage Gateway](02-Storage-services/AWS-Storage-Gateway.md)
 - Utilizzare backup cross-region e cross-account per resilienza e disaster recovery
 
 ![vault](backup-vault.png)
@@ -24,11 +24,11 @@ AWS Backup fornisce un approccio centralizzato per configurare, eseguire e monit
 
 ## ⭐ Caratteristiche principali e vantaggi
 
-- **Backup centralizzato:** Un’unica interfaccia per gestire il backup di risorse come [Amazon EBS](Amazon-EBS.md), [Amazon RDS](Amazon-RDS.md), [Amazon DynamoDB](Amazon-DynamoDB.md), [Amazon EFS](Amazon-EFS.md), [Amazon FSx](Amazon-FSx.md), [Amazon S3](Amazon-S3.md) (con limitazioni) e [AWS Storage Gateway](AWS-Storage-Gateway.md)
+- **Backup centralizzato:** Un’unica interfaccia per gestire il backup di risorse come [Amazon EBS](02-Storage-services/Amazon-EBS.md), [Amazon RDS](04-Database-services/Amazon-RDS.md), [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md), [Amazon EFS](02-Storage-services/Amazon-EFS.md), [Amazon FSx](02-Storage-services/Amazon-FSx.md), [Amazon S3](02-Storage-services/Amazon-S3.md) (con limitazioni) e [AWS Storage Gateway](02-Storage-services/AWS-Storage-Gateway.md)
 - **Automazione con backup plans:** Schedulazione automatica, regole di conservazione e tagging
 - **Backup incrementali:** Riduzione dello spazio occupato e dei costi
 - **Restore granulare:** Ripristino rapido e preciso
-- **Monitoraggio e auditing:** Integrazione con [Amazon CloudWatch](Amazon-CloudWatch.md) e [AWS Organizations](AWS-Organizations.md)
+- **Monitoraggio e auditing:** Integrazione con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS Organizations](09-Sicurezza-Compliance-Governance/Compliance e Governance/AWS-Organizations.md)
 - **Compatibilità multi-account e cross-region** per elevata disponibilità
 - **Compliance:** Facilita l’adesione a normative come GDPR, HIPAA, ISO
 
@@ -40,7 +40,7 @@ AWS Backup fornisce un approccio centralizzato per configurare, eseguire e monit
 - **Conformità normativa:** Applicazione coerente di policy per GDPR, HIPAA, ISO, ecc.
 - **Disaster recovery** tramite copie cross-region
 - **Protezione da cancellazioni accidentali** o ransomware
-- **Hybrid cloud backup:** Protezione di volumi on-prem tramite [AWS Storage Gateway](AWS-Storage-Gateway.md)
+- **Hybrid cloud backup:** Protezione di volumi on-prem tramite [AWS Storage Gateway](02-Storage-services/AWS-Storage-Gateway.md)
 - **Long-term archiving** con cicli di vita configurabili
 
 ---
@@ -60,9 +60,9 @@ Il costo di AWS Backup dipende da:
 
 ## 🔐 Sicurezza
 
-- **Crittografia dei backup** a riposo tramite [AWS KMS](AWS-KMS.md)
-- **Controllo accessi granulari** tramite [IAM](AWS-IAM.md)
-- **Audit e log delle operazioni** tramite [AWS CloudTrail](Amazon-CloudTrail.md)
+- **Crittografia dei backup** a riposo tramite [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
+- **Controllo accessi granulari** tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)
+- **Audit e log delle operazioni** tramite [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
 - **Isolamento logico** dei dati tra account tramite backup cross-account
 - Supporto per **compliance standards** e certificazioni (SOC, ISO, HIPAA)
 
@@ -74,20 +74,20 @@ Il costo di AWS Backup dipende da:
 |-----------------------------|--------------------------------------|-------------------------------------------------------------|
 | **AWS Backup**              | Gestione backup centralizzata        | Quando serve coordinare backup multi-servizio e multi-account |
 | **Snapshot manuali (EBS/RDS)** | Backup specifico per singola risorsa | Quando serve controllo puntuale su una risorsa             |
-| **[Amazon S3](Amazon-S3.md) + Lifecycle Policy** | Archiviazione con versioning        | Per dati in oggetti, non strutturati                       |
-| **[AWS Storage Gateway](AWS-Storage-Gateway.md)** | Backup da ambienti on-prem          | Per ambienti ibridi o locali                               |
+| **[Amazon S3](02-Storage-services/Amazon-S3.md) + Lifecycle Policy** | Archiviazione con versioning        | Per dati in oggetti, non strutturati                       |
+| **[AWS Storage Gateway](02-Storage-services/AWS-Storage-Gateway.md)** | Backup da ambienti on-prem          | Per ambienti ibridi o locali                               |
 
 ---
 
 ## 🧩 Servizi supportati
 
-- [Amazon EC2](Amazon-EC2.md) (tramite volumi [Amazon EBS](Amazon-EBS.md))
-- [Amazon RDS](Amazon-RDS.md) (tutti i motori)
-- [Amazon DynamoDB](Amazon-DynamoDB.md)
-- [Amazon EFS](Amazon-EFS.md)
-- [Amazon FSx](Amazon-FSx.md) (Windows, Lustre, ONTAP, OpenZFS)
-- [Amazon S3](Amazon-S3.md) (supporto limitato)
-- [AWS Storage Gateway](AWS-Storage-Gateway.md)
+- [Amazon EC2](01-Compute-options/Amazon-EC2.md) (tramite volumi [Amazon EBS](02-Storage-services/Amazon-EBS.md))
+- [Amazon RDS](04-Database-services/Amazon-RDS.md) (tutti i motori)
+- [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md)
+- [Amazon EFS](02-Storage-services/Amazon-EFS.md)
+- [Amazon FSx](02-Storage-services/Amazon-FSx.md) (Windows, Lustre, ONTAP, OpenZFS)
+- [Amazon S3](02-Storage-services/Amazon-S3.md) (supporto limitato)
+- [AWS Storage Gateway](02-Storage-services/AWS-Storage-Gateway.md)
 
 ---
 

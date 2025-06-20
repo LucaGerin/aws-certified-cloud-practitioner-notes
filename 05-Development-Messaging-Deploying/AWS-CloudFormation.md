@@ -1,14 +1,14 @@
---> [AWS](AWS.md)  -  [Development, Messaging, and Deployment](Development-Messaging-and-Deployment.md)
+--> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # AWS CloudFormation
 
-**AWS CloudFormation** è un servizio AWS che permette di **creare, aggiornare e gestire risorse AWS** in modo dichiarativo, attraverso file di configurazione YAML o JSON. È uno strumento chiave per l’implementazione dell’[Infrastructure as Code (IaC)](Infrastructure-as-Code.md) su AWS.
+**AWS CloudFormation** è un servizio AWS che permette di **creare, aggiornare e gestire risorse AWS** in modo dichiarativo, attraverso file di configurazione YAML o JSON. È uno strumento chiave per l’implementazione dell’[Infrastructure as Code (IaC)](05-Development-Messaging-Deploying/Infrastructure-as-Code.md) su AWS.
 
 ![use of cloud formation](cloudformation-cli.png)
 
 ---
 ## 🧩 Caratteristiche principali
 
-- **Provisioning automatico** di risorse ([Amazon EC2](Amazon-EC2.md), [Amazon S3](Amazon-S3.md), [IAM](AWS-IAM.md), [Amazon RDS](Amazon RDS.md), [AWS Lambda](AWS-Lambda.md), ecc.)
+- **Provisioning automatico** di risorse ([Amazon EC2](01-Compute-options/Amazon-EC2.md), [Amazon S3](02-Storage-services/Amazon-S3.md), [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [Amazon RDS](Amazon RDS.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md), ecc.)
 - **File dichiarativi** in YAML o JSON che costruiscono le risorse come codice.
 - **Gestione come stack**: risorse raggruppate e trattate come un’unità
 - **Change set**: pre-visualizza modifiche prima del deployment
@@ -78,7 +78,7 @@ aws cloudformation delete-stack --stack-name mio-stack
 ## 🔐 Sicurezza e gestione
 
 - Usa **IAM roles** per controllare le azioni eseguibili da CloudFormation
-- I parametri e output possono essere criptati con [AWS KMS](AWS-KMS.md)
+- I parametri e output possono essere criptati con [AWS KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
 - Abilita **rollback on failure** per evitare stati inconsistenti
 
 ---
@@ -86,7 +86,7 @@ aws cloudformation delete-stack --stack-name mio-stack
 ## ✅ Use case comuni
 
 - Deploy automatico di ambienti dev/test/prod
-- Provisioning di stack serverless ([AWS Lambda](AWS-Lambda.md))
+- Provisioning di stack serverless ([AWS Lambda](01-Compute-options/AWS-Lambda.md))
 - Gestione multi-account tramite StackSet
 - Clonazione di ambienti per disaster recovery o testing
 

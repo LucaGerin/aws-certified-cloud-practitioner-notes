@@ -1,7 +1,7 @@
---> [AWS](AWS.md)  -  [Migration Strategies](AWS-Migration-Strategies.md)
+--> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # AWS Snowball
 
-**AWS Snowball** è un dispositivo fisico fornito da Amazon Web Services progettato per trasferimenti di dati su larga scala in modo sicuro ed efficiente. Fa parte della famiglia di servizi [AWS-Snow](AWS-Snow.md) (insieme a [AWS-Snowcone](AWS-Snowcone.md) e [AWS-Snowmobile](AWS-Snowmobile.md)) e viene utilizzato principalmente per spostare grandi quantità di dati verso o da AWS, specialmente quando la larghezza di banda di rete è limitata o il trasferimento online sarebbe troppo lento o costoso.
+**AWS Snowball** è un dispositivo fisico fornito da Amazon Web Services progettato per trasferimenti di dati su larga scala in modo sicuro ed efficiente. Fa parte della famiglia di servizi [AWS-Snow](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snow.md) (insieme a [AWS-Snowcone](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowcone.md) e [AWS-Snowmobile](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md)) e viene utilizzato principalmente per spostare grandi quantità di dati verso o da AWS, specialmente quando la larghezza di banda di rete è limitata o il trasferimento online sarebbe troppo lento o costoso.
 
 ![snowball](snowball.jpeg)
 
@@ -11,9 +11,9 @@
 
 - **Alta capacità**: può trasferire fino a **80 TB (Snowball Edge Storage Optimized)** per dispositivo.
 - **Resistente e sicuro**: progettato per resistere a urti e vibrazioni, con protezione fisica e crittografia integrata.
-- **Crittografia dei dati**: usa la crittografia **AES-256** e le chiavi di crittografia sono gestite tramite [AWS-KMS](AWS-KMS.md).
-- **Import/export offline**: ideale per grandi volumi di dati da caricare su [Amazon-S3](Amazon-S3.md) o scaricare da esso.
-- **Edge computing**: alcune versioni di Snowball (come **Snowball Edge**) supportano l'esecuzione di applicazioni locali tramite [AWS-Lambda](AWS-Lambda.md) o [Amazon-EC2](Amazon-EC2.md).
+- **Crittografia dei dati**: usa la crittografia **AES-256** e le chiavi di crittografia sono gestite tramite [AWS-KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md).
+- **Import/export offline**: ideale per grandi volumi di dati da caricare su [Amazon-S3](02-Storage-services/Amazon-S3.md) o scaricare da esso.
+- **Edge computing**: alcune versioni di Snowball (come **Snowball Edge**) supportano l'esecuzione di applicazioni locali tramite [AWS-Lambda](01-Compute-options/AWS-Lambda.md) o [Amazon-EC2](01-Compute-options/Amazon-EC2.md).
 
 ---
 
@@ -23,8 +23,8 @@
 |---------------------------|-------------------|-----------------------------------------------------|
 | Snowball Edge Storage     | 80 TB             | Trasferimento dati, NFS, edge computing             |
 | Snowball Edge Compute     | 42 TB             | Edge computing con GPU opzionale                    |
-| [AWS-Snowcone](AWS-Snowcone.md)          | 8 TB              | Ultra portatile, alimentabile tramite batteria USB  |
-| [AWS-Snowmobile](AWS-Snowmobile.md)      | 100 PB            | Trasferimento a livello exabyte tramite camion      |
+| [AWS-Snowcone](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowcone.md)          | 8 TB              | Ultra portatile, alimentabile tramite batteria USB  |
+| [AWS-Snowmobile](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md)      | 100 PB            | Trasferimento a livello exabyte tramite camion      |
 
 ---
 
@@ -34,7 +34,7 @@
 2. **AWS spedisce** il dispositivo fisico all'indirizzo specificato.
 3. **Carica i dati** sul dispositivo tramite software locale (Snowball Client o NFS).
 4. **Spedisci il dispositivo** ad AWS tramite corriere.
-5. **AWS carica i dati** nel tuo bucket [Amazon-S3](Amazon-S3.md).
+5. **AWS carica i dati** nel tuo bucket [Amazon-S3](02-Storage-services/Amazon-S3.md).
 6. **I dati vengono cancellati** automaticamente dal dispositivo al termine del caricamento.
 
 ---

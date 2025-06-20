@@ -1,9 +1,9 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # MigrationStrategies ad AWS
 
 ## 📦 Cosa sono le strategie di migrazione?
 
-Nel contesto dell’adozione del cloud, [AWS](AWS.md) ha identificato **sette strategie** comuni che le aziende possono seguire per migrare applicazioni e carichi di lavoro verso il cloud. Queste strategie, note come le **“7 R”**, aiutano a pianificare e implementare la migrazione in base a requisiti tecnici, costi, e obiettivi di business.  
+Nel contesto dell’adozione del cloud, [AWS](00-Intro/AWS.md) ha identificato **sette strategie** comuni che le aziende possono seguire per migrare applicazioni e carichi di lavoro verso il cloud. Queste strategie, note come le **“7 R”**, aiutano a pianificare e implementare la migrazione in base a requisiti tecnici, costi, e obiettivi di business.  
 Una versione semplificata delle "7 R" è quella delle "3 R", che comprende solo **Rehost**, **Replatform**, **Refactor**.
 
 ---
@@ -18,7 +18,7 @@ Spostare l'applicazione così com'è nel cloud, senza modifiche al codice. È il
 ---
 
 ### 2. ***Replatform (Lift, Tinker, and Shift)***  
-Spostare l'applicazione con alcune ottimizzazioni, ad esempio sostituendo il database con un servizio gestito ([Amazon-RDS](Amazon-RDS.md)).  
+Spostare l'applicazione con alcune ottimizzazioni, ad esempio sostituendo il database con un servizio gestito ([Amazon-RDS](04-Database-services/Amazon-RDS.md)).  
 **✅ Vantaggi:** Bilancia rapidità e miglioramento tecnico.  
 **❗Quando usarlo:** Quando si vogliono piccoli benefici cloud senza riscrivere tutto.
 
@@ -32,7 +32,7 @@ Sostituire l'applicazione esistente con una SaaS (Software as a Service), come S
 ---
 
 ### 4. ***Refactor / Re-architect***  
-Ripensare e riscrivere l’applicazione per sfruttare pienamente le funzionalità cloud-native (es. microservizi, [AWS-Lambda](AWS-Lambda.md), [Amazon-DynamoDB](Amazon-DynamoDB.md)).  
+Ripensare e riscrivere l’applicazione per sfruttare pienamente le funzionalità cloud-native (es. microservizi, [AWS-Lambda](01-Compute-options/AWS-Lambda.md), [Amazon-DynamoDB](04-Database-services/Amazon-DynamoDB.md)).  
 **✅ Vantaggi:** Scalabilità, resilienza, costi ottimizzati.  
 **❗Quando usarlo:** Per app strategiche o in difficoltà tecnica.
 
@@ -74,36 +74,36 @@ Si devono considerare:
 
 ## ✅ Quindi...
 
-Comprendere e applicare correttamente le strategie di migrazione [AWS](AWS.md) permette alle aziende di modernizzare i propri sistemi in modo efficace, sicuro e sostenibile, sfruttando al massimo i vantaggi del cloud.
+Comprendere e applicare correttamente le strategie di migrazione [AWS](00-Intro/AWS.md) permette alle aziende di modernizzare i propri sistemi in modo efficace, sicuro e sostenibile, sfruttando al massimo i vantaggi del cloud.
 
 ---
 
 ## 🛠️ Strumenti AWS per la Migrazione
 
-[AWS](AWS.md) mette a disposizione un insieme completo di strumenti per supportare le aziende in tutte le fasi della migrazione al cloud: dalla valutazione iniziale, alla migrazione vera e propria, fino al monitoraggio e all’ottimizzazione post-migrazione. Di seguito una panoramica dei principali:
+[AWS](00-Intro/AWS.md) mette a disposizione un insieme completo di strumenti per supportare le aziende in tutte le fasi della migrazione al cloud: dalla valutazione iniziale, alla migrazione vera e propria, fino al monitoraggio e all’ottimizzazione post-migrazione. Di seguito una panoramica dei principali:
 
 ### 🔍 Valutazione e Pianificazione
 
 - **AWS Migration Evaluator**: fornisce un'analisi dell'infrastruttura IT esistente e una stima dei costi nel cloud.
-- **[AWS Application Discovery Service](AWS-Application-Discovery-Service.md)**: raccoglie informazioni sulle applicazioni, sulle dipendenze e sull’utilizzo delle risorse.
+- **[AWS Application Discovery Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Application-Discovery-Service.md)**: raccoglie informazioni sulle applicazioni, sulle dipendenze e sull’utilizzo delle risorse.
 - **AWS Cloud Adoption Readiness Tool (CART)**: strumento di autovalutazione dell'organizzazione.
-- **[AWS Trusted Advisor](AWS-Trusted-Advisor.md)**: fornisce raccomandazioni su sicurezza, performance, limiti e costi.
+- **[AWS Trusted Advisor](08-Auditing-Monitoring-Logging/AWS-Trusted-Advisor.md)**: fornisce raccomandazioni su sicurezza, performance, limiti e costi.
 
 ### 🚚 Esecuzione della Migrazione
 
-- **[AWS Application Migration Service](AWS-Application-Migration-Service.md)** (MGN): per la migrazione automatizzata di server fisici e virtuali.
+- **[AWS Application Migration Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Application-Migration-Service.md)** (MGN): per la migrazione automatizzata di server fisici e virtuali.
 - **[AWS Database Migration Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Database-Migration-Service.md)** (DMS): per la migrazione di database, anche eterogenea.
-- **[AWS Schema Conversion Tool](AWS-Schema-Conversion-Tool.md)** (SCT): converte gli schemi di database tra motori differenti.
+- **[AWS Schema Conversion Tool](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)** (SCT): converte gli schemi di database tra motori differenti.
 
 ### 📦 Trasferimento Dati
 
-- **AWS DataSync**: trasferimento automatizzato tra on-premise e cloud ([Amazon-EFS](Amazon-EFS.md), [FSx](Amazon-FSx.md), ecc.).
-- **[AWS Snow Family](AWS-Snow.md)**: dispositivi fisici per grandi volumi: [AWS Snowcone](AWS-Snowcone.md), [AWS Snowball](AWS-Snowball-Edge.md), [AWS Snowmobile](AWS-Snowmobile.md).
-- **[AWS Transfer Family](AWS-Transfer-Family.md)**: trasferimenti gestiti via SFTP, FTPS, FTP verso [Amazon-S3](Amazon-S3.md).
+- **AWS DataSync**: trasferimento automatizzato tra on-premise e cloud ([Amazon-EFS](02-Storage-services/Amazon-EFS.md), [FSx](02-Storage-services/Amazon-FSx.md), ecc.).
+- **[AWS Snow Family](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snow.md)**: dispositivi fisici per grandi volumi: [AWS Snowcone](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowcone.md), [AWS Snowball](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md), [AWS Snowmobile](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md).
+- **[AWS Transfer Family](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Transfer-Family.md)**: trasferimenti gestiti via SFTP, FTPS, FTP verso [Amazon-S3](02-Storage-services/Amazon-S3.md).
 
 ### 📊 Monitoraggio e Gestione
 
-- **[AWS Migration Hub](AWS-Migration-Hub.md)**: tracciamento centralizzato della migrazione.
+- **[AWS Migration Hub](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Hub.md)**: tracciamento centralizzato della migrazione.
 - **AWS Migration Hub Orchestrator**: automatizza e coordina le attività di migrazione.
 - **CloudEndure Migration**: replica continua dei server per ridurre il downtime.
 
@@ -111,4 +111,4 @@ Comprendere e applicare correttamente le strategie di migrazione [AWS](AWS.md) p
 
 Questi strumenti lavorano in sinergia per garantire una migrazione efficiente, sicura e su misura rispetto ai requisiti dell’organizzazione.
 
-Le migration strategies devono essere impiegate seguendo il [Cloud Adoption Framework](Cloud-Adoption-Framework.md).
+Le migration strategies devono essere impiegate seguendo il [Cloud Adoption Framework](06-Cloud-Adoption-Framework-and-Migration-Strategies/Cloud-Adoption-Framework.md).

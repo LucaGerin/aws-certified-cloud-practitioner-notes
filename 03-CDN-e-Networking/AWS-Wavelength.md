@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [CDN e Networking](Rete-globale-AWS.md)
+--> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
 # 📡 AWS Wavelength
 
 ## Cos'è e come funziona

@@ -1,10 +1,10 @@
---> [AWS](AWS.md)  -  [Migration Strategies](AWS-Migration-Strategies.md)
+--> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # ❄️ AWS Snowcone
 
 ## 📘 Cos'è e come funziona
 
-**AWS Snowcone** è il dispositivo più piccolo della famiglia [AWS-Snow](AWS-Snow.md), progettato per il **trasferimento e l'elaborazione sicura dei dati** in ambienti remoti, mobili o con connettività limitata. È ideale per scenari dove la portabilità e la resistenza sono fondamentali. 
-Supporta anche **funzionalità di edge computing** con [Amazon-EC2](Amazon-EC2.md) e AWS-IoT-Greengrass integrati, permettendo l’elaborazione locale prima del trasferimento in cloud.
+**AWS Snowcone** è il dispositivo più piccolo della famiglia [AWS-Snow](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snow.md), progettato per il **trasferimento e l'elaborazione sicura dei dati** in ambienti remoti, mobili o con connettività limitata. È ideale per scenari dove la portabilità e la resistenza sono fondamentali. 
+Supporta anche **funzionalità di edge computing** con [Amazon-EC2](01-Compute-options/Amazon-EC2.md) e AWS-IoT-Greengrass integrati, permettendo l’elaborazione locale prima del trasferimento in cloud.
 
 ![snowcone](snowcone.jpg)
 
@@ -15,16 +15,16 @@ Supporta anche **funzionalità di edge computing** con [Amazon-EC2](Amazon-EC2.m
 - **Peso**: circa 2,1 kg
 - **Capacità**: fino a 8 TB di storage SSD utilizzabile
 - **Dimensioni**: simili a una lunchbox
-- **Sicurezza**: crittografia a 256-bit con chiavi gestite tramite [AWS-KMS](AWS-KMS.md)
+- **Sicurezza**: crittografia a 256-bit con chiavi gestite tramite [AWS-KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
 - **Resistente**: progettato per ambienti difficili e trasporti intensivi
 - **Funziona offline**: perfetto per sedi remote senza accesso Internet
-- **Compute integrato**: supporta [Amazon-EC2](Amazon-EC2.md) e AWS-IoT-Greengrass localmente
+- **Compute integrato**: supporta [Amazon-EC2](01-Compute-options/Amazon-EC2.md) e AWS-IoT-Greengrass localmente
 
 ---
 
 ## 🚀 Use case comuni
 
-- **Trasferimento dati** da sedi remote verso [Amazon-S3](Amazon-S3.md)
+- **Trasferimento dati** da sedi remote verso [Amazon-S3](02-Storage-services/Amazon-S3.md)
 - **Backup sul campo** per cantieri, ospedali mobili, forze militari
 - **Edge computing** in ambienti privi di connessione stabile
 - **Data collection** da dispositivi IoT
@@ -47,7 +47,7 @@ Supporta anche **funzionalità di edge computing** con [Amazon-EC2](Amazon-EC2.m
 ## 🔐 Sicurezza
 
 - **Crittografia a 256-bit** always-on
-- **Chiavi crittografiche** generate e gestite in [AWS-KMS](AWS-KMS.md)
+- **Chiavi crittografiche** generate e gestite in [AWS-KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)
 - **Protezione fisica** contro manomissione
 - **Blocco automatico** del dispositivo in caso di furto/sabotaggio
 - I dati vengono cancellati automaticamente una volta completato l’upload verso AWS (data wipe)
@@ -69,7 +69,7 @@ Supporta anche **funzionalità di edge computing** con [Amazon-EC2](Amazon-EC2.m
 2. Ricevi fisicamente il dispositivo
 3. Copia i dati tramite CLI o client (Snowball client)
 4. Spedisci il dispositivo ad AWS
-5. I dati vengono caricati su [Amazon-S3](Amazon-S3.md)
+5. I dati vengono caricati su [Amazon-S3](02-Storage-services/Amazon-S3.md)
 6. Il dispositivo viene cancellato e pronto per riutilizzo
 
 ---
@@ -88,8 +88,8 @@ Supporta anche **funzionalità di edge computing** con [Amazon-EC2](Amazon-EC2.m
 | Dispositivo   | Capacità           | Portabilità      | Adatto per                 |
 |---------------|--------------------|------------------|----------------------------|
 | Snowcone      | ~8 TB              | Altissima        | Edge, ambienti remoti      |
-| [AWS-Snowball-Edge](AWS-Snowball-Edge.md) Edge | 80–100 TB          | Media            | Migrazioni dati, compute   |
-| [AWS-Snowmobile](AWS-Snowmobile.md)    | Fino a 100 PB      | Nessuna (camion) | Data center su larga scala |
+| [AWS-Snowball-Edge](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md) Edge | 80–100 TB          | Media            | Migrazioni dati, compute   |
+| [AWS-Snowmobile](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md)    | Fino a 100 PB      | Nessuna (camion) | Data center su larga scala |
 
 ---
 

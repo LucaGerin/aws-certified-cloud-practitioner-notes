@@ -1,11 +1,11 @@
---> [AWS](AWS.md)
+--> [AWS](00-Intro/AWS.md)
 # 📡 AWS IoT
 
 **AWS IoT** è una suite di servizi cloud che consente ai dispositivi connessi (sensori, attuatori, oggetti smart) di interagire in modo sicuro e scalabile con applicazioni e altri servizi AWS.
 
 ## Cos'è e come funziona
 
-AWS IoT consente ai dispositivi di connettersi al cloud, raccogliere dati, elaborare eventi in tempo reale, e interagire con applicazioni o altri dispositivi. I dispositivi possono pubblicare e sottoscrivere messaggi tramite un broker MQTT sicuro e integrarsi facilmente con altri servizi AWS come [AWS Lambda](AWS-Lambda.md), [Amazon Kinesis](Amazon-Kinesis.md) e [Amazon S3](Amazon-S3.md).
+AWS IoT consente ai dispositivi di connettersi al cloud, raccogliere dati, elaborare eventi in tempo reale, e interagire con applicazioni o altri dispositivi. I dispositivi possono pubblicare e sottoscrivere messaggi tramite un broker MQTT sicuro e integrarsi facilmente con altri servizi AWS come [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon Kinesis](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md) e [Amazon S3](02-Storage-services/Amazon-S3.md).
 
 ## Caratteristiche principali e vantaggi
 
@@ -17,9 +17,9 @@ AWS IoT consente ai dispositivi di connettersi al cloud, raccogliere dati, elabo
     
 - **Regole automatizzate:** AWS IoT Rules Engine per elaborare e inoltrare i dati in tempo reale.
     
-- **Machine Learning integrato:** facile integrazione con [Amazon SageMaker](Amazon-SageMaker.md) e altri servizi ML.
+- **Machine Learning integrato:** facile integrazione con [Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md) e altri servizi ML.
     
-- **Monitoraggio e logging:** integrazione con [Amazon CloudWatch](Amazon-CloudWatch.md) e [AWS CloudTrail](Amazon-CloudTrail.md).
+- **Monitoraggio e logging:** integrazione con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md).
     
 
 ## Use cases
@@ -96,13 +96,13 @@ Fornisce strumenti per migliorare la sicurezza dei dispositivi IoT. Include funz
 
 ## Altri servizi e integrazioni utili
 
-- [Amazon Kinesis Data Firehose](Amazon-Kinesis.md) per lo streaming dei dati.
+- [Amazon Kinesis Data Firehose](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md) per lo streaming dei dati.
     
-- [AWS Lambda](AWS-Lambda.md) per la gestione eventi serverless.
+- [AWS Lambda](01-Compute-options/AWS-Lambda.md) per la gestione eventi serverless.
     
-- [Amazon DynamoDB](Amazon-DynamoDB.md) e Amazon Timestream per la memorizzazione dati temporali.
+- [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md) e Amazon Timestream per la memorizzazione dati temporali.
     
 
 ## Conclusioni
 
-I servizi AWS IoT permettono di realizzare soluzioni scalabili, sicure e intelligenti per dispositivi connessi in una vasta gamma di settori. Grazie alla loro integrazione con la [rete globale AWS](Rete-globale-AWS.md), consentono l'elaborazione dati a bassa latenza e con alta affidabilità.
+I servizi AWS IoT permettono di realizzare soluzioni scalabili, sicure e intelligenti per dispositivi connessi in una vasta gamma di settori. Grazie alla loro integrazione con la [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md), consentono l'elaborazione dati a bassa latenza e con alta affidabilità.

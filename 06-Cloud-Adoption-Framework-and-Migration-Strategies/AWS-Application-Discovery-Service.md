@@ -1,9 +1,9 @@
---> [AWS](AWS.md)  -  [Migration Strategies](AWS-Migration-Strategies.md)
+--> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # AWS Application Discovery Service
 
 ![Application Discovery Service](app-disc.png)
 
-**AWS Application Discovery Service** è un servizio progettato per aiutare le aziende a **raccogliere automaticamente informazioni** sui propri data center on-premises, con l'obiettivo di pianificare e semplificare la **migrazione verso [AWS](AWS.md)**.
+**AWS Application Discovery Service** è un servizio progettato per aiutare le aziende a **raccogliere automaticamente informazioni** sui propri data center on-premises, con l'obiettivo di pianificare e semplificare la **migrazione verso [AWS](00-Intro/AWS.md)**.
 
 ---
 
@@ -19,7 +19,7 @@
   - **VMware vCenter**
   - **Windows Server**
   - **Linux Server**
-- I dati raccolti vengono utilizzati da strumenti come [AWS-Migration-Hub](AWS-Migration-Hub.md)
+- I dati raccolti vengono utilizzati da strumenti come [AWS-Migration-Hub](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Hub.md)
 
 ---
 
@@ -40,15 +40,15 @@
 - Valutare la **complessità** e la **dipendenza tra sistemi**
 - Preparare un **business case per la migrazione**
 - Identificare server candidati per **lift-and-shift**
-- Integrare i dati in [AWS-Migration-Hub](AWS-Migration-Hub.md) o [AWS-Application-Migration-Service](AWS-Application-Migration-Service.md)
+- Integrare i dati in [AWS-Migration-Hub](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Hub.md) o [AWS-Application-Migration-Service](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Application-Migration-Service.md)
 
 ---
 
 ## 🔐 Sicurezza
 
 - I dati raccolti possono essere criptati
-- Comunicazione sicura verso [AWS](AWS.md)
-- [IAM](AWS-IAM.md) per controllare accessi e permessi
+- Comunicazione sicura verso [AWS](00-Intro/AWS.md)
+- [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) per controllare accessi e permessi
 
 ---
 

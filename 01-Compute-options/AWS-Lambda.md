@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Compute Options](AWS-Compute-Options.md)
+--> [AWS](00-Intro/AWS.md)  -  [Compute Options](01-Compute-options/AWS-Compute-Options.md)
 # AWS Lambda
 
 ![lambda](lambda.png)
@@ -9,8 +9,8 @@ AWS Lambda è un servizio di **calcolo serverless** che consente di eseguire cod
 ## 🔧 Cos'è e come funziona
 
 Lambda consente di scrivere funzioni che vengono eseguite **on demand**, in risposta a eventi come:
-- Caricamento di un file su [Amazon S3](Amazon-S3.md)
-- Inserimento o aggiornamento di dati in [Amazon DynamoDB](Amazon-DynamoDB.md)
+- Caricamento di un file su [Amazon S3](02-Storage-services/Amazon-S3.md)
+- Inserimento o aggiornamento di dati in [Amazon DynamoDB](04-Database-services/Amazon-DynamoDB.md)
 - Chiamata HTTP tramite Amazon API Gateway
 - Eventi di flusso da Amazon Kinesis o Amazon EventBridge
 
@@ -31,9 +31,9 @@ Il codice può essere caricato direttamente come script o impacchettato in **con
 
 ## 🚀 Use Cases
 
-- **Elaborazione file in S3:** Attivare funzioni quando un file viene caricato su [Amazon S3](Amazon-S3.md)
+- **Elaborazione file in S3:** Attivare funzioni quando un file viene caricato su [Amazon S3](02-Storage-services/Amazon-S3.md)
 - **Backend serverless per applicazioni web o mobile**
-- **Integrazione tra servizi [AWS](AWS.md):** orchestrare flussi tra S3, DynamoDB, SNS, SQS, ecc.
+- **Integrazione tra servizi [AWS](00-Intro/AWS.md):** orchestrare flussi tra S3, DynamoDB, SNS, SQS, ecc.
 - **Automazione IT:** esecuzione pianificata (cron jobs), controllo e auditing
 - **Costruzione di API REST** o GraphQL tramite Amazon API Gateway + Lambda
 

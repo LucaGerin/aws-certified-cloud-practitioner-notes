@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
+--> [AWS](00-Intro/AWS.md)  -  [Intelligenza Artificiale e Machine Leraning](07-IA-ML-Analytics/Intelligenza-artificiale-Machine-Learning-e-Analytics.md)
 # 🎙️ Amazon Transcribe
 
 ## 📘 Cos’è e come funziona
@@ -31,6 +31,6 @@
 
 | Servizio            | Differenze rispetto a Transcribe                |
 |---------------------|--------------------------------------------------|
-| [Polly](Amazon-Polly.md)   | Fa il contrario: converte testo in voce         |
-| [Comprehend](Amazon-Comprehend.md)   | Analizza testo, ma non lo genera da audio       |
-| [Kendra](Amazon-Kendra.md)     | Indicizzazione testi, non elaborazione audio    |
+| [Polly](07-IA-ML-Analytics/AI e ML/Amazon-Polly.md)   | Fa il contrario: converte testo in voce         |
+| [Comprehend](07-IA-ML-Analytics/AI e ML/Amazon-Comprehend.md)   | Analizza testo, ma non lo genera da audio       |
+| [Kendra](07-IA-ML-Analytics/AI e ML/Amazon-Kendra.md)     | Indicizzazione testi, non elaborazione audio    |

@@ -1,4 +1,4 @@
---> [AWS](app://obsidian.md/AWS.md) - [Compliance e Governance](Sicurezza-Compliance-Governance.md)
+--> [AWS](app://obsidian.md/AWS.md) - [Compliance e Governance](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 
 # 🏰 AWS Control Tower
 

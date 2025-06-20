@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Sicurezza](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🔐 AWS KMS (Key Management Service)
 
 ## 📘 Cos'è e come funziona
@@ -6,7 +6,7 @@
 **AWS Key Management Service (KMS)** è un servizio gestito che consente di **creare, gestire e controllare le chiavi crittografiche** utilizzate per proteggere i dati nelle applicazioni e nei servizi AWS. 
 KMS supporta la **crittografia a chiave simmetrica e asimmetrica**, e consente sia la gestione automatica delle chiavi da parte di AWS sia la gestione manuale da parte del cliente.
 
-Le chiavi KMS possono essere utilizzate per cifrare oggetti [S3](Amazon-S3.md), volumi [EBS](Amazon-EBS.md), segreti in Secrets Manager, database [RDS](Amazon-RDS.md), parametri in [Systems Manager](Tag-e-AWS-Systems-Manager.md) e altro ancora.
+Le chiavi KMS possono essere utilizzate per cifrare oggetti [S3](02-Storage-services/Amazon-S3.md), volumi [EBS](02-Storage-services/Amazon-EBS.md), segreti in Secrets Manager, database [RDS](04-Database-services/Amazon-RDS.md), parametri in [Systems Manager](08-Auditing-Monitoring-Logging/Tag-e-AWS-Systems-Manager.md) e altro ancora.
 
 ---
 
@@ -41,7 +41,7 @@ Le chiavi KMS possono essere utilizzate per cifrare oggetti [S3](Amazon-S3.md), 
 
 ## 🚀 Use case comuni
 
-- 🧾 Crittografia automatica dei dati in S3, [EBS](Amazon-EBS.md), RDS, DynamoDB
+- 🧾 Crittografia automatica dei dati in S3, [EBS](02-Storage-services/Amazon-EBS.md), RDS, DynamoDB
 - 🧑‍💼 Protezione di segreti, token e password in Secrets Manager o Parameter Store
 - 🧠 Gestione delle chiavi in applicazioni personalizzate con SDK o API
 - 🔒 Firma digitale e verifica di documenti o transazioni (con chiavi asimmetriche)
@@ -63,9 +63,9 @@ Il costo di AWS KMS è basato su:
 
 | Servizio AWS          | Differenze rispetto a KMS                                 |
 |------------------------|-----------------------------------------------------------|
-| **[AWS Secrets Manager](AWS-Secrets-Manager.md)**| Protegge e ruota segreti, ma utilizza KMS per cifrarli    |
-| **[Amazon Macie](Amazon-Macie.md)**       | Identifica i dati sensibili che sono salvati, ma non li cifra                |
-| **[AWS CloudHSM](AWS-CloudHSM.md)**       | Offre HSM dedicati per requisiti crittografici avanzati   |
+| **[AWS Secrets Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md)**| Protegge e ruota segreti, ma utilizza KMS per cifrarli    |
+| **[Amazon Macie](09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Macie.md)**       | Identifica i dati sensibili che sono salvati, ma non li cifra                |
+| **[AWS CloudHSM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-CloudHSM.md)**       | Offre HSM dedicati per requisiti crittografici avanzati   |
 
 ---
 

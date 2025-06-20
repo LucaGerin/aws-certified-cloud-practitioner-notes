@@ -1,12 +1,12 @@
---> [AWS](AWS.md)  -  [CDN e Networking](Rete-globale-AWS.md)
+--> [AWS](00-Intro/AWS.md)  -  [CDN e Networking](03-CDN-e-Networking/Rete-globale-AWS.md)
 # 🌐 AWS Global Accelerator
 
-**AWS Global Accelerator** è un servizio di rete che migliora la disponibilità, la performance e l'affidabilità delle applicazioni globali indirizzando il traffico utente attraverso la [rete globale AWS](Rete-globale-AWS.md).  
+**AWS Global Accelerator** è un servizio di rete che migliora la disponibilità, la performance e l'affidabilità delle applicazioni globali indirizzando il traffico utente attraverso la [rete globale AWS](03-CDN-e-Networking/Rete-globale-AWS.md).  
 Utilizza le **Edge Location** per trovare i percorsi ottimali attraverso i quali mandare i dati agli endpoint regionali.
 
 NB: I file non sono salvati in cache.
 
-AWS Global Accelerator è adatto soprattutto per applicazioni che non utilizzano HTTP/S, come VoIP, MTTQ e gaming, mentre per migliorare le prestazioni dei contenuti basati su HTTP, come applicazioni web dinamiche, immagini e video, la rete Amazon usa [Amazon CloudFront](Amazon-CloudFront.md).
+AWS Global Accelerator è adatto soprattutto per applicazioni che non utilizzano HTTP/S, come VoIP, MTTQ e gaming, mentre per migliorare le prestazioni dei contenuti basati su HTTP, come applicazioni web dinamiche, immagini e video, la rete Amazon usa [Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md).
 
 ---
 
@@ -27,11 +27,11 @@ I pacchetti vengono deviati dalla rete pubblica e trasportati lungo il backbone 
 - **Failover automatico**: Se un endpoint diventa non disponibile, il traffico viene reindirizzato in tempo reale, senza interruzioni.
 - **Riduzione della latenza**: Il traffico attraversa la rete AWS anziché Internet pubblico.
 - **Supporto per vari endpoint**:
-  - [Application Load Balancer](Amazon-ELB.md)
-  - [Network Load Balancer](Amazon-ELB.md)
-  - [Amazon EC2](Amazon-EC2.md)
+  - [Application Load Balancer](03-CDN-e-Networking/Amazon-ELB.md)
+  - [Network Load Balancer](03-CDN-e-Networking/Amazon-ELB.md)
+  - [Amazon EC2](01-Compute-options/Amazon-EC2.md)
   - Elastic IP associati a EC2 o NLB
-- **Monitoraggio integrato**: Compatibile con [Amazon CloudWatch](Amazon-CloudWatch.md) per metriche e log.
+- **Monitoraggio integrato**: Compatibile con [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) per metriche e log.
 - **Sicurezza e affidabilità**:
   - Protezione da DDoS integrata nella rete AWS
   - Routing resiliente basato su performance
@@ -65,13 +65,13 @@ Il pricing è generalmente più elevato rispetto a servizi regionali, ma giustif
 - Utilizza la rete AWS con protezione DDoS integrata
 - I dati viaggiano lungo un percorso privato e controllato
 - Supporta TLS per la crittografia del traffico
-- Completamente integrabile con [IAM](AWS-IAM.md), [WAF](AWS-WAF.md) e firewall esterni
+- Completamente integrabile con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md), [WAF](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-WAF.md) e firewall esterni
 
 ---
 
 ## 🔁 Confronto con servizi simili in AWS
 
-| Caratteristica                    | AWS Global Accelerator | [Amazon CloudFront](Amazon-CloudFront.md)              |
+| Caratteristica                    | AWS Global Accelerator | [Amazon CloudFront](03-CDN-e-Networking/Amazon-CloudFront.md)              |
 |----------------------------------|------------------------------------------------------|--------------------------------------------------------|
 | Livello OSI                      | Rete (TCP/UDP)                                       | Applicazione (HTTP/HTTPS)                             |
 | Caching                          | ❌ No                                                 | ✅ Sì                                                  |

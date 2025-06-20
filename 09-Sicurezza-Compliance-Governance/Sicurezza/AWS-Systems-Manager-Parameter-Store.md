@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Sicurezza](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Sicurezza](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🗂️ AWS Systems Manager Parameter Store
 
 ## 📘 Cos'è e come funziona
@@ -66,7 +66,7 @@ I parametri possono essere semplici (plaintext) oppure protetti con **AWS KMS**.
 
 ---
 
-### 🔍 Differenze principali con [Secrets Manager](AWS-Secrets-Manager.md)
+### 🔍 Differenze principali con [Secrets Manager](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md)
 
 | Caratteristica                  | Parameter Store                              | Secrets Manager                                      |
 |--------------------------------|----------------------------------------------|------------------------------------------------------|

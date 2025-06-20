@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Database Services](AWS-Databases.md)
+--> [AWS](00-Intro/AWS.md)  -  [Database Services](04-Database-services/AWS-Databases.md)
 # AWS Database Migration Service (AWS DMS)
 
 ## Introduzione
@@ -10,7 +10,7 @@ Supporta migrazioni **omogenee** (stesso motore di database) e **eterogenee** (m
 ![Database Migration Service](04-Database-services/img/DMS.png)
 
 NB: In caso di **migrazione eterogenea** (cioè tra motori di database diversi, es. da Oracle a PostgreSQL), **AWS DMS non si occupa della conversione dello schema**.
-Per questi casi, si deve usare **[AWS Schema Conversion Tool (SCT)](AWS-Schema-Conversion-Tool.md)**, che analizza lo schema del database di origine, lo converte nel formato compatibile con il motore di destinazione, e può anche evidenziare elementi che non possono essere convertiti automaticamente.
+Per questi casi, si deve usare **[AWS Schema Conversion Tool (SCT)](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)**, che analizza lo schema del database di origine, lo converte nel formato compatibile con il motore di destinazione, e può anche evidenziare elementi che non possono essere convertiti automaticamente.
 Poi, DMS  si occupa di:
 - Trasferire **i dati** (dopo che lo schema è pronto sul target),
 - Supportare la **replicazione continua** per mantenere sincronizzati origine e destinazione,
@@ -23,7 +23,7 @@ Poi, DMS  si occupa di:
 - **Migrazione in tempo reale**: replica dei dati continua con Change Data Capture (CDC).
 - **Basso downtime**: applicazioni possono rimanere attive durante la migrazione.
 - **Semplicità di gestione**: provisioning e monitoraggio tramite console o API AWS.
-- **Sicurezza integrata**: supporto per [VPC](Amazon-VPC.md), crittografia TLS e [KMS](AWS-KMS.md).
+- **Sicurezza integrata**: supporto per [VPC](03-CDN-e-Networking/Amazon-VPC.md), crittografia TLS e [KMS](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md).
 - **Database consolidation:** permette di consolidare più database in uno solo.
 
 ---
@@ -61,11 +61,11 @@ AWS DMS utilizza tre componenti principali:
 | Tipo                   | Descrizione                                                            |
 |------------------------|------------------------------------------------------------------------|
 | **Omogenea**           | Stesso motore (es. MySQL → Amazon RDS MySQL)                          |
-| **Eterogenea**         | Motori diversi (es. Oracle → Amazon Aurora PostgreSQL), con il supporto di [SCT](AWS-Schema-Conversion-Tool.md)                |
+| **Eterogenea**         | Motori diversi (es. Oracle → Amazon Aurora PostgreSQL), con il supporto di [SCT](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)                |
 | **One-time load**      | Copia una tantum dei dati                                              |
 | **Full load + CDC**    | Copia iniziale seguita da replica in tempo reale                      |
 
-> 🔧 Per migrazioni eterogenee è consigliato l’uso di **[AWS Schema Conversion Tool (SCT)](AWS-Schema-Conversion-Tool.md)** per adattare schemi, tipi di dato e codice SQL ai formati compatibili con AWS.
+> 🔧 Per migrazioni eterogenee è consigliato l’uso di **[AWS Schema Conversion Tool (SCT)](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)** per adattare schemi, tipi di dato e codice SQL ai formati compatibili con AWS.
 > Aiuta anche a tradurre codice, funzioni, viste del database di origine.
 
 ---

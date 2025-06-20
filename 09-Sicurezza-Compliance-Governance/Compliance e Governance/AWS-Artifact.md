@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Compliance e Governance](Sicurezza-Compliance-Governance.md)
+--> [AWS](00-Intro/AWS.md)  -  [Compliance e Governance](09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 📄 AWS Artifact
 
 ## 📘 Cos'è e come funziona

@@ -1,5 +1,5 @@
 
---> [AWS](AWS.md)  -  [Auditing, Monitoring, Logging](Auditing-Monitoring-Logging.md)
+--> [AWS](00-Intro/AWS.md)  -  [Auditing, Monitoring, Logging](08-Auditing-Monitoring-Logging/Auditing-Monitoring-Logging.md)
 # AWS CloudTrail
 
 **AWS CloudTrail** è un servizio completamente gestito che consente di registrare, monitorare e analizzare **eventi API** relativi alle attività degli utenti e dei servizi AWS.  Se registrate da CloudTrail, queste chiamate API possono aiutare, per esempio, a ricostruire quello che è successo.
@@ -93,7 +93,7 @@ CloudTrail uno strumento chiave per garantire **audit, sicurezza e conformità**
 - **Attiva almeno un trail globale** che copra tutte le regioni
 - **Conserva i log in S3 con lifecycle policy**
 - **Abilita la validazione dei file di log**
-- **Limita l'accesso al bucket S3 CloudTrail con [IAM](AWS-IAM.md) policy restrittive**
+- **Limita l'accesso al bucket S3 CloudTrail con [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) policy restrittive**
 - **Usa CloudTrail Insights per rilevare attività anomale**
 
 ---

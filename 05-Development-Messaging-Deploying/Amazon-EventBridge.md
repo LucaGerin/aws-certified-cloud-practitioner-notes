@@ -1,7 +1,7 @@
---> [AWS](AWS.md)  -  [Development, Messaging, and Deployment](Development-Messaging-and-Deployment.md)
+--> [AWS](00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # Amazon EventBridge
 
-**Amazon EventBridge** è un servizio di bus eventi completamente gestito che consente di costruire **architetture event-driven** scalabili e disaccoppiate. Supporta l'integrazione di servizi [AWS](AWS.md), SaaS e applicazioni custom, permettendo il routing dinamico di eventi verso più target.
+**Amazon EventBridge** è un servizio di bus eventi completamente gestito che consente di costruire **architetture event-driven** scalabili e disaccoppiate. Supporta l'integrazione di servizi [AWS](00-Intro/AWS.md), SaaS e applicazioni custom, permettendo il routing dinamico di eventi verso più target.
 
 > Un **Evento** è la rappresentazione di un cambio di stato.
 
@@ -17,10 +17,10 @@ EventBridge può essere usato anche per schedulare eventi in determinati momenti
 - **Event bus fully-managed**: riceve, filtra e inoltra eventi in tempo reale.
 - **Routing basato su regole**: indirizza eventi a target in base a pattern JSON.
 - **Supporta eventi da**:
-  - Servizi AWS (es. [Amazon EC2](Amazon-EC2.md), [Amazon S3](Amazon-S3.md), [AWS Lambda](AWS-Lambda.md), [Amazon CloudWatch](Amazon-CloudWatch.md), [AWS CloudTrail](Amazon-CloudTrail.md)) 
+  - Servizi AWS (es. [Amazon EC2](01-Compute-options/Amazon-EC2.md), [Amazon S3](02-Storage-services/Amazon-S3.md), [AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon CloudWatch](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md), [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)) 
   - Applicazioni personalizzate
   - Applicazioni SaaS (es. Auth0, Zendesk)
-- **Integrazione profonda** con [AWS Lambda](AWS-Lambda.md), [AWS Step Functions](AWS-Step-Functions.md), [Amazon SNS](Amazon-SNS.md), [Amazon SQS](Amazon-SQS.md), [Amazon Kinesis](Amazon-Kinesis.md), API Gateway, ecc.
+- **Integrazione profonda** con [AWS Lambda](01-Compute-options/AWS-Lambda.md), [AWS Step Functions](05-Development-Messaging-Deploying/AWS-Step-Functions.md), [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md), [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md), [Amazon Kinesis](07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md), API Gateway, ecc.
 - **Schema Registry opzionale**: per validare e condividere eventi.
 
 ---
@@ -33,10 +33,10 @@ EventBridge può essere usato anche per schedulare eventi in determinati momenti
                             └▶ [Target 3: Step Functions]
 ```
 
-- **Event Source**: chi genera l’evento (es. [Amazon EC2](Amazon-EC2.md), un'app custom, un servizio SaaS).
+- **Event Source**: chi genera l’evento (es. [Amazon EC2](01-Compute-options/Amazon-EC2.md), un'app custom, un servizio SaaS).
 - **Event Bus**: canale dove transitano gli eventi (default, custom, partner).
 - **Rule**: filtra gli eventi in base al contenuto per mandarli al target giusto.
-- **Target**: una azione da eseguire in risposta ([AWS Lambda](AWS-Lambda.md), [Amazon SQS](Amazon-SQS.md), [Amazon SNS](Amazon-SNS.md), ecc.)
+- **Target**: una azione da eseguire in risposta ([AWS Lambda](01-Compute-options/AWS-Lambda.md), [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md), [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md), ecc.)
 
 ---
 
@@ -73,7 +73,7 @@ aws events put-targets \
 
 ---
 
-## 🧠 Differenze rispetto a [Amazon SNS](Amazon-SNS.md) e [Amazon SQS](Amazon-SQS.md)
+## 🧠 Differenze rispetto a [Amazon SNS](05-Development-Messaging-Deploying/Amazon-SNS.md) e [Amazon SQS](05-Development-Messaging-Deploying/Amazon-SQS.md)
 
 | Caratteristica        | EventBridge                   | SNS                         | SQS                         |
 |-----------------------|-------------------------------|-----------------------------|-----------------------------|
@@ -87,12 +87,12 @@ aws events put-targets \
 
 ## 🔐 Sicurezza
 
-- Accesso gestito tramite [IAM](AWS-IAM.md) policy
+- Accesso gestito tramite [IAM](09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) policy
 - Controllo su chi può:
   - Pubblicare eventi
   - Creare bus e regole
   - Leggere da Schema Registry
-- Integrazione con [AWS CloudTrail](Amazon-CloudTrail.md) e [Amazon CloudWatch Logs](Amazon-CloudWatch.md)
+- Integrazione con [AWS CloudTrail](08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md) e [Amazon CloudWatch Logs](08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md)
 
 ---
 

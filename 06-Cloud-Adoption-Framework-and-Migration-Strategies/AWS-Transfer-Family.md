@@ -1,4 +1,4 @@
---> [AWS](AWS.md)  -  [Migration Strategies](AWS-Migration-Strategies.md)
+--> [AWS](00-Intro/AWS.md)  -  [Migration Strategies](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # 🔁 AWS Transfer Family
 
 ## Cos'è e come funziona
@@ -43,9 +43,9 @@ Gli utenti possono autenticarsi tramite:
 
 | Servizio                      | Differenza principale                                                |
 |------------------------------|----------------------------------------------------------------------|
-| [Amazon S3](Amazon-S3.md)                    | S3 è lo storage sottostante, ma non offre nativamente un'interfaccia FTP/SFTP |
+| [Amazon S3](02-Storage-services/Amazon-S3.md)                    | S3 è lo storage sottostante, ma non offre nativamente un'interfaccia FTP/SFTP |
 | AWS DataSync           | Ottimizzato per trasferimenti bulk e sincronizzazioni periodiche       |
-| [AWS Snowball Edge](AWS-Snowball-Edge.md)   | Usato per trasferimenti fisici o in ambienti offline                   |
+| [AWS Snowball Edge](06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md)   | Usato per trasferimenti fisici o in ambienti offline                   |
 
 **AWS Transfer Family** è la soluzione ideale per chi deve **mantenere flussi file-based** senza rinunciare ai vantaggi del cloud.
 
