@@ -6,7 +6,7 @@
 
 CloudTrail uno strumento chiave per garantire **audit, sicurezza e conformità** nei workload AWS.
 
-![trail example](trail-example.png)
+![trail example](img/trail-example.png)
 
 ---
 

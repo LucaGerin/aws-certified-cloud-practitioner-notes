@@ -16,7 +16,7 @@ AWS Global Accelerator assegna **indirizzi IP statici globali** e utilizza l’i
 
 I pacchetti vengono deviati dalla rete pubblica e trasportati lungo il backbone AWS fino alla regione ideale, migliorando affidabilità, resilienza e latenza.
 
-![Global Accelerator](global-accelerator.png)
+![Global Accelerator](img/global-accelerator.png)
 
 ---
 

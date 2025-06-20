@@ -3,7 +3,7 @@
 
 **Infrastructure as Code (IaC)** è una pratica DevOps che consiste nel **definire e gestire l’infrastruttura IT tramite file di configurazione**, invece che configurarla manualmente tramite console o CLI.
 
-![IaC](IaC.png)
+![IaC](img/IaC.png)
 
 ---
 

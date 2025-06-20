@@ -4,7 +4,7 @@
 **AWS AppSync** è un servizio completamente gestito che semplifica lo sviluppo di API GraphQL scalabili, sicure e in tempo reale, integrandosi facilmente con servizi AWS come [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md), [AWS Lambda](/01-Compute-options/AWS-Lambda.md) e [Amazon OpenSearch Service](/07-IA-ML-Analytics/Analytics/Amazon-OpenSearch.md).
 Permette agli sviluppatori di creare connessioni tra le loro applicazioni e serizi con GraphQL e pub/sub APIs sicure, serverless e ad alte prestazioni.
 
-![AppSync functioning](appsync.png)
+![AppSync functioning](img/appsync.png)
 
 ## Cos'è e come funziona
 

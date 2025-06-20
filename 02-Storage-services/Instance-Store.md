@@ -13,7 +13,7 @@ L'**Instance Store** di [Amazon EC2](/01-Compute-options/Amazon-EC2.md) fornisce
 - L’accesso è estremamente veloce grazie alla **bassa latenza** e all’**alta I/O performance**.
 - Disponibile solo in **specifici tipi di istanze** EC2, come `i3`, `d2`, `c5d`, `m5d`.
 
-![Instance store](instance-storage.png)
+![Instance store](img/instance-storage.png)
 
 ---
 

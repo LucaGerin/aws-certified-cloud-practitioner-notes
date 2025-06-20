@@ -3,7 +3,7 @@
 
 **AWS Elastic Beanstalk** è un servizio PaaS ([Platform as a Service](/00-Intro/Tipi-di-servizi-cloud.md)) che consente il **deployment automatico e la gestione di applicazioni** nel cloud AWS, senza dover configurare manualmente l’infrastruttura sottostante. È pensato per sviluppatori che vogliono concentrarsi sul codice, non sulla gestione di server, reti o load balancer.
 
-![Beanstalk](bean.png)
+![Beanstalk](img/bean.png)
 
 ---
 
@@ -28,7 +28,7 @@ Permette di far arrivare la propria piattaforma sul mercato velocemente, dispieg
 4. Elastic Beanstalk esegue il provisioning delle risorse e distribuisce il codice
 5. Monitora, scala e aggiorna l'app con pochi click
 
-![Bean example](bean-example.jpeg)
+![Bean example](img/bean-example.jpeg)
 
 ---
 

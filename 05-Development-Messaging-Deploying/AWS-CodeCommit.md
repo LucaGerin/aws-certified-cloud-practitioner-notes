@@ -5,7 +5,7 @@ AWS CodeCommit è un servizio di controllo versione completamente gestito che co
 
 È progettato per integrarsi perfettamente con altri strumenti DevOps come [AWS CodeBuild](/05-Development-Messaging-Deploying/AWS-CodeBuild.md), [AWS CodeDeploy](/05-Development-Messaging-Deploying/AWS-CodeDeploy.md) e [AWS CodePipeline](/05-Development-Messaging-Deploying/AWS-CodePipeline.md).
 
-![codecommit](codecommit.png)
+![codecommit](img/codecommit.png)
 
 ---
 

@@ -3,7 +3,7 @@
 
 **AWS Schema Conversion Tool (SCT)** è un'applicazione desktop gratuita che consente di **convertire lo schema e i codici di database come procedure e funzioni** da motori commerciali (come Oracle, SQL Server) verso database open-source e cloud-native come [Amazon-Aurora](/04-Database-services/Amazon-Aurora.md), PostgreSQL, MySQL, [Amazon-Redshift](/Amazon-Redshift.md), ecc.
 
-![sct usage](sct-usage.png)
+![sct usage](img/sct-usage.png)
 
 ---
 

@@ -2,7 +2,7 @@
 
 # 🌟 Amazon Aurora
 
-![Aurora](Amazon-Aurora.jpg)
+![Aurora](img/Amazon-Aurora.jpg)
 
 ## 📘 Cos'è e come funziona
 

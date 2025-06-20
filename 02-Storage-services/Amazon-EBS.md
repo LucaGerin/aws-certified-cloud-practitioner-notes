@@ -2,7 +2,7 @@
 
 # Amazon EBS (Elastic Block Store)
 
-![ebs](ebs.jpg)
+![ebs](img/ebs.jpg)
 Amazon EBS è un servizio di **archiviazione a blocchi persistente** progettato per essere utilizzato con le istanze [Amazon EC2](/01-Compute-options/Amazon-EC2.md). 
 Funziona come un disco rigido virtuale che può essere allegato a **una sola istanza EC2 alla volta**.
 

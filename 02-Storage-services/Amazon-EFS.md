@@ -1,6 +1,6 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Storage Services](/02-Storage-services/AWS-Storage-Services.md)
 # Amazon EFS (Elastic File System)
-![efs](efs.png)
+![efs](img/efs.png)
 
 Amazon EFS è un servizio di **file system completamente gestito**, adatto a workload Linux, per l’uso con istanze [Amazon EC2](/01-Compute-options/Amazon-EC2.md) e altri servizi AWS. Fornisce uno storage condiviso, scalabile e ad alte prestazioni accessibile tramite protocollo **NFSv4**, senza bisogno di provisioning manuale o gestione dell’infrastruttura.
 
@@ -15,7 +15,7 @@ Il servizio si adatta automaticamente al volume dei dati, riducendo la necessit�
 
 Funziona tramite **NFSv4.1 e NFSv4.2**, rendendolo compatibile con sistemi Linux e Unix, e supporta **encryption in-transit e at-rest** tramite [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md).
 
-![efs shared](efs-shared.png)
+![efs shared](img/efs-shared.png)
 
 NB: **Amazon EFS (Elastic File System)** è un **servizio regionale**: tutti i dati archiviati in un file system EFS e tutte le operazioni effettuate su di esso rimangono all'interno di una singola regione AWS, ma è **accessibile da tutte le AZ della regione**. Un EFS creato in una regione sarà accessibile solo da risorse nella stessa regione (a meno di configurazioni particolari).
 A livello regionale, comunque, è garantita alta disponibilità e fault-tolerance, essendo EFS di default replicato tra più AZ nella stessa regione.

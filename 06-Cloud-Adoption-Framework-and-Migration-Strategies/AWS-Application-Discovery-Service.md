@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Migration Strategies](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Migration-Strategies.md)
 # AWS Application Discovery Service
 
-![Application Discovery Service](app-disc.png)
+![Application Discovery Service](img/app-disc.png)
 
 **AWS Application Discovery Service** è un servizio progettato per aiutare le aziende a **raccogliere automaticamente informazioni** sui propri data center on-premises, con l'obiettivo di pianificare e semplificare la **migrazione verso [AWS](/00-Intro/AWS.md)**.
 

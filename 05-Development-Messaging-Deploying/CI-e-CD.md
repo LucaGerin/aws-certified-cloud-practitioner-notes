@@ -5,7 +5,7 @@
 
 **CI/CD** è l'acronimo di **Continuous Integration** e **Continuous Delivery/Deployment**, una pratica DevOps che automatizza le fasi di integrazione, testing e rilascio del software. L’obiettivo è **aumentare la velocità di sviluppo**, **ridurre gli errori** e **garantire qualità costante** nel software distribuito.
 
-![CI e CD](CI-CD.png)
+![CI e CD](img/CI-CD.png)
 
 ---
 

@@ -5,7 +5,7 @@
 
 **Amazon EC2** è un servizio **IaaS (Infrastructure as a Service)** che consente di creare e gestire **istanze virtuali** nel cloud AWS. Fornisce **massima flessibilità** nella scelta di sistema operativo, configurazione hardware, storage, rete e criteri di sicurezza. EC2 permette agli utenti di controllare completamente l’ambiente, come se gestissero server fisici, ma con i vantaggi della scalabilità e automazione del cloud.
 
-![Ec2](ec2.png)
+![Ec2](img/ec2.png)
 
 Ci sono diverse tipologie di [storage da utilizzare insieme a EC2](/02-Storage-services/EC2-Storage.md).
 
@@ -28,7 +28,7 @@ Un'**Amazon Machine Image (AMI)** contiene tutte le informazioni necessarie per 
 - 📦 **AMI (Amazon Machine Images)**: immagini preconfigurate per lanciare rapidamente istanze con configurazioni note
 - 🔐 **Sicurezza**: uso integrato di [VPC](/03-CDN-e-Networking/Amazon-VPC.md), gruppi di sicurezza, ruoli [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e chiavi SSH per la protezione dell’accesso e del traffico
 
-![Autoscaling](EC2-autoscaling.png)
+![Autoscaling](img/EC2-autoscaling.png)
 
 ---
 ### 🧩 Tipi di istanze EC2

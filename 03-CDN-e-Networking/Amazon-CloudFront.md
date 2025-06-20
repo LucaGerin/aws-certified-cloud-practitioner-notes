@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [CDN e Networking](/03-CDN-e-Networking/Rete-globale-AWS.md)
 # Amazon CloudFront
 
-![cloudfront logo](cloudfront-logo.png)
+![cloudfront logo](img/cloudfront-logo.png)
 **Amazon CloudFront** è il servizio di [[Content-Delivery-Networks]] offerto da AWS. Distribuisce contenuti web e applicativi con **bassa latenza** e **elevata velocità**, migliorando l’esperienza utente a livello globale.
 
 Funziona salvando i file **in cache** in più data centers, chiamati **Edge Locations**. Quando uno User richiede qualcosa, questo gli è fornito dalla Edge Location più vicina che ne dispone.
@@ -13,7 +13,7 @@ Supporta oggetti statici (come file in [Amazon S3](/02-Storage-services/Amazon-S
 
 La rete è progettata per resilienza, throughput elevato e routing intelligente, sfruttando la [rete globale AWS](/03-CDN-e-Networking/Rete-globale-AWS.md).
 
-![cloudfront](cloudfront.jpg)
+![cloudfront](img/cloudfront.jpg)
 
 ---
 

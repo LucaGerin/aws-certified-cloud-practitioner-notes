@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Database Services](/04-Database-services/AWS-Databases.md)
 # ⚡ Amazon ElastiCache
 
-![Elasticache](elasticache.png)
+![Elasticache](img/elasticache.png)
 
 **Amazon ElastiCache** è un servizio completamente gestito che consente il deployment, l'esecuzione e la scalabilità di **archivi di dati in memoria** nel cloud AWS, compatibili con **Redis** o **Memcached**. 
 È progettato per migliorare la **velocità e le prestazioni** delle applicazioni web e data-intensive riducendo il carico sui database principali, fornendo una cache in memoria ad alta velocità e bassa latenza.
@@ -20,7 +20,7 @@ Sono supportate due modalità di funzionamento:
 - **Standalone / Replica group** (master + replica)
 - **Cluster Mode Enabled** (sharding automatico Redis)
 
-![Elasticache example](elasticache-example.png)
+![Elasticache example](img/elasticache-example.png)
 
 ---
 

@@ -3,7 +3,7 @@
 
 La **rete globale AWS** è una delle più estese e avanzate infrastrutture di rete private al mondo. Collega in modo sicuro e ad alte prestazioni tutte le **regioni AWS**, le **Availability Zones**, le **edge location** e i **data center** globali, offrendo **bassa latenza**, **alta disponibilità** e una **sicurezza end-to-end** per tutti i servizi AWS.
 
-![Rete globale](global-infrastructure.png)
+![Rete globale](img/global-infrastructure.png)
 
 La rete globale è strutturata gerarchicamente in:
 

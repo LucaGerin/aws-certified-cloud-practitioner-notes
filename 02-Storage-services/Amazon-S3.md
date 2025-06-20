@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Storage Services](/02-Storage-services/AWS-Storage-Services.md)
 # Amazon S3 (Simple Storage Service)
 
-![s3](s3.png)
+![s3](img/s3.png)
 
 Amazon S3 è un servizio di **object storage** progettato per archiviare e recuperare qualsiasi quantità di dati da qualsiasi luogo su Internet. È altamente scalabile, durevole e usato come base per la maggior parte delle architetture cloud moderne.
 
@@ -37,7 +37,7 @@ Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immag
 | **S3 Glacier Flexible Retrieval** | Per archiviazione a lungo termine con recupero da minuti a ore                          | Dati consultati raramente ma con necessità di accesso  |
 | **S3 Glacier Deep Archive**   | Per archiviazione a lunghissimo termine con accesso fino a 12h                              | Conservazione a norma di legge, backup storico         |
 
-![s3 tiers](s3-tier.png)
+![s3 tiers](img/s3-tier.png)
 
 ---
 

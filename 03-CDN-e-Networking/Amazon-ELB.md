@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [CDN e Networking](/03-CDN-e-Networking/Rete-globale-AWS.md)
 # ⚖️ Amazon ELB (Elastic Load Balancing)
 
-![elb](elb.png)
+![elb](img/elb.png)
 ## 📘 Cos'è e come funziona
 
 **Amazon ELB** è un servizio gestito che distribuisce automaticamente il traffico di rete o applicativo in ingresso su più istanze Amazon EC2, container (ECS/Fargate), IP, Lambda o microservizi in generale. Migliora la disponibilità e l’affidabilità delle applicazioni, rilevando automaticamente istanze non funzionanti e reindirizzando il traffico a quelle sane.

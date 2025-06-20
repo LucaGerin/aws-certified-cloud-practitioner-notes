@@ -3,7 +3,7 @@
 
 **Amazon VPC** è un servizio che consente di lanciare risorse AWS (come EC2, RDS, Lambda) all'interno di una **rete virtuale isolata**, configurabile in modo simile a una rete tradizionale on-premises.
 
-![VPC](aws-vpc.png)
+![VPC](img/aws-vpc.png)
 
 ---
 
@@ -52,7 +52,7 @@ Una **subnet è privata** se:
 | **Endpoint VPC**                 | Accesso privato ai servizi AWS senza passare da Internet.                  |
 | **VPN Gateway / Direct Connect** | Connessioni sicure tra la VPC e ambienti on-premises.                      |
 
-![VPC Architecture](VPC-Architecture.jpeg)
+![VPC Architecture](img/VPC-Architecture.jpeg)
 
 NB: Dopo aver avviato un'istanza all'interno di una VPC, puoi modificare i **security groups** associati all'istanza. Puoi cambiare i security groups di un'istanza **solo quando l'istanza si trova nello stato _in esecuzione_ (running) o _arrestato_ (stopped)**.
 

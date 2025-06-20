@@ -5,7 +5,7 @@
 
 Grazie alla sua architettura nativa per il cloud, offre performance costanti anche a **milioni di richieste al secondo**, senza necessità di provisioning o gestione manuale dell’infrastruttura.
 
-![Amazon DynamoDB](DynamoDB.png)
+![Amazon DynamoDB](img/DynamoDB.png)
 
 Caratteristica peculiare di DynamoDB è che, pur essendo NoSQL, supporta le proprietà ACID (Atomicity, Consistency, Isolation, Durability).
 Di default, DynamoDB offre delle letture di dati "*eventually consistent*", ma si può impostare su letture "*strongly consistent*".

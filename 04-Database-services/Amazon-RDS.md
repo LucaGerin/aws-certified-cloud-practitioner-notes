@@ -5,7 +5,7 @@
 
 Consente di **automatizzare attività amministrative complesse**, che per RDS sono gestite da AWS, come provisioning hardware, patching, backup e ripristino, lasciando agli sviluppatori il focus sulla logica applicativa.
 
-![Amazon RDS](RDS.png)
+![Amazon RDS](img/RDS.png)
 
 ---
 

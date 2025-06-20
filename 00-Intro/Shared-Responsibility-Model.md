@@ -48,7 +48,7 @@ e.g., Se ho un DB su [EC2](/01-Compute-options/Amazon-EC2.md) sono io responsabi
 
 ---
 
-![Shared Responsibiity Model di AWS](Shared_Responsibility_Model.jpg)
+![Shared Responsibiity Model di AWS](img/Shared_Responsibility_Model.jpg)
 ## Esempio
 
 - **[Amazon S3](/02-Storage-services/Amazon-S3.md)**: AWS protegge l'infrastruttura di S3, ma il cliente è responsabile di impostare correttamente i permessi bucket.
@@ -91,7 +91,7 @@ Il **livello di responsabilità** varia a seconda del [tipo di servizio cloud](/
 
 📈 Man mano che si passa da IaaS a SaaS, **la responsabilità di AWS aumenta** e il **carico operativo per il cliente diminuisce**.
 
-![Shared resp](Shared_resp.jpg)
+![Shared resp](img/Shared_resp.jpg)
 ## Vantaggi dei Servizi AWS
 
 - ✅ **Riduzione del carico operativo**: aggiornamenti, patch e sicurezza sono gestiti da AWS.

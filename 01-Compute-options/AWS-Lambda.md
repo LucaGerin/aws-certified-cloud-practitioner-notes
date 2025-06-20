@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 # AWS Lambda
 
-![lambda](lambda.png)
+![lambda](img/lambda.png)
 AWS Lambda è un servizio di **calcolo serverless** che consente di eseguire codice in risposta a eventi, senza dover gestire server o infrastrutture sottostanti. È progettato per eseguire funzioni brevi, leggere e altamente scalabili in risposta a trigger provenienti da altri servizi AWS o da fonti esterne.
 
 ---

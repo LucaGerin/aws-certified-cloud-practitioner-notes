@@ -1,12 +1,12 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 # 🧱 Amazon ECS (Elastic Container Service)
 
-![ecs](ecs.png)
+![ecs](img/ecs.png)
 ## 📘 Cos'è e come funziona
 
 **Amazon ECS** è un servizio completamente gestito che consente di **eseguire e orchestrare container Docker** su scala nel cloud AWS. Supporta due modalità operative: su istanze **[Amazon EC2](/01-Compute-options/Amazon-EC2.md)**, gestite dall’utente, oppure in modalità **serverless tramite [AWS Fargate](/01-Compute-options/AWS-Fargate.md)**, dove è AWS a gestire le risorse sottostanti. ECS semplifica il deployment, la gestione e il monitoraggio dei container, offrendo una profonda integrazione con l’ecosistema AWS.
 
-![Ecs funz](ecs-functioning.png)
+![Ecs funz](img/ecs-functioning.png)
 
 ---
 

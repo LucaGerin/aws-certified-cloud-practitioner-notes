@@ -17,7 +17,7 @@ CloudFormation permette di modellare e provisionare le risorse AWS come **stack*
 
 I template possono essere scritti in formato **YAML o JSON** e mantenuti sotto controllo versione, rendendo l’infrastruttura parte del ciclo di sviluppo software.
 
-![cloudformation functioning](cloudformation-functioning.png)
+![cloudformation functioning](img/cloudformation-functioning.png)
 
 ---
 

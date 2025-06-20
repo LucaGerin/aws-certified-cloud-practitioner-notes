@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Compute Options](/01-Compute-options/AWS-Compute-Options.md)
 # Amazon EKS (Elastic Kubernetes Service)
 
-![eks](eks.jpg)
+![eks](img/eks.jpg)
 Amazon EKS è un servizio **gestito** che consente di eseguire facilmente cluster Kubernetes su AWS, senza dover installare, operare o mantenere i nodi di controllo Kubernetes. Grazie alla sua integrazione nativa con l’ecosistema AWS, EKS permette di orchestrare container in modo scalabile, sicuro e conforme agli standard di Kubernetes open-source.
 
 ---

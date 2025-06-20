@@ -39,7 +39,7 @@ Ci sono due macro categorie storage:
 |Block Storage|EBS, Instance Store|File system|✅ / ❌|Manuale|❌|
 |File Storage|EFS, FSx|File system|✅|Automatica|✅|
 
-![Diagram example](example.png)
+![Diagram example](img/example.png)
 
 ## Scelta dello storage ideale
 

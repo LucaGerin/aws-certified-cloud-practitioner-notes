@@ -3,7 +3,7 @@
 
 **AWS CloudFormation** è un servizio AWS che permette di **creare, aggiornare e gestire risorse AWS** in modo dichiarativo, attraverso file di configurazione YAML o JSON. È uno strumento chiave per l’implementazione dell’[Infrastructure as Code (IaC)](/05-Development-Messaging-Deploying/Infrastructure-as-Code.md) su AWS.
 
-![use of cloud formation](cloudformation-cli.png)
+![use of cloud formation](img/cloudformation-cli.png)
 
 ---
 ## 🧩 Caratteristiche principali
@@ -26,9 +26,9 @@
 5. Lo stack è creato
 6. Gestisci aggiornamenti, rollback e cambiamenti con sicurezza
 
-![Cloud formation funzionamento](cloud-formation.png)
+![Cloud formation funzionamento](img/cloud-formation.png)
 
-![Workflow](cloudformation-workflow.png)
+![Workflow](img/cloudformation-workflow.png)
 
 ---
 

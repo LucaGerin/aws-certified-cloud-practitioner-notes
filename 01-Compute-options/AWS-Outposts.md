@@ -16,7 +16,7 @@ AWS Outposts consiste in **hardware fisico AWS** installato nei locali del clien
 
 Outposts si connette a una AWS Region per gestire provisioning, aggiornamenti, e integrazione con altri servizi cloud, ma è progettato per funzionare anche con **bassa connettività** o in modalità locale.
 
-![outposts](outposts.png)
+![outposts](img/outposts.png)
 
 ---
 

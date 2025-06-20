@@ -12,7 +12,7 @@ Il **DNS (Domain Name System)** è un sistema fondamentale di Internet che **tra
 3. Il resolver interroga una serie di server DNS, fino a trovare l’indirizzo IP associato.
 4. L’indirizzo IP viene restituito al browser, che può ora connettersi al sito web.
 
-![dns](dns.png)
+![dns](img/dns.png)
 
 ---
 

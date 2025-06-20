@@ -8,7 +8,7 @@
 Un evento spedito a un event bridge può triggerare una o più azioni in risposta.
 EventBridge può essere usato anche per schedulare eventi in determinati momenti.
 
-![eventbridge](eventbridge.png)
+![eventbridge](img/eventbridge.png)
 
 ---
 

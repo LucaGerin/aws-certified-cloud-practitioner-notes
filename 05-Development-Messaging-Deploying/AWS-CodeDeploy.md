@@ -22,7 +22,7 @@ AWS CodeDeploy è un servizio **completamente gestito** che automatizza il deplo
 3. CodeDeploy esegue uno script definito in `appspec.yml`.
 4. L'app viene aggiornata e monitorata.
 
-![codedeploy](codedeploy.jpg)
+![codedeploy](img/codedeploy.jpg)
 
 ---
 

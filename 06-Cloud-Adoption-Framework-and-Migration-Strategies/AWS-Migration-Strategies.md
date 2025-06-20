@@ -57,7 +57,7 @@ Spostare infrastrutture virtualizzate (es. VMware) nel cloud senza modifiche, ma
 **✅ Vantaggi:** Nessuna modifica all’architettura, migrazione veloce.  
 **❗Quando usarlo:** Per ambienti virtuali consolidati.
 
-![7 R](7R.png)
+![7 R](img/7R.png)
 
 ---
 

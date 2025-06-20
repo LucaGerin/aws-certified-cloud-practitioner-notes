@@ -3,7 +3,7 @@
 
 **Amazon SES (Simple Email Service)** è un servizio cloud gestito per **invio e ricezione di email**. È progettato per aiutare aziende e sviluppatori a inviare **email di marketing, notifiche e transazionali** in modo scalabile, sicuro e con alti tassi di consegna.
 
-![ses](ses-better.png)
+![ses](img/ses-better.png)
 
 ---
 
@@ -20,7 +20,7 @@
 - **Supporta allegati, HTML e testo normale**
 - Traccia metriche come open rates e click-through rates, permettendo di valutare l'effettività della campagna mail.
 
-![ses](ses-receive.png)
+![ses](img/ses-receive.png)
 ![ses](ses-send.webp)
 
 ---
@@ -32,7 +32,7 @@
 3. **Monitoraggio dei risultati**: consegna, errori, bounce, ecc.
 4. *(Opzionale)*: **ricezione di email** con instradamento verso [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon S3](/02-Storage-services/Amazon-S3.md), [Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md)
 
-![ses](ses-monitor.png)
+![ses](img/ses-monitor.png)
 ---
 
 ## 📬 Modalità di invio

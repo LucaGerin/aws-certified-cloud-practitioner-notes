@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Storage Services](/02-Storage-services/AWS-Storage-Services.md)
 # AWS Storage Gateway
 
-![storage gateway logo](stor-gat.png)
+![storage gateway logo](img/stor-gat.png)
 
 **AWS Storage Gateway** è un servizio **ibrido** che collega l'infrastruttura on-premises con il cloud AWS, consentendo di usare lo storage AWS come **estensione naturale dell’ambiente locale**. Il servizio si occupa del trasporto e sincronizzazione dei dati tra l’on-premise e il cloud, con supporto per backup, archiviazione, migrazione e disaster recovery.
 
@@ -17,7 +17,7 @@ AWS Storage Gateway fornisce diverse modalità per integrare ambienti locali con
 - Automatizzare backup e restore verso il cloud AWS
 - Funzionare come punto d’ingresso per il **data processing in AWS**, con eventuale ritorno on-premise
 
-![storage gateway](storage-gateway.png)
+![storage gateway](img/storage-gateway.png)
 
 ---
 

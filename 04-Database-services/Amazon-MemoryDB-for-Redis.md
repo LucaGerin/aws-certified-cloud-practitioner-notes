@@ -14,7 +14,7 @@ MemoryDB è progettato per scenari mission-critical in cui Redis viene utilizzat
 Offre replica **sincrona multi-AZ**, journaling e snapshot automatici per garantire durabilità dei dati.  
 I dati vengono conservati anche in caso di guasto della zona di disponibilità, garantendo ripristino immediato senza perdita.
 
-![MemoryDB for Redis example](mem-db-for-redis.jpg)
+![MemoryDB for Redis example](img/mem-db-for-redis.jpg)
 
 ---
 

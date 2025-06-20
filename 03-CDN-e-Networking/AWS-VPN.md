@@ -14,7 +14,7 @@ AWS offre due soluzioni principali:
 AWS VPN consente di stabilire tunnel VPN cifrati che attraversano Internet per connettere ambienti esterni (on-premise o client remoti) alla rete AWS.  
 Permette di estendere in modo sicuro reti aziendali locali nel cloud, mantenendo la privacy e la sicurezza dei dati in transito.
 
-![vpn](aws-vpn.png)
+![vpn](img/aws-vpn.png)
 
 ---
 
@@ -67,7 +67,7 @@ Servizio gestito che consente a **utenti remoti** di accedere in modo sicuro a r
 - Controllo granulari con IAM e Security Groups
 
 
-![vpn confronto](vpn.png)
+![vpn confronto](img/vpn.png)
 
 ---
 

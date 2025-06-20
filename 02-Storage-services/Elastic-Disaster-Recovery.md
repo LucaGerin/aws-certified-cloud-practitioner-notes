@@ -51,7 +51,7 @@ Queste strategie si collocano lungo uno spettro che bilancia costi, complessità
 Le strategie **active/passive** prevedono che una sola regione AWS sia attiva e serva il traffico, mentre l’altra rimanga in attesa e subentri solo in caso di failover.
 
 
-![Tecniche di disaster recovery](disaster-recovery-options.png)
+![Tecniche di disaster recovery](img/disaster-recovery-options.png)
 
 ---
 

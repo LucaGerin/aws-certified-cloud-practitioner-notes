@@ -5,7 +5,7 @@
 
 CodeArtifact è un servizio di repository di artefatti completamente gestito che rende semplice, per organizzazioni di qualsiasi dimensione, archiviare, pubblicare e condividere in modo sicuro i pacchetti software utilizzati nel processo di sviluppo. Questo include tutto il necessario per costruire la tua applicazione, comprese librerie, pacchetti distribuibili, applicazioni compilate e documentazione relativa alla tua applicazione.
 
-![Code artifact example](codeartifact-simple.png)
+![Code artifact example](img/codeartifact-simple.png)
 
 ---
 
@@ -38,7 +38,7 @@ Una feature utile è quella che permette di approvare i pacchetti, così che gli
 4. **Pubblica pacchetti** personalizzati oppure **scarica pacchetti pubblici** (caching automatico).
 5. **Controlla accessi e versioni** dei pacchetti via [IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) e policy.
 
-![Code artifact example](code-artifact.png)
+![Code artifact example](img/code-artifact.png)
 
 ---
 

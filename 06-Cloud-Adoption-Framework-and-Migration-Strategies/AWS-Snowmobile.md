@@ -3,7 +3,7 @@
 
 **AWS Snowmobile** è un servizio di trasferimento dati su larga scala offerto da [AWS](/00-Intro/AWS.md) per aiutare le organizzazioni a **migrare enormi quantità di dati (fino a 100 petabyte)** verso il cloud in modo sicuro, fisico e gestito. Utilizza un **camion attrezzato** con uno storage container sicuro, letteralmente trasportato nel tuo data center per caricare i dati offline.
 
-![snowmobile](snowmobile.png)
+![snowmobile](img/snowmobile.png)
 
 ---
 

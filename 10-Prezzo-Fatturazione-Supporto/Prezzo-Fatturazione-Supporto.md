@@ -100,7 +100,7 @@ In AWS, **[Amazon S3](/02-Storage-services/Amazon-S3.md)** è il servizio di sto
 
 Le **classi di storage S3** sono pensate per bilanciare **costi e frequenza di accesso** ai dati:
 
-![hot and cold access](hot-cold-access-s3.png)
+![hot and cold access](img/hot-cold-access-s3.png)
 
 | Classe S3                      | Descrizione e uso tipico                           | Categoria | Accesso     | Tempo di recupero |
 | ------------------------------ | -------------------------------------------------- | --------- | ----------- | ----------------- |
@@ -148,7 +148,7 @@ In AWS, il trasferimento dei dati (Data Transfer) può generare **costi signific
 - Se i dati si muovono tra **Availability Zones diverse** all’interno della stessa regione (es. da una subnet in `eu-west-1a` a `eu-west-1b`), **si paga** (di solito **~0.01 USD/GB**).
 - Se i dati si muovono **all'interno della stessa Availability Zone** (es. tra EC2 e S3 nella stessa AZ), **il trasferimento è gratuito** nella maggior parte dei casi (ma dipende dal tipo di servizio).
 
-![Costi del trasferimento dati](data-transfer-cost.png)
+![Costi del trasferimento dati](img/data-transfer-cost.png)
 
 Il traffico più costoso è quello outbound verso l'internet, poi, in ordine di costo decrescente, il trasferimento di dati tra regioni, poi tra availability zones, e alla fine all'interno di availability zones.
 In generale, più la distanza, più il costo.

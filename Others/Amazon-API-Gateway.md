@@ -3,7 +3,7 @@
 
 **Amazon API Gateway** è un servizio completamente gestito che consente di creare, pubblicare, monitorare e proteggere API RESTful, WebSocket e HTTP su larga scala, facilitando l'integrazione tra client e backend in ambienti cloud-native.
 
-![API Gateway](api-gateway.png)
+![API Gateway](img/api-gateway.png)
 
 ## Cos'è e come funziona
 

@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Database Services](/04-Database-services/AWS-Databases.md)
 # 🧠 Amazon Neptune
 
-![Neptune](neptune.png)
+![Neptune](img/neptune.png)
 
 **Amazon Neptune** è un servizio di **database a grafo completamente gestito** progettato per elaborare query complesse su dati altamente connessi. Supporta sia il modello **Property Graph** (con il linguaggio **Gremlin**) sia il modello **RDF** (con **SPARQL**), offrendo una piattaforma potente per navigare ed estrarre valore da relazioni intricate tra dati.
 

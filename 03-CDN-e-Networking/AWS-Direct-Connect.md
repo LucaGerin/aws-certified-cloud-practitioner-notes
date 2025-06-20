@@ -3,7 +3,7 @@
 
 **AWS Direct Connect** è un servizio che consente di stabilire una **connessione di rete dedicata** tra la propria infrastruttura on-premise e AWS. Questo collegamento può offrire prestazioni di rete più coerenti, **ridurre la latenza** e **abbattere i costi di trasferimento dati** rispetto a una connessione Internet tradizionale.
 
-![Direct connect example](direct.png)
+![Direct connect example](img/direct.png)
 
 ---
 
@@ -15,7 +15,7 @@ Il traffico di rete può poi essere instradato:
 - verso servizi pubblici AWS (es. [Amazon S3](/02-Storage-services/Amazon-S3.md), [Amazon DynamoDB](/04-Database-services/Amazon-DynamoDB.md)),
 - oppure verso VPC privati tramite [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md) o [AWS Transit Gateway](/03-CDN-e-Networking/AWS-Transit-Gateway.md).
 
-![Direct connect](direct-connect.png)
+![Direct connect](img/direct-connect.png)
 
 ---
 

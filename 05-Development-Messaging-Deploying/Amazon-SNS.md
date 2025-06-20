@@ -3,7 +3,7 @@
 
 **Amazon SNS** è un servizio di messaggistica fully-managed che consente il **pub/sub** asincrono tra applicazioni, microservizi, e utenti. È progettato per facilitare la distribuzione di messaggi a più destinazioni in modo affidabile, veloce e scalabile.
 
-![sns](sns.png)
+![sns](img/sns.png)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Integrazione con [Amazon EventBridge](/05-Development-Messaging-Deploying/Amazon-EventBridge.md), [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md), [AWS Lambda](/01-Compute-options/AWS-Lambda.md), [Amazon S3](/02-Storage-services/Amazon-S3.md), etc.**
 - **Retry automatico e DLQ** (Dead Letter Queue) opzionale.
 
-![sns](sns-complete.png)
+![sns](img/sns-complete.png)
 
 ---
 
@@ -30,7 +30,7 @@
 Publisher ──▶ [SNS Topic] ──▶ [Email | SQS | Lambda | HTTP | SMS]
 ```
 
-![pub sub](pub-sub.png)
+![pub sub](img/pub-sub.png)
 
 ---
 

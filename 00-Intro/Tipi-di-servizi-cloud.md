@@ -2,7 +2,7 @@
 # Tipi di servizi cloud
 Ci sono tre principali categorie di servizi [cloud](/00-Intro/Cloud.md): IaaS, PaaS e SaaS.
 
-![iaas-paas-saas livelli](iaas-paas-saas.png)
+![iaas-paas-saas livelli](img/iaas-paas-saas.png)
 
 
 ---

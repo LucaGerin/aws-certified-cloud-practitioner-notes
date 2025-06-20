@@ -5,7 +5,7 @@
 
 L'AWS Cloud Adoption Framework (CAF) è uno strumento sviluppato da [Amazon Web Services](/00-Intro/AWS.md) per aiutare le organizzazioni a progettare e implementare una strategia efficace per l'adozione del cloud. CAF fornisce **linee guida, best practice e modelli organizzativi** che facilitano la trasformazione digitale attraverso l’adozione del cloud.
 
-![cloud adoption](cloud-adoption.png)
+![cloud adoption](img/cloud-adoption.png)
 
 ---
 
@@ -21,7 +21,7 @@ Il framework è organizzato in **sei prospettive** principali, ciascuna rivolta 
 | **Platform** | Progettare infrastrutture cloud scalabili e sicure | Architetti cloud, DevOps |
 | **Security** | Proteggere dati e infrastrutture | Security officer, CISO |
 | **Operations** | Gestire e monitorare i servizi cloud | IT Operations, SRE |
-![prospettive](prospettive-caf.png)
+![prospettive](img/prospettive-caf.png)
 
 ---
 

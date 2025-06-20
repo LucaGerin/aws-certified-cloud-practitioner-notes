@@ -7,7 +7,7 @@
 
 **AWS Fargate** è un **motore di calcolo serverless per container**, integrato con **Amazon [ ECS](/01-Compute-options/Amazon-ECS.md) ed [EKS](/01-Compute-options/Amazon-EKS.md)**, che permette di eseguire container senza dover gestire direttamente l’infrastruttura sottostante (server o istanze EC2). AWS si occupa automaticamente del provisioning, del bilanciamento e della scalabilità delle risorse necessarie all’esecuzione dei task containerizzati.
 
-![fargate functioning](fargate-functioning.png)
+![fargate functioning](img/fargate-functioning.png)
 
 ---
 

@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [CDN e Networking](/03-CDN-e-Networking/Rete-globale-AWS.md)
 # Amazon Route 53
 
-![route53 logo](route53-logo.png)
+![route53 logo](img/route53-logo.png)
 
 **Amazon Route 53** è il servizio [Domain Name System](/03-CDN-e-Networking/Domain-Name-System.md) gestito di AWS. Il suo nome deriva dalla porta **53**, utilizzata dal protocollo DNS. Route 53 consente di **registrare domini, risolvere nomi DNS** e **instradare traffico in modo intelligente** su scala globale.
 
@@ -27,7 +27,7 @@ Il servizio include:
 - **Registrazione di domini** direttamente da AWS.
 - **Instradamento avanzato del traffico** per ottimizzare la latenza, la disponibilità o il bilanciamento.
 
-![route53](route53.png)
+![route53](img/route53.png)
 
 ---
 

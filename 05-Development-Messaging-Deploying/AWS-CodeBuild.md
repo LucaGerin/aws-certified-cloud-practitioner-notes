@@ -23,7 +23,7 @@ AWS CodeBuild è un servizio di integrazione continua **completamente gestito** 
 4. **Output**: artefatti di build (ZIP, JAR, Docker image, ecc.) caricati in [S3](/02-Storage-services/Amazon-S3.md) o Elastic Container Registru (ECR).
 5. **Deploy automatico** tramite [CodeDeploy](/05-Development-Messaging-Deploying/AWS-CodeDeploy.md), [ECS](/01-Compute-options/Amazon-ECS.md), ecc.
 
-![CodeBuild](codebuild.png)
+![CodeBuild](img/codebuild.png)
 
 ---
 

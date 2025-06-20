@@ -6,7 +6,7 @@
 **AWS Snowcone** è il dispositivo più piccolo della famiglia [AWS-Snow](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snow.md), progettato per il **trasferimento e l'elaborazione sicura dei dati** in ambienti remoti, mobili o con connettività limitata. È ideale per scenari dove la portabilità e la resistenza sono fondamentali. 
 Supporta anche **funzionalità di edge computing** con [Amazon-EC2](/01-Compute-options/Amazon-EC2.md) e AWS-IoT-Greengrass integrati, permettendo l’elaborazione locale prima del trasferimento in cloud.
 
-![snowcone](snowcone.jpg)
+![snowcone](img/snowcone.jpg)
 
 ---
 

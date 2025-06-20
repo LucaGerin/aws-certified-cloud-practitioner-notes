@@ -7,7 +7,7 @@
 
 Supporta migrazioni **omogenee** (stesso motore di database) e **eterogenee** (motori diversi), in tempo reale o in batch.
 
-![Database Migration Service](04-Database-services/img/DMS.png)
+![Database Migration Service](img/04-Database-services/img/DMS.png)
 
 NB: In caso di **migrazione eterogenea** (cioè tra motori di database diversi, es. da Oracle a PostgreSQL), **AWS DMS non si occupa della conversione dello schema**.
 Per questi casi, si deve usare **[AWS Schema Conversion Tool (SCT)](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Schema-Conversion-Tool.md)**, che analizza lo schema del database di origine, lo converte nel formato compatibile con il motore di destinazione, e può anche evidenziare elementi che non possono essere convertiti automaticamente.

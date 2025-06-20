@@ -1,11 +1,11 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Development, Messaging, and Deployment](/05-Development-Messaging-Deploying/Development-Messaging-and-Deployment.md)
 # AWS CodePipeline
 
-![codepipeline](codepipeline.png)
+![codepipeline](img/codepipeline.png)
 
 AWS CodePipeline è un servizio di integrazione e distribuzione continua (CI/CD) completamente gestito che automatizza le fasi di build, test e deployment del codice ogni volta che viene effettuata una modifica. Permette di orchestrare flussi di lavoro DevOps con integrazione profonda nei servizi AWS e in strumenti di terze parti.
 
-![Code pipeline funzionamento](code-pipeline.png)
+![Code pipeline funzionamento](img/code-pipeline.png)
 ---
 
 ## 🧩 Caratteristiche principali
@@ -44,7 +44,7 @@ AWS CodePipeline è un servizio di integrazione e distribuzione continua (CI/CD)
 CodeCommit ──▶ CodeBuild ──▶ CodeDeploy ──▶ Prod
 ```
 
-![aws CodePipeline](aws-codepipeline.png)
+![aws CodePipeline](img/aws-codepipeline.png)
 
 ---
 

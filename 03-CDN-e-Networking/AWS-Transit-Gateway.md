@@ -7,7 +7,7 @@
 
 Con Transit Gateway, ogni VPC o connessione esterna si collega una sola volta al gateway, che poi instrada il traffico in modo centralizzato.
 
-![Transit Gateway](transit-gateway.png)
+![Transit Gateway](img/transit-gateway.png)
 
 **AWS Transit Gateway** può connettere fino a **5.000 VPC** per ogni Transit Gateway
 

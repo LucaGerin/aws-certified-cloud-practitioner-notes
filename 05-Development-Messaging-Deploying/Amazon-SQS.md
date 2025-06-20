@@ -4,7 +4,7 @@
 **Amazon SQS** è un servizio di messaggistica completamente gestito che consente di **decouplare** (disaccoppiare) i componenti delle applicazioni distribuendo messaggi in modo asincrono tramite code.
 SQS è **pull-based** e non push-based.
 
-![Simple diagram for SQS](sqs-simple.png)
+![Simple diagram for SQS](img/sqs-simple.png)
 
 ---
 

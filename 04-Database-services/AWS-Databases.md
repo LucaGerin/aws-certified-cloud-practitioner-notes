@@ -5,7 +5,7 @@ AWS offre una vasta gamma di servizi di **database gestiti**, progettati per sod
 
 ## Categorie principali
 
-![Recap of some DBs](db-recap.jpg)
+![Recap of some DBs](img/db-recap.jpg)
 
 ### 1. **Database relazionali**
 
@@ -52,7 +52,7 @@ AWS offre una vasta gamma di servizi di **database gestiti**, progettati per sod
 - Servizio: **Amazon Timestream**.
 
 
-![Tipi di DB](aws-database-services.jpg)
+![Tipi di DB](img/aws-database-services.jpg)
     
 
 ## Vantaggi dei database AWS

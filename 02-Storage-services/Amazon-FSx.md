@@ -5,7 +5,7 @@
 Amazon FSx è un servizio di **file storage e system completamente gestito**, progettato per offrire prestazioni elevate, compatibilità con file system familiari e integrazione con l’ambiente AWS.
 Supporta diversi **file system specializzati**, adatti a casi d’uso distinti sia in cloud che in scenari ibridi.
 
-![fsx](fsx.png)
+![fsx](img/fsx.png)
 
 FSx è progettato per lo storage attivo di file, quindi meno adatto per mantenere files a lungo termine.
 

@@ -6,7 +6,7 @@ Raccoglie e traccia **metriche**, **log**, **eventi** e **traces**, aiutando a i
 Si possono creare dashboards a partire da queste metriche definite per monitorare cosa sta succedendo nei servizi AWS monitoriati. 
 Le metriche monitorate possono portare alla creazione di allarmi.
 
-![Watch example](watch-example.png)
+![Watch example](img/watch-example.png)
 
 ---
 

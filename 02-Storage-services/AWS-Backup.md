@@ -4,7 +4,7 @@
 
 **AWS Backup** è un servizio completamente gestito che consente di centralizzare e automatizzare il **backup dei dati** attraverso vari servizi AWS e ambienti on-premises. Il servizio aiuta le organizzazioni a proteggere i dati in modo coerente, conforme e scalabile.
 
-![AWS Backup logo](awsbackup.jpg)
+![AWS Backup logo](img/awsbackup.jpg)
 
 ---
 
@@ -18,7 +18,7 @@ AWS Backup fornisce un approccio centralizzato per configurare, eseguire e monit
 - Estendere la protezione dei dati anche a volumi locali tramite [AWS Storage Gateway](/02-Storage-services/AWS-Storage-Gateway.md)
 - Utilizzare backup cross-region e cross-account per resilienza e disaster recovery
 
-![vault](backup-vault.png)
+![vault](img/backup-vault.png)
 
 ---
 

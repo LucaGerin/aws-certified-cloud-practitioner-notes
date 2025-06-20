@@ -3,7 +3,7 @@
 
 **AWS Cloud9** è un ambiente di sviluppo integrato (IDE) basato su cloud, accessibile tramite browser. Include un editor di codice, un terminale e un debugger completamente configurati per lo sviluppo in linguaggi come JavaScript, Python, PHP, Go, C++, e molti altri.
 
-![cloud9](cloud9.png)
+![cloud9](img/cloud9.png)
 
 ---
 

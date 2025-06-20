@@ -16,7 +16,7 @@ Questi strumenti sono fondamentali per:
 - Rispettare standard normativi (es. GDPR, HIPAA, ISO)
 
 
-![What to monitor](what-to-monitor.png)
+![What to monitor](img/what-to-monitor.png)
 
 Tre sono le cose principali da monitorare:
 - **Metriche**: possono essere pubblicate dai servizi AWS stessi, e aiutano a monitorare lo stato di salute e i workload degli stessi. Il loro monitoraggio può portare a attivare azioni di risposta al loro valore o cambiamento.
@@ -101,7 +101,7 @@ In sintesi:
 
 > 💡 Usarli insieme permette di ottenere **visibilità completa**: CloudWatch per monitorare, CloudTrail per auditare.
 
-![Watch vs Trail](watch-vs-trail.png)
+![Watch vs Trail](img/watch-vs-trail.png)
 
 ---
 

@@ -3,7 +3,7 @@
 
 **AWS Step Functions** è un servizio serverless che consente di orchestrare flussi di lavoro (workflow) per coordinare servizi AWS e applicazioni custom. Utilizza **macchine a stati (state machine)** per eseguire compiti complessi come sequenze, branching, retry, parallelo e timeout in modo visivo, affidabile e scalabile.
 
-![Step functions example](step.png)
+![Step functions example](img/step.png)
 
 ---
 
@@ -17,7 +17,7 @@
 - **Supporta Standard e Express Workflows**
 - **Logging**: Tracciano ogni step e ogni suo stato
 
-![Step function example](step-functions-visualization.png)
+![Step function example](img/step-functions-visualization.png)
 
 ---
 
@@ -70,7 +70,7 @@
 - Gestione processi **di approvazione** o **processi umani**
 - **Training ML** e orchestrazione con [Amazon SageMaker](07-IA-ML-Analytics/AI e ML/Amazon-SageMaker.md) o [AWS Glue](/07-IA-ML-Analytics/Analytics/AWS-Glue.md)
 
-![Step function example](step-functions.png)
+![Step function example](img/step-functions.png)
 
 ---
 

@@ -4,7 +4,7 @@
 
 Amazon Web Services (AWS) è una piattaforma di [Cloud](/00-Intro/Cloud.md) computing fornita da Amazon. Offre un'ampia gamma di servizi on-demand tramite internet, come elaborazione, storage, database, machine learning, e strumenti di sviluppo.
 
-![Logo AWS](aws.png)
+![Logo AWS](img/aws.png)
 
 AWS è una delle piattaforme più diffuse per costruire, distribuire e gestire applicazioni moderne in cloud.
 
@@ -74,7 +74,7 @@ Ogni regione contiene almeno **tre o più Availability Zones (AZs)**, che sono *
 Le **Local Zones** estendono le regioni principali per avvicinare risorse di calcolo e storage a grandi aree urbane, mentre le **[Wavelength](/03-CDN-e-Networking/AWS-Wavelength.md) Zones** portano i servizi AWS ancora più vicino agli utenti finali attraverso le reti 5G degli operatori. 
 Infine, le **Edge Locations** sono distribuite in tutto il mondo e usate principalmente da servizi come Amazon CloudFront (CDN) per fornire **contenuti in cache** con la minima latenza possibile.
 
-![Availability Zones](availabilityzones.png)
+![Availability Zones](img/availabilityzones.png)
 
 I fattori da tenere in considerazione quando si sceglie una Regione includono:
 - La vicinanza con i possibili clienti

@@ -72,7 +72,7 @@ I servizi utili a questi propositi sono:
 - **[Amazon Inspector](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Inspector.md)**: scansione vulnerabilità EC2, Lambda, ECR
 - **[Amazon Detective](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-Detective.md)**: investiga gli eventi di sicurezza isolando gli eventi utili e cercando le cause
 
-![Comparison of some security services](security-comparison.png)
+![Comparison of some security services](img/security-comparison.png)
 
 **NB:** Per migliorare la sicurezza ci sono risorse da utilizzare:
 - AWS Cloud security: una "wiki" per informazioni sulla sicurezza in AWS

@@ -3,7 +3,7 @@
 
 **AWS Snowball** è un dispositivo fisico fornito da Amazon Web Services progettato per trasferimenti di dati su larga scala in modo sicuro ed efficiente. Fa parte della famiglia di servizi [AWS-Snow](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snow.md) (insieme a [AWS-Snowcone](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowcone.md) e [AWS-Snowmobile](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowmobile.md)) e viene utilizzato principalmente per spostare grandi quantità di dati verso o da AWS, specialmente quando la larghezza di banda di rete è limitata o il trasferimento online sarebbe troppo lento o costoso.
 
-![snowball](snowball.jpeg)
+![snowball](img/snowball.jpeg)
 
 ---
 

@@ -36,7 +36,7 @@ Include anche dei framework di auditing pre-costruiti.
 
 > 🛠️ Le evidenze vengono tracciate e versionate nel tempo, per garantire **integrità e affidabilità** durante tutto il ciclo di vita di un audit.
 
-![Audit manager](audit-manager.png)
+![Audit manager](img/audit-manager.png)
 
 ---
 

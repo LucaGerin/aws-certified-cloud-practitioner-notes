@@ -12,7 +12,7 @@ Include tre soluzioni principali:
 
 I dispositivi vengono ordinati da AWS, spediti al cliente, caricati con i dati, e restituiti ad AWS dove vengono trasferiti nel cloud in modo sicuro e verificato.
 
-![Snow family](snow.png)
+![Snow family](img/snow.png)
 
 ---
 
