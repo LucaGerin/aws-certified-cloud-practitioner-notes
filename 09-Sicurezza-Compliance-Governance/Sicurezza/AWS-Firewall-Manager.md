@@ -8,7 +8,7 @@ Ti consente di **creare e applicare automaticamente regole di sicurezza** come *
 
 Firewall Manager è pensato per semplificare e standardizzare l'applicazione delle policy di rete e sicurezza, particolarmente utile in ambienti complessi o regolamentati.
 
-![Firewall Manger](img/firewall-manager.png)
+![Firewall Manger](/09-Sicurezza-Compliance-Governance/img/firewall-manager.png)
 
 ---
 

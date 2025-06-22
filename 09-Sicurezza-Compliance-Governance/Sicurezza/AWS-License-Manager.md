@@ -7,7 +7,7 @@
 
 Con License Manager, puoi definire regole per l’utilizzo delle licenze, monitorare la conformità e prevenire l’uso eccessivo o non autorizzato. Il servizio si integra nativamente con AWS e con strumenti di virtualizzazione comuni come Amazon EC2 e AWS Systems Manager.
 
-![License manager](img/license-manager.png)
+![License manager](/09-Sicurezza-Compliance-Governance/img/license-manager.png)
 
 ### Funzionalità principali:
 - Definizione di regole di utilizzo (numero massimo di istanze, tipo di licenza, regione, etc.)

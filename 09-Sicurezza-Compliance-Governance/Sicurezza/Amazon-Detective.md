@@ -8,7 +8,7 @@ Raccoglie automaticamente dati e log da servizi come **Amazon GuardDuty**, **AWS
 
 Con Amazon Detective, è possibile **esplorare graficamente la cronologia degli eventi**, identificare il comportamento anomalo e comprendere la causa principale di un potenziale attacco o accesso non autorizzato.
 
-![Detective example](img/detective-example.png)
+![Detective example](/09-Sicurezza-Compliance-Governance/img/detective-example.png)
 
 ---
 

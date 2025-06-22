@@ -20,7 +20,7 @@ Il **Machine Learning (ML)** è una branca dell'intelligenza artificiale che con
 
 ## 🔁 Workflow tipico in un progetto di Machine Learning
 
-![ML workflow](img/ML-workflow.png)
+![ML workflow](/07-IA-ML-Analytics/img/ML-workflow.png)
 
 Un progetto ML segue un ciclo strutturato, che può essere suddiviso in **7 fasi principali**:
 

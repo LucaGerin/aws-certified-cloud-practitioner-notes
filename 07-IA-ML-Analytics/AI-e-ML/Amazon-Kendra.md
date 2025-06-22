@@ -9,7 +9,7 @@ A differenza della classica ricerca per parole chiave, Kendra comprende **l'inte
 Può essere integrato in portali web, app aziendali, intranet e chatbot, e può connettersi a sorgenti dati come, per esempio, **SharePoint, S3, FSx, Salesforce, Box, Dropbox, Confluence, RDS, OneDrive, Github**, ecc.  
 Supporta dati semi-strutturati e non strutturati, in formati come HTML, XML, PDF, CSV, Microsoft Office, etc.
 
-![Kendra](img/Amazon-Kendra.png)
+![Kendra](/07-IA-ML-Analytics/img/Amazon-Kendra.png)
 
 ---
 

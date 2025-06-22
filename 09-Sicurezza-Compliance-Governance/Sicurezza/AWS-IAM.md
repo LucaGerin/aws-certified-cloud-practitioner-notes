@@ -13,7 +13,7 @@ IAM è un servizio gratuito, integrato nativamente in ogni account AWS.
 
 **NB:** dando dei permessi si creano delle long-lasting access keys, che vanno attenzionate dal punto di vista della sicurezza in quanto potrebbero portare a vulnerabilità.
 
-![IAM example](img/iam-example.png)
+![IAM example](/09-Sicurezza-Compliance-Governance/img/iam-example.png)
 
 ---
 

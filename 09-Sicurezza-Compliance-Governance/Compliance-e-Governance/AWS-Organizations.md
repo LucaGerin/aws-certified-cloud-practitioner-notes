@@ -7,7 +7,7 @@
 
 Grazie a Organizations è possibile **creare e organizzare account** in **unità organizzative (OUs)**, applicare **policy centralizzate**, condividere risorse tra accounts e allo stesso tempo limitare l'accesso alle risorse divise tra accounts, e abilitare servizi cross-account come **consolidated billing**, **[SCPs](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Service-Control-Policies.md)**, **Firewall Manager**, **[Security Hub](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Security-Hub.md)**, e molti altri.
 
-![Organization](img/organization.png)
+![Organization](/09-Sicurezza-Compliance-Governance/img/organization.png)
 
 -  Una Organizational Unit (OU) può avere solo un parent
 - Un account può appertenere e essere associato a solo una Organizational Unit (OU) alla volta

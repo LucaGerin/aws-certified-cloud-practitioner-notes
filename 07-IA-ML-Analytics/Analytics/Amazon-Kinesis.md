@@ -65,7 +65,7 @@ Si possono specificare trasformazioni personalizzate da effettuare sui dati con 
 Firehose supporta anche **conversione in formato Parquet o ORC**, **compressione** e l'integrazione con **Lambda** per trasformazioni in-flight.  
 È un servizio completamente **serverless**: scala automaticamente con il volume di dati e si paga solo per ciò che si trasferisce.
 
-![kinesis firehose](img/kinesis-firehouse.png)
+![kinesis firehose](/07-IA-ML-Analytics/img/kinesis-firehouse.png)
 
 Firehose può essere usato per real-time analytics, data lake feeding, Log Data management, IoT Data Integration.
 

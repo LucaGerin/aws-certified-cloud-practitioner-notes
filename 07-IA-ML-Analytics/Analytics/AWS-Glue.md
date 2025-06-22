@@ -22,7 +22,7 @@ Lo scopo di AWS Glue è quello di preparare i dati per le Analytics e il Machine
 - **Trigger e orchestrazione** di job ETL  
 - **Glue DataBrew**: interfaccia no-code per la preparazione dati  
 
-![AWS-glue steps](img/Glue-steps.png)
+![AWS-glue steps](/07-IA-ML-Analytics/img/Glue-steps.png)
 
 ---
 
@@ -36,7 +36,7 @@ Lo scopo di AWS Glue è quello di preparare i dati per le Analytics e il Machine
 - **Data Catalog riutilizzabile** da altri servizi ([Athena](/07-IA-ML-Analytics/Analytics/Amazon-Athena.md), [EMR](/07-IA-ML-Analytics/Analytics/Amazon-EMR.md), Redshift Spectrum)  
 - Esegue opzionalmente anche pulizia dei dati e rimozione di duplicati  
 
-![AWS-glue](img/AWS-glue.png)
+![AWS-glue](/07-IA-ML-Analytics/img/AWS-glue.png)
 
 ---
 

@@ -7,7 +7,7 @@
 
 MSK offre **Kafka open-source 100% compatibile**, ma con tutta l'affidabilità, integrazione e scalabilità dell'infrastruttura AWS. Puoi utilizzare i tuoi tool Kafka esistenti (produttori, consumatori, connector) e continuare a operare come su un cluster self-hosted, con l’aggiunta del supporto AWS per la gestione automatica.
 
-![MSK example](img/MSK-example.png)
+![MSK example](/07-IA-ML-Analytics/img/MSK-example.png)
 
 Amazon Managed Streaming for Apache Kafka (MSK) è adatto soprattutto al processing di big data in batch, mentre per processare streaming di dati in real-time lo strumento indicato è [Amazon Kinesis Data Streams](/07-IA-ML-Analytics/Analytics/Amazon-Kinesis.md).
 

@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)  -  [Sicurezza](/09-Sicurezza-Compliance-Governance/Sicurezza-Compliance-Governance.md)
 # 🕵️ Amazon GuardDuty
 
-![logo](img/guardduty-logo.jpeg)
+![logo](/09-Sicurezza-Compliance-Governance/img/guardduty-logo.jpeg)
 
 ## 📘 Cos'è e come funziona
 
@@ -9,7 +9,7 @@
 
 GuardDuty analizza automaticamente i **log VPC Flow, AWS CloudTrail, Route 53 DNS query** (e altri, se abilitati) per identificare comportamenti anomali senza dover installare agenti su EC2 o altre risorse.
 
-![GuardDuty](img/guardduty.png)
+![GuardDuty](/09-Sicurezza-Compliance-Governance/img/guardduty.png)
 
 ---
 
