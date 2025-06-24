@@ -10,7 +10,7 @@ Una **Content Delivery Network (CDN)** è una rete di server distribuiti geograf
 - **Gestire picchi di traffico:** Distribuisce il carico su più server, scalabilità automatica senza creare disruptions.
 - **Aumentare l’affidabilità e la reliability:** Ridondanza geografica e failover automatico.
 - **Protezione:** Spesso include firewall, protezione DDoS e crittografia TLS.
-- **Global Reach:** più istanze EC2 possono accedere un [EFS](/02-Storage-services/Amazon-EFS.md) simultaneamente.
+- **Global Reach:** più istanze [EC2](/01-Compute-options/Amazon-EC2.md) possono accedere un [EFS](/02-Storage-services/Amazon-EFS.md) simultaneamente.
 
 ## Come funziona una CDN
 

@@ -6,7 +6,7 @@
 **AWS Key Management Service (KMS)** è un servizio gestito che consente di **creare, gestire e controllare le chiavi crittografiche** utilizzate per proteggere i dati nelle applicazioni e nei servizi AWS. 
 KMS supporta la **crittografia a chiave simmetrica e asimmetrica**, e consente sia la gestione automatica delle chiavi da parte di AWS sia la gestione manuale da parte del cliente.
 
-Le chiavi KMS possono essere utilizzate per cifrare oggetti [S3](/02-Storage-services/Amazon-S3.md), volumi [EBS](/02-Storage-services/Amazon-EBS.md), segreti in Secrets Manager, database [RDS](/04-Database-services/Amazon-RDS.md), parametri in [Systems Manager](/08-Auditing-Monitoring-Logging/Tag-e-AWS-Systems-Manager.md) e altro ancora.
+Le chiavi KMS possono essere utilizzate per cifrare oggetti [S3](/02-Storage-services/Amazon-S3.md), volumi [EBS](/02-Storage-services/Amazon-EBS.md), segreti in [Secrets Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md), database [RDS](/04-Database-services/Amazon-RDS.md), parametri in [Systems Manager](/08-Auditing-Monitoring-Logging/Tag-e-AWS-Systems-Manager.md) e altro ancora.
 
 ---
 

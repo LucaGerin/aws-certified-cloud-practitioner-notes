@@ -107,15 +107,15 @@ In sintesi:
 
 ## 📌 Altri servizi utili
 
-| Servizio                                                  | Ruolo nella gestione                                                     |
-| --------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **[AWS X-Ray](/08-Auditing-Monitoring-Logging/AWS-X-Ray.md)**                             | Tracciamento delle richieste nelle applicazioni distribuite (tracing)    |
-| **Amazon VPC Flow Logs**                                  | Log del traffico di rete tra risorse in [VPC](/03-CDN-e-Networking/Amazon-VPC.md)                              |
-| **Amazon S3 Access Logs**                                 | Tracciamento accessi a bucket S3                                         |
-| **[AWS Trusted Advisor](/08-Auditing-Monitoring-Logging/AWS-Trusted-Advisor.md)**         | Fornisce raccomandazioni su sicurezza, performance, costi e conformità   |
-| **AWS Shield / GuardDuty**                                | Protezione e rilevamento minacce, con logging degli attacchi             |
-| [AWS Heath Dashboard](/08-Auditing-Monitoring-Logging/AWS-Heath-Dashboard.md)             | Monitoraggio real-time e risposta a cambio di stato di salute di risorse |
-| [AWS Well-Architected Tool](/08-Auditing-Monitoring-Logging/AWS-Well-Architected-Tool.md) | Controllo di workloads, best practices, generazione di piani di azione   |
+| Servizio                                                                                  | Ruolo nella gestione                                                              |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **[AWS X-Ray](/08-Auditing-Monitoring-Logging/AWS-X-Ray.md)**                             | Tracciamento delle richieste nelle applicazioni distribuite (tracing)             |
+| **Amazon VPC Flow Logs**                                                                  | Log del traffico di rete tra risorse in [VPC](/03-CDN-e-Networking/Amazon-VPC.md) |
+| **Amazon S3 Access Logs**                                                                 | Tracciamento accessi a bucket S3                                                  |
+| **[AWS Trusted Advisor](/08-Auditing-Monitoring-Logging/AWS-Trusted-Advisor.md)**         | Fornisce raccomandazioni su sicurezza, performance, costi e conformità            |
+| **[AWS Shield](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Shield.md) / [GuardDuty](/09-Sicurezza-Compliance-Governance/Sicurezza/Amazon-GuardDuty.md)**                                                                | Protezione e rilevamento minacce, con logging degli attacchi                      |
+| [AWS Heath Dashboard](/08-Auditing-Monitoring-Logging/AWS-Heath-Dashboard.md)             | Monitoraggio real-time e risposta a cambio di stato di salute di risorse          |
+| [AWS Well-Architected Tool](/08-Auditing-Monitoring-Logging/AWS-Well-Architected-Tool.md) | Controllo di workloads, best practices, generazione di piani di azione            |
 
 ---
 ## 🔍 Auditing in AWS

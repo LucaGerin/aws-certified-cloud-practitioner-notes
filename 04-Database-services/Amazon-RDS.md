@@ -3,7 +3,9 @@
 
 **Amazon RDS** è un servizio di **database relazionale completamente gestito** che semplifica la configurazione, l'esecuzione e la scalabilità di database SQL nel cloud.  
 
-Consente di **automatizzare attività amministrative complesse**, che per RDS sono gestite da AWS, come provisioning hardware, patching, backup e ripristino, lasciando agli sviluppatori il focus sulla logica applicativa.
+Consente di **automatizzare attività amministrative complesse**, come provisioning hardware, patching, backup e ripristino, lasciando agli sviluppatori il focus sulla logica applicativa.
+
+Il **backup**, per esempio, è responsabilità del cliente, che deve in ogni caso attivare e definire le policy di backup, decidere la frequenza e il tempo di ritenzione dei dati, ma AWS fornisce le capabilities per farlo in modo automatizzato e con poco sforzo.
 
 ![Amazon RDS](img/RDS.png)
 

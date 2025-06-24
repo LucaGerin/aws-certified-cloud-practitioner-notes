@@ -6,7 +6,11 @@
 **AWS Certificate Manager (ACM)** è un servizio gestito che consente di **creare, distribuire e gestire certificati SSL/TLS** per proteggere le comunicazioni su web e applicazioni. 
 ACM semplifica l'acquisizione e il rinnovo di certificati, rimuovendo la necessità di eseguire attività manuali come la generazione delle CSR, la configurazione dei certificati e il rinnovo periodico.
 
-I certificati possono essere utilizzati su servizi AWS come **Elastic Load Balancer (ELB)**, **Amazon CloudFront**, **API Gateway**, e **AWS App Runner**.
+I certificati possono essere utilizzati su servizi AWS come:
+- **Elastic Load Balancer (ELB)**, 
+- **Amazon CloudFront**, 
+- **API Gateway**, 
+- **AWS App Runner**
 
 Ci sono due modi per convalidare e verificare l'emissione di un certificato di sicurezza da parte di AWS Certificate Manager:
 1. Creare un record **CNAME** nella zona DNS (hosted zone) del dominio.

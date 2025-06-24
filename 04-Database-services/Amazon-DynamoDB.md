@@ -82,7 +82,7 @@ Il costo dipende da:
 
 ## 🔒 Sicurezza
 
-- 🔐 **Crittografia at-rest**: abilitata di default con **[AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)**
+- 🔐 **Crittografia at-rest**: abilitata di default con. Lo user deve comunque occuparsi di scegliere le giuste keys (anche con [AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md)) e controllare e aggiornare regolarmente le opzioni di crittografia.
 - 🧑‍💼 **[IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md) fine-grained access control**: autorizzazioni a livello di tabella, item, attributo
 - 🌐 **Isolamento tramite [Amazon VPC](/03-CDN-e-Networking/Amazon-VPC.md)** con **VPC endpoints**
 - 📋 **CloudTrail**: monitoraggio di tutte le operazioni eseguite sul database tramite [Amazon CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)

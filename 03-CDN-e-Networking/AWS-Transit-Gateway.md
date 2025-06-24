@@ -3,7 +3,7 @@
 
 ## 📘 Cos'è e come funziona
 
-**AWS Transit Gateway** è un servizio di rete che consente di connettere più **VPC** (Virtual Private Cloud), **reti on-premises** e altri **servizi AWS** tramite un **hub centrale**, semplificando la gestione della connettività e migliorando la scalabilità della rete. Agisce come un **router cloud-scalabile**, riducendo il numero di connessioni punto-punto necessarie tra VPC e VPN.
+**AWS Transit Gateway** è un servizio di rete che consente di connettere più **[VPC](/03-CDN-e-Networking/Amazon-VPC.md)** (Virtual Private Cloud), **reti on-premises** e altri **servizi AWS** tramite un **hub centrale**, semplificando la gestione della connettività e migliorando la scalabilità della rete. Agisce come un **router cloud-scalabile**, riducendo il numero di connessioni punto-punto necessarie tra VPC e VPN.
 
 Con Transit Gateway, ogni VPC o connessione esterna si collega una sola volta al gateway, che poi instrada il traffico in modo centralizzato.
 

@@ -10,6 +10,8 @@ Secrets Manager consente di definire politiche di accesso, monitorare l’uso de
 
 NB: **Ruotare una access key**, per esempio per un utente **[IAM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-IAM.md)**, in AWS significa sostituire in modo sicuro una chiave di accesso esistente con una nuova. Visto che AWS consente a un utente di avere fino a 2 access keys attive contemporaneamente, quando viene creata una nuova chiave, poi bisogna eliminare quella che si desidera sostituire. Infatti, la chiave "vecchia" rimane valida finché non viene disattivata o eliminata manualmente. AWS **non disattiva automaticamente** la chiave vecchia quando se ne crea una nuova.
 
+Al posto che hardcodare i segreti nel codice, gli sviluppatori possono inserire nei loro programmi chiamate API a secret manager che restituiscano i segreti richiesti.
+
 
 ---
 

@@ -143,12 +143,14 @@ All'interno di una VPC, il traffico tra istanze può essere **cifrato utilizzand
 
 In AWS, è possibile collegare più **VPC (Virtual Private Cloud)** per consentire la comunicazione tra risorse distribuite in reti isolate. Esistono diversi metodi per farlo:
 
-- **VPC Peering**: crea una connessione diretta tra due VPC, anche in account diversi, permettendo il routing del traffico tra di esse. È semplice da configurare ma non supporta il transito (i pacchetti non possono passare da una VPC a un'altra tramite una terza).
-- **AWS Transit Gateway**: consente la connessione di più VPC e gateway on-premises nella stessa regione tramite un hub centralizzato. È scalabile e adatto a infrastrutture complesse con decine o centinaia di VPC. Non è però adatto a connessioni **dirette** tra VPC.
+- **VPC Peering**: crea una connessione diretta tra due VPC, anche in account diversi e regioni diverse, permettendo il routing del traffico tra di esse. È semplice da configurare ma non supporta il transito (i pacchetti non possono passare da una VPC a un'altra tramite una terza).
+- **[AWS Transit Gateway](/03-CDN-e-Networking/AWS-Transit-Gateway.md)**: consente la connessione di più VPC e gateway on-premises nella stessa regione tramite un hub centralizzato. È scalabile e adatto a infrastrutture complesse con decine o centinaia di VPC. Non è però adatto a connessioni **dirette** tra VPC.
 - **PrivateLink**: permette l'accesso sicuro a servizi AWS specifici tra VPC, senza esporre le reti attraverso IP pubblici o peering.
-- **VPN o Direct Connect**: per collegare VPC con ambienti on-premises, utilizzando tunnel crittografati o connessioni dedicate.
+- **[VPN](/03-CDN-e-Networking/AWS-VPN.md) o [Direct Connect](/03-CDN-e-Networking/AWS-Direct-Connect.md)**: per collegare VPC con ambienti on-premises, utilizzando tunnel crittografati o connessioni dedicate.
 
 La scelta del metodo dipende da fattori come la scalabilità, la sicurezza, la complessità della rete e i requisiti di transito del traffico.
+
+**NB**: E' possibile collegare più VPC che si trovano in diversi account e diverse regioni usando connessioni VPN fino a un **Transit Gateway**, condividendo la risorsa del Transit Gateway tra gli account con [AWS Resource Access Manager (RAM)](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-RAM.md).
 
 ---
 ### 🔌 Elastic Network Interface (ENI)
@@ -163,10 +165,11 @@ Le ENI possono anche essere spostate tra istanze (tranne la ENI primaria di un'i
 ---
 ### 🔗 Interface VPC Endpoint
 
-Un **Interface VPC Endpoint** consente di connettere privatamente la tua Amazon VPC a servizi AWS supportati (come S3, DynamoDB, SSM, ecc.) **tramite un'interfaccia di rete (ENI)**, senza passare per Internet o NAT Gateway. 
+Un **Interface VPC Endpoint** consente di connettere privatamente la tua Amazon VPC a servizi AWS supportati (come S3, DynamoDB, SSM, ecc.) **tramite un'interfaccia di rete (ENI)**, senza passare per Internet o NAT Gateway.
 Viene creato come una **Elastic Network Interface (ENI)** in una subnet specifica, con un indirizzo IP privato e accesso diretto al servizio AWS. 
+Possono lavorare anche a cavallo di più Availability Zones.
 
-Questa configurazione migliora la **sicurezza, latenza e affidabilità**, e supporta anche **PrivateLink**, che consente di esporre servizi personalizzati ad altri account o VPC in modo sicuro e scalabile.
+Questa configurazione migliora la **sicurezza, latenza e affidabilità**, e supporta anche connessioni **PrivateLink**, che consente di esporre servizi personalizzati ad altri account o VPC in modo sicuro e scalabile.
 
 ✅ *Ideale per: ambienti con requisiti di sicurezza elevati o senza accesso pubblico a Internet.*
 

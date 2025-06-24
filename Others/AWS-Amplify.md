@@ -1,7 +1,7 @@
 --> [AWS](/00-Intro/AWS.md)
 # ⚡ AWS Amplify
 
-**AWS Amplify** è una piattaforma completa per lo sviluppo di applicazioni web e mobile che consente di creare, configurare e implementare backend serverless, oltre a fornire strumenti per l'integrazione diretta nel frontend.
+**AWS Amplify** è una piattaforma completa per lo **sviluppo di applicazioni web e mobile** che consente di creare, configurare e implementare backend serverless, oltre a fornire strumenti per l'integrazione diretta nel frontend.
 
 ## Cos'è e come funziona
 

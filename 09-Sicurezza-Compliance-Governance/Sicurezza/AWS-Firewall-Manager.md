@@ -4,7 +4,14 @@
 ## 📘 Cos'è e come funziona
 
 **AWS Firewall Manager** è un servizio di **gestione centralizzata delle policy di sicurezza** per ambienti multi-account in AWS. 
-Ti consente di **creare e applicare automaticamente regole di sicurezza** come **AWS WAF, AWS Shield Advanced, AWS Network Firewall**, **VPC security groups** e **DNS Firewall** su più account e regioni, sfruttando l'integrazione con **AWS Organizations**.
+Ti consente di **creare e applicare automaticamente regole di sicurezza** come:
+- AWS WAF
+- AWS Shield Advanced
+- AWS Network Firewall
+- VPC security groups
+- DNS Firewal
+
+su più account e regioni, sfruttando l'integrazione con **AWS Organizations**.
 
 Firewall Manager è pensato per semplificare e standardizzare l'applicazione delle policy di rete e sicurezza, particolarmente utile in ambienti complessi o regolamentati.
 

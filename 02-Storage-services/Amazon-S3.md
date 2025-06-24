@@ -79,7 +79,7 @@ Su S3 si possono salvare una quantità di oggetti e dati potenzialmente illimita
 
 - **IAM policies** per controllo granulare degli accessi
 - **Bucket policy** e **ACL** per configurazioni personalizzate
-- **Crittografia automatica dei dati a riposo** (SSE-S3, SSE-KMS)
+- La **Crittografia dei dati a riposo** (con SSE-S3, SSE-KMS) è una responsabilità del cliente! ⚠
 - **Crittografia in transito** con SSL/TLS sia server-side che client-side
 - **Logging, monitoraggio e auditing:** integrazione con [Amazon CloudWatch](/08-Auditing-Monitoring-Logging/Amazon-CloudWatch.md) e [AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)
 

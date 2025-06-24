@@ -18,7 +18,7 @@ Questi servizi aiutano gli sviluppatori a scrivere, testare, monitorare e gestir
 - **[AWS CodeBuild](/05-Development-Messaging-Deploying/AWS-CodeBuild.md)**: Compila codice sorgente, esegue test e produce pacchetti pronti per il deployment.
 - **[AWS CodeDeploy](/05-Development-Messaging-Deploying/AWS-CodeDeploy.md)**: Automatizza il deployment di applicazioni su EC2, Lambda, o on-premise.
 - **[AWS CodePipeline](/05-Development-Messaging-Deploying/AWS-CodePipeline.md)**: Gestione del ciclo di rilascio con pipeline CI/CD completamente automatizzate.
-- **AWS X-Ray**: Tracciamento e debugging delle applicazioni distribuite per identificare colli di bottiglia e errori.
+- **[AWS X-Ray](/08-Auditing-Monitoring-Logging/AWS-X-Ray.md)**: Tracciamento e debugging delle applicazioni distribuite per identificare colli di bottiglia e errori.
 - **AWS Fault Injection Simulator**: Strumento di chaos engineering per testare la resilienza delle applicazioni.
 - **[AWS CodeArtifact](/05-Development-Messaging-Deploying/AWS-CodeArtifact.md)**: Repository di pacchetti software completamente gestito.
 
@@ -34,7 +34,7 @@ Questi servizi forniscono canali affidabili, asincroni e scalabili per lo scambi
 - **[Amazon SNS](/05-Development-Messaging-Deploying/Amazon-SNS.md)** (Simple Notification Service): Sistema di messaggistica publish/subscribe con notifiche push e email.
 - **Amazon MQ**: Broker di messaggistica gestito compatibile con ActiveMQ e RabbitMQ.
 - **[Amazon EventBridge](/05-Development-Messaging-Deploying/Amazon-EventBridge.md)**: Bus di eventi per integrazione tra applicazioni SaaS, AWS e on-premise.
-- **AWS AppSync**: API GraphQL serverless con supporto per real-time data updates.
+- **[Amazon AppSync](/Others/Amazon-AppSync.md)**: API GraphQL serverless con supporto per real-time data updates.
 - **[AWS Step Functions](/05-Development-Messaging-Deploying/AWS-Step-Functions.md)**: Coordinazione di servizi tramite workflow visivi e stati.
 
 ---
@@ -51,7 +51,7 @@ Questi strumenti aiutano a gestire e orchestrare il deployment delle applicazion
 - **[Amazon ECS](/01-Compute-options/Amazon-ECS.md)** (Elastic Container Service): Orchestrazione di container Docker su scala.
 - **[Amazon EKS](/01-Compute-options/Amazon-EKS.md)** (Elastic Kubernetes Service): Servizio gestito per eseguire cluster Kubernetes.
 - **[AWS Lambda](/01-Compute-options/AWS-Lambda.md)**: Esecuzione di codice serverless in risposta a eventi senza provisioning di server.
-- **AWS Amplify**: Toolkit completo per sviluppo, hosting e CI/CD di applicazioni web e mobile.
+- **[Amazon Amplify](/Others/AWS-Amplify.md)**: Toolkit completo per sviluppo, hosting e CI/CD di applicazioni web e mobile.
 
 ---
 

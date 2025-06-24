@@ -75,9 +75,9 @@ I servizi utili a questi propositi sono:
 ![Comparison of some security services](/09-Sicurezza-Compliance-Governance/img/security-comparison.png)
 
 **NB:** Per migliorare la sicurezza ci sono risorse da utilizzare:
-- AWS Cloud security: una "wiki" per informazioni sulla sicurezza in AWS
-- AWS Security Blog: per una prospettiva da parte degli esperti e sulle novità
-- AWS Marketplace: per trovare soluzioni di sicurezza già costruite e collaudate
+- *AWS Cloud security*: una "wiki" per informazioni sulla sicurezza in AWS
+- *AWS Security Blog*: per una prospettiva da parte degli esperti e sulle novità
+- *AWS Marketplace*: per trovare soluzioni di sicurezza già costruite e collaudate
 
 ---
 Un account in AWS è un insieme di risorse a cui degli utenti possono accedere. Gli account sono utilizzati, secondo best practice, dalle aziende per differenziare i gruppi di risorse che solo alcuni utenti devono vedere.
@@ -94,7 +94,7 @@ Per gestire più account in modo centralizzato, si può utilizzare [AWS Organiza
 - **[AWS Control Tower](/09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Control-Tower.md)**: creazione di landing zone sicure e conformi
 - **[AWS Well-Architected Tool](/08-Auditing-Monitoring-Logging/AWS-Well-Architected-Tool.md)**: valutazione di workload rispetto alle best practice (incluse sicurezza e governance)
 
-**NB:** AWS si assicura che gli standard di compliance (ne supporta più di 140) siano soddisfatti solo nella sua parte dello [Shared Responsibility Model][Shared-Responsibility-Model.md]
+**NB:** AWS si assicura che gli standard di compliance (ne supporta più di 140) siano soddisfatti solo nella sua parte dello [Shared Responsibility Model](/00-Intro/Shared-Responsibility-Model.md).
 
 **NB:** Non tutti i servizi AWS soddisfano tutti gli standard (e.g., per lo standard FIPS 40-2 level 3, [KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) non va bene e deve essere sostituito da [AWS CloudHSM](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-CloudHSM.md))
 

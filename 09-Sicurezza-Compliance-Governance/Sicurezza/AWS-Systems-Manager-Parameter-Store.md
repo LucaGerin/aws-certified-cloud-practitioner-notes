@@ -5,7 +5,7 @@
 
 **AWS Systems Manager Parameter Store** è una funzionalità di **AWS Systems Manager** che permette di **archiviare e gestire in modo sicuro parametri di configurazione e segreti**, come variabili di ambiente, stringhe di connessione, ID API o chiavi crittografate.
 
-I parametri possono essere semplici (plaintext) oppure protetti con **AWS KMS**. Sono accessibili da istanze EC2, Lambda, container, script e altre risorse, tramite **API, CLI o SDK AWS**, in modo sicuro e centralizzato.
+I parametri possono essere semplici (plaintext) oppure protetti con **[AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) **. Sono accessibili da istanze EC2, Lambda, container, script e altre risorse, tramite **API, CLI o SDK AWS**, in modo sicuro e centralizzato.
 
 ---
 
@@ -60,8 +60,8 @@ I parametri possono essere semplici (plaintext) oppure protetti con **AWS KMS**.
 
 | Servizio AWS              | Differenze rispetto a Parameter Store                           |
 |---------------------------|------------------------------------------------------------------|
-| **AWS Secrets Manager**   | Ottimizzato per gestire segreti con rotazione automatica         |
-| **AWS KMS**               | Gestisce le chiavi, non i valori configurabili o segreti         |
+| **[AWS Secrets Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-Secrets-Manager.md)**   | Ottimizzato per gestire segreti con rotazione automatica         |
+| **[AWS KMS](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-KMS.md) **               | Gestisce le chiavi, non i valori configurabili o segreti         |
 | **AppConfig**             | Distribuzione controllata di configurazioni, ma dipende da Parameter Store|
 
 ---

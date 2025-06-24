@@ -25,7 +25,7 @@ La rete è progettata per resilienza, throughput elevato e routing intelligente,
 - **Protezione DDoS automatica** inclusa tramite AWS Shield Standard.
 - **Origin failover** per alta disponibilità automatica.
 - **Controllo dell’accesso** tramite signed URL, signed cookie
-- Restrizioni geografiche con **CloudFront Geo Restriction**.
+- ❌🌍 Restrizioni geografiche con **CloudFront Geo Restriction**.
 - **Compressione automatica** per risparmio di banda.
 - **Integrazione con WAF** per protezione applicativa.
 
