@@ -3,11 +3,14 @@
 
 ## 📘 Cos'è e come funziona
 
-**AWS CloudHSM (Hardware Security Module)** è un servizio che fornisce **moduli hardware dedicati** per la **gestione sicura delle chiavi crittografiche**, ospitati all'interno del cloud AWS.  
+**AWS CloudHSM (Hardware Security Module)** è un servizio che fornisce **moduli hardware dedicati** per la **gestione sicura delle chiavi crittografiche**, ospitati all'interno del cloud AWS.
 
-Con CloudHSM, le organizzazioni possono generare, archiviare e utilizzare chiavi crittografiche all'interno di dispositivi **FIPS 140-2 livello 3** conformi, mantenendo **il pieno controllo** delle chiavi (nessun accesso da parte di AWS).
+Con CloudHSM, le organizzazioni possono **generare, archiviare e gestire chiavi crittografiche** all'interno di dispositivi conformi allo standard **FIPS 140-2 livello 3**, mantenendo **il pieno controllo delle chiavi**, senza che AWS possa accedervi.
 
-CloudHSM è particolarmente utile in scenari che richiedono **requisiti di conformità elevati**, come norme **PCI-DSS**, **HIPAA**, **GDPR**, o **leggi governative**.
+CloudHSM è ideale per scenari che richiedono **requisiti di conformità rigorosi**, come **PCI-DSS**, **HIPAA**, **GDPR** o normative governative.  
+
+I principali casi d’uso includono la **gestione delle chiavi di crittografia dei dati**, il **signing digitale**, la **protezione delle chiavi di database e applicazioni sensibili** e l’**accelerazione delle operazioni SSL/TLS per server web**.
+
 
 ---
 

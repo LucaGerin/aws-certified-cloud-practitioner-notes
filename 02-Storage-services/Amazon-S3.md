@@ -6,6 +6,10 @@
 Amazon S3 è un servizio di **object storage** progettato per archiviare e recuperare qualsiasi quantità di dati da qualsiasi luogo su Internet. È altamente scalabile, durevole e usato come base per la maggior parte delle architetture cloud moderne.
 
 Ogni oggetto è composto da dati, una **chiave univoca** e metadati, ed è immagazzinato all’interno di un **bucket**, che funge da contenitore logico.
+Gli oggetti in S3 sono accessibili tramite un URL dedicato.
+
+Su S3 si possono salvare una quantità di oggetti e dati potenzialmente illimitata, ma c'è un limite alla dimensione massima degli oggetti stessi (5GB se caricati da API, 5TB se caricati con Multipart Upload).
+
 
 ---
 

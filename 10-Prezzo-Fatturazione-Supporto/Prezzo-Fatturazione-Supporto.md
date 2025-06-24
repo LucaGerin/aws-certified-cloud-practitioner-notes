@@ -102,16 +102,17 @@ Le **classi di storage S3** sono pensate per bilanciare **costi e frequenza di a
 
 ![hot and cold access](img/hot-cold-access-s3.png)
 
-| Classe S3                      | Descrizione e uso tipico                           | Categoria | Accesso     | Tempo di recupero |
-| ------------------------------ | -------------------------------------------------- | --------- | ----------- | ----------------- |
-| **S3 Standard**                | Per dati ad accesso frequente, alta disponibilità  | Hot       | Elevato     | Immediato         |
-| **S3 Express One Zone**        | Dati hot a bassa latenza in una sola AZ            | Hot       | Elevato     | Immediato         |
-| **S3 Standard-IA**             | Accesso infrequente ma rapido, alta resilienza     | Warm      | Basso       | Immediato         |
-| **S3 One Zone-IA**             | Come Standard-IA ma in una sola AZ                 | Warm      | Basso       | Immediato         |
-| **Glacier Instant Retrieval**  | Archivio "cold" con accesso istantaneo             | Warm/Cold | Basso       | Immediato         |
-| **Glacier Flexible Retrieval** | Archivio profondo con tempi di recupero flessibili | Cold      | Molto basso | Minuti/ore        |
-| **Glacier Deep Archive**       | Archivio a lungo termine, costo minimo             | Cold      | Rarissimo   | Ore/giorni        |
+| Classe S3                      | Descrizione e uso tipico                           | Categoria | Accesso     | Tempo di recupero              |
+|-------------------------------|----------------------------------------------------|-----------|-------------|--------------------------------|
+| **S3 Standard**               | Per dati ad accesso frequente, alta disponibilità  | Hot       | Elevato     | Immediato (millisecondi)       |
+| **S3 Express One Zone**       | Dati hot a bassa latenza in una sola AZ            | Hot       | Elevato     | Immediato (millisecondi)       |
+| **S3 Standard-IA**            | Accesso infrequente ma rapido, alta resilienza     | Warm      | Basso       | Immediato (millisecondi)       |
+| **S3 One Zone-IA**            | Come Standard-IA ma in una sola AZ                 | Warm      | Basso       | Immediato (millisecondi)       |
+| **Glacier Instant Retrieval** | Archivio "cold" con accesso istantaneo             | Warm/Cold | Basso       | Immediato (millisecondi)       |
+| **Glacier Flexible Retrieval**| Archivio profondo con tempi di recupero flessibili | Cold      | Molto basso | Minuti/ore (da 1 min a 12 h)   |
+| **Glacier Deep Archive**      | Archivio a lungo termine, costo minimo             | Cold      | Rarissimo   | Ore/giorni (da 12 h a 48 h)    |
 
+> La tabella mostra le classi S3 ordinate approssimativamente dalla più costosa alla meno costosa.
 > 💡 Tutte queste classi sono **fatturate per GB di dati recuperati** e **per richiesta effettuata**.
 
 ---
@@ -150,7 +151,7 @@ In AWS, il trasferimento dei dati (Data Transfer) può generare **costi signific
 
 ![Costi del trasferimento dati](img/data-transfer-cost.png)
 
-Il traffico più costoso è quello outbound verso l'internet, poi, in ordine di costo decrescente, il trasferimento di dati tra regioni, poi tra availability zones, e alla fine all'interno di availability zones.
+Il traffico più costoso è quello outbound verso l'internet, poi, in ordine di costo decrescente, il trasferimento di dati tra regioni, poi tra availability zones, e alla fine all'interno di availability zones (in quest'ultimo caso, cioè del traffico all'interno della stessa AZ, non ci sono costi).
 In generale, più la distanza, più il costo.
 #### ⚖️ Trade-off: resilienza e costi
 
@@ -194,7 +195,7 @@ Per essere utilizzabili nei report, i tag devono essere **attivati manualmente n
 | **[Billing Conductor](/10-Prezzo-Fatturazione-Supporto/Billing-Conductor.md)**                         | Crea billing groups nell'organizzazione, distribuisci sconti nei gruppi. |
 
 Per quanto riguarda le **organizzazioni con più accounts**:
-Con **AWS Organizations**, puoi gestire più account AWS sotto una **struttura centralizzata** e sfruttare la funzionalità di **consolidated billing**, che consente di:
+Con **[AWS Organizations](/09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)**, puoi gestire più account AWS sotto una **struttura centralizzata** e sfruttare la funzionalità di **consolidated billing**, che consente di:
 - 💳 **Raccogliere tutte le fatture in un unico account principale**
 - 📊 **Monitorare i costi** per ciascun account membro o unità organizzativa (OU)
 - 💸 **Sfruttare sconti per volume aggregato** su servizi come S3, EC2 o Data Transfer

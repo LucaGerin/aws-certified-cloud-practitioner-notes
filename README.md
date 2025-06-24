@@ -50,7 +50,8 @@ Se noti un errore o vuoi suggerire miglioramenti, puoi aprire una **pull request
 
 - 🎓 [Corso PluralSight](https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c02) – Corso completo e ben strutturato
 - 📝 [Simulazione domande esame (Whizlabs)](https://www.whizlabs.com/learn/course/aws-certified-cloud-practitioner/219)
-- 💬 [Domande aggiuntive con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
+- 💬 [Domande con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
+- 💬 [Altre domande con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner-clf-c02/view/)
 
 ### Altre fonti:
 

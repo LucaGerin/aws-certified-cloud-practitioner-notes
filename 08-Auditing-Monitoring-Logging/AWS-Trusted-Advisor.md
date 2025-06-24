@@ -11,15 +11,21 @@ Lavora a livello di account AWS e contiene consigli sulle best practices da attu
 
 Per ricevere notifiche da Trusted Advisor, il customer può attivare il servizio di **Trusted Advisor Notification**, attivando le sue notifiche nella Dashboard.
 
+Un'altra funzione di Trusted Advosor è di controllare l'utilizzo dei servizi per tutte le risorse. La funzionalità **Service Limits** di AWS Trusted Advisor controlla se l'utilizzo dei servizi AWS si sta avvicinando ai limiti impostati per ciascuna risorsa (come istanze EC2, volumi EBS, bucket S3, ecc.), aiutando a prevenire interruzioni o errori dovuti al superamento delle quote.
+
+
 ---
 
-## 🔍 Ambiti di controllo
+## 🔍 Benefici di AWS Trusted Advisor
 
-- **Sicurezza**: controlla configurazioni rischiose e suggerisce correzioni.
-- **Ottimizzazione costi**: individua risorse inutilizzate o sottoutilizzate.
-- **Performance**: raccomanda best practice per prestazioni ottimali.
-- **Resilienza**: aiuta a migliorare la tolleranza ai guasti.
-- **Limiti di servizio**: avvisa quando ci si avvicina ai limiti AWS.
+AWS Trusted Advisor offre una panoramica completa per ottimizzare e proteggere l’ambiente AWS, suddividendo le sue funzionalità in cinque macro‑aree o ambiti di controllo:
+
+- **Ottimizzazione dei costi** – Analizza l’utilizzo, la configurazione e la spesa, individuando risorse inutilizzate o sottoutilizzate e fornendo raccomandazioni pratiche per ottimizzare la spesa cloud.  
+- **Performance** – Suggerisce interventi basati su best practice per migliorare le performance dei servizi.  
+- **Sicurezza** – Indica le principali best practice di sicurezza per coprire vulnerabilità critiche e migliorare la protezione dell’infrastruttura. Controlla prottivamente le configurazioni rischiose e suggerisce correzioni nell'ambiente AWS.
+- **Fault tolerance/Resilienza** – Propone misure per aumentare l’affidabilità e la continuità operativa dei servizi anche in caso di guasti.  
+- **Limiti di servizio (service quotas)** – Monitora e segnala quando ci si avvicina ai limiti di risorse (quota massima) per evitare interruzioni dovute al superamento dei limiti.  
+
 
 ![Categories](img/trusted-adv-categories.png)
 

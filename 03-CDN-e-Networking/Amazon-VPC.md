@@ -22,10 +22,10 @@ Con Amazon VPC puoi creare una rete virtuale isolata logicamente nel cloud AWS. 
 - **Alta disponibilità:** Supporto multi-AZ per ridondanza e tolleranza ai guasti.
 - **Supporto IPv6:** Oltre al supporto IPv4, è possibile abilitare indirizzamento IPv6 per maggiore scalabilità.
 
-Una **VPC è progettata per estendersi su più Availability Zones all'interno della stessa regione**.
+🌍 Una **VPC è progettata per estendersi su più Availability Zones all'interno della stessa regione**.
 > 📝 Esempio: puoi creare 3 subnet in una VPC, ognuna in una diversa AZ della regione **eu-west-1** (es. eu-west-1a, eu-west-1b, eu-west-1c).
 
-Le **subnet in AWS devono essere interamente contenute in una singola Availability Zone (AZ)**. Non possono estendersi su più AZ.
+🏙 Le **subnet in AWS devono essere interamente contenute in una singola Availability Zone (AZ)**. Non possono estendersi su più AZ.
 
 Una **subnet è pubblica** se:
 - Ha una **route verso un Internet Gateway (IGW)** nella sua route table.

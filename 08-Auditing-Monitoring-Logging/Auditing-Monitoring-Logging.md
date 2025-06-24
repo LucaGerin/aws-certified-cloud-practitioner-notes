@@ -122,7 +122,7 @@ In sintesi:
 
 L’**auditing** in AWS è il processo di **monitoraggio, registrazione e analisi delle attività** all’interno di un ambiente cloud, con l’obiettivo di garantire **sicurezza, conformità e governance**. 
 
-Grazie a servizi come **AWS CloudTrail**, **AWS Config** e **AWS Audit Manager**, è possibile tracciare **chi ha fatto cosa, quando e da dove**, ottenere lo storico delle modifiche a livello di configurazione e raccogliere automaticamente **evidenze di conformità** rispetto a standard come GDPR, ISO 27001, HIPAA o SOC 2. 
+Grazie a servizi come **[AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**, **[AWS Config](/08-Auditing-Monitoring-Logging/AWS-Config.md)** e **[AWS Audit Manager](/08-Auditing-Monitoring-Logging/AWS-Audit-Manager.md)**, è possibile tracciare **chi ha fatto cosa, quando e da dove**, ottenere lo storico delle modifiche a livello di configurazione e raccogliere automaticamente **evidenze di conformità** rispetto a standard come GDPR, ISO 27001, HIPAA o SOC 2. 
 
 L’auditing è fondamentale per **individuare attività sospette**, **prevenire accessi non autorizzati** e supportare **investigazioni** in caso di incidenti di sicurezza o non conformità. 
 Inoltre, combinando audit trail con strumenti come **CloudWatch Logs** o **Amazon Detective**, è possibile ottenere un controllo completo e proattivo dell’intero ciclo di vita delle risorse AWS.

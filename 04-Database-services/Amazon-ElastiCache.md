@@ -6,7 +6,7 @@
 **Amazon ElastiCache** è un servizio completamente gestito che consente il deployment, l'esecuzione e la scalabilità di **archivi di dati in memoria** nel cloud AWS, compatibili con **Redis** o **Memcached**. 
 È progettato per migliorare la **velocità e le prestazioni** delle applicazioni web e data-intensive riducendo il carico sui database principali, fornendo una cache in memoria ad alta velocità e bassa latenza.
 
-NB: Se si cerca un servizio che sia sempre completamente gestito per lo storage in-memoy, ma che abbia **alta availability** e sia **orientato alla durability** dei dati, per la creazione di un applicazione, [Amazon MemoryDB for Redis](/04-Database-services/Amazon-MemoryDB-for-Redis.md) è preferibile a ElastiCache.
+NB: Se si cerca un servizio per lo storage in-memory che sia sempre completamente gestito, ma che abbia **alta availability** e sia **orientato alla durability** dei dati, per la creazione di un applicazione, [Amazon MemoryDB for Redis](/04-Database-services/Amazon-MemoryDB-for-Redis.md) è preferibile a ElastiCache.
 
 ---
 

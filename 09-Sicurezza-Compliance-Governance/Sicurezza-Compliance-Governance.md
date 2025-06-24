@@ -105,7 +105,7 @@ Per gestire più account in modo centralizzato, si può utilizzare [AWS Organiza
 
 - **[AWS CloudTrail](/08-Auditing-Monitoring-Logging/Amazon-CloudTrail.md)**: tracciamento di tutte le chiamate API e attività su AWS
 - **[AWS Config](/08-Auditing-Monitoring-Logging/AWS-Config.md)**: storico delle configurazioni delle risorse (già citato in compliance)
-- **AWS Service Catalog**: controllo su quali risorse possono essere create dagli utenti
+- **[AWS Service Catalog](/09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Service-Catalog.md)**: controllo su quali risorse possono essere create dagli utenti
 - **[AWS Budgets](/10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md) e [Cost Explorer](/10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)**: controllo dei costi per evitare sprechi non autorizzati
 - **[AWS License Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-License-Manager.md)**: gestione e tracciamento delle licenze software
 - **[AWS Resource Access Manager](/09-Sicurezza-Compliance-Governance/Sicurezza/AWS-RAM.md) (RAM)**: condivisione sicura di risorse tra account

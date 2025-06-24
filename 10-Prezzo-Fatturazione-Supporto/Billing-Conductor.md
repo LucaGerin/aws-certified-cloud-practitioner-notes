@@ -3,7 +3,7 @@
 
 ## 📘 Cos'è e come funziona
 
-**AWS Billing Conductor (ABC)** è un servizio che consente di **personalizzare la presentazione dei costi e dell’utilizzo tra account AWS**. È pensato per organizzazioni che usano **AWS Organizations** e desiderano gestire la **fatturazione interna** in modo più flessibile e trasparente.
+**AWS Billing Conductor (ABC)** è un servizio che consente di **personalizzare la presentazione dei costi e dell’utilizzo tra account AWS**. È pensato per organizzazioni che usano **[AWS Organizations](/09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)** e desiderano gestire la **fatturazione interna** in modo più flessibile e trasparente.
 
 Con Billing Conductor, puoi creare delle **"billing groups"** (gruppi di account), applicare **prezzi personalizzati**, ridefinire l’allocazione dei costi e generare **report dettagliati di showback e chargeback**, senza influenzare la fatturazione ufficiale da AWS verso l'account principale.
 
@@ -58,10 +58,10 @@ Con Billing Conductor, puoi creare delle **"billing groups"** (gruppi di account
 
 | Strumento                    | Integrazione |
 |-----------------------------|--------------|
-| **AWS Organizations**       | Gestione multi-account e OU                    |
-| **CUR (Cost & Usage Reports)** | Fonte dei dati di costo e utilizzo           |
-| **AWS Budgets**             | Allerta sui budget definiti per billing group |
-| **AWS Cost Explorer**       | Analisi delle spese personalizzate             |
+| **[AWS Organizations](/09-Sicurezza-Compliance-Governance/Compliance-e-Governance/AWS-Organizations.md)**       | Gestione multi-account e OU                    |
+| **[AWS Cost and Usage Reports (CUR)](/10-Prezzo-Fatturazione-Supporto/AWS-Cost-and-Usage-Reports.md)** | Fonte dei dati di costo e utilizzo           |
+| **[AWS Budgets](/10-Prezzo-Fatturazione-Supporto/AWS-Budgets.md)**             | Allerta sui budget definiti per billing group |
+| **[AWS Cost Explorer](/10-Prezzo-Fatturazione-Supporto/AWS-Cost-Explorer.md)**       | Analisi delle spese personalizzate             |
 
 ---
 

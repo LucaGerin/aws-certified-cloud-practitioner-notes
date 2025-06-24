@@ -3,7 +3,7 @@
 
 ## Cos'è e come funziona
 
-**AWS Transfer Family** è un servizio completamente gestito che consente di **trasferire file in modo sicuro** da e verso **Amazon S3 o Amazon EFS**, utilizzando protocolli standard come:
+**AWS Transfer Family** è un servizio completamente gestito che consente di **trasferire file in modo sicuro** da e verso **[Amazon S3](/02-Storage-services/Amazon-S3.md)** o **[Amazon EFS](Amazon-EFS.md)**, utilizzando protocolli standard come:
 
 - **SFTP (Secure File Transfer Protocol)**
 - **FTPS (File Transfer Protocol Secure)**
@@ -41,11 +41,11 @@ Gli utenti possono autenticarsi tramite:
 
 ## Confronto con servizi simili in AWS
 
-| Servizio                      | Differenza principale                                                |
-|------------------------------|----------------------------------------------------------------------|
-| [Amazon S3](/02-Storage-services/Amazon-S3.md)                    | S3 è lo storage sottostante, ma non offre nativamente un'interfaccia FTP/SFTP |
-| AWS DataSync           | Ottimizzato per trasferimenti bulk e sincronizzazioni periodiche       |
-| [AWS Snowball Edge](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md)   | Usato per trasferimenti fisici o in ambienti offline                   |
+| Servizio                                                                                        | Differenza principale                                                         |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [Amazon S3](/02-Storage-services/Amazon-S3.md)                                                  | S3 è lo storage sottostante, ma non offre nativamente un'interfaccia FTP/SFTP |
+| AWS DataSync                                                                                    | Ottimizzato per trasferimenti bulk e sincronizzazioni periodiche              |
+| [AWS Snowball Edge](/06-Cloud-Adoption-Framework-and-Migration-Strategies/AWS-Snowball-Edge.md) | Usato per trasferimenti fisici o in ambienti offline                          |
 
 **AWS Transfer Family** è la soluzione ideale per chi deve **mantenere flussi file-based** senza rinunciare ai vantaggi del cloud.
 

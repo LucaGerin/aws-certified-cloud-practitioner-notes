@@ -78,6 +78,16 @@ Questa regola sposta i file nella cartella `logs/` in **Glacier dopo 30 giorni**
 - **Cost Explorer**: verifica i risparmi ottenuti dopo l’attivazione delle regole
 
 ---
+### Pricing
+
+Amazon S3 Lifecycle non prevede costi aggiuntivi per l’utilizzo delle regole di transizione e scadenza degli oggetti. 
+
+⚠ Tuttavia, le azioni eseguite dalle regole Lifecycle possono comportare dei costi, come quelli per il **trasferimento di oggetti tra classi di storage** (ad esempio, da S3 Standard a S3 Glacier o S3 Glacier Deep Archive) e **le richieste associate a tali operazioni**. 
+
+Inoltre, l’eliminazione automatica di oggetti può influire su eventuali costi legati al periodo minimo di storage previsto per alcune classi (come S3 Intelligent-Tiering o S3 Glacier). È quindi importante valutare attentamente le implicazioni economiche delle regole Lifecycle in base alle classi di storage coinvolte e al ciclo di vita dei dati.
+
+
+---
 
 ## 📌 Conclusione
 

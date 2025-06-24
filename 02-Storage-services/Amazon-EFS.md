@@ -37,12 +37,30 @@ A livello regionale, comunque, è garantita alta disponibilità e fault-toleranc
 ---
 ### 🗂️ Classi di storage di Amazon EFS
 
-Amazon EFS offre due principali classi di storage per ottimizzare costi e prestazioni in base al tipo di carico di lavoro:
+Amazon Elastic File System (EFS) offre una combinazione flessibile di **classi di storage** e **modalità di performance** per adattarsi a un'ampia gamma di casi d’uso, bilanciando costi, latenza e throughput.
 
-- **EFS Standard**: progettata per workload attivi e ad alta frequenza di accesso, come applicazioni web, ambienti di sviluppo o container. Offre bassa latenza e throughput elevato.
-- **EFS Infrequent Access (EFS IA)**: ideale per file consultati raramente, ma che devono essere comunque rapidamente accessibili quando necessario. Questa classe ha un costo per GB significativamente più basso rispetto a EFS Standard, ma applica una tariffa per ogni accesso ai file.
+#### Classi di Storage
 
-Per facilitare la gestione dei costi, Amazon EFS include una funzionalità chiamata **EFS Lifecycle Management**, che consente di **trasferire automaticamente i file inattivi** dalla classe EFS Standard a EFS IA dopo un periodo configurabile (ad esempio 7, 14, 30, 60 o 90 giorni di inattività). Questo meccanismo aiuta a ridurre i costi senza compromettere l’accessibilità dei dati, mantenendo al tempo stesso una gestione semplificata dello storage.
+- **EFS Standard**: è la classe predefinita per workload ad alta frequenza di accesso. Replica i dati su più Availability Zone (Multi-AZ) per garantire alta disponibilità e durabilità. È ideale per applicazioni web, container, ambienti di sviluppo e sistemi di gestione dei contenuti che richiedono bassa latenza e throughput elevato.
+
+- **EFS Infrequent Access (EFS IA)**: pensata per file acceduti raramente ma che devono essere sempre disponibili. Offre un costo per GB significativamente inferiore rispetto alla Standard, ma applica una **tariffa per accesso ai dati** (per operazione). Supporta sia la replica Multi-AZ (Standard-IA) che Single-AZ (One Zone-IA), mantenendo la stessa API e le stesse performance previste per l’accesso a dati meno frequente.
+
+- **EFS One Zone**: memorizza i dati in una sola Availability Zone (Single-AZ), offrendo un’alternativa a costo inferiore per applicazioni tolleranti a guasti zonali o che non richiedono replica geografica.
+
+| Storage Class     | Performance Mode       | Descrizione                                                        | Latenza lettura         | Latenza scrittura       |
+|-------------------|------------------------|---------------------------------------------------------------------|--------------------------|--------------------------|
+| Standard          | General Purpose        | Multi-AZ, ottimizzato per bassa latenza e alta disponibilità        | Fino a 250 µs            | Fino a 2.7 ms            |
+| Standard          | Max I/O                | Multi-AZ, per throughput elevato e accesso concorrente massivo      | ~5–10 ms                 | ~5–20 ms                 |
+| One Zone          | General Purpose        | Single-AZ, latenza migliore e costi inferiori                       | Fino a 250 µs            | Fino a 1.6 ms            |
+| One Zone          | Max I/O                | Single-AZ, throughput elevato e alta concorrenza                    | ~5–10 ms                 | ~5–20 ms                 |
+| Standard-IA       | General Purpose        | Multi-AZ, storage a basso costo per accessi rari                    | ~10–20 ms (stimata)      | ~20–50 ms (stimata)      |
+| One Zone-IA       | General Purpose        | Single-AZ, economico per dati consultati raramente                  | ~10–20 ms (stimata)      | ~20–50 ms (stimata)      |
+
+
+#### Lifecycle Management
+
+Amazon EFS integra la funzionalità **EFS Lifecycle Management**, che consente di **trasferire automaticamente file inattivi** dalla classe EFS Standard a EFS IA dopo un periodo configurabile di inattività (7, 14, 30, 60 o 90 giorni). In questo modo, è possibile **ottimizzare i costi** senza modificare le applicazioni o la struttura dei file system, mantenendo l’accesso trasparente ai dati.
+
 
 
 ---
