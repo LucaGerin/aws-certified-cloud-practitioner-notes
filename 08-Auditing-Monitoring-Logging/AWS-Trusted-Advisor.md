@@ -7,7 +7,7 @@ AWS Trusted Advisor è un servizio che fornisce **raccomandazioni personalizzate
 
 Lavora a livello di account AWS e contiene consigli sulle best practices da attuare e esegue dei controlli in automatico per controllare che siano attuate.
 
-![Trusted advosor](img/trusted-advisor.png)
+![Trusted advosor](/08-Auditing-Monitoring-Logging/img/trusted-advisor.png)
 
 Per ricevere notifiche da Trusted Advisor, il customer può attivare il servizio di **Trusted Advisor Notification**, attivando le sue notifiche nella Dashboard.
 
@@ -27,7 +27,7 @@ AWS Trusted Advisor offre una panoramica completa per ottimizzare e proteggere l
 - **Limiti di servizio (service quotas)** – Monitora e segnala quando ci si avvicina ai limiti di risorse (quota massima) per evitare interruzioni dovute al superamento dei limiti.  
 
 
-![Categories](img/trusted-adv-categories.png)
+![Categories](/08-Auditing-Monitoring-Logging/img/trusted-adv-categories.png)
 
 ---
 

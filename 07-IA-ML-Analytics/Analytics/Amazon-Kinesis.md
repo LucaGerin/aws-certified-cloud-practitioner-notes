@@ -51,7 +51,7 @@ Ogni shard può gestire **fino a 1 MB/s in scrittura** e **2 MB/s in lettura**, 
 Ogni record inviato a Kinesis viene associato a una **partition key**, che determina in quale shard verrà immagazzinato. Questo meccanismo garantisce **l’ordinamento interno** dei dati all’interno dello stesso shard e permette un **bilanciamento del carico** efficiente tra produttori e consumatori.  
 Gli shard possono essere **aumentati o ridotti manualmente** (resharding) o gestiti automaticamente in base al carico, e ogni consumatore può leggere i dati sequenzialmente o in parallelo in base alla strategia di elaborazione adottata (es. fan-out, enhanced fan-out).
 
-![kinesis shards](img/kinesis-streams.png)
+![kinesis shards](/07-IA-ML-Analytics/img/kinesis-streams.png)
 
 ---
 

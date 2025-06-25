@@ -130,7 +130,7 @@ Le **Local Zones** possono essere usate per bassa latenza ma non offrono lo stes
 - 🔄 [Amazon AppSync](/Others/Amazon-AppSync.md)
 - 🚀 [Amazon Amplify](/Others/AWS-Amplify.md)
 - 📡 [Servizi della famiglia IoT](/Others/AWS-IoT-Family.md)
-- 📱 [Device Farm](AWS-Device-Farm)
+- 📱 [Device Farm](/Others/AWS-Device-Farm.md)
 - 🌉 [API Gateway](/Others/Amazon-API-Gateway.md)
 - 🧙 [Launch Wizard](/Others/AWS-Launch-Wizard.md)
 - 🌟 [LightSail](/Others/AWS-LightSail.md)

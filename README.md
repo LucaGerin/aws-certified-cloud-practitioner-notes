@@ -46,14 +46,14 @@ Se noti un errore o vuoi suggerire miglioramenti, puoi aprire una **pull request
 
 ## 📚 Risorse aggiuntive
 
-### In ordine di consiglio:
+### Risorse base consigliate:
 
-- 🎓 [Corso PluralSight](https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c02) – Corso completo e ben strutturato
+- 🎓 [Corso PluralSight](https://app.pluralsight.com/paths/certificate/aws-certified-cloud-practitioner-clf-c02) – Corso base con struttura simile a questi appunti
 - 📝 [Simulazione domande esame (Whizlabs)](https://www.whizlabs.com/learn/course/aws-certified-cloud-practitioner/219)
 - 💬 [Domande con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
 - 💬 [Altre domande con discussione (ExamTopics)](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner-clf-c02/view/)
 
-### Altre fonti:
+### Altre fonti importanti:
 
 - 🌐 [Risorse ufficiali Amazon](https://aws.amazon.com/it/certification/certified-cloud-practitioner/)
 - 📖 [Documentazione AWS](https://docs.aws.amazon.com/it_it/)
